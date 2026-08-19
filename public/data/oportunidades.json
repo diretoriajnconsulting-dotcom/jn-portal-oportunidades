@@ -1,12 +1,12 @@
 {
  "versao": "1.0",
- "gerado_em": "2026-08-19T05:31:27.349208",
+ "gerado_em": "2026-08-19T13:22:53.928694",
  "uf": "PB",
  "origem": {
   "repositorio": "https://repositorio.dados.gov.br/seges/detru/",
   "modulo": "Transferências Discricionárias (SICONV)",
   "atualizada_em": "2026-07-17T12:15:56+00:00",
-  "defasagem_dias": 32,
+  "defasagem_dias": 33,
   "defasada": true
  },
  "resumo": {
@@ -194,10 +194,10 @@
    "propostas_recebidas": 16
   },
   {
-   "id": "01a9a6eb7db5",
+   "id": "c35a9526d849",
    "programa": "IMPLANTACAO, DESENVOLVIMENTO E MANUTENCAO DE SAUDE DIGITAL, TELESSAUDE E INOVACAO NO SUS",
    "orgao": "MINISTERIO DA SAUDE",
-   "natureza": "Consórcio Público",
+   "natureza": "Administração Pública Municipal",
    "canal": "emenda",
    "modalidade": "CONVENIO",
    "situacao": "DISPONIBILIZADO",
@@ -216,10 +216,10 @@
    "propostas_recebidas": 1
   },
   {
-   "id": "c35a9526d849",
+   "id": "01a9a6eb7db5",
    "programa": "IMPLANTACAO, DESENVOLVIMENTO E MANUTENCAO DE SAUDE DIGITAL, TELESSAUDE E INOVACAO NO SUS",
    "orgao": "MINISTERIO DA SAUDE",
-   "natureza": "Administração Pública Municipal",
+   "natureza": "Consórcio Público",
    "canal": "emenda",
    "modalidade": "CONVENIO",
    "situacao": "DISPONIBILIZADO",
@@ -384,10 +384,10 @@
    "propostas_recebidas": 0
   },
   {
-   "id": "51cd8e5dc383",
+   "id": "85f7d90d887f",
    "programa": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317. 00SX.0001 – Ação: Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - Nacional – RP (2)",
    "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-   "natureza": "Empresa pública/Sociedade de economia mista",
+   "natureza": "Administração Pública Municipal",
    "canal": "emenda",
    "modalidade": "CONVENIO",
    "situacao": "DISPONIBILIZADO",
@@ -406,10 +406,10 @@
    "propostas_recebidas": 0
   },
   {
-   "id": "85f7d90d887f",
+   "id": "51cd8e5dc383",
    "programa": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317. 00SX.0001 – Ação: Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - Nacional – RP (2)",
    "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-   "natureza": "Administração Pública Municipal",
+   "natureza": "Empresa pública/Sociedade de economia mista",
    "canal": "emenda",
    "modalidade": "CONVENIO",
    "situacao": "DISPONIBILIZADO",
@@ -494,6 +494,28 @@
    "propostas_recebidas": 0
   },
   {
+   "id": "0aceb1eaf2f8",
+   "programa": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317. 00SX.0025 – Ação: Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - No Estado da Paraíba – RP (6)",
+   "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
+   "natureza": "Administração Pública Estadual ou do Distrito Federal",
+   "canal": "emenda",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-03",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": true,
+   "temas": [
+    "desenvolvimento regional"
+   ],
+   "codigos": [
+    "2220320260011"
+   ],
+   "propostas_recebidas": 0
+  },
+  {
    "id": "0000e14f8257",
    "programa": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317. 00SX.0025 – Ação: Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - No Estado da Paraíba – RP (6)",
    "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
@@ -538,50 +560,6 @@
    "propostas_recebidas": 0
   },
   {
-   "id": "0aceb1eaf2f8",
-   "programa": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317. 00SX.0025 – Ação: Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - No Estado da Paraíba – RP (6)",
-   "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-   "natureza": "Administração Pública Estadual ou do Distrito Federal",
-   "canal": "emenda",
-   "modalidade": "CONVENIO",
-   "situacao": "DISPONIBILIZADO",
-   "abre": "2026-02-03",
-   "fecha": "2026-12-31",
-   "dias_restantes": 134,
-   "urgente": false,
-   "nova": false,
-   "aderente": true,
-   "temas": [
-    "desenvolvimento regional"
-   ],
-   "codigos": [
-    "2220320260011"
-   ],
-   "propostas_recebidas": 0
-  },
-  {
-   "id": "a3bbd0585e55",
-   "programa": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317. 00SX.0025 – Ação: Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - No Estado da Paraíba – RP (7)",
-   "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-   "natureza": "Empresa pública/Sociedade de economia mista",
-   "canal": "emenda",
-   "modalidade": "CONVENIO",
-   "situacao": "DISPONIBILIZADO",
-   "abre": "2026-02-03",
-   "fecha": "2026-12-31",
-   "dias_restantes": 134,
-   "urgente": false,
-   "nova": false,
-   "aderente": true,
-   "temas": [
-    "desenvolvimento regional"
-   ],
-   "codigos": [
-    "2220320260012"
-   ],
-   "propostas_recebidas": 0
-  },
-  {
    "id": "162fcce65fd1",
    "programa": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317. 00SX.0025 – Ação: Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - No Estado da Paraíba – RP (7)",
    "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
@@ -608,6 +586,28 @@
    "programa": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317. 00SX.0025 – Ação: Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - No Estado da Paraíba – RP (7)",
    "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
    "natureza": "Administração Pública Estadual ou do Distrito Federal",
+   "canal": "emenda",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-03",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": true,
+   "temas": [
+    "desenvolvimento regional"
+   ],
+   "codigos": [
+    "2220320260012"
+   ],
+   "propostas_recebidas": 0
+  },
+  {
+   "id": "a3bbd0585e55",
+   "programa": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317. 00SX.0025 – Ação: Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - No Estado da Paraíba – RP (7)",
+   "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
+   "natureza": "Empresa pública/Sociedade de economia mista",
    "canal": "emenda",
    "modalidade": "CONVENIO",
    "situacao": "DISPONIBILIZADO",
@@ -692,28 +692,6 @@
    "propostas_recebidas": 0
   },
   {
-   "id": "4ddc172633fc",
-   "programa": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT – 20.608.2317. 214S.0002 – Ação: Estruturação e Dinamização de Atividades Produtivas (Rotas de Integração Nacional e Bioeconomia) - Exterior – RP (6)",
-   "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-   "natureza": "Administração Pública Municipal",
-   "canal": "emenda",
-   "modalidade": "CONVENIO",
-   "situacao": "DISPONIBILIZADO",
-   "abre": "2026-02-05",
-   "fecha": "2026-12-31",
-   "dias_restantes": 134,
-   "urgente": false,
-   "nova": false,
-   "aderente": true,
-   "temas": [
-    "desenvolvimento regional"
-   ],
-   "codigos": [
-    "2220320260041"
-   ],
-   "propostas_recebidas": 0
-  },
-  {
    "id": "5c568c21afdd",
    "programa": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT – 20.608.2317. 214S.0002 – Ação: Estruturação e Dinamização de Atividades Produtivas (Rotas de Integração Nacional e Bioeconomia) - Exterior – RP (6)",
    "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
@@ -758,10 +736,32 @@
    "propostas_recebidas": 0
   },
   {
-   "id": "2efd52424050",
+   "id": "4ddc172633fc",
+   "programa": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT – 20.608.2317. 214S.0002 – Ação: Estruturação e Dinamização de Atividades Produtivas (Rotas de Integração Nacional e Bioeconomia) - Exterior – RP (6)",
+   "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
+   "natureza": "Administração Pública Municipal",
+   "canal": "emenda",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-05",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": true,
+   "temas": [
+    "desenvolvimento regional"
+   ],
+   "codigos": [
+    "2220320260041"
+   ],
+   "propostas_recebidas": 0
+  },
+  {
+   "id": "cbdcc1077d67",
    "programa": "2322 - Saneamento Básico: PT 17.512.2322. 00UM.0001 / Ação: Apoio à Implantação, Ampliação, Manutenção, Melhoria ou Adequação de Sistemas de Esgotamento Sanitário na Área de Atuação da Codevasf / RP (2)",
    "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-   "natureza": "Administração Pública Estadual ou do Distrito Federal",
+   "natureza": "Administração Pública Municipal",
    "canal": "proposta",
    "modalidade": "CONVENIO",
    "situacao": "DISPONIBILIZADO",
@@ -780,10 +780,10 @@
    "propostas_recebidas": 0
   },
   {
-   "id": "cbdcc1077d67",
+   "id": "2efd52424050",
    "programa": "2322 - Saneamento Básico: PT 17.512.2322. 00UM.0001 / Ação: Apoio à Implantação, Ampliação, Manutenção, Melhoria ou Adequação de Sistemas de Esgotamento Sanitário na Área de Atuação da Codevasf / RP (2)",
    "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-   "natureza": "Administração Pública Municipal",
+   "natureza": "Administração Pública Estadual ou do Distrito Federal",
    "canal": "proposta",
    "modalidade": "CONVENIO",
    "situacao": "DISPONIBILIZADO",
@@ -845,10 +845,10 @@
    "propostas_recebidas": 3
   },
   {
-   "id": "acc07c229b57",
+   "id": "2e8f1c872f88",
    "programa": "Apoio as Entidades de Ensino Superior Nao Federais",
    "orgao": "MINISTERIO DA EDUCACAO",
-   "natureza": "Administração Pública Municipal",
+   "natureza": "Administração Pública Estadual ou do Distrito Federal",
    "canal": "emenda",
    "modalidade": "CONVENIO",
    "situacao": "DISPONIBILIZADO",
@@ -865,10 +865,10 @@
    "propostas_recebidas": 41
   },
   {
-   "id": "2e8f1c872f88",
+   "id": "acc07c229b57",
    "programa": "Apoio as Entidades de Ensino Superior Nao Federais",
    "orgao": "MINISTERIO DA EDUCACAO",
-   "natureza": "Administração Pública Estadual ou do Distrito Federal",
+   "natureza": "Administração Pública Municipal",
    "canal": "emenda",
    "modalidade": "CONVENIO",
    "situacao": "DISPONIBILIZADO",
@@ -929,10 +929,10 @@
    "propostas_recebidas": 1
   },
   {
-   "id": "d1e6a2cc1c36",
+   "id": "8acb2d001271",
    "programa": "Ações da Diretoria de Articulação e Inovação em Educação Aberta (DIEA) da Capes - PROEB e Inovação Tecnológica",
    "orgao": "MINISTERIO DA EDUCACAO",
-   "natureza": "Administração Pública Estadual ou do Distrito Federal",
+   "natureza": "Organização da Sociedade Civil",
    "canal": "proposta",
    "modalidade": "CONVENIO",
    "situacao": "DISPONIBILIZADO",
@@ -951,10 +951,10 @@
    "propostas_recebidas": 1
   },
   {
-   "id": "8acb2d001271",
+   "id": "d1e6a2cc1c36",
    "programa": "Ações da Diretoria de Articulação e Inovação em Educação Aberta (DIEA) da Capes - PROEB e Inovação Tecnológica",
    "orgao": "MINISTERIO DA EDUCACAO",
-   "natureza": "Organização da Sociedade Civil",
+   "natureza": "Administração Pública Estadual ou do Distrito Federal",
    "canal": "proposta",
    "modalidade": "CONVENIO",
    "situacao": "DISPONIBILIZADO",
@@ -1044,26 +1044,6 @@
    "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
    "natureza": "Consórcio Público",
    "canal": "emenda",
-   "modalidade": "CONVENIO / CONVENIO OU CONTRATO DE REPASSE / CONTRATO DE REPASSE",
-   "situacao": "DISPONIBILIZADO",
-   "abre": "2026-02-11",
-   "fecha": "2026-12-31",
-   "dias_restantes": 134,
-   "urgente": false,
-   "nova": false,
-   "aderente": false,
-   "temas": [],
-   "codigos": [
-    "2200020260013"
-   ],
-   "propostas_recebidas": 337
-  },
-  {
-   "id": "dec2065c9ff1",
-   "programa": "Fomento ao Setor Agropecu?rio - Emendas de Comiss?o SF",
-   "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
-   "natureza": "Administração Pública Municipal",
-   "canal": "emenda",
    "modalidade": "CONTRATO DE REPASSE / CONVENIO / CONVENIO OU CONTRATO DE REPASSE",
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-11",
@@ -1084,7 +1064,27 @@
    "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
    "natureza": "Administração Pública Estadual ou do Distrito Federal",
    "canal": "emenda",
-   "modalidade": "CONTRATO DE REPASSE / CONVENIO / CONVENIO OU CONTRATO DE REPASSE",
+   "modalidade": "CONVENIO / CONVENIO OU CONTRATO DE REPASSE / CONTRATO DE REPASSE",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-11",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2200020260013"
+   ],
+   "propostas_recebidas": 337
+  },
+  {
+   "id": "dec2065c9ff1",
+   "programa": "Fomento ao Setor Agropecu?rio - Emendas de Comiss?o SF",
+   "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
+   "natureza": "Administração Pública Municipal",
+   "canal": "emenda",
+   "modalidade": "CONVENIO / CONVENIO OU CONTRATO DE REPASSE / CONTRATO DE REPASSE",
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-11",
    "fecha": "2026-12-31",
@@ -1104,7 +1104,7 @@
    "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
    "natureza": "Empresa pública/Sociedade de economia mista",
    "canal": "emenda",
-   "modalidade": "CONVENIO / CONVENIO OU CONTRATO DE REPASSE / CONTRATO DE REPASSE",
+   "modalidade": "CONTRATO DE REPASSE / CONVENIO / CONVENIO OU CONTRATO DE REPASSE",
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-11",
    "fecha": "2026-12-31",
@@ -1159,12 +1159,12 @@
    "propostas_recebidas": 5
   },
   {
-   "id": "3c579f3d9b90",
+   "id": "6894e90cac0b",
    "programa": "Fomento ao Setor Agropecuário - Emendas de Comissão CD",
    "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
-   "natureza": "Empresa pública/Sociedade de economia mista",
+   "natureza": "Consórcio Público",
    "canal": "emenda",
-   "modalidade": "CONVENIO / CONVENIO OU CONTRATO DE REPASSE / CONTRATO DE REPASSE",
+   "modalidade": "CONTRATO DE REPASSE / CONVENIO / CONVENIO OU CONTRATO DE REPASSE",
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-11",
    "fecha": "2026-12-31",
@@ -1179,10 +1179,10 @@
    "propostas_recebidas": 74
   },
   {
-   "id": "6894e90cac0b",
+   "id": "6c1e96702cc8",
    "programa": "Fomento ao Setor Agropecuário - Emendas de Comissão CD",
    "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
-   "natureza": "Consórcio Público",
+   "natureza": "Administração Pública Municipal",
    "canal": "emenda",
    "modalidade": "CONVENIO / CONVENIO OU CONTRATO DE REPASSE / CONTRATO DE REPASSE",
    "situacao": "DISPONIBILIZADO",
@@ -1219,10 +1219,10 @@
    "propostas_recebidas": 74
   },
   {
-   "id": "6c1e96702cc8",
+   "id": "3c579f3d9b90",
    "programa": "Fomento ao Setor Agropecuário - Emendas de Comissão CD",
    "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
-   "natureza": "Administração Pública Municipal",
+   "natureza": "Empresa pública/Sociedade de economia mista",
    "canal": "emenda",
    "modalidade": "CONVENIO / CONVENIO OU CONTRATO DE REPASSE / CONTRATO DE REPASSE",
    "situacao": "DISPONIBILIZADO",
@@ -1237,46 +1237,6 @@
     "2200020260014"
    ],
    "propostas_recebidas": 74
-  },
-  {
-   "id": "434a98934921",
-   "programa": "Fomento ao Setor Agropecuário - Proposta Voluntária -  Obras de Fomento",
-   "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
-   "natureza": "Administração Pública Municipal",
-   "canal": "proposta",
-   "modalidade": "CONTRATO DE REPASSE",
-   "situacao": "DISPONIBILIZADO",
-   "abre": "2026-02-10",
-   "fecha": "2026-12-31",
-   "dias_restantes": 134,
-   "urgente": false,
-   "nova": false,
-   "aderente": false,
-   "temas": [],
-   "codigos": [
-    "2200020260018"
-   ],
-   "propostas_recebidas": 606
-  },
-  {
-   "id": "26656fc749df",
-   "programa": "Fomento ao Setor Agropecuário - Proposta Voluntária -  Obras de Fomento",
-   "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
-   "natureza": "Empresa pública/Sociedade de economia mista",
-   "canal": "proposta",
-   "modalidade": "CONTRATO DE REPASSE",
-   "situacao": "DISPONIBILIZADO",
-   "abre": "2026-02-10",
-   "fecha": "2026-12-31",
-   "dias_restantes": 134,
-   "urgente": false,
-   "nova": false,
-   "aderente": false,
-   "temas": [],
-   "codigos": [
-    "2200020260018"
-   ],
-   "propostas_recebidas": 606
   },
   {
    "id": "73cdb012fffd",
@@ -1319,14 +1279,14 @@
    "propostas_recebidas": 606
   },
   {
-   "id": "8378829739f1",
-   "programa": "Fomento ao Setor Agropecuário - Propostas Voluntárias",
+   "id": "26656fc749df",
+   "programa": "Fomento ao Setor Agropecuário - Proposta Voluntária -  Obras de Fomento",
    "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
    "natureza": "Empresa pública/Sociedade de economia mista",
    "canal": "proposta",
-   "modalidade": "CONTRATO DE REPASSE / CONVENIO / CONVENIO OU CONTRATO DE REPASSE",
+   "modalidade": "CONTRATO DE REPASSE",
    "situacao": "DISPONIBILIZADO",
-   "abre": "2026-02-09",
+   "abre": "2026-02-10",
    "fecha": "2026-12-31",
    "dias_restantes": 134,
    "urgente": false,
@@ -1334,15 +1294,35 @@
    "aderente": false,
    "temas": [],
    "codigos": [
-    "2200020260004"
+    "2200020260018"
    ],
-   "propostas_recebidas": 3172
+   "propostas_recebidas": 606
   },
   {
-   "id": "b2c5408b2011",
+   "id": "434a98934921",
+   "programa": "Fomento ao Setor Agropecuário - Proposta Voluntária -  Obras de Fomento",
+   "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
+   "natureza": "Administração Pública Municipal",
+   "canal": "proposta",
+   "modalidade": "CONTRATO DE REPASSE",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-10",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2200020260018"
+   ],
+   "propostas_recebidas": 606
+  },
+  {
+   "id": "0579c8b1d875",
    "programa": "Fomento ao Setor Agropecuário - Propostas Voluntárias",
    "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
-   "natureza": "Consórcio Público",
+   "natureza": "Administração Pública Municipal",
    "canal": "proposta",
    "modalidade": "CONVENIO / CONVENIO OU CONTRATO DE REPASSE / CONTRATO DE REPASSE",
    "situacao": "DISPONIBILIZADO",
@@ -1379,10 +1359,30 @@
    "propostas_recebidas": 3172
   },
   {
-   "id": "0579c8b1d875",
+   "id": "b2c5408b2011",
    "programa": "Fomento ao Setor Agropecuário - Propostas Voluntárias",
    "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
-   "natureza": "Administração Pública Municipal",
+   "natureza": "Consórcio Público",
+   "canal": "proposta",
+   "modalidade": "CONVENIO / CONVENIO OU CONTRATO DE REPASSE / CONTRATO DE REPASSE",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-09",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2200020260004"
+   ],
+   "propostas_recebidas": 3172
+  },
+  {
+   "id": "8378829739f1",
+   "programa": "Fomento ao Setor Agropecuário - Propostas Voluntárias",
+   "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
+   "natureza": "Empresa pública/Sociedade de economia mista",
    "canal": "proposta",
    "modalidade": "CONVENIO / CONVENIO OU CONTRATO DE REPASSE / CONTRATO DE REPASSE",
    "situacao": "DISPONIBILIZADO",
@@ -1417,6 +1417,66 @@
     "2200020260005"
    ],
    "propostas_recebidas": 136
+  },
+  {
+   "id": "34e30792c8fc",
+   "programa": "INFRA-ESTRUTURA BÁSICA – SR(PB) Superintendência Regional do INCRA na PARAIBA– CONVÊNIO.",
+   "orgao": "MINISTÉRIO DO DESENVOLVIMENTO AGRÁRIO E AGRICULTURA FAMILIAR",
+   "natureza": "Consórcio Público",
+   "canal": "emenda",
+   "modalidade": "CONVENIO",
+   "situacao": "CADASTRADO",
+   "abre": "2026-03-11",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2220120260023"
+   ],
+   "propostas_recebidas": 0
+  },
+  {
+   "id": "2364b5f0be18",
+   "programa": "INFRA-ESTRUTURA BÁSICA – SR(PB) Superintendência Regional do INCRA na PARAIBA– CONVÊNIO.",
+   "orgao": "MINISTÉRIO DO DESENVOLVIMENTO AGRÁRIO E AGRICULTURA FAMILIAR",
+   "natureza": "Consórcio Público",
+   "canal": "proposta",
+   "modalidade": "CONVENIO",
+   "situacao": "CADASTRADO",
+   "abre": "2026-03-11",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2220120260023"
+   ],
+   "propostas_recebidas": 0
+  },
+  {
+   "id": "c3259725a3e1",
+   "programa": "INFRA-ESTRUTURA BÁSICA – SR(PB) Superintendência Regional do INCRA na PARAIBA– CONVÊNIO.",
+   "orgao": "MINISTÉRIO DO DESENVOLVIMENTO AGRÁRIO E AGRICULTURA FAMILIAR",
+   "natureza": "Administração Pública Municipal",
+   "canal": "emenda",
+   "modalidade": "CONVENIO",
+   "situacao": "CADASTRADO",
+   "abre": "2026-03-11",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2220120260023"
+   ],
+   "propostas_recebidas": 0
   },
   {
    "id": "ed33108262f2",
@@ -1459,26 +1519,6 @@
    "propostas_recebidas": 0
   },
   {
-   "id": "2364b5f0be18",
-   "programa": "INFRA-ESTRUTURA BÁSICA – SR(PB) Superintendência Regional do INCRA na PARAIBA– CONVÊNIO.",
-   "orgao": "MINISTÉRIO DO DESENVOLVIMENTO AGRÁRIO E AGRICULTURA FAMILIAR",
-   "natureza": "Consórcio Público",
-   "canal": "proposta",
-   "modalidade": "CONVENIO",
-   "situacao": "CADASTRADO",
-   "abre": "2026-03-11",
-   "fecha": "2026-12-31",
-   "dias_restantes": 134,
-   "urgente": false,
-   "nova": false,
-   "aderente": false,
-   "temas": [],
-   "codigos": [
-    "2220120260023"
-   ],
-   "propostas_recebidas": 0
-  },
-  {
    "id": "75e6d3a8241d",
    "programa": "INFRA-ESTRUTURA BÁSICA – SR(PB) Superintendência Regional do INCRA na PARAIBA– CONVÊNIO.",
    "orgao": "MINISTÉRIO DO DESENVOLVIMENTO AGRÁRIO E AGRICULTURA FAMILIAR",
@@ -1499,14 +1539,14 @@
    "propostas_recebidas": 0
   },
   {
-   "id": "c3259725a3e1",
-   "programa": "INFRA-ESTRUTURA BÁSICA – SR(PB) Superintendência Regional do INCRA na PARAIBA– CONVÊNIO.",
-   "orgao": "MINISTÉRIO DO DESENVOLVIMENTO AGRÁRIO E AGRICULTURA FAMILIAR",
+   "id": "b4af6f7996eb",
+   "programa": "Programa 2319 - Acao 00T1 - Apoio a Politica Nacional de Desenvolvimento Urbano Voltado a Implantacao e Qualificacao Viaria – RP7",
+   "orgao": "MINISTERIO DAS CIDADES",
    "natureza": "Administração Pública Municipal",
    "canal": "emenda",
-   "modalidade": "CONVENIO",
-   "situacao": "CADASTRADO",
-   "abre": "2026-03-11",
+   "modalidade": "CONTRATO DE REPASSE",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-11",
    "fecha": "2026-12-31",
    "dias_restantes": 134,
    "urgente": false,
@@ -1514,29 +1554,9 @@
    "aderente": false,
    "temas": [],
    "codigos": [
-    "2220120260023"
+    "5600020260022"
    ],
-   "propostas_recebidas": 0
-  },
-  {
-   "id": "34e30792c8fc",
-   "programa": "INFRA-ESTRUTURA BÁSICA – SR(PB) Superintendência Regional do INCRA na PARAIBA– CONVÊNIO.",
-   "orgao": "MINISTÉRIO DO DESENVOLVIMENTO AGRÁRIO E AGRICULTURA FAMILIAR",
-   "natureza": "Consórcio Público",
-   "canal": "emenda",
-   "modalidade": "CONVENIO",
-   "situacao": "CADASTRADO",
-   "abre": "2026-03-11",
-   "fecha": "2026-12-31",
-   "dias_restantes": 134,
-   "urgente": false,
-   "nova": false,
-   "aderente": false,
-   "temas": [],
-   "codigos": [
-    "2220120260023"
-   ],
-   "propostas_recebidas": 0
+   "propostas_recebidas": 15
   },
   {
    "id": "eec35144bfaa",
@@ -1579,10 +1599,10 @@
    "propostas_recebidas": 15
   },
   {
-   "id": "b4af6f7996eb",
-   "programa": "Programa 2319 - Acao 00T1 - Apoio a Politica Nacional de Desenvolvimento Urbano Voltado a Implantacao e Qualificacao Viaria – RP7",
+   "id": "2aded7bb7891",
+   "programa": "Programa 2319 - Acao 00T1 - Apoio a Politica Nacional de Desenvolvimento Urbano Voltado a Implantacao e Qualificacao Viaria – RP8",
    "orgao": "MINISTERIO DAS CIDADES",
-   "natureza": "Administração Pública Municipal",
+   "natureza": "Consórcio Público",
    "canal": "emenda",
    "modalidade": "CONTRATO DE REPASSE",
    "situacao": "DISPONIBILIZADO",
@@ -1594,9 +1614,9 @@
    "aderente": false,
    "temas": [],
    "codigos": [
-    "5600020260022"
+    "5600020260023"
    ],
-   "propostas_recebidas": 15
+   "propostas_recebidas": 964
   },
   {
    "id": "2e7ad40690ee",
@@ -1639,26 +1659,6 @@
    "propostas_recebidas": 964
   },
   {
-   "id": "2aded7bb7891",
-   "programa": "Programa 2319 - Acao 00T1 - Apoio a Politica Nacional de Desenvolvimento Urbano Voltado a Implantacao e Qualificacao Viaria – RP8",
-   "orgao": "MINISTERIO DAS CIDADES",
-   "natureza": "Consórcio Público",
-   "canal": "emenda",
-   "modalidade": "CONTRATO DE REPASSE",
-   "situacao": "DISPONIBILIZADO",
-   "abre": "2026-02-11",
-   "fecha": "2026-12-31",
-   "dias_restantes": 134,
-   "urgente": false,
-   "nova": false,
-   "aderente": false,
-   "temas": [],
-   "codigos": [
-    "5600020260023"
-   ],
-   "propostas_recebidas": 964
-  },
-  {
    "id": "07ce3a9a42ea",
    "programa": "Programa Brasileiro de Professores no CERN",
    "orgao": "MINISTERIO DA EDUCACAO",
@@ -1679,10 +1679,10 @@
    "propostas_recebidas": 1
   },
   {
-   "id": "9564fd6820fb",
+   "id": "5a44230f1beb",
    "programa": "Programa Nacional de Estradas Rurais - PRONER",
    "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
-   "natureza": "Empresa pública/Sociedade de economia mista",
+   "natureza": "Administração Pública Municipal",
    "canal": "proposta",
    "modalidade": "CONVENIO",
    "situacao": "DISPONIBILIZADO",
@@ -1699,10 +1699,10 @@
    "propostas_recebidas": 1917
   },
   {
-   "id": "5a44230f1beb",
+   "id": "9564fd6820fb",
    "programa": "Programa Nacional de Estradas Rurais - PRONER",
    "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
-   "natureza": "Administração Pública Municipal",
+   "natureza": "Empresa pública/Sociedade de economia mista",
    "canal": "proposta",
    "modalidade": "CONVENIO",
    "situacao": "DISPONIBILIZADO",
@@ -1759,26 +1759,6 @@
    "propostas_recebidas": 1917
   },
   {
-   "id": "365eb8e0abd8",
-   "programa": "Programa Nacional de Modernização e Apoio à Produção Agrícola - PROMAQ",
-   "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
-   "natureza": "Administração Pública Municipal",
-   "canal": "proposta",
-   "modalidade": "TERMO DE COMPROMISSO",
-   "situacao": "DISPONIBILIZADO",
-   "abre": "2026-02-11",
-   "fecha": "2026-12-31",
-   "dias_restantes": 134,
-   "urgente": false,
-   "nova": false,
-   "aderente": false,
-   "temas": [],
-   "codigos": [
-    "2200020260022"
-   ],
-   "propostas_recebidas": 2948
-  },
-  {
    "id": "6343112db2fb",
    "programa": "Programa Nacional de Modernização e Apoio à Produção Agrícola - PROMAQ",
    "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
@@ -1819,6 +1799,26 @@
    "propostas_recebidas": 2948
   },
   {
+   "id": "365eb8e0abd8",
+   "programa": "Programa Nacional de Modernização e Apoio à Produção Agrícola - PROMAQ",
+   "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
+   "natureza": "Administração Pública Municipal",
+   "canal": "proposta",
+   "modalidade": "TERMO DE COMPROMISSO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-11",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2200020260022"
+   ],
+   "propostas_recebidas": 2948
+  },
+  {
    "id": "ff5547bd1d19",
    "programa": "Programa Nacional de Modernização e Apoio à Produção Agrícola - PROMAQ",
    "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
@@ -1839,31 +1839,11 @@
    "propostas_recebidas": 2948
   },
   {
-   "id": "37d43e0e4aa6",
+   "id": "dc90984f5cef",
    "programa": "Programa SIMEC/PAR",
    "orgao": "MINISTERIO DA EDUCACAO",
    "natureza": "Administração Pública Estadual ou do Distrito Federal",
-   "canal": "proposta",
-   "modalidade": "TERMO DE COMPROMISSO",
-   "situacao": "CADASTRADO",
-   "abre": "2026-01-02",
-   "fecha": "2026-12-31",
-   "dias_restantes": 134,
-   "urgente": false,
-   "nova": false,
-   "aderente": false,
-   "temas": [],
-   "codigos": [
-    "2629820260001"
-   ],
-   "propostas_recebidas": 338
-  },
-  {
-   "id": "e620a6161c78",
-   "programa": "Programa SIMEC/PAR",
-   "orgao": "MINISTERIO DA EDUCACAO",
-   "natureza": "Administração Pública Municipal",
-   "canal": "proposta",
+   "canal": "emenda",
    "modalidade": "TERMO DE COMPROMISSO",
    "situacao": "CADASTRADO",
    "abre": "2026-01-02",
@@ -1899,11 +1879,31 @@
    "propostas_recebidas": 338
   },
   {
-   "id": "dc90984f5cef",
+   "id": "e620a6161c78",
+   "programa": "Programa SIMEC/PAR",
+   "orgao": "MINISTERIO DA EDUCACAO",
+   "natureza": "Administração Pública Municipal",
+   "canal": "proposta",
+   "modalidade": "TERMO DE COMPROMISSO",
+   "situacao": "CADASTRADO",
+   "abre": "2026-01-02",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2629820260001"
+   ],
+   "propostas_recebidas": 338
+  },
+  {
+   "id": "37d43e0e4aa6",
    "programa": "Programa SIMEC/PAR",
    "orgao": "MINISTERIO DA EDUCACAO",
    "natureza": "Administração Pública Estadual ou do Distrito Federal",
-   "canal": "emenda",
+   "canal": "proposta",
    "modalidade": "TERMO DE COMPROMISSO",
    "situacao": "CADASTRADO",
    "abre": "2026-01-02",
@@ -1939,6 +1939,26 @@
    "propostas_recebidas": 84
   },
   {
+   "id": "50747ecfbe6b",
+   "programa": "Promoção e Apoio ao Desenvolvimento do Futebol Masculino e Feminino - Convênio (RP 6) - SNFDT",
+   "orgao": "MINISTERIO DO ESPORTE",
+   "natureza": "Administração Pública Municipal",
+   "canal": "emenda",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-18",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "5100020260006"
+   ],
+   "propostas_recebidas": 8
+  },
+  {
    "id": "8feff373fb53",
    "programa": "Promoção e Apoio ao Desenvolvimento do Futebol Masculino e Feminino - Convênio (RP 6) - SNFDT",
    "orgao": "MINISTERIO DO ESPORTE",
@@ -1959,14 +1979,14 @@
    "propostas_recebidas": 8
   },
   {
-   "id": "50747ecfbe6b",
-   "programa": "Promoção e Apoio ao Desenvolvimento do Futebol Masculino e Feminino - Convênio (RP 6) - SNFDT",
-   "orgao": "MINISTERIO DO ESPORTE",
-   "natureza": "Administração Pública Municipal",
+   "id": "fcdaaf83be02",
+   "programa": "SNDUM - MCidades 00SY - Apoio a Projetos e Obras de Reabilitação, de Acessibilidade e Modernização Tecnológica em Áreas Urbanas - RP7",
+   "orgao": "MINISTERIO DAS CIDADES",
+   "natureza": "Administração Pública Estadual ou do Distrito Federal",
    "canal": "emenda",
-   "modalidade": "CONVENIO",
+   "modalidade": "CONTRATO DE REPASSE",
    "situacao": "DISPONIBILIZADO",
-   "abre": "2026-02-18",
+   "abre": "2026-02-23",
    "fecha": "2026-12-31",
    "dias_restantes": 134,
    "urgente": false,
@@ -1974,9 +1994,9 @@
    "aderente": false,
    "temas": [],
    "codigos": [
-    "5100020260006"
+    "5600020260013"
    ],
-   "propostas_recebidas": 8
+   "propostas_recebidas": 3
   },
   {
    "id": "8299038b90d5",
@@ -2003,26 +2023,6 @@
    "programa": "SNDUM - MCidades 00SY - Apoio a Projetos e Obras de Reabilitação, de Acessibilidade e Modernização Tecnológica em Áreas Urbanas - RP7",
    "orgao": "MINISTERIO DAS CIDADES",
    "natureza": "Empresa pública/Sociedade de economia mista",
-   "canal": "emenda",
-   "modalidade": "CONTRATO DE REPASSE",
-   "situacao": "DISPONIBILIZADO",
-   "abre": "2026-02-23",
-   "fecha": "2026-12-31",
-   "dias_restantes": 134,
-   "urgente": false,
-   "nova": false,
-   "aderente": false,
-   "temas": [],
-   "codigos": [
-    "5600020260013"
-   ],
-   "propostas_recebidas": 3
-  },
-  {
-   "id": "fcdaaf83be02",
-   "programa": "SNDUM - MCidades 00SY - Apoio a Projetos e Obras de Reabilitação, de Acessibilidade e Modernização Tecnológica em Áreas Urbanas - RP7",
-   "orgao": "MINISTERIO DAS CIDADES",
-   "natureza": "Administração Pública Estadual ou do Distrito Federal",
    "canal": "emenda",
    "modalidade": "CONTRATO DE REPASSE",
    "situacao": "DISPONIBILIZADO",
