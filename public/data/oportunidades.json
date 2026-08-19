@@ -1,1392 +1,2064 @@
 {
-  "metadata": {
-    "ultima_atualizacao": "2026-08-19T03:07:40.731255",
-    "data_formatada": "19/08/2026",
-    "uf": "PB",
-    "total_programas_abertos": 115,
-    "total_urgentes": 5,
-    "novos_nesta_execucao": 115
-  },
-  "programas": [
-    {
-      "id": "3091220260006",
-      "codigo_programa": "3091220260006",
-      "nome": "SENAD - TERRITÓRIO SEGURO, AMAZÔNIA SOBERANA",
-      "orgao": "MINISTERIO DA JUSTICA E SEGURANCA PUBLICA",
-      "status": "CADASTRADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "20/08/2026",
-      "dias_restantes": 1,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "3000020260002",
-      "codigo_programa": "3000020260002",
-      "nome": "SENASP - Programa Brasil contra o Crime Organizado – Eixos 1, 2, 3 e 5 – FIIS",
-      "orgao": "MINISTERIO DA JUSTICA E SEGURANCA PUBLICA",
-      "status": "CADASTRADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "20/08/2026",
-      "dias_restantes": 1,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "3000020260025",
-      "codigo_programa": "3000020260025",
-      "nome": "SENAD - Programa Território Seguro, Amazônia Soberana: Proteção da Amazônia e da Faixa de Fronteira – Eixo 6 – FIIS",
-      "orgao": "MINISTERIO DA JUSTICA E SEGURANCA PUBLICA",
-      "status": "CADASTRADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "20/08/2026",
-      "dias_restantes": 1,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "3000020260023",
-      "codigo_programa": "3000020260023",
-      "nome": "SENAPPEN - Programa Brasil Contra o Crime Organizado – Eixo 4 – FIIS",
-      "orgao": "MINISTERIO DA JUSTICA E SEGURANCA PUBLICA",
-      "status": "CADASTRADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "20/08/2026",
-      "dias_restantes": 1,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2041120260006",
-      "codigo_programa": "2041120260006, 2041120260007",
-      "nome": "Preservação do Patrimônio Cultural Brasileiro",
-      "orgao": "MINISTERIO DA CULTURA",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Cultura",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "24/08/2026",
-      "dias_restantes": 5,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "1411320260001",
-      "codigo_programa": "1411320260001",
-      "nome": "Apoio ao TREMG nas Eleições de 2026",
-      "orgao": "JUSTICA ELEITORAL",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "03/10/2026",
-      "dias_restantes": 45,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220120260045",
-      "codigo_programa": "2220120260045",
-      "nome": "Ações de ATER",
-      "orgao": "MINISTÉRIO DO DESENVOLVIMENTO AGRÁRIO E AGRICULTURA FAMILIAR",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "30/11/2026",
-      "dias_restantes": 103,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "5800020260005",
-      "codigo_programa": "5800020260005, 5800020260003",
-      "nome": "5801 - Pesca e Aquicultura Sustentáveis",
-      "orgao": "MINISTÉRIO DA PESCA E AQUICULTURA",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Cultura",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "15/12/2026",
-      "dias_restantes": 118,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "5600020260021",
-      "codigo_programa": "5600020260021",
-      "nome": "2322 - Saneamento Básico - 00TN - Apoio à Implantação, Ampliação ou Melhorias em Sistemas de Abastecimento de Água – 5411 - No Município de Várzea Grande - MT - RP7.",
-      "orgao": "MINISTERIO DAS CIDADES",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "30/12/2026",
-      "dias_restantes": 133,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "3600020260073",
-      "codigo_programa": "3600020260073",
-      "nome": "IMPLANTACAO, DESENVOLVIMENTO E MANUTENCAO DE SAUDE DIGITAL, TELESSAUDE E INOVACAO NO SUS",
-      "orgao": "MINISTERIO DA SAUDE",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Inovação",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "30/12/2026",
-      "dias_restantes": 133,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220320260009",
-      "codigo_programa": "2220320260009",
-      "nome": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317. 00SX.0023 – Ação: Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - No Estado do Ceará – RP (7)",
-      "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220320260034",
-      "codigo_programa": "2220320260034",
-      "nome": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317. 00VH.7005 – Ação: Apoio a Projetos para Desenvolvimento Regional - Qualificação Urbana - Região Metropolitana de Palmas - No Estado do Tocantins – RP (7)",
-      "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "5600020260022",
-      "codigo_programa": "5600020260022",
-      "nome": "Programa 2319 - Acao 00T1 - Apoio a Politica Nacional de Desenvolvimento Urbano Voltado a Implantacao e Qualificacao Viaria – RP7",
-      "orgao": "MINISTERIO DAS CIDADES",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "3000020260022",
-      "codigo_programa": "3000020260022",
-      "nome": "Programa de Fortalecimento das Ouvidorias de Serviços Penais – PROFOR/ONASP",
-      "orgao": "MINISTERIO DA JUSTICA E SEGURANCA PUBLICA",
-      "status": "CADASTRADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220120260006",
-      "codigo_programa": "2220120260006",
-      "nome": "INFRA-ESTRUTURA BÁSICA – SR(PA/NE) Superintendência Regional do INCRA no Nordeste do Pará – CONVÊNIO.",
-      "orgao": "MINISTÉRIO DO DESENVOLVIMENTO AGRÁRIO E AGRICULTURA FAMILIAR",
-      "status": "CADASTRADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220120260030",
-      "codigo_programa": "2220120260030",
-      "nome": "INFRA-ESTRUTURA BÁSICA – SR(RR) Superintendência Regional do INCRA de RORAIMA– CONVÊNIO.",
-      "orgao": "MINISTÉRIO DO DESENVOLVIMENTO AGRÁRIO E AGRICULTURA FAMILIAR",
-      "status": "CADASTRADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220320260043",
-      "codigo_programa": "2220320260043",
-      "nome": "2321 -  Recursos Hídricos: Água em Quantidade e Qualidade para sempre: PT 18.544.2321.7G88.0022/ Ação:  Construção da Barragem Atalaia no Estado do Piauí/ RP (3)",
-      "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220120260024",
-      "codigo_programa": "2220120260024",
-      "nome": "INFRA-ESTRUTURA BÁSICA – SR(RN) Superintendência Regional do INCRA no RIO GRANDE DO NORTE– CONVÊNIO.",
-      "orgao": "MINISTÉRIO DO DESENVOLVIMENTO AGRÁRIO E AGRICULTURA FAMILIAR",
-      "status": "CADASTRADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220320260003",
-      "codigo_programa": "2220320260003",
-      "nome": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317. 00SX.0001 – Ação: Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - Nacional – RP (6)",
-      "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2629120260004",
-      "codigo_programa": "2629120260004",
-      "nome": "Ações da Diretoria de Articulação e Inovação em Educação Aberta (DIEA) da Capes - Sistema UAB",
-      "orgao": "MINISTERIO DA EDUCACAO",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Inovação",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2629120260002",
-      "codigo_programa": "2629120260002",
-      "nome": "Ações da Diretoria de Articulação e Inovação em Educação Aberta (DIEA) da Capes",
-      "orgao": "MINISTERIO DA EDUCACAO",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Inovação",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2629120260001",
-      "codigo_programa": "2629120260001",
-      "nome": "Programa Brasileiro de Professores no CERN",
-      "orgao": "MINISTERIO DA EDUCACAO",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220120260008",
-      "codigo_programa": "2220120260008",
-      "nome": "INFRA-ESTRUTURA BÁSICA – SR(PE) Superintendência Regional do INCRA no PERNAMBUCO– CONVÊNIO.",
-      "orgao": "MINISTÉRIO DO DESENVOLVIMENTO AGRÁRIO E AGRICULTURA FAMILIAR",
-      "status": "CADASTRADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220320260038",
-      "codigo_programa": "2220320260038",
-      "nome": "2321 - Recursos Hídricos: Água em Quantidade e Qualidade para sempre: PT - 18.544.2321.15XV.0029 – Ação: Construção de Sistema Integrado de Abastecimento de Água - Adutora da Fé - No Estado da Bahia – RP (3)",
-      "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220120260010",
-      "codigo_programa": "2220120260010",
-      "nome": "INFRA-ESTRUTURA BÁSICA – SR(BA) Superintendência Regional do INCRA na BAHIA– CONVÊNIO.",
-      "orgao": "MINISTÉRIO DO DESENVOLVIMENTO AGRÁRIO E AGRICULTURA FAMILIAR",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220120260031",
-      "codigo_programa": "2220120260031",
-      "nome": "INFRA-ESTRUTURA BÁSICA – SR(TO) Superintendência Regional do INCRA no TOCANTINS– CONVÊNIO.",
-      "orgao": "MINISTÉRIO DO DESENVOLVIMENTO AGRÁRIO E AGRICULTURA FAMILIAR",
-      "status": "CADASTRADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220320260014",
-      "codigo_programa": "2220320260014",
-      "nome": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317. 00SX.0026 – Ação: Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - No Estado de Pernambuco – RP (7)",
-      "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220120260026",
-      "codigo_programa": "2220120260026",
-      "nome": "INFRA-ESTRUTURA BÁSICA – SR(AP) Superintendência Regional do INCRA no AMAPÁ– CONVÊNIO.",
-      "orgao": "MINISTÉRIO DO DESENVOLVIMENTO AGRÁRIO E AGRICULTURA FAMILIAR",
-      "status": "CADASTRADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220120260011",
-      "codigo_programa": "2220120260011",
-      "nome": "INFRA-ESTRUTURA BÁSICA – SR(MG) Superintendência Regional do INCRA na MINAS GERAIS– CONVÊNIO.",
-      "orgao": "MINISTÉRIO DO DESENVOLVIMENTO AGRÁRIO E AGRICULTURA FAMILIAR",
-      "status": "CADASTRADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220320260010",
-      "codigo_programa": "2220320260010",
-      "nome": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317. 00SX.0024 – Ação: Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - No Estado do Rio Grande do Norte – RP (6)",
-      "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220320260031",
-      "codigo_programa": "2220320260031",
-      "nome": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317. 00VH.0035 – Ação: Apoio a Projetos para Desenvolvimento Regional - No Estado de São Paulo – RP (6)",
-      "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2629120260003",
-      "codigo_programa": "2629120260003",
-      "nome": "Ações da Diretoria de Articulação e Inovação em Educação Aberta (DIEA) da Capes - PROEB e Inovação Tecnológica",
-      "orgao": "MINISTERIO DA EDUCACAO",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Inovação",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220120260022",
-      "codigo_programa": "2220120260022",
-      "nome": "INFRA-ESTRUTURA BÁSICA – SR(RO) Superintendência Regional do INCRA de  RONDONIA– CONVÊNIO.",
-      "orgao": "MINISTÉRIO DO DESENVOLVIMENTO AGRÁRIO E AGRICULTURA FAMILIAR",
-      "status": "CADASTRADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "3600020260072",
-      "codigo_programa": "3600020260072",
-      "nome": "5120 - Pesquisa, Desenvolvimento, Inovação, Produção e Avaliação de Tecnologias em Saúde",
-      "orgao": "MINISTERIO DA SAUDE",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Inovação",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2200020260012",
-      "codigo_programa": "2200020260012",
-      "nome": "Fomento ao Setor Agropecuário - Emenda da Bancada de Santa Catarina",
-      "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2200020260008",
-      "codigo_programa": "2200020260008",
-      "nome": "Fomento ao Setor Agropecuário - Emenda da Bancada da Bahia",
-      "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220320260030",
-      "codigo_programa": "2220320260030",
-      "nome": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317. 00VH.0031 – Ação: Apoio a Projetos para Desenvolvimento Regional - No Estado de Minas Gerais – RP (6)",
-      "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220120260019",
-      "codigo_programa": "2220120260019",
-      "nome": "INFRA-ESTRUTURA BÁSICA – SR(AC) Superintendência Regional do INCRA no ACRE– CONVÊNIO.",
-      "orgao": "MINISTÉRIO DO DESENVOLVIMENTO AGRÁRIO E AGRICULTURA FAMILIAR",
-      "status": "CADASTRADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220120260012",
-      "codigo_programa": "2220120260012",
-      "nome": "INFRA-ESTRUTURA BÁSICA – SR(RJ) Superintendência Regional do INCRA no RIO DE JANEIRO– CONVÊNIO.",
-      "orgao": "MINISTÉRIO DO DESENVOLVIMENTO AGRÁRIO E AGRICULTURA FAMILIAR",
-      "status": "CADASTRADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220120260021",
-      "codigo_programa": "2220120260021",
-      "nome": "INFRA-ESTRUTURA BÁSICA – SR(MS) Superintendência Regional do INCRA no MATO GROSSO DO SUL– CONVÊNIO.",
-      "orgao": "MINISTÉRIO DO DESENVOLVIMENTO AGRÁRIO E AGRICULTURA FAMILIAR",
-      "status": "CADASTRADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220320260013",
-      "codigo_programa": "2220320260013",
-      "nome": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317. 00SX.0026 – Ação: Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - No Estado de Pernambuco – RP (6)",
-      "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220320260032",
-      "codigo_programa": "2220320260032",
-      "nome": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317. 00VH.0040 – Ação: Apoio a Projetos para Desenvolvimento Regional - Na Região Sul – RP (6)",
-      "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220320260018",
-      "codigo_programa": "2220320260018",
-      "nome": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317. 00SX.0031 – Ação: Apoio a Projetos de Desenvolvimento Sustentável Local Integrado -  No Estado de Minas Gerais – RP (6)",
-      "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220320260020",
-      "codigo_programa": "2220320260020",
-      "nome": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317. 00SX.0051 – Ação: Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - No Estado de Mato Grosso – RP (6)",
-      "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2200020260022",
-      "codigo_programa": "2200020260022",
-      "nome": "Programa Nacional de Modernização e Apoio à Produção Agrícola - PROMAQ",
-      "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2200020260011",
-      "codigo_programa": "2200020260011",
-      "nome": "Fomento ao Setor Agropecuário - Emenda da Bancada do Rio Grande do Sul",
-      "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220320260011",
-      "codigo_programa": "2220320260011",
-      "nome": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317. 00SX.0025 – Ação: Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - No Estado da Paraíba – RP (6)",
-      "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220120260025",
-      "codigo_programa": "2220120260025",
-      "nome": "INFRA-ESTRUTURA BÁSICA – SR(ES) Superintendência Regional do INCRA no ESPIRITO SANTO– CONVÊNIO.",
-      "orgao": "MINISTÉRIO DO DESENVOLVIMENTO AGRÁRIO E AGRICULTURA FAMILIAR",
-      "status": "CADASTRADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220320260002",
-      "codigo_programa": "2220320260002",
-      "nome": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317. 00SX.0001 – Ação: Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - Nacional – RP (2)",
-      "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2200020260013",
-      "codigo_programa": "2200020260013",
-      "nome": "Fomento ao Setor Agropecu?rio - Emendas de Comiss?o SF",
-      "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "5100020260006",
-      "codigo_programa": "5100020260006",
-      "nome": "Promoção e Apoio ao Desenvolvimento do Futebol Masculino e Feminino - Convênio (RP 6) - SNFDT",
-      "orgao": "MINISTERIO DO ESPORTE",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2200020260015",
-      "codigo_programa": "2200020260015",
-      "nome": "Fomento ao Setor Agropecuário - Emenda de Comissão SF - Termo de Fomento",
-      "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220120260018",
-      "codigo_programa": "2220120260018",
-      "nome": "INFRA-ESTRUTURA BÁSICA – SR(MT) Superintendência Regional do INCRA no MATO GROSSO– CONVÊNIO.",
-      "orgao": "MINISTÉRIO DO DESENVOLVIMENTO AGRÁRIO E AGRICULTURA FAMILIAR",
-      "status": "CADASTRADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220120260009",
-      "codigo_programa": "2220120260009",
-      "nome": "INFRA-ESTRUTURA BÁSICA – SR(GO) Superintendência Regional do INCRA no GOIÁS– CONVÊNIO.",
-      "orgao": "MINISTÉRIO DO DESENVOLVIMENTO AGRÁRIO E AGRICULTURA FAMILIAR",
-      "status": "CADASTRADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220320260015",
-      "codigo_programa": "2220320260015",
-      "nome": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317. 00SX.0027 – Ação: Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - No Estado de Alagoas – RP (6)",
-      "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220320260028",
-      "codigo_programa": "2220320260028",
-      "nome": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317. 00VH.0028 – Ação: Apoio a Projetos para Desenvolvimento Regional - No Estado de Sergipe – RP (6)",
-      "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220320260005",
-      "codigo_programa": "2220320260005",
-      "nome": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317. 00SX.0016 – Ação: Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - No Estado do Amapá – RP (6)",
-      "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220120260020",
-      "codigo_programa": "2220120260020",
-      "nome": "INFRA-ESTRUTURA BÁSICA – SR(AM) Superintendência Regional do INCRA no AMAZONAS– CONVÊNIO.",
-      "orgao": "MINISTÉRIO DO DESENVOLVIMENTO AGRÁRIO E AGRICULTURA FAMILIAR",
-      "status": "CADASTRADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220320260022",
-      "codigo_programa": "2220320260022",
-      "nome": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317.00SX.7015 – Ação: Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - Maquinários, Equipamentos e Materiais Permanentes - No Estado do Tocantins – RP (7)",
-      "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2200020260004",
-      "codigo_programa": "2200020260004",
-      "nome": "Fomento ao Setor Agropecuário - Propostas Voluntárias",
-      "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220120260029",
-      "codigo_programa": "2220120260029",
-      "nome": "INFRA-ESTRUTURA BÁSICA – SR(PI) Superintendência Regional do INCRA no PIAUÍ– CONVÊNIO.",
-      "orgao": "MINISTÉRIO DO DESENVOLVIMENTO AGRÁRIO E AGRICULTURA FAMILIAR",
-      "status": "CADASTRADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220320260019",
-      "codigo_programa": "2220320260019",
-      "nome": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317. 00SX.0031 – Ação: Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - No Estado de Minas Gerais – RP (7)",
-      "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "5600020260023",
-      "codigo_programa": "5600020260023",
-      "nome": "Programa 2319 - Acao 00T1 - Apoio a Politica Nacional de Desenvolvimento Urbano Voltado a Implantacao e Qualificacao Viaria – RP8",
-      "orgao": "MINISTERIO DAS CIDADES",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220320260025",
-      "codigo_programa": "2220320260025",
-      "nome": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317.00SX.7097 – Ação: Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - Na Região Integrada de Desenvolvimento do Distrito Federal e Entorno (RIDE) - Nacional – RP (7)",
-      "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2200020260016",
-      "codigo_programa": "2200020260016",
-      "nome": "Fomento ao Setor Agropecuário - Emendas de Comissão - CD - Termo de Fomento",
-      "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "5100020260005",
-      "codigo_programa": "5100020260005",
-      "nome": "Promo??o e Apoio ao Desenvolvimento do Futebol Masculino e Feminino - Termo de Fomento (RP 6) - SNFDT",
-      "orgao": "MINISTERIO DO ESPORTE",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2200020260005",
-      "codigo_programa": "2200020260005",
-      "nome": "Fomento ao Setor Agropecuário - Propostas Voluntárias - Termo de Fomento",
-      "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220120260014",
-      "codigo_programa": "2220120260014",
-      "nome": "INFRA-ESTRUTURA BÁSICA – SR(PR) Superintendência Regional do INCRA no PARANÁ– CONVÊNIO.",
-      "orgao": "MINISTÉRIO DO DESENVOLVIMENTO AGRÁRIO E AGRICULTURA FAMILIAR",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220320260004",
-      "codigo_programa": "2220320260004",
-      "nome": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317. 00SX.0015– Ação: Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - No Estado do Pará – RP (6)",
-      "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220320260039",
-      "codigo_programa": "2220320260039",
-      "nome": "2321 - Recursos Hídricos: Água em Quantidade e Qualidade para sempre: PT - 18.544.2321.15XV.0029 – Ação: Construção de Sistema Integrado de Abastecimento de Água - Adutora da Fé - No Estado da Bahia – RP (7)",
-      "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220320260023",
-      "codigo_programa": "2220320260023",
-      "nome": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317.00SX.7017 – Ação: Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - Equipamentos e Serviços - No Estado de Sergipe – RP (7)",
-      "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2200020260018",
-      "codigo_programa": "2200020260018",
-      "nome": "Fomento ao Setor Agropecuário - Proposta Voluntária -  Obras de Fomento",
-      "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220120260017",
-      "codigo_programa": "2220120260017",
-      "nome": "INFRA-ESTRUTURA BÁSICA – SR(MA) Superintendência Regional do INCRA no MARANHÃO– CONVÊNIO.",
-      "orgao": "MINISTÉRIO DO DESENVOLVIMENTO AGRÁRIO E AGRICULTURA FAMILIAR",
-      "status": "CADASTRADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2200020260009",
-      "codigo_programa": "2200020260009",
-      "nome": "Fomento ao Setor Agropecuário - Emenda da Bancada do Espírito Santo",
-      "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2200020260006",
-      "codigo_programa": "2200020260006",
-      "nome": "Programa Nacional de Estradas Rurais - PRONER",
-      "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2629820260001",
-      "codigo_programa": "2629820260001",
-      "nome": "Programa SIMEC/PAR",
-      "orgao": "MINISTERIO DA EDUCACAO",
-      "status": "CADASTRADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2629820260003",
-      "codigo_programa": "2629820260003",
-      "nome": "Apoio as Entidades Privadas Sem Fins Lucrativos",
-      "orgao": "MINISTERIO DA EDUCACAO",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "8400020260003",
-      "codigo_programa": "8400020260003",
-      "nome": "21IL - Aldeia Produtiva",
-      "orgao": "MINISTERIO DOS POVOS INDIGENAS",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220320260024",
-      "codigo_programa": "2220320260024",
-      "nome": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317.00SX.7026 – Ação: Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - Aquisição de Equipamentos - No Estado de Goiás – RP (7)",
-      "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220120260032",
-      "codigo_programa": "2220120260032",
-      "nome": "INFRA-ESTRUTURA BÁSICA – SR(PA/SE) Superintendência Regional do INCRA no SUDESTE DO PARÁ – CONVÊNIO.",
-      "orgao": "MINISTÉRIO DO DESENVOLVIMENTO AGRÁRIO E AGRICULTURA FAMILIAR",
-      "status": "CADASTRADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220320260007",
-      "codigo_programa": "2220320260007",
-      "nome": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317. 00SX.0022 – Ação: Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - No Estado do Piauí – RP (7)",
-      "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220120260007",
-      "codigo_programa": "2220120260007",
-      "nome": "INFRA-ESTRUTURA BÁSICA – SR(CE) Superintendência Regional do INCRA no CEARÁ– CONVÊNIO.",
-      "orgao": "MINISTÉRIO DO DESENVOLVIMENTO AGRÁRIO E AGRICULTURA FAMILIAR",
-      "status": "CADASTRADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220120260023",
-      "codigo_programa": "2220120260023",
-      "nome": "INFRA-ESTRUTURA BÁSICA – SR(PB) Superintendência Regional do INCRA na PARAIBA– CONVÊNIO.",
-      "orgao": "MINISTÉRIO DO DESENVOLVIMENTO AGRÁRIO E AGRICULTURA FAMILIAR",
-      "status": "CADASTRADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220120260013",
-      "codigo_programa": "2220120260013",
-      "nome": "INFRA-ESTRUTURA BÁSICA – SR(SP) Superintendência Regional do INCRA de SÃO PAULO– CONVÊNIO",
-      "orgao": "MINISTÉRIO DO DESENVOLVIMENTO AGRÁRIO E AGRICULTURA FAMILIAR",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220320260029",
-      "codigo_programa": "2220320260029",
-      "nome": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317. 00VH.0029 – Ação: Apoio a Projetos para Desenvolvimento Regional - No Estado da Bahia – RP (6)",
-      "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220320260006",
-      "codigo_programa": "2220320260006",
-      "nome": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317. 00SX.0021 – Ação: Apoio a Projetos de Desenvolvimento Sustentável Local Integrado -  No Estado do Maranhão – RP (6)",
-      "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220320260026",
-      "codigo_programa": "2220320260026",
-      "nome": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317.00SX.7103 – Ação: Apoio a Projetos de Desenvolvimento Sustentável Local Integrado -  Aquisição de Equipamentos e Serviços - No Estado do Rio Grande do Norte (CODEVASF) -  – RP (7)",
-      "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2629820260002",
-      "codigo_programa": "2629820260002",
-      "nome": "Apoio as Entidades de Ensino Superior Nao Federais",
-      "orgao": "MINISTERIO DA EDUCACAO",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220320260041",
-      "codigo_programa": "2220320260041",
-      "nome": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT – 20.608.2317. 214S.0002 – Ação: Estruturação e Dinamização de Atividades Produtivas (Rotas de Integração Nacional e Bioeconomia) - Exterior – RP (6)",
-      "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220120260028",
-      "codigo_programa": "2220120260028",
-      "nome": "INFRA-ESTRUTURA BÁSICA – SR(SE) Superintendência Regional do INCRA de SERGIPE– CONVÊNIO.",
-      "orgao": "MINISTÉRIO DO DESENVOLVIMENTO AGRÁRIO E AGRICULTURA FAMILIAR",
-      "status": "CADASTRADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220120260033",
-      "codigo_programa": "2220120260033",
-      "nome": "INFRA-ESTRUTURA BÁSICA – SR(DF) Superintendência Regional do INCRA no DISTRITO FEDERAL E ENTORNO– CONVÊNIO.",
-      "orgao": "MINISTÉRIO DO DESENVOLVIMENTO AGRÁRIO E AGRICULTURA FAMILIAR",
-      "status": "CADASTRADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220320260035",
-      "codigo_programa": "2220320260035",
-      "nome": "2321 - Recursos Hídricos: Água em Quantidade e Qualidade para sempre – PT 18.544.2321.00TB.0041 - Ação: Apoio à Implantação, Ampliação ou Melhorias de Infraestruturas de Oferta de Água para Segurança Hídrica - No Estado do Paraná – RP (6)",
-      "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220320260017",
-      "codigo_programa": "2220320260017",
-      "nome": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317. 00SX.0029 – Ação: Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - No Estado da Bahia – RP (7)",
-      "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220320260037",
-      "codigo_programa": "2220320260037",
-      "nome": "2321 - Recursos Hídricos: Água em Quantidade e Qualidade para sempre -  PT 18.544.2321.14VI.0022 - Ação: Implantação de Infraestruturas para Segurança Hídrica  – No Estado do Piauí RP (2)",
-      "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220320260016",
-      "codigo_programa": "2220320260016",
-      "nome": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317. 00SX.0029 – Ação: Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - No Estado da Bahia – RP (6)",
-      "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220120260048",
-      "codigo_programa": "2220120260048",
-      "nome": "Fomento ao Setor Agropecuário – Investimento SR(PA) Superintendência Regional do INCRA no estado do Rio Grande do Sul - SR(11)RS– CONVÊNIO.",
-      "orgao": "MINISTÉRIO DO DESENVOLVIMENTO AGRÁRIO E AGRICULTURA FAMILIAR",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220320260008",
-      "codigo_programa": "2220320260008",
-      "nome": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317. 00SX.0023 – Ação: Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - No Estado do Ceará – RP (6)",
-      "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220320260012",
-      "codigo_programa": "2220320260012",
-      "nome": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317. 00SX.0025 – Ação: Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - No Estado da Paraíba – RP (7)",
-      "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2200020260007",
-      "codigo_programa": "2200020260007",
-      "nome": "Fomento ao Setor Agropecuário - Emenda da Bancada de Alagoas",
-      "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220320260033",
-      "codigo_programa": "2220320260033",
-      "nome": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317. 00VH.7004 – Ação: Apoio a Projetos para Desenvolvimento Regional - Obras na Região Metropolitana de Gurupi - No Estado do Tocantins – RP (7)",
-      "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220320260044",
-      "codigo_programa": "2220320260044",
-      "nome": "2317 - (TED 7AADAF SDR/MIDR) Desenvolvimento Regional e Ordenamento Territorial: PT 15.244.2317.00SX.0001/ Ação:  Apoio a Projetos de Desenvolvimento Sustentável Local Integrado/ RP (2)",
-      "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220320260001",
-      "codigo_programa": "2220320260001",
-      "nome": "0032 - Programa de Gestão e Manutenção do Poder Executivo: PT - 04.122.0032. 2000.0001 – Ação: Administração da Unidade - Nacional – RP (2)",
-      "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "5600020260013",
-      "codigo_programa": "5600020260013",
-      "nome": "SNDUM - MCidades 00SY - Apoio a Projetos e Obras de Reabilitação, de Acessibilidade e Modernização Tecnológica em Áreas Urbanas - RP7",
-      "orgao": "MINISTERIO DAS CIDADES",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220120260015",
-      "codigo_programa": "2220120260015",
-      "nome": "INFRA-ESTRUTURA BÁSICA – SR(SC) Superintendência Regional do INCRA de SANTA CATARINA– CONVÊNIO.",
-      "orgao": "MINISTÉRIO DO DESENVOLVIMENTO AGRÁRIO E AGRICULTURA FAMILIAR",
-      "status": "CADASTRADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220320260027",
-      "codigo_programa": "2220320260027",
-      "nome": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317. 00VH.0026 – Ação: Apoio a Projetos para Desenvolvimento Regional - No Estado de Pernambuco – RP (6)",
-      "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2200020260010",
-      "codigo_programa": "2200020260010",
-      "nome": "Fomento ao Setor Agropecuário - Emenda da Bancada do Rio de Janeiro",
-      "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2200020260014",
-      "codigo_programa": "2200020260014",
-      "nome": "Fomento ao Setor Agropecuário - Emendas de Comissão CD",
-      "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220320260021",
-      "codigo_programa": "2220320260021",
-      "nome": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317. 00SX.0052 – Ação: Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - No Estado de Goiás – RP (6)",
-      "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220320260036",
-      "codigo_programa": "2220320260036",
-      "nome": "2321 - Recursos Hídricos: Água em Quantidade e Qualidade para sempre – PT 18.544.2321.00TB.7001 - Ação: Apoio à Implantação, Ampliação ou Melhorias de Infraestruturas de Oferta de Água para Segurança Hídrica - Construção do Canal do Sertão Baiano – RP (7)",
-      "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220120260034",
-      "codigo_programa": "2220120260034",
-      "nome": "INFRA-ESTRUTURA BÁSICA – SR(PA/O) Superintendência Regional do INCRA no OESTE DO PARÁ – CONVÊNIO.",
-      "orgao": "MINISTÉRIO DO DESENVOLVIMENTO AGRÁRIO E AGRICULTURA FAMILIAR",
-      "status": "CADASTRADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220120260027",
-      "codigo_programa": "2220120260027",
-      "nome": "INFRA-ESTRUTURA BÁSICA – SR(AL) Superintendência Regional do INCRA de ALAGOAS– CONVÊNIO.",
-      "orgao": "MINISTÉRIO DO DESENVOLVIMENTO AGRÁRIO E AGRICULTURA FAMILIAR",
-      "status": "CADASTRADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220320260040",
-      "codigo_programa": "2220320260040",
-      "nome": "2321 - Recursos Hídricos: Água em Quantidade e Qualidade para sempre: PT - 18.544.2321.1851.0029 – Ação: Aquisição de Equipamentos e/ou Implantação de Obras de Infraestrutura Hídrica de Pequeno e Médio Vulto - No Estado da Bahia – RP (6)",
-      "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220120260016",
-      "codigo_programa": "2220120260016",
-      "nome": "INFRA-ESTRUTURA BÁSICA – SR(RS) Superintendência Regional do INCRA no RIO GRANDE DO SUL– CONVÊNIO.",
-      "orgao": "MINISTÉRIO DO DESENVOLVIMENTO AGRÁRIO E AGRICULTURA FAMILIAR",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2220320260042",
-      "codigo_programa": "2220320260042",
-      "nome": "2322 - Saneamento Básico: PT 17.512.2322. 00UM.0001 / Ação: Apoio à Implantação, Ampliação, Manutenção, Melhoria ou Adequação de Sistemas de Esgotamento Sanitário na Área de Atuação da Codevasf / RP (2)",
-      "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-      "status": "DISPONIBILIZADO",
-      "carteira": "Multisetorial / Geral",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "31/12/2026",
-      "dias_restantes": 134,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    },
-    {
-      "id": "2060320080057",
-      "codigo_programa": "2060320080057",
-      "nome": "1388 - CIÊNCIA, TECNOLOGIA E INOVAÇÃO PARA A POLÍTICA INDUSTRIAL, TECNOLÓGICA E DE COMÉRCIO EXTERIOR",
-      "orgao": "MINISTÉRIO DO DESENVOLVIMENTO, INDÚSTRIA, COMÉRCIO E SERVIÇOS",
-      "status": "CADASTRADO",
-      "carteira": "Inovação",
-      "publico_alvo": "Administração Pública / OSCs / Consórcios",
-      "prazo_fim": "15/12/5008",
-      "dias_restantes": 1089271,
-      "link_transferegov": "https://portal.transferegov.sistema.gov.br/"
-    }
+ "versao": "1.0",
+ "gerado_em": "2026-08-19T05:31:27.349208",
+ "uf": "PB",
+ "origem": {
+  "repositorio": "https://repositorio.dados.gov.br/seges/detru/",
+  "modulo": "Transferências Discricionárias (SICONV)",
+  "atualizada_em": "2026-07-17T12:15:56+00:00",
+  "defasagem_dias": 32,
+  "defasada": true
+ },
+ "resumo": {
+  "abertas": 97,
+  "urgentes": 6,
+  "aderentes": 35,
+  "novas": 0,
+  "propostas_recentes": 0,
+  "encerradas": 0
+ },
+ "filtros": {
+  "naturezas": [
+   "Administração Pública Estadual ou do Distrito Federal",
+   "Administração Pública Municipal",
+   "Empresa pública/Sociedade de economia mista",
+   "Organização da Sociedade Civil",
+   "Consórcio Público"
+  ],
+  "canais": [
+   "emenda",
+   "proposta"
+  ],
+  "orgaos": [
+   "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
+   "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
+   "MINISTERIO DA EDUCACAO",
+   "MINISTERIO DAS CIDADES",
+   "MINISTÉRIO DO DESENVOLVIMENTO AGRÁRIO E AGRICULTURA FAMILIAR",
+   "MINISTERIO DA SAUDE",
+   "MINISTERIO DA JUSTICA E SEGURANCA PUBLICA",
+   "MINISTERIO DO ESPORTE",
+   "MINISTERIO DA CULTURA",
+   "MINISTÉRIO DA PESCA E AQUICULTURA",
+   "MINISTERIO DOS POVOS INDIGENAS"
   ]
+ },
+ "oportunidades": [
+  {
+   "id": "4ea5cbcdc848",
+   "programa": "SENAD - Programa Território Seguro, Amazônia Soberana: Proteção da Amazônia e da Faixa de Fronteira – Eixo 6 – FIIS",
+   "orgao": "MINISTERIO DA JUSTICA E SEGURANCA PUBLICA",
+   "natureza": "Administração Pública Estadual ou do Distrito Federal",
+   "canal": "proposta",
+   "modalidade": "TERMO DE COMPROMISSO",
+   "situacao": "CADASTRADO",
+   "abre": "2026-07-20",
+   "fecha": "2026-08-20",
+   "dias_restantes": 1,
+   "urgente": true,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "3000020260025"
+   ],
+   "propostas_recebidas": 0
+  },
+  {
+   "id": "a0692bf5dc4b",
+   "programa": "SENAD - TERRITÓRIO SEGURO, AMAZÔNIA SOBERANA",
+   "orgao": "MINISTERIO DA JUSTICA E SEGURANCA PUBLICA",
+   "natureza": "Administração Pública Estadual ou do Distrito Federal",
+   "canal": "proposta",
+   "modalidade": "TERMO DE COMPROMISSO",
+   "situacao": "CADASTRADO",
+   "abre": "2026-07-20",
+   "fecha": "2026-08-20",
+   "dias_restantes": 1,
+   "urgente": true,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "3091220260006"
+   ],
+   "propostas_recebidas": 0
+  },
+  {
+   "id": "5d7381e1833d",
+   "programa": "SENAPPEN - Programa Brasil Contra o Crime Organizado – Eixo 4 – FIIS",
+   "orgao": "MINISTERIO DA JUSTICA E SEGURANCA PUBLICA",
+   "natureza": "Administração Pública Estadual ou do Distrito Federal",
+   "canal": "proposta",
+   "modalidade": "TERMO DE COMPROMISSO",
+   "situacao": "CADASTRADO",
+   "abre": "2026-07-20",
+   "fecha": "2026-08-20",
+   "dias_restantes": 1,
+   "urgente": true,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "3000020260023"
+   ],
+   "propostas_recebidas": 0
+  },
+  {
+   "id": "355cbff26296",
+   "programa": "SENASP - Programa Brasil contra o Crime Organizado – Eixos 1, 2, 3 e 5 – FIIS",
+   "orgao": "MINISTERIO DA JUSTICA E SEGURANCA PUBLICA",
+   "natureza": "Administração Pública Estadual ou do Distrito Federal",
+   "canal": "proposta",
+   "modalidade": "TERMO DE COMPROMISSO",
+   "situacao": "CADASTRADO",
+   "abre": "2026-07-20",
+   "fecha": "2026-08-20",
+   "dias_restantes": 1,
+   "urgente": true,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "3000020260002"
+   ],
+   "propostas_recebidas": 0
+  },
+  {
+   "id": "9a0d81a2b0df",
+   "programa": "Preservação do Patrimônio Cultural Brasileiro",
+   "orgao": "MINISTERIO DA CULTURA",
+   "natureza": "Organização da Sociedade Civil",
+   "canal": "emenda",
+   "modalidade": "TERMO DE FOMENTO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-06-24",
+   "fecha": "2026-08-24",
+   "dias_restantes": 5,
+   "urgente": true,
+   "nova": false,
+   "aderente": true,
+   "temas": [
+    "cultura",
+    "patrimônio"
+   ],
+   "codigos": [
+    "2041120260006"
+   ],
+   "propostas_recebidas": 2
+  },
+  {
+   "id": "d871de0b3c1f",
+   "programa": "Preservação do Patrimônio Cultural Brasileiro",
+   "orgao": "MINISTERIO DA CULTURA",
+   "natureza": "Administração Pública Municipal",
+   "canal": "emenda",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-06-24",
+   "fecha": "2026-08-24",
+   "dias_restantes": 5,
+   "urgente": true,
+   "nova": false,
+   "aderente": true,
+   "temas": [
+    "cultura",
+    "patrimônio"
+   ],
+   "codigos": [
+    "2041120260007"
+   ],
+   "propostas_recebidas": 0
+  },
+  {
+   "id": "1b04d6c1723c",
+   "programa": "5801 - Pesca e Aquicultura Sustentáveis",
+   "orgao": "MINISTÉRIO DA PESCA E AQUICULTURA",
+   "natureza": "Organização da Sociedade Civil",
+   "canal": "emenda",
+   "modalidade": "TERMO DE FOMENTO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-19",
+   "fecha": "2026-12-15",
+   "dias_restantes": 118,
+   "urgente": false,
+   "nova": false,
+   "aderente": true,
+   "temas": [
+    "cultura"
+   ],
+   "codigos": [
+    "5800020260003",
+    "5800020260005"
+   ],
+   "propostas_recebidas": 16
+  },
+  {
+   "id": "01a9a6eb7db5",
+   "programa": "IMPLANTACAO, DESENVOLVIMENTO E MANUTENCAO DE SAUDE DIGITAL, TELESSAUDE E INOVACAO NO SUS",
+   "orgao": "MINISTERIO DA SAUDE",
+   "natureza": "Consórcio Público",
+   "canal": "emenda",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-05-21",
+   "fecha": "2026-12-30",
+   "dias_restantes": 133,
+   "urgente": false,
+   "nova": false,
+   "aderente": true,
+   "temas": [
+    "inovac"
+   ],
+   "codigos": [
+    "3600020260073"
+   ],
+   "propostas_recebidas": 1
+  },
+  {
+   "id": "c35a9526d849",
+   "programa": "IMPLANTACAO, DESENVOLVIMENTO E MANUTENCAO DE SAUDE DIGITAL, TELESSAUDE E INOVACAO NO SUS",
+   "orgao": "MINISTERIO DA SAUDE",
+   "natureza": "Administração Pública Municipal",
+   "canal": "emenda",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-05-21",
+   "fecha": "2026-12-30",
+   "dias_restantes": 133,
+   "urgente": false,
+   "nova": false,
+   "aderente": true,
+   "temas": [
+    "inovac"
+   ],
+   "codigos": [
+    "3600020260073"
+   ],
+   "propostas_recebidas": 1
+  },
+  {
+   "id": "42341e387caa",
+   "programa": "IMPLANTACAO, DESENVOLVIMENTO E MANUTENCAO DE SAUDE DIGITAL, TELESSAUDE E INOVACAO NO SUS",
+   "orgao": "MINISTERIO DA SAUDE",
+   "natureza": "Empresa pública/Sociedade de economia mista",
+   "canal": "emenda",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-05-21",
+   "fecha": "2026-12-30",
+   "dias_restantes": 133,
+   "urgente": false,
+   "nova": false,
+   "aderente": true,
+   "temas": [
+    "inovac"
+   ],
+   "codigos": [
+    "3600020260073"
+   ],
+   "propostas_recebidas": 1
+  },
+  {
+   "id": "972ba92ca317",
+   "programa": "IMPLANTACAO, DESENVOLVIMENTO E MANUTENCAO DE SAUDE DIGITAL, TELESSAUDE E INOVACAO NO SUS",
+   "orgao": "MINISTERIO DA SAUDE",
+   "natureza": "Administração Pública Estadual ou do Distrito Federal",
+   "canal": "emenda",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-05-21",
+   "fecha": "2026-12-30",
+   "dias_restantes": 133,
+   "urgente": false,
+   "nova": false,
+   "aderente": true,
+   "temas": [
+    "inovac"
+   ],
+   "codigos": [
+    "3600020260073"
+   ],
+   "propostas_recebidas": 1
+  },
+  {
+   "id": "20cec2fdd7b4",
+   "programa": "0032 - Programa de Gestão e Manutenção do Poder Executivo: PT - 04.122.0032. 2000.0001 – Ação: Administração da Unidade - Nacional – RP (2)",
+   "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
+   "natureza": "Administração Pública Municipal",
+   "canal": "emenda",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-03",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2220320260001"
+   ],
+   "propostas_recebidas": 0
+  },
+  {
+   "id": "053054784aa4",
+   "programa": "0032 - Programa de Gestão e Manutenção do Poder Executivo: PT - 04.122.0032. 2000.0001 – Ação: Administração da Unidade - Nacional – RP (2)",
+   "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
+   "natureza": "Empresa pública/Sociedade de economia mista",
+   "canal": "emenda",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-03",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2220320260001"
+   ],
+   "propostas_recebidas": 0
+  },
+  {
+   "id": "af95670453ac",
+   "programa": "0032 - Programa de Gestão e Manutenção do Poder Executivo: PT - 04.122.0032. 2000.0001 – Ação: Administração da Unidade - Nacional – RP (2)",
+   "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
+   "natureza": "Administração Pública Estadual ou do Distrito Federal",
+   "canal": "emenda",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-03",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2220320260001"
+   ],
+   "propostas_recebidas": 0
+  },
+  {
+   "id": "7f226d041b3e",
+   "programa": "21IL - Aldeia Produtiva",
+   "orgao": "MINISTERIO DOS POVOS INDIGENAS",
+   "natureza": "Organização da Sociedade Civil",
+   "canal": "emenda",
+   "modalidade": "TERMO DE FOMENTO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-03-09",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "8400020260003"
+   ],
+   "propostas_recebidas": 1
+  },
+  {
+   "id": "301d46156f0e",
+   "programa": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317. 00SX.0001 – Ação: Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - Nacional – RP (2)",
+   "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
+   "natureza": "Administração Pública Estadual ou do Distrito Federal",
+   "canal": "emenda",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-03",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": true,
+   "temas": [
+    "desenvolvimento regional"
+   ],
+   "codigos": [
+    "2220320260002"
+   ],
+   "propostas_recebidas": 0
+  },
+  {
+   "id": "51cd8e5dc383",
+   "programa": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317. 00SX.0001 – Ação: Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - Nacional – RP (2)",
+   "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
+   "natureza": "Empresa pública/Sociedade de economia mista",
+   "canal": "emenda",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-03",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": true,
+   "temas": [
+    "desenvolvimento regional"
+   ],
+   "codigos": [
+    "2220320260002"
+   ],
+   "propostas_recebidas": 0
+  },
+  {
+   "id": "85f7d90d887f",
+   "programa": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317. 00SX.0001 – Ação: Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - Nacional – RP (2)",
+   "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
+   "natureza": "Administração Pública Municipal",
+   "canal": "emenda",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-03",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": true,
+   "temas": [
+    "desenvolvimento regional"
+   ],
+   "codigos": [
+    "2220320260002"
+   ],
+   "propostas_recebidas": 0
+  },
+  {
+   "id": "cb004613f69b",
+   "programa": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317. 00SX.0001 – Ação: Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - Nacional – RP (6)",
+   "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
+   "natureza": "Administração Pública Municipal",
+   "canal": "emenda",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-03",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": true,
+   "temas": [
+    "desenvolvimento regional"
+   ],
+   "codigos": [
+    "2220320260003"
+   ],
+   "propostas_recebidas": 0
+  },
+  {
+   "id": "3459dc87ca8a",
+   "programa": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317. 00SX.0001 – Ação: Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - Nacional – RP (6)",
+   "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
+   "natureza": "Administração Pública Estadual ou do Distrito Federal",
+   "canal": "emenda",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-03",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": true,
+   "temas": [
+    "desenvolvimento regional"
+   ],
+   "codigos": [
+    "2220320260003"
+   ],
+   "propostas_recebidas": 0
+  },
+  {
+   "id": "27c263d9781f",
+   "programa": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317. 00SX.0001 – Ação: Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - Nacional – RP (6)",
+   "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
+   "natureza": "Empresa pública/Sociedade de economia mista",
+   "canal": "emenda",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-03",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": true,
+   "temas": [
+    "desenvolvimento regional"
+   ],
+   "codigos": [
+    "2220320260003"
+   ],
+   "propostas_recebidas": 0
+  },
+  {
+   "id": "0000e14f8257",
+   "programa": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317. 00SX.0025 – Ação: Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - No Estado da Paraíba – RP (6)",
+   "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
+   "natureza": "Administração Pública Municipal",
+   "canal": "emenda",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-03",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": true,
+   "temas": [
+    "desenvolvimento regional"
+   ],
+   "codigos": [
+    "2220320260011"
+   ],
+   "propostas_recebidas": 0
+  },
+  {
+   "id": "60074b1ac682",
+   "programa": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317. 00SX.0025 – Ação: Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - No Estado da Paraíba – RP (6)",
+   "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
+   "natureza": "Empresa pública/Sociedade de economia mista",
+   "canal": "emenda",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-03",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": true,
+   "temas": [
+    "desenvolvimento regional"
+   ],
+   "codigos": [
+    "2220320260011"
+   ],
+   "propostas_recebidas": 0
+  },
+  {
+   "id": "0aceb1eaf2f8",
+   "programa": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317. 00SX.0025 – Ação: Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - No Estado da Paraíba – RP (6)",
+   "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
+   "natureza": "Administração Pública Estadual ou do Distrito Federal",
+   "canal": "emenda",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-03",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": true,
+   "temas": [
+    "desenvolvimento regional"
+   ],
+   "codigos": [
+    "2220320260011"
+   ],
+   "propostas_recebidas": 0
+  },
+  {
+   "id": "a3bbd0585e55",
+   "programa": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317. 00SX.0025 – Ação: Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - No Estado da Paraíba – RP (7)",
+   "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
+   "natureza": "Empresa pública/Sociedade de economia mista",
+   "canal": "emenda",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-03",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": true,
+   "temas": [
+    "desenvolvimento regional"
+   ],
+   "codigos": [
+    "2220320260012"
+   ],
+   "propostas_recebidas": 0
+  },
+  {
+   "id": "162fcce65fd1",
+   "programa": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317. 00SX.0025 – Ação: Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - No Estado da Paraíba – RP (7)",
+   "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
+   "natureza": "Administração Pública Municipal",
+   "canal": "emenda",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-03",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": true,
+   "temas": [
+    "desenvolvimento regional"
+   ],
+   "codigos": [
+    "2220320260012"
+   ],
+   "propostas_recebidas": 0
+  },
+  {
+   "id": "aaf1a88a9af9",
+   "programa": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317. 00SX.0025 – Ação: Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - No Estado da Paraíba – RP (7)",
+   "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
+   "natureza": "Administração Pública Estadual ou do Distrito Federal",
+   "canal": "emenda",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-03",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": true,
+   "temas": [
+    "desenvolvimento regional"
+   ],
+   "codigos": [
+    "2220320260012"
+   ],
+   "propostas_recebidas": 0
+  },
+  {
+   "id": "d75a5ad65e0c",
+   "programa": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317.00SX.7097 – Ação: Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - Na Região Integrada de Desenvolvimento do Distrito Federal e Entorno (RIDE) - Nacional – RP (7)",
+   "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
+   "natureza": "Administração Pública Estadual ou do Distrito Federal",
+   "canal": "emenda",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-04",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": true,
+   "temas": [
+    "desenvolvimento regional"
+   ],
+   "codigos": [
+    "2220320260025"
+   ],
+   "propostas_recebidas": 0
+  },
+  {
+   "id": "03e48f20cfd9",
+   "programa": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317.00SX.7097 – Ação: Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - Na Região Integrada de Desenvolvimento do Distrito Federal e Entorno (RIDE) - Nacional – RP (7)",
+   "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
+   "natureza": "Administração Pública Municipal",
+   "canal": "emenda",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-04",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": true,
+   "temas": [
+    "desenvolvimento regional"
+   ],
+   "codigos": [
+    "2220320260025"
+   ],
+   "propostas_recebidas": 0
+  },
+  {
+   "id": "c8cc50dbb9e8",
+   "programa": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317.00SX.7097 – Ação: Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - Na Região Integrada de Desenvolvimento do Distrito Federal e Entorno (RIDE) - Nacional – RP (7)",
+   "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
+   "natureza": "Empresa pública/Sociedade de economia mista",
+   "canal": "emenda",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-04",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": true,
+   "temas": [
+    "desenvolvimento regional"
+   ],
+   "codigos": [
+    "2220320260025"
+   ],
+   "propostas_recebidas": 0
+  },
+  {
+   "id": "4ddc172633fc",
+   "programa": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT – 20.608.2317. 214S.0002 – Ação: Estruturação e Dinamização de Atividades Produtivas (Rotas de Integração Nacional e Bioeconomia) - Exterior – RP (6)",
+   "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
+   "natureza": "Administração Pública Municipal",
+   "canal": "emenda",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-05",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": true,
+   "temas": [
+    "desenvolvimento regional"
+   ],
+   "codigos": [
+    "2220320260041"
+   ],
+   "propostas_recebidas": 0
+  },
+  {
+   "id": "5c568c21afdd",
+   "programa": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT – 20.608.2317. 214S.0002 – Ação: Estruturação e Dinamização de Atividades Produtivas (Rotas de Integração Nacional e Bioeconomia) - Exterior – RP (6)",
+   "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
+   "natureza": "Empresa pública/Sociedade de economia mista",
+   "canal": "emenda",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-05",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": true,
+   "temas": [
+    "desenvolvimento regional"
+   ],
+   "codigos": [
+    "2220320260041"
+   ],
+   "propostas_recebidas": 0
+  },
+  {
+   "id": "8e1f67b3e3bd",
+   "programa": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT – 20.608.2317. 214S.0002 – Ação: Estruturação e Dinamização de Atividades Produtivas (Rotas de Integração Nacional e Bioeconomia) - Exterior – RP (6)",
+   "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
+   "natureza": "Administração Pública Estadual ou do Distrito Federal",
+   "canal": "emenda",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-05",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": true,
+   "temas": [
+    "desenvolvimento regional"
+   ],
+   "codigos": [
+    "2220320260041"
+   ],
+   "propostas_recebidas": 0
+  },
+  {
+   "id": "2efd52424050",
+   "programa": "2322 - Saneamento Básico: PT 17.512.2322. 00UM.0001 / Ação: Apoio à Implantação, Ampliação, Manutenção, Melhoria ou Adequação de Sistemas de Esgotamento Sanitário na Área de Atuação da Codevasf / RP (2)",
+   "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
+   "natureza": "Administração Pública Estadual ou do Distrito Federal",
+   "canal": "proposta",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-07-13",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": true,
+   "temas": [
+    "saneamento"
+   ],
+   "codigos": [
+    "2220320260042"
+   ],
+   "propostas_recebidas": 0
+  },
+  {
+   "id": "cbdcc1077d67",
+   "programa": "2322 - Saneamento Básico: PT 17.512.2322. 00UM.0001 / Ação: Apoio à Implantação, Ampliação, Manutenção, Melhoria ou Adequação de Sistemas de Esgotamento Sanitário na Área de Atuação da Codevasf / RP (2)",
+   "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
+   "natureza": "Administração Pública Municipal",
+   "canal": "proposta",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-07-13",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": true,
+   "temas": [
+    "saneamento"
+   ],
+   "codigos": [
+    "2220320260042"
+   ],
+   "propostas_recebidas": 0
+  },
+  {
+   "id": "2816f0e7f74a",
+   "programa": "5120 - Pesquisa, Desenvolvimento, Inovação, Produção e Avaliação de Tecnologias em Saúde",
+   "orgao": "MINISTERIO DA SAUDE",
+   "natureza": "Organização da Sociedade Civil",
+   "canal": "emenda",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-05-19",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": true,
+   "temas": [
+    "inovaç",
+    "tecnologia"
+   ],
+   "codigos": [
+    "3600020260072"
+   ],
+   "propostas_recebidas": 1
+  },
+  {
+   "id": "ffe0ca9c73d8",
+   "programa": "Apoio as Entidades Privadas Sem Fins Lucrativos",
+   "orgao": "MINISTERIO DA EDUCACAO",
+   "natureza": "Organização da Sociedade Civil",
+   "canal": "emenda",
+   "modalidade": "TERMO DE FOMENTO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-01-02",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2629820260003"
+   ],
+   "propostas_recebidas": 3
+  },
+  {
+   "id": "acc07c229b57",
+   "programa": "Apoio as Entidades de Ensino Superior Nao Federais",
+   "orgao": "MINISTERIO DA EDUCACAO",
+   "natureza": "Administração Pública Municipal",
+   "canal": "emenda",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-01-02",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2629820260002"
+   ],
+   "propostas_recebidas": 41
+  },
+  {
+   "id": "2e8f1c872f88",
+   "programa": "Apoio as Entidades de Ensino Superior Nao Federais",
+   "orgao": "MINISTERIO DA EDUCACAO",
+   "natureza": "Administração Pública Estadual ou do Distrito Federal",
+   "canal": "emenda",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-01-02",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2629820260002"
+   ],
+   "propostas_recebidas": 41
+  },
+  {
+   "id": "178c7c60b3af",
+   "programa": "Ações da Diretoria de Articulação e Inovação em Educação Aberta (DIEA) da Capes",
+   "orgao": "MINISTERIO DA EDUCACAO",
+   "natureza": "Organização da Sociedade Civil",
+   "canal": "proposta",
+   "modalidade": "TERMO DE FOMENTO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-01-16",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": true,
+   "temas": [
+    "inovaç"
+   ],
+   "codigos": [
+    "2629120260002"
+   ],
+   "propostas_recebidas": 2
+  },
+  {
+   "id": "0c648af8a6b2",
+   "programa": "Ações da Diretoria de Articulação e Inovação em Educação Aberta (DIEA) da Capes - PROEB e Inovação Tecnológica",
+   "orgao": "MINISTERIO DA EDUCACAO",
+   "natureza": "Administração Pública Municipal",
+   "canal": "proposta",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-03-10",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": true,
+   "temas": [
+    "inovaç"
+   ],
+   "codigos": [
+    "2629120260003"
+   ],
+   "propostas_recebidas": 1
+  },
+  {
+   "id": "d1e6a2cc1c36",
+   "programa": "Ações da Diretoria de Articulação e Inovação em Educação Aberta (DIEA) da Capes - PROEB e Inovação Tecnológica",
+   "orgao": "MINISTERIO DA EDUCACAO",
+   "natureza": "Administração Pública Estadual ou do Distrito Federal",
+   "canal": "proposta",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-03-10",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": true,
+   "temas": [
+    "inovaç"
+   ],
+   "codigos": [
+    "2629120260003"
+   ],
+   "propostas_recebidas": 1
+  },
+  {
+   "id": "8acb2d001271",
+   "programa": "Ações da Diretoria de Articulação e Inovação em Educação Aberta (DIEA) da Capes - PROEB e Inovação Tecnológica",
+   "orgao": "MINISTERIO DA EDUCACAO",
+   "natureza": "Organização da Sociedade Civil",
+   "canal": "proposta",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-03-10",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": true,
+   "temas": [
+    "inovaç"
+   ],
+   "codigos": [
+    "2629120260003"
+   ],
+   "propostas_recebidas": 1
+  },
+  {
+   "id": "9867885be618",
+   "programa": "Ações da Diretoria de Articulação e Inovação em Educação Aberta (DIEA) da Capes - Sistema UAB",
+   "orgao": "MINISTERIO DA EDUCACAO",
+   "natureza": "Organização da Sociedade Civil",
+   "canal": "proposta",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-03-10",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": true,
+   "temas": [
+    "inovaç"
+   ],
+   "codigos": [
+    "2629120260004"
+   ],
+   "propostas_recebidas": 3
+  },
+  {
+   "id": "ea7bef798acf",
+   "programa": "Ações da Diretoria de Articulação e Inovação em Educação Aberta (DIEA) da Capes - Sistema UAB",
+   "orgao": "MINISTERIO DA EDUCACAO",
+   "natureza": "Administração Pública Estadual ou do Distrito Federal",
+   "canal": "proposta",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-03-10",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": true,
+   "temas": [
+    "inovaç"
+   ],
+   "codigos": [
+    "2629120260004"
+   ],
+   "propostas_recebidas": 3
+  },
+  {
+   "id": "31e031f9c6ec",
+   "programa": "Ações da Diretoria de Articulação e Inovação em Educação Aberta (DIEA) da Capes - Sistema UAB",
+   "orgao": "MINISTERIO DA EDUCACAO",
+   "natureza": "Administração Pública Municipal",
+   "canal": "proposta",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-03-10",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": true,
+   "temas": [
+    "inovaç"
+   ],
+   "codigos": [
+    "2629120260004"
+   ],
+   "propostas_recebidas": 3
+  },
+  {
+   "id": "d77b44c027b5",
+   "programa": "Fomento ao Setor Agropecu?rio - Emendas de Comiss?o SF",
+   "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
+   "natureza": "Consórcio Público",
+   "canal": "emenda",
+   "modalidade": "CONVENIO / CONVENIO OU CONTRATO DE REPASSE / CONTRATO DE REPASSE",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-11",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2200020260013"
+   ],
+   "propostas_recebidas": 337
+  },
+  {
+   "id": "dec2065c9ff1",
+   "programa": "Fomento ao Setor Agropecu?rio - Emendas de Comiss?o SF",
+   "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
+   "natureza": "Administração Pública Municipal",
+   "canal": "emenda",
+   "modalidade": "CONTRATO DE REPASSE / CONVENIO / CONVENIO OU CONTRATO DE REPASSE",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-11",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2200020260013"
+   ],
+   "propostas_recebidas": 337
+  },
+  {
+   "id": "b3e54e09cfb2",
+   "programa": "Fomento ao Setor Agropecu?rio - Emendas de Comiss?o SF",
+   "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
+   "natureza": "Administração Pública Estadual ou do Distrito Federal",
+   "canal": "emenda",
+   "modalidade": "CONTRATO DE REPASSE / CONVENIO / CONVENIO OU CONTRATO DE REPASSE",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-11",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2200020260013"
+   ],
+   "propostas_recebidas": 337
+  },
+  {
+   "id": "47cee2d527eb",
+   "programa": "Fomento ao Setor Agropecu?rio - Emendas de Comiss?o SF",
+   "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
+   "natureza": "Empresa pública/Sociedade de economia mista",
+   "canal": "emenda",
+   "modalidade": "CONVENIO / CONVENIO OU CONTRATO DE REPASSE / CONTRATO DE REPASSE",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-11",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2200020260013"
+   ],
+   "propostas_recebidas": 337
+  },
+  {
+   "id": "9582a616db34",
+   "programa": "Fomento ao Setor Agropecuário - Emenda de Comissão SF - Termo de Fomento",
+   "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
+   "natureza": "Organização da Sociedade Civil",
+   "canal": "emenda",
+   "modalidade": "TERMO DE FOMENTO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-11",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2200020260015"
+   ],
+   "propostas_recebidas": 24
+  },
+  {
+   "id": "cf37a9a57975",
+   "programa": "Fomento ao Setor Agropecuário - Emendas de Comissão - CD - Termo de Fomento",
+   "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
+   "natureza": "Organização da Sociedade Civil",
+   "canal": "emenda",
+   "modalidade": "TERMO DE FOMENTO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-11",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2200020260016"
+   ],
+   "propostas_recebidas": 5
+  },
+  {
+   "id": "3c579f3d9b90",
+   "programa": "Fomento ao Setor Agropecuário - Emendas de Comissão CD",
+   "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
+   "natureza": "Empresa pública/Sociedade de economia mista",
+   "canal": "emenda",
+   "modalidade": "CONVENIO / CONVENIO OU CONTRATO DE REPASSE / CONTRATO DE REPASSE",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-11",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2200020260014"
+   ],
+   "propostas_recebidas": 74
+  },
+  {
+   "id": "6894e90cac0b",
+   "programa": "Fomento ao Setor Agropecuário - Emendas de Comissão CD",
+   "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
+   "natureza": "Consórcio Público",
+   "canal": "emenda",
+   "modalidade": "CONVENIO / CONVENIO OU CONTRATO DE REPASSE / CONTRATO DE REPASSE",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-11",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2200020260014"
+   ],
+   "propostas_recebidas": 74
+  },
+  {
+   "id": "e06d7a704103",
+   "programa": "Fomento ao Setor Agropecuário - Emendas de Comissão CD",
+   "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
+   "natureza": "Administração Pública Estadual ou do Distrito Federal",
+   "canal": "emenda",
+   "modalidade": "CONVENIO / CONVENIO OU CONTRATO DE REPASSE / CONTRATO DE REPASSE",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-11",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2200020260014"
+   ],
+   "propostas_recebidas": 74
+  },
+  {
+   "id": "6c1e96702cc8",
+   "programa": "Fomento ao Setor Agropecuário - Emendas de Comissão CD",
+   "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
+   "natureza": "Administração Pública Municipal",
+   "canal": "emenda",
+   "modalidade": "CONVENIO / CONVENIO OU CONTRATO DE REPASSE / CONTRATO DE REPASSE",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-11",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2200020260014"
+   ],
+   "propostas_recebidas": 74
+  },
+  {
+   "id": "434a98934921",
+   "programa": "Fomento ao Setor Agropecuário - Proposta Voluntária -  Obras de Fomento",
+   "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
+   "natureza": "Administração Pública Municipal",
+   "canal": "proposta",
+   "modalidade": "CONTRATO DE REPASSE",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-10",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2200020260018"
+   ],
+   "propostas_recebidas": 606
+  },
+  {
+   "id": "26656fc749df",
+   "programa": "Fomento ao Setor Agropecuário - Proposta Voluntária -  Obras de Fomento",
+   "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
+   "natureza": "Empresa pública/Sociedade de economia mista",
+   "canal": "proposta",
+   "modalidade": "CONTRATO DE REPASSE",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-10",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2200020260018"
+   ],
+   "propostas_recebidas": 606
+  },
+  {
+   "id": "73cdb012fffd",
+   "programa": "Fomento ao Setor Agropecuário - Proposta Voluntária -  Obras de Fomento",
+   "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
+   "natureza": "Consórcio Público",
+   "canal": "proposta",
+   "modalidade": "CONTRATO DE REPASSE",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-10",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2200020260018"
+   ],
+   "propostas_recebidas": 606
+  },
+  {
+   "id": "e59d5f9eab85",
+   "programa": "Fomento ao Setor Agropecuário - Proposta Voluntária -  Obras de Fomento",
+   "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
+   "natureza": "Administração Pública Estadual ou do Distrito Federal",
+   "canal": "proposta",
+   "modalidade": "CONTRATO DE REPASSE",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-10",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2200020260018"
+   ],
+   "propostas_recebidas": 606
+  },
+  {
+   "id": "8378829739f1",
+   "programa": "Fomento ao Setor Agropecuário - Propostas Voluntárias",
+   "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
+   "natureza": "Empresa pública/Sociedade de economia mista",
+   "canal": "proposta",
+   "modalidade": "CONTRATO DE REPASSE / CONVENIO / CONVENIO OU CONTRATO DE REPASSE",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-09",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2200020260004"
+   ],
+   "propostas_recebidas": 3172
+  },
+  {
+   "id": "b2c5408b2011",
+   "programa": "Fomento ao Setor Agropecuário - Propostas Voluntárias",
+   "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
+   "natureza": "Consórcio Público",
+   "canal": "proposta",
+   "modalidade": "CONVENIO / CONVENIO OU CONTRATO DE REPASSE / CONTRATO DE REPASSE",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-09",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2200020260004"
+   ],
+   "propostas_recebidas": 3172
+  },
+  {
+   "id": "b237f52ed9e6",
+   "programa": "Fomento ao Setor Agropecuário - Propostas Voluntárias",
+   "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
+   "natureza": "Administração Pública Estadual ou do Distrito Federal",
+   "canal": "proposta",
+   "modalidade": "CONTRATO DE REPASSE / CONVENIO / CONVENIO OU CONTRATO DE REPASSE",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-09",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2200020260004"
+   ],
+   "propostas_recebidas": 3172
+  },
+  {
+   "id": "0579c8b1d875",
+   "programa": "Fomento ao Setor Agropecuário - Propostas Voluntárias",
+   "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
+   "natureza": "Administração Pública Municipal",
+   "canal": "proposta",
+   "modalidade": "CONVENIO / CONVENIO OU CONTRATO DE REPASSE / CONTRATO DE REPASSE",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-09",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2200020260004"
+   ],
+   "propostas_recebidas": 3172
+  },
+  {
+   "id": "82745b5d243c",
+   "programa": "Fomento ao Setor Agropecuário - Propostas Voluntárias - Termo de Fomento",
+   "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
+   "natureza": "Organização da Sociedade Civil",
+   "canal": "proposta",
+   "modalidade": "TERMO DE FOMENTO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-09",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2200020260005"
+   ],
+   "propostas_recebidas": 136
+  },
+  {
+   "id": "ed33108262f2",
+   "programa": "INFRA-ESTRUTURA BÁSICA – SR(PB) Superintendência Regional do INCRA na PARAIBA– CONVÊNIO.",
+   "orgao": "MINISTÉRIO DO DESENVOLVIMENTO AGRÁRIO E AGRICULTURA FAMILIAR",
+   "natureza": "Administração Pública Municipal",
+   "canal": "proposta",
+   "modalidade": "CONVENIO",
+   "situacao": "CADASTRADO",
+   "abre": "2026-03-11",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2220120260023"
+   ],
+   "propostas_recebidas": 0
+  },
+  {
+   "id": "41a3ff4c4bd5",
+   "programa": "INFRA-ESTRUTURA BÁSICA – SR(PB) Superintendência Regional do INCRA na PARAIBA– CONVÊNIO.",
+   "orgao": "MINISTÉRIO DO DESENVOLVIMENTO AGRÁRIO E AGRICULTURA FAMILIAR",
+   "natureza": "Administração Pública Estadual ou do Distrito Federal",
+   "canal": "proposta",
+   "modalidade": "CONVENIO",
+   "situacao": "CADASTRADO",
+   "abre": "2026-03-11",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2220120260023"
+   ],
+   "propostas_recebidas": 0
+  },
+  {
+   "id": "2364b5f0be18",
+   "programa": "INFRA-ESTRUTURA BÁSICA – SR(PB) Superintendência Regional do INCRA na PARAIBA– CONVÊNIO.",
+   "orgao": "MINISTÉRIO DO DESENVOLVIMENTO AGRÁRIO E AGRICULTURA FAMILIAR",
+   "natureza": "Consórcio Público",
+   "canal": "proposta",
+   "modalidade": "CONVENIO",
+   "situacao": "CADASTRADO",
+   "abre": "2026-03-11",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2220120260023"
+   ],
+   "propostas_recebidas": 0
+  },
+  {
+   "id": "75e6d3a8241d",
+   "programa": "INFRA-ESTRUTURA BÁSICA – SR(PB) Superintendência Regional do INCRA na PARAIBA– CONVÊNIO.",
+   "orgao": "MINISTÉRIO DO DESENVOLVIMENTO AGRÁRIO E AGRICULTURA FAMILIAR",
+   "natureza": "Administração Pública Estadual ou do Distrito Federal",
+   "canal": "emenda",
+   "modalidade": "CONVENIO",
+   "situacao": "CADASTRADO",
+   "abre": "2026-03-11",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2220120260023"
+   ],
+   "propostas_recebidas": 0
+  },
+  {
+   "id": "c3259725a3e1",
+   "programa": "INFRA-ESTRUTURA BÁSICA – SR(PB) Superintendência Regional do INCRA na PARAIBA– CONVÊNIO.",
+   "orgao": "MINISTÉRIO DO DESENVOLVIMENTO AGRÁRIO E AGRICULTURA FAMILIAR",
+   "natureza": "Administração Pública Municipal",
+   "canal": "emenda",
+   "modalidade": "CONVENIO",
+   "situacao": "CADASTRADO",
+   "abre": "2026-03-11",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2220120260023"
+   ],
+   "propostas_recebidas": 0
+  },
+  {
+   "id": "34e30792c8fc",
+   "programa": "INFRA-ESTRUTURA BÁSICA – SR(PB) Superintendência Regional do INCRA na PARAIBA– CONVÊNIO.",
+   "orgao": "MINISTÉRIO DO DESENVOLVIMENTO AGRÁRIO E AGRICULTURA FAMILIAR",
+   "natureza": "Consórcio Público",
+   "canal": "emenda",
+   "modalidade": "CONVENIO",
+   "situacao": "CADASTRADO",
+   "abre": "2026-03-11",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2220120260023"
+   ],
+   "propostas_recebidas": 0
+  },
+  {
+   "id": "eec35144bfaa",
+   "programa": "Programa 2319 - Acao 00T1 - Apoio a Politica Nacional de Desenvolvimento Urbano Voltado a Implantacao e Qualificacao Viaria – RP7",
+   "orgao": "MINISTERIO DAS CIDADES",
+   "natureza": "Administração Pública Estadual ou do Distrito Federal",
+   "canal": "emenda",
+   "modalidade": "CONTRATO DE REPASSE",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-11",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "5600020260022"
+   ],
+   "propostas_recebidas": 15
+  },
+  {
+   "id": "8ebbfcefe741",
+   "programa": "Programa 2319 - Acao 00T1 - Apoio a Politica Nacional de Desenvolvimento Urbano Voltado a Implantacao e Qualificacao Viaria – RP7",
+   "orgao": "MINISTERIO DAS CIDADES",
+   "natureza": "Consórcio Público",
+   "canal": "emenda",
+   "modalidade": "CONTRATO DE REPASSE",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-11",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "5600020260022"
+   ],
+   "propostas_recebidas": 15
+  },
+  {
+   "id": "b4af6f7996eb",
+   "programa": "Programa 2319 - Acao 00T1 - Apoio a Politica Nacional de Desenvolvimento Urbano Voltado a Implantacao e Qualificacao Viaria – RP7",
+   "orgao": "MINISTERIO DAS CIDADES",
+   "natureza": "Administração Pública Municipal",
+   "canal": "emenda",
+   "modalidade": "CONTRATO DE REPASSE",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-11",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "5600020260022"
+   ],
+   "propostas_recebidas": 15
+  },
+  {
+   "id": "2e7ad40690ee",
+   "programa": "Programa 2319 - Acao 00T1 - Apoio a Politica Nacional de Desenvolvimento Urbano Voltado a Implantacao e Qualificacao Viaria – RP8",
+   "orgao": "MINISTERIO DAS CIDADES",
+   "natureza": "Administração Pública Municipal",
+   "canal": "emenda",
+   "modalidade": "CONTRATO DE REPASSE",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-11",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "5600020260023"
+   ],
+   "propostas_recebidas": 964
+  },
+  {
+   "id": "cf9ce5d7a7b8",
+   "programa": "Programa 2319 - Acao 00T1 - Apoio a Politica Nacional de Desenvolvimento Urbano Voltado a Implantacao e Qualificacao Viaria – RP8",
+   "orgao": "MINISTERIO DAS CIDADES",
+   "natureza": "Administração Pública Estadual ou do Distrito Federal",
+   "canal": "emenda",
+   "modalidade": "CONTRATO DE REPASSE",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-11",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "5600020260023"
+   ],
+   "propostas_recebidas": 964
+  },
+  {
+   "id": "2aded7bb7891",
+   "programa": "Programa 2319 - Acao 00T1 - Apoio a Politica Nacional de Desenvolvimento Urbano Voltado a Implantacao e Qualificacao Viaria – RP8",
+   "orgao": "MINISTERIO DAS CIDADES",
+   "natureza": "Consórcio Público",
+   "canal": "emenda",
+   "modalidade": "CONTRATO DE REPASSE",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-11",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "5600020260023"
+   ],
+   "propostas_recebidas": 964
+  },
+  {
+   "id": "07ce3a9a42ea",
+   "programa": "Programa Brasileiro de Professores no CERN",
+   "orgao": "MINISTERIO DA EDUCACAO",
+   "natureza": "Organização da Sociedade Civil",
+   "canal": "proposta",
+   "modalidade": "TERMO DE FOMENTO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-01-02",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2629120260001"
+   ],
+   "propostas_recebidas": 1
+  },
+  {
+   "id": "9564fd6820fb",
+   "programa": "Programa Nacional de Estradas Rurais - PRONER",
+   "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
+   "natureza": "Empresa pública/Sociedade de economia mista",
+   "canal": "proposta",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-11",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2200020260006"
+   ],
+   "propostas_recebidas": 1917
+  },
+  {
+   "id": "5a44230f1beb",
+   "programa": "Programa Nacional de Estradas Rurais - PRONER",
+   "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
+   "natureza": "Administração Pública Municipal",
+   "canal": "proposta",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-11",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2200020260006"
+   ],
+   "propostas_recebidas": 1917
+  },
+  {
+   "id": "af92f20657aa",
+   "programa": "Programa Nacional de Estradas Rurais - PRONER",
+   "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
+   "natureza": "Consórcio Público",
+   "canal": "proposta",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-11",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2200020260006"
+   ],
+   "propostas_recebidas": 1917
+  },
+  {
+   "id": "d10e98b45a86",
+   "programa": "Programa Nacional de Estradas Rurais - PRONER",
+   "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
+   "natureza": "Administração Pública Estadual ou do Distrito Federal",
+   "canal": "proposta",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-11",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2200020260006"
+   ],
+   "propostas_recebidas": 1917
+  },
+  {
+   "id": "365eb8e0abd8",
+   "programa": "Programa Nacional de Modernização e Apoio à Produção Agrícola - PROMAQ",
+   "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
+   "natureza": "Administração Pública Municipal",
+   "canal": "proposta",
+   "modalidade": "TERMO DE COMPROMISSO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-11",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2200020260022"
+   ],
+   "propostas_recebidas": 2948
+  },
+  {
+   "id": "6343112db2fb",
+   "programa": "Programa Nacional de Modernização e Apoio à Produção Agrícola - PROMAQ",
+   "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
+   "natureza": "Empresa pública/Sociedade de economia mista",
+   "canal": "proposta",
+   "modalidade": "TERMO DE COMPROMISSO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-11",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2200020260022"
+   ],
+   "propostas_recebidas": 2948
+  },
+  {
+   "id": "fe6d7b97e356",
+   "programa": "Programa Nacional de Modernização e Apoio à Produção Agrícola - PROMAQ",
+   "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
+   "natureza": "Administração Pública Estadual ou do Distrito Federal",
+   "canal": "proposta",
+   "modalidade": "TERMO DE COMPROMISSO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-11",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2200020260022"
+   ],
+   "propostas_recebidas": 2948
+  },
+  {
+   "id": "ff5547bd1d19",
+   "programa": "Programa Nacional de Modernização e Apoio à Produção Agrícola - PROMAQ",
+   "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
+   "natureza": "Consórcio Público",
+   "canal": "proposta",
+   "modalidade": "TERMO DE COMPROMISSO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-11",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2200020260022"
+   ],
+   "propostas_recebidas": 2948
+  },
+  {
+   "id": "37d43e0e4aa6",
+   "programa": "Programa SIMEC/PAR",
+   "orgao": "MINISTERIO DA EDUCACAO",
+   "natureza": "Administração Pública Estadual ou do Distrito Federal",
+   "canal": "proposta",
+   "modalidade": "TERMO DE COMPROMISSO",
+   "situacao": "CADASTRADO",
+   "abre": "2026-01-02",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2629820260001"
+   ],
+   "propostas_recebidas": 338
+  },
+  {
+   "id": "e620a6161c78",
+   "programa": "Programa SIMEC/PAR",
+   "orgao": "MINISTERIO DA EDUCACAO",
+   "natureza": "Administração Pública Municipal",
+   "canal": "proposta",
+   "modalidade": "TERMO DE COMPROMISSO",
+   "situacao": "CADASTRADO",
+   "abre": "2026-01-02",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2629820260001"
+   ],
+   "propostas_recebidas": 338
+  },
+  {
+   "id": "798891922ee6",
+   "programa": "Programa SIMEC/PAR",
+   "orgao": "MINISTERIO DA EDUCACAO",
+   "natureza": "Administração Pública Municipal",
+   "canal": "emenda",
+   "modalidade": "TERMO DE COMPROMISSO",
+   "situacao": "CADASTRADO",
+   "abre": "2026-01-02",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2629820260001"
+   ],
+   "propostas_recebidas": 338
+  },
+  {
+   "id": "dc90984f5cef",
+   "programa": "Programa SIMEC/PAR",
+   "orgao": "MINISTERIO DA EDUCACAO",
+   "natureza": "Administração Pública Estadual ou do Distrito Federal",
+   "canal": "emenda",
+   "modalidade": "TERMO DE COMPROMISSO",
+   "situacao": "CADASTRADO",
+   "abre": "2026-01-02",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2629820260001"
+   ],
+   "propostas_recebidas": 338
+  },
+  {
+   "id": "a7b7abcf3939",
+   "programa": "Promo??o e Apoio ao Desenvolvimento do Futebol Masculino e Feminino - Termo de Fomento (RP 6) - SNFDT",
+   "orgao": "MINISTERIO DO ESPORTE",
+   "natureza": "Organização da Sociedade Civil",
+   "canal": "emenda",
+   "modalidade": "TERMO DE FOMENTO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-01-21",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "5100020260005"
+   ],
+   "propostas_recebidas": 84
+  },
+  {
+   "id": "8feff373fb53",
+   "programa": "Promoção e Apoio ao Desenvolvimento do Futebol Masculino e Feminino - Convênio (RP 6) - SNFDT",
+   "orgao": "MINISTERIO DO ESPORTE",
+   "natureza": "Administração Pública Estadual ou do Distrito Federal",
+   "canal": "emenda",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-18",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "5100020260006"
+   ],
+   "propostas_recebidas": 8
+  },
+  {
+   "id": "50747ecfbe6b",
+   "programa": "Promoção e Apoio ao Desenvolvimento do Futebol Masculino e Feminino - Convênio (RP 6) - SNFDT",
+   "orgao": "MINISTERIO DO ESPORTE",
+   "natureza": "Administração Pública Municipal",
+   "canal": "emenda",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-18",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "5100020260006"
+   ],
+   "propostas_recebidas": 8
+  },
+  {
+   "id": "8299038b90d5",
+   "programa": "SNDUM - MCidades 00SY - Apoio a Projetos e Obras de Reabilitação, de Acessibilidade e Modernização Tecnológica em Áreas Urbanas - RP7",
+   "orgao": "MINISTERIO DAS CIDADES",
+   "natureza": "Administração Pública Municipal",
+   "canal": "emenda",
+   "modalidade": "CONTRATO DE REPASSE",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-23",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "5600020260013"
+   ],
+   "propostas_recebidas": 3
+  },
+  {
+   "id": "418334b8e98f",
+   "programa": "SNDUM - MCidades 00SY - Apoio a Projetos e Obras de Reabilitação, de Acessibilidade e Modernização Tecnológica em Áreas Urbanas - RP7",
+   "orgao": "MINISTERIO DAS CIDADES",
+   "natureza": "Empresa pública/Sociedade de economia mista",
+   "canal": "emenda",
+   "modalidade": "CONTRATO DE REPASSE",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-23",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "5600020260013"
+   ],
+   "propostas_recebidas": 3
+  },
+  {
+   "id": "fcdaaf83be02",
+   "programa": "SNDUM - MCidades 00SY - Apoio a Projetos e Obras de Reabilitação, de Acessibilidade e Modernização Tecnológica em Áreas Urbanas - RP7",
+   "orgao": "MINISTERIO DAS CIDADES",
+   "natureza": "Administração Pública Estadual ou do Distrito Federal",
+   "canal": "emenda",
+   "modalidade": "CONTRATO DE REPASSE",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-23",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "5600020260013"
+   ],
+   "propostas_recebidas": 3
+  },
+  {
+   "id": "c3e682d2ccd1",
+   "programa": "SNDUM - MCidades 00SY - Apoio a Projetos e Obras de Reabilitação, de Acessibilidade e Modernização Tecnológica em Áreas Urbanas - RP7",
+   "orgao": "MINISTERIO DAS CIDADES",
+   "natureza": "Consórcio Público",
+   "canal": "emenda",
+   "modalidade": "CONTRATO DE REPASSE",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-23",
+   "fecha": "2026-12-31",
+   "dias_restantes": 134,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "5600020260013"
+   ],
+   "propostas_recebidas": 3
+  }
+ ],
+ "propostas_recentes": [],
+ "encerradas": []
 }
