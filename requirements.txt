@@ -1,2 +1,4 @@
 duckdb
 jsonschema
+beautifulsoup4
+pypdf

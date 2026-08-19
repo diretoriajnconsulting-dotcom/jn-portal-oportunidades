@@ -1,0 +1,157 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ponteprojetos.example/schemas/funding-opportunity-2.0.json",
+  "title": "PONTE Funding Intelligence — catálogo multifuente v2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "generated_at", "sources", "summary", "opportunities"],
+  "properties": {
+    "version": {"const": "2.0"},
+    "generated_at": {"type": "string", "format": "date-time"},
+    "sources": {"type": "array", "items": {"$ref": "#/$defs/sourceHealth"}},
+    "summary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["monitored", "open", "urgent", "new", "changed", "priority_a", "stale_sources"],
+      "properties": {
+        "monitored": {"type": "integer", "minimum": 0},
+        "open": {"type": "integer", "minimum": 0},
+        "urgent": {"type": "integer", "minimum": 0},
+        "new": {"type": "integer", "minimum": 0},
+        "changed": {"type": "integer", "minimum": 0},
+        "priority_a": {"type": "integer", "minimum": 0},
+        "stale_sources": {"type": "integer", "minimum": 0}
+      }
+    },
+    "opportunities": {"type": "array", "items": {"$ref": "#/$defs/opportunity"}}
+  },
+  "$defs": {
+    "nullableDate": {"type": ["string", "null"], "format": "date"},
+    "sourceHealth": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "url", "status", "checked_at", "last_success_at", "last_change_at", "opportunity_count", "consecutive_errors", "error"],
+      "properties": {
+        "id": {"type": "string"},
+        "name": {"type": "string"},
+        "url": {"type": "string", "format": "uri"},
+        "status": {"enum": ["healthy", "stale", "error"]},
+        "checked_at": {"type": "string", "format": "date-time"},
+        "last_success_at": {"type": ["string", "null"], "format": "date-time"},
+        "last_change_at": {"type": ["string", "null"], "format": "date-time"},
+        "opportunity_count": {"type": "integer", "minimum": 0},
+        "consecutive_errors": {"type": "integer", "minimum": 0},
+        "error": {"type": ["string", "null"]}
+      }
+    },
+    "document": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "url", "published"],
+      "properties": {
+        "title": {"type": "string"},
+        "url": {"type": "string", "format": "uri"},
+        "published": {"$ref": "#/$defs/nullableDate"}
+      }
+    },
+    "change": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["detected_at", "field", "before", "after", "impact_days", "source_document"],
+      "properties": {
+        "detected_at": {"type": "string", "format": "date-time"},
+        "field": {"enum": ["title", "status", "dates.deadline", "funding.program_budget"]},
+        "before": {},
+        "after": {},
+        "impact_days": {"type": ["integer", "null"]},
+        "source_document": {"type": ["string", "null"], "format": "uri"}
+      }
+    },
+    "match": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["portfolio_id", "portfolio_name", "score", "reasons"],
+      "properties": {
+        "portfolio_id": {"type": "string"},
+        "portfolio_name": {"type": "string"},
+        "score": {"type": "integer", "minimum": 0, "maximum": 100},
+        "reasons": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "opportunity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "source", "external_id", "title", "description", "funder", "instrument", "status", "dates", "eligibility", "themes", "funding", "documents", "changes", "matching"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+        "source": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["id", "name", "official", "url", "checked_at", "stale"],
+          "properties": {
+            "id": {"type": "string"},
+            "name": {"type": "string"},
+            "official": {"const": true},
+            "url": {"type": "string", "format": "uri"},
+            "checked_at": {"type": "string", "format": "date-time"},
+            "stale": {"type": "boolean"}
+          }
+        },
+        "external_id": {"type": ["string", "null"]},
+        "title": {"type": "string", "minLength": 3},
+        "description": {"type": ["string", "null"]},
+        "funder": {"type": "string", "minLength": 2},
+        "instrument": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["type", "repayable"],
+          "properties": {
+            "type": {"enum": ["subvencao_economica", "convenio", "termo_fomento", "bolsa", "credito", "investimento", "contratacao_pdi", "premio", "outros"]},
+            "repayable": {"type": ["boolean", "null"]}
+          }
+        },
+        "status": {"enum": ["open", "closed", "scheduled", "unknown"]},
+        "dates": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["published", "deadline"],
+          "properties": {
+            "published": {"$ref": "#/$defs/nullableDate"},
+            "deadline": {"$ref": "#/$defs/nullableDate"}
+          }
+        },
+        "eligibility": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["organization_types", "geography"],
+          "properties": {
+            "organization_types": {
+              "type": "array", "minItems": 1, "uniqueItems": true,
+              "items": {"enum": ["empresa", "startup", "osc", "ict", "universidade", "municipio", "estado", "consorcio_publico", "cooperativa", "pesquisador", "pessoa_fisica", "outros"]}
+            },
+            "geography": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string"}}
+          }
+        },
+        "themes": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+        "funding": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["program_budget"],
+          "properties": {"program_budget": {"type": ["number", "null"], "minimum": 0}}
+        },
+        "documents": {"type": "array", "items": {"$ref": "#/$defs/document"}},
+        "changes": {"type": "array", "items": {"$ref": "#/$defs/change"}},
+        "matching": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["ponte_score", "portfolio_tags", "matches"],
+          "properties": {
+            "ponte_score": {"type": "integer", "minimum": 0, "maximum": 100},
+            "portfolio_tags": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+            "matches": {"type": "array", "items": {"$ref": "#/$defs/match"}}
+          }
+        }
+      }
+    }
+  }
+}
