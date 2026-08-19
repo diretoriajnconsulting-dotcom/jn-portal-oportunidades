@@ -10,6 +10,14 @@ on:
   schedule:
     - cron: "30 12 * * *" # 12:30 UTC = 09:30 João Pessoa
   workflow_dispatch: {}
+  pull_request:
+    paths:
+      - ".github/workflows/radar.yml"
+      - "config/**"
+      - "funding_intelligence/**"
+      - "schema/**"
+      - "tests/**"
+      - "requirements.txt"
 
 permissions:
   contents: write
@@ -32,6 +40,7 @@ jobs:
         run: python -m unittest discover -s tests -v
 
   collect-transferegov:
+    if: ${{ github.event_name != 'pull_request' }}
     needs: test
     runs-on: ubuntu-latest
     timeout-minutes: 40
@@ -90,6 +99,7 @@ jobs:
           if-no-files-found: error
 
   collect-official-sources:
+    if: ${{ github.event_name != 'pull_request' }}
     needs: test
     runs-on: ubuntu-latest
     timeout-minutes: 15
