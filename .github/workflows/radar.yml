@@ -1,42 +1,95 @@
+# Radar Diário de Oportunidades — TransfereGov
+#
+# Baixa os CSV do repositório de dados abertos, processa com DuckDB e publica
+# public/data/oportunidades.json no CONTRATO v1.0.
+#
+# O contrato é o único acoplamento com quem consome (site da Ponte, portal JN).
+# Mudança de formato = mudança de major no campo `versao`, e os consumidores
+# recusam renderizar o que não entendem.
+#
+# Regras que este pipeline NÃO pode violar:
+#   1. Filtrar por UF de verdade (WHERE UF_PROGRAMA), não só anotar no metadata
+#   2. Emitir uma linha por canal (proposta E emenda são janelas distintas)
+#   3. Preservar natureza jurídica — é o eixo primário de filtro do painel
+#   4. Rastrear Last-Modified da origem para alimentar origem.defasada
+
 name: Radar Diário de Oportunidades TransfereGov
 
 on:
   schedule:
-    # Executa todos os dias às 12:30 UTC (09:30 em João Pessoa / UTC-3)
-    - cron: '30 12 * * *'
-  workflow_dispatch:
+    - cron: "30 12 * * *" # 12:30 UTC = 09:30 João Pessoa
+  workflow_dispatch: {}
 
 permissions:
   contents: write
 
+concurrency:
+  group: radar-oportunidades
+  cancel-in-progress: false
+
 jobs:
   executar-radar:
     runs-on: ubuntu-latest
+    timeout-minutes: 40
 
     steps:
-      - name: Checkout do Repositório
+      - name: Checkout
         uses: actions/checkout@v4
 
       - name: Configurar Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: "3.12"
 
-      - name: Instalar Dependências
-        run: |
-          pip install duckdb pandas
+      - name: Instalar dependências
+        run: pip install -r requirements.txt
 
-      - name: Executar Varredura e Análise de Oportunidades
+      - name: Varredura e análise
         run: |
-          python scripts/radar.py --uf PB
+          python scripts/radar.py \
+            --uf PB \
+            --saida saida \
+            --estado public/data/estado.json \
+            --cache .cache_radar
 
-      - name: Salvar e Publicar Dados Atualizados
+      - name: Publicar no contrato v1.0
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          python scripts/publicar.py \
+            --entrada saida/achados.json \
+            --saida public/data/oportunidades.json
+
+      - name: Validar contra o schema
+        run: |
+          python - <<'EOF'
+          import json, sys, jsonschema
+          schema  = json.load(open("schema/oportunidades.schema.json"))
+          payload = json.load(open("public/data/oportunidades.json"))
+          try:
+              jsonschema.validate(payload, schema)
+          except jsonschema.ValidationError as e:
+              print(f"::error::Payload viola o contrato: {e.message}")
+              sys.exit(1)
+
+          # Sanidade adicional: o que o schema sozinho não pega
+          ops = payload["oportunidades"]
+          if not ops:
+              print("::warning::Nenhuma oportunidade aberta nesta rodada")
+          canais = {o["canal"] for o in ops}
+          print(f"OK — {len(ops)} oportunidades | canais: {sorted(canais)} | "
+                f"defasada={payload['origem']['defasada']} "
+                f"({payload['origem']['defasagem_dias']} dias)")
+          EOF
+
+      - name: Atualizar estado do pipeline
+        run: cp saida/estado.json public/data/estado.json
+
+      - name: Commit se mudou
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add public/data/
           if git diff --staged --quiet; then
-            echo "Nenhuma alteração detectada nos dados do radar hoje."
+            echo "Nenhuma alteração nos dados hoje."
           else
             git commit -m "chore(radar): atualiza oportunidades do transferegov [skip ci]"
             git push
