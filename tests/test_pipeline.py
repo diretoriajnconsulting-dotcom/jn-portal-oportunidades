@@ -53,6 +53,13 @@ class PipelineTests(unittest.TestCase):
         self.assertEqual("error", current["sources"][0]["status"])
         self.assertEqual(1, current["summary"]["stale_sources"])
 
+    def test_upstream_stale_snapshot_publishes_current_data_with_warning(self):
+        stale = snapshot([sample()], status="stale", error="upstream lag")
+        catalog = aggregate([stale], None, self.portfolios, generated_at=CHECKED)
+        self.assertEqual(1, catalog["summary"]["monitored"])
+        self.assertEqual("stale", catalog["sources"][0]["status"])
+        self.assertTrue(catalog["opportunities"][0]["source"]["stale"])
+
     def test_same_source_semantic_channels_are_not_deduplicated(self):
         first = sample()
         second = sample()

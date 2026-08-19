@@ -114,7 +114,7 @@ def aggregate(
         prior_health = previous_sources.get(source_id, {})
         current_items = snapshot.get("opportunities", [])
         error = snapshot.get("error")
-        if snapshot.get("status") == "healthy":
+        if snapshot.get("status") in {"healthy", "stale"}:
             last_success = snapshot["checked_at"]
             consecutive_errors = 0
             prior_items = [item for item in previous_ops.values() if item["source"]["id"] == source_id]
@@ -123,7 +123,10 @@ def aggregate(
                 if _source_signature(current_items) != _source_signature(prior_items)
                 else prior_health.get("last_change_at")
             )
-            status = "healthy"
+            status = snapshot["status"]
+            if status == "stale":
+                for item in current_items:
+                    item["source"]["stale"] = True
         else:
             last_success = prior_health.get("last_success_at")
             last_change = prior_health.get("last_change_at")
