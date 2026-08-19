@@ -480,7 +480,9 @@ def main():
              if a.temas else TEMAS_PADRAO)
     estado_ant = {}
     if a.estado and os.path.exists(a.estado):
-        with open(a.estado, encoding="utf-8") as f:
+        # utf-8-sig lê com ou sem BOM. Editores do Windows (e o Set-Content do
+        # PowerShell 5.1) gravam BOM por padrão, e json.load rejeita.
+        with open(a.estado, encoding="utf-8-sig") as f:
             estado_ant = json.load(f)
         log(f"estado anterior: {estado_ant.get('executado_em','?')}")
     else:

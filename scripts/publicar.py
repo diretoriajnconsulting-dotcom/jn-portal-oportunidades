@@ -47,7 +47,7 @@ def main():
     p.add_argument("--saida", required=True)
     a = p.parse_args()
 
-    with open(a.entrada, encoding="utf-8") as f:
+    with open(a.entrada, encoding="utf-8-sig") as f:
         ach = json.load(f)
 
     novos = {ident(x) for x in ach.get("novos", [])}
