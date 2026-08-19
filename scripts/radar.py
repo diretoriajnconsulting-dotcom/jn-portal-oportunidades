@@ -14,7 +14,8 @@ import zipfile
 import shutil
 import urllib.request
 import urllib.parse
-from datetime import datetime, date
+from datetime import datetime
+import pandas as pd
 import duckdb
 
 BASE_PORTAL = "https://api-publica.transferegov.gestao.gov.br"
@@ -25,7 +26,6 @@ OUTPUT_DIR = "public/data"
 os.makedirs(DATA_DIR, exist_ok=True)
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-# Contexto SSL flexível para servidores governamentais
 SSL_CTX = ssl._create_unverified_context()
 
 HEADERS = {
@@ -35,24 +35,24 @@ HEADERS = {
 
 KEYWORDS_CARTEIRA = {
     "Regularização Fundiária": [
-        "regularização fundiária", "reurb", "fundiária", "matrícula",
+        "regularização fundiária", "reurb", "fundiária", "matrícula", 
         "cartório", "assentamento urbano", "núcleo urbano informal"
     ],
     "ATHIS / Habitação": [
-        "athis", "habitação", "moradia", "interesse social",
+        "athis", "habitação", "moradia", "interesse social", 
         "minha casa", "melhorias habitacionais", "assistência técnica"
     ],
     "Socioassistencial (MROSC)": [
-        "assistência social", "socioassistencial", "mrosc", "cras", "creas",
-        "vulnerabilidade", "idoso", "criança", "adolescente",
+        "assistência social", "socioassistencial", "mrosc", "cras", "creas", 
+        "vulnerabilidade", "idoso", "criança", "adolescente", 
         "segurança alimentar", "cozinha comunitária"
     ],
     "Cultura": [
-        "cultura", "patrimônio", "preservação", "acervo",
+        "cultura", "patrimônio", "preservação", "acervo", 
         "audiovisual", "artes", "museu", "memória", "aldir blanc", "pnab"
     ],
     "Inovação": [
-        "inovação", "tecnologia", "transformação digital", "p&d", "ict",
+        "inovação", "tecnologia", "transformação digital", "p&d", "ict", 
         "pesquisa", "startup", "hub", "ciência", "digital"
     ]
 }
@@ -64,29 +64,8 @@ def categorizar_programa(nome_prog: str) -> str:
             return cat
     return "Multisetorial / Geral"
 
-def obter_links_da_pagina():
-    """Varre a página de downloads para descobrir os links reais dos arquivos."""
-    links_descobertos = []
-    try:
-        req = urllib.request.Request(DOWNLOADS_PAGE, headers=HEADERS)
-        with urllib.request.urlopen(req, context=SSL_CTX, timeout=30) as resp:
-            html = resp.read().decode('utf-8', errors='ignore')
-            # Busca todos os links href apontando para zips ou arquivos
-            matches = re.findall(r'href=[\'\"]([^\'\"]+)[\'\"]', html)
-            for m in matches:
-                url_completa = urllib.parse.urljoin(BASE_PORTAL, m)
-                links_descobertos.append(url_completa)
-    except Exception as e:
-        print(f"Aviso ao consultar página de downloads: {e}", flush=True)
-    return links_descobertos
-
 def baixar_e_extrair(base_name: str):
-    # 1. Busca links na página oficial
-    links_pagina = obter_links_da_pagina()
-    links_especificos = [l for l in links_pagina if base_name in l]
-
-    # 2. Lista de URLs candidatas (descobertas + rotas padrão + fallback)
-    candidatos = links_especificos + [
+    candidatos = [
         f"{BASE_PORTAL}/downloads/{base_name}.zip",
         f"{BASE_PORTAL}/downloads/arquivos/{base_name}.zip",
         f"{BASE_PORTAL}/arquivos/{base_name}.zip",
@@ -100,14 +79,14 @@ def baixar_e_extrair(base_name: str):
         filename = os.path.basename(urllib.parse.urlparse(url).path) or f"{base_name}.zip"
         zip_dest = os.path.join(DATA_DIR, filename)
         print(f"-> Tentando download de {url}...", flush=True)
-
+        
         try:
             req = urllib.request.Request(url, headers=HEADERS)
             with urllib.request.urlopen(req, context=SSL_CTX, timeout=120) as response, open(zip_dest, 'wb') as out_file:
                 shutil.copyfileobj(response, out_file)
-
+            
             tamanho = os.path.getsize(zip_dest)
-            if tamanho > 1000: # Verifica se não foi baixada página de erro HTML
+            if tamanho > 1000:
                 print(f"✓ Download concluído: {filename} ({tamanho} bytes)", flush=True)
                 with zipfile.ZipFile(zip_dest, 'r') as zip_ref:
                     zip_ref.extractall(DATA_DIR)
@@ -118,12 +97,12 @@ def baixar_e_extrair(base_name: str):
                 os.remove(zip_dest)
         except Exception as e:
             print(f"Aviso: Falha em {url}: {e}", flush=True)
-
+    
     if not sucesso:
         print(f"Atenção: Não foi possível obter {base_name} automaticamente.", flush=True)
 
 def processar_radar(uf="PB"):
-    hoje = datetime.now().date()
+    hoje = pd.Timestamp.now().floor('D')
     hoje_str = hoje.strftime("%Y-%m-%d")
 
     csv_candidates = [
@@ -131,7 +110,7 @@ def processar_radar(uf="PB"):
         os.path.join(DATA_DIR, "siconv_programa.csv.zip"),
         os.path.join(DATA_DIR, "siconv_programa.zip")
     ]
-
+    
     csv_path = None
     for p in csv_candidates:
         if os.path.exists(p):
@@ -146,7 +125,7 @@ def processar_radar(uf="PB"):
 
     query = f"""
     WITH programas AS (
-        SELECT
+        SELECT 
             COD_PROGRAMA,
             NOME_PROGRAMA,
             COD_ORGAO_SUP_PROGRAMA,
@@ -156,18 +135,18 @@ def processar_radar(uf="PB"):
             TRY_STRPTIME(NULLIF(DT_PROG_FIM_RECEB_PROP, ''), '%d/%m/%Y') as dt_fim_prop,
             TRY_STRPTIME(NULLIF(DT_PROG_INI_EMENDA_PAR, ''), '%d/%m/%Y') as dt_ini_emenda,
             TRY_STRPTIME(NULLIF(DT_PROG_FIM_EMENDA_PAR, ''), '%d/%m/%Y') as dt_fim_emenda
-        FROM read_csv('{csv_path}',
-                      delim=';',
-                      header=True,
+        FROM read_csv('{csv_path}', 
+                      delim=';', 
+                      header=True, 
                       all_varchar=True)
         WHERE SIT_PROGRAMA IN ('DISPONIBILIZADO', 'CADASTRADO')
           AND (
               (TRY_STRPTIME(NULLIF(DT_PROG_FIM_RECEB_PROP, ''), '%d/%m/%Y') >= DATE '{hoje_str}')
-              OR
+              OR 
               (TRY_STRPTIME(NULLIF(DT_PROG_FIM_EMENDA_PAR, ''), '%d/%m/%Y') >= DATE '{hoje_str}')
           )
     )
-    SELECT
+    SELECT 
         NOME_PROGRAMA,
         DESC_ORGAO_SUP_PROGRAMA as orgao,
         SIT_PROGRAMA as status,
@@ -183,15 +162,23 @@ def processar_radar(uf="PB"):
     print("Executando consulta analítica via DuckDB...", flush=True)
     df = con.execute(query).df()
     print(f"Total de programas com janelas abertas encontrados: {len(df)}")
-
+    
     lista_oportunidades = []
     for _, row in df.iterrows():
-        prazo_ativo = row['prazo_proposta'] if row['prazo_proposta'] and not (row['prazo_proposta'] < hoje) else row['prazo_emenda']
+        # Parsing seguro com Timestamp do Pandas
+        dt_prop = pd.to_datetime(row['prazo_proposta']) if pd.notnull(row['prazo_proposta']) else None
+        dt_emenda = pd.to_datetime(row['prazo_emenda']) if pd.notnull(row['prazo_emenda']) else None
 
-        if prazo_ativo:
-            prazo_date = prazo_ativo if isinstance(prazo_ativo, date) else prazo_ativo.date()
-            dias_restantes = (prazo_date - hoje).days
-            prazo_fmt = prazo_date.strftime("%d/%m/%Y")
+        if dt_prop is not None and dt_prop >= hoje:
+            dt_ativo = dt_prop
+        elif dt_emenda is not None and dt_emenda >= hoje:
+            dt_ativo = dt_emenda
+        else:
+            dt_ativo = dt_prop or dt_emenda
+
+        if dt_ativo is not None:
+            dias_restantes = (dt_ativo - hoje).days
+            prazo_fmt = dt_ativo.strftime("%d/%m/%Y")
         else:
             dias_restantes = 999
             prazo_fmt = "A definir"
@@ -250,6 +237,6 @@ if __name__ == "__main__":
             uf_param = sys.argv[sys.argv.index("--uf") + 1]
         except IndexError:
             pass
-
+            
     baixar_e_extrair("siconv_programa")
     processar_radar(uf=uf_param)
