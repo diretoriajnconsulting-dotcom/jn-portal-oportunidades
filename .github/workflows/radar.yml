@@ -1,24 +1,23 @@
-# Radar Diário de Oportunidades — TransfereGov
+# PONTE Funding Intelligence — Radar Multifuente v2
 #
-# Baixa os CSV do repositório de dados abertos, processa com DuckDB e publica
-# public/data/oportunidades.json no CONTRATO v1.0.
-#
-# O contrato é o único acoplamento com quem consome (site da Ponte, portal JN).
-# Mudança de formato = mudança de major no campo `versao`, e os consumidores
-# recusam renderizar o que não entendem.
-#
-# Regras que este pipeline NÃO pode violar:
-#   1. Filtrar por UF de verdade (WHERE UF_PROGRAMA), não só anotar no metadata
-#   2. Emitir uma linha por canal (proposta E emenda são janelas distintas)
-#   3. Preservar natureza jurídica — é o eixo primário de filtro do painel
-#   4. Rastrear Last-Modified da origem para alimentar origem.defasada
+# O contrato TransfereGov v1 continua sendo publicado sem mudanças. Cada fonte
+# v2 é coletada em um job isolado; a agregação registra falhas e preserva o dado
+# anterior como stale, em vez de confundir erro de coleta com ausência de edital.
 
-name: Radar Diário de Oportunidades TransfereGov
+name: PONTE Funding Intelligence — Radar Multifuente
 
 on:
   schedule:
     - cron: "30 12 * * *" # 12:30 UTC = 09:30 João Pessoa
   workflow_dispatch: {}
+  pull_request:
+    paths:
+      - ".github/workflows/radar.yml"
+      - "config/**"
+      - "funding_intelligence/**"
+      - "schema/**"
+      - "tests/**"
+      - "requirements.txt"
 
 permissions:
   contents: write
@@ -28,23 +27,31 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  executar-radar:
+  test:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
-
+    timeout-minutes: 10
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Configurar Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Testar contrato, adapters, diff, stale e matching
+        run: python -m unittest discover -s tests -v
 
-      - name: Instalar dependências
-        run: pip install -r requirements.txt
+  collect-transferegov:
+    if: ${{ github.event_name != 'pull_request' }}
+    needs: test
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
 
-      - name: Varredura e análise
+      - name: Varredura TransfereGov
         run: |
           python scripts/radar.py \
             --uf PB \
@@ -52,45 +59,120 @@ jobs:
             --estado public/data/estado.json \
             --cache .cache_radar
 
-      - name: Publicar no contrato v1.0
+      - name: Publicar contrato legado v1.0
         run: |
           python scripts/publicar.py \
             --entrada saida/achados.json \
             --saida public/data/oportunidades.json
 
-      - name: Validar contra o schema
+      - name: Validar contrato legado v1.0
         run: |
-          python - <<'EOF'
-          import json, sys, jsonschema
-          schema  = json.load(open("schema/oportunidades.schema.json"))
+          python - <<'PY'
+          import json, jsonschema
+          schema = json.load(open("schema/oportunidades.schema.json"))
           payload = json.load(open("public/data/oportunidades.json"))
-          try:
-              jsonschema.validate(payload, schema)
-          except jsonschema.ValidationError as e:
-              print(f"::error::Payload viola o contrato: {e.message}")
-              sys.exit(1)
+          jsonschema.validate(payload, schema, format_checker=jsonschema.FormatChecker())
+          print(f"OK — {len(payload['oportunidades'])} oportunidades TransfereGov")
+          PY
 
-          # Sanidade adicional: o que o schema sozinho não pega
-          ops = payload["oportunidades"]
-          if not ops:
-              print("::warning::Nenhuma oportunidade aberta nesta rodada")
-          canais = {o["canal"] for o in ops}
-          print(f"OK — {len(ops)} oportunidades | canais: {sorted(canais)} | "
-                f"defasada={payload['origem']['defasada']} "
-                f"({payload['origem']['defasagem_dias']} dias)")
-          EOF
+      - name: Gerar snapshot canônico TransfereGov
+        run: |
+          cp saida/estado.json public/data/estado.json
+          python -m funding_intelligence.cli collect \
+            --source transferegov \
+            --input-v1 public/data/oportunidades.json \
+            --output build/sources/transferegov.json \
+            --strict
 
-      - name: Atualizar estado do pipeline
-        run: cp saida/estado.json public/data/estado.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: funding-source-transferegov
+          path: build/sources/transferegov.json
+          if-no-files-found: error
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: transferegov-public
+          path: |
+            public/data/oportunidades.json
+            public/data/estado.json
+          if-no-files-found: error
+
+  collect-official-sources:
+    if: ${{ github.event_name != 'pull_request' }}
+    needs: test
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    strategy:
+      fail-fast: false
+      matrix:
+        source: [finep, cnpq, fapesq]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Coletar ${{ matrix.source }}
+        run: |
+          python -m funding_intelligence.cli collect \
+            --source "${{ matrix.source }}" \
+            --output "build/sources/${{ matrix.source }}.json"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: funding-source-${{ matrix.source }}
+          path: build/sources/${{ matrix.source }}.json
+          if-no-files-found: error
+
+  aggregate-and-publish:
+    needs: [collect-transferegov, collect-official-sources]
+    if: ${{ always() && needs.collect-transferegov.result == 'success' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: funding-source-*
+          path: build/sources
+          merge-multiple: true
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: transferegov-public
+          path: public/data
+
+      - name: Agregar, deduplicar, comparar, fazer matching e validar v2
+        run: |
+          python -m funding_intelligence.cli aggregate \
+            --inputs "build/sources/*.json" \
+            --previous public/data/funding-opportunities-v2.json \
+            --portfolios config/portfolios.json \
+            --schema schema/funding-opportunity-2.0.schema.json \
+            --output public/data/funding-opportunities-v2.json
+
+      - name: Resumo operacional
+        run: |
+          python - <<'PY'
+          import json
+          data = json.load(open("public/data/funding-opportunities-v2.json"))
+          print(json.dumps(data["summary"], ensure_ascii=False, indent=2))
+          for source in data["sources"]:
+              print(f"{source['name']}: {source['status']} ({source['opportunity_count']})")
+          PY
 
       - name: Commit se mudou
         run: |
-          git config user.name  "github-actions[bot]"
+          git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add public/data/
           if git diff --staged --quiet; then
             echo "Nenhuma alteração nos dados hoje."
           else
-            git commit -m "chore(radar): atualiza oportunidades do transferegov [skip ci]"
+            git commit -m "chore(radar): atualiza catálogo multifuente [skip ci]"
             git push
           fi

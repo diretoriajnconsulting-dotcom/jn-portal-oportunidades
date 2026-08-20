@@ -1,0 +1,41 @@
+{
+  "version": "1.0",
+  "sources": [
+    {
+      "id": "transferegov",
+      "name": "TransfereGov",
+      "type": "plataforma_federal",
+      "adapter": "transferegov",
+      "frequency": "daily",
+      "url": "https://repositorio.dados.gov.br/seges/detru/",
+      "priority": "P0"
+    },
+    {
+      "id": "finep",
+      "name": "Finep",
+      "type": "agencia_federal",
+      "adapter": "finep",
+      "frequency": "daily",
+      "url": "https://www.finep.gov.br/oportunidades",
+      "priority": "P0"
+    },
+    {
+      "id": "cnpq",
+      "name": "CNPq",
+      "type": "agencia_federal",
+      "adapter": "cnpq",
+      "frequency": "daily",
+      "url": "https://www.gov.br/cnpq/pt-br/chamadas/abertas-para-submissao",
+      "priority": "P0"
+    },
+    {
+      "id": "fapesq",
+      "name": "FAPESQ-PB",
+      "type": "fundacao_estadual",
+      "adapter": "fapesq",
+      "frequency": "daily",
+      "url": "https://fapesq.rpp.br/editais/2026/editais-2026",
+      "priority": "P0"
+    }
+  ]
+}

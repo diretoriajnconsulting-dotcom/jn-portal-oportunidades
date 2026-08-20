@@ -1,0 +1,37 @@
+{
+  "version": "1.0",
+  "portfolios": [
+    {
+      "id": "ponte-inovacao",
+      "name": "PONTE — Inovação e Transformação Digital",
+      "organization_types": ["empresa", "startup", "ict", "universidade"],
+      "geography": ["BR", "PB", "NE"],
+      "themes": ["inteligencia_artificial", "tic", "nuvem", "transformacao_digital", "industria_4_0", "inovacao"],
+      "tags": ["inovacao", "ia", "saas", "transformacao_digital"]
+    },
+    {
+      "id": "ponte-clima",
+      "name": "PONTE — Clima, Energia e Cidades",
+      "organization_types": ["empresa", "startup", "osc", "ict", "universidade", "municipio", "estado", "consorcio_publico"],
+      "geography": ["BR", "PB", "NE"],
+      "themes": ["sustentabilidade", "descarbonizacao", "energia", "energia_renovavel", "economia_circular", "cidades_sustentaveis", "seguranca_hidrica", "saneamento"],
+      "tags": ["clima", "energia", "cidades", "esg"]
+    },
+    {
+      "id": "ponte-bioeconomia",
+      "name": "PONTE — Bioeconomia, Agro e Saúde",
+      "organization_types": ["empresa", "startup", "cooperativa", "ict", "universidade", "pesquisador"],
+      "geography": ["BR", "PB", "NE"],
+      "themes": ["bioeconomia", "biotecnologia", "agritech", "agroindustria", "saude", "foodtech"],
+      "tags": ["bioeconomia", "agtech", "saude", "pdi"]
+    },
+    {
+      "id": "ponte-impacto-publico",
+      "name": "PONTE — Desenvolvimento Territorial e Impacto",
+      "organization_types": ["osc", "municipio", "estado", "consorcio_publico", "cooperativa", "universidade"],
+      "geography": ["BR", "PB", "NE"],
+      "themes": ["desenvolvimento_regional", "impacto_social", "cultura", "educacao", "empreendedorismo", "gestao_publica"],
+      "tags": ["impacto_social", "territorio", "politicas_publicas"]
+    }
+  ]
+}
