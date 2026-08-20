@@ -29,7 +29,14 @@ def _fingerprint(item: dict[str, Any]) -> str:
     title = re.sub(r"\b(?:chamada|edital|publica|finep|cnpq|fapesq|mcti|fndct|n|no)\b", " ", title)
     title = re.sub(r"[^a-z0-9]+", " ", title)
     normalized = " ".join(title.split())
-    raw = f"{normalized}|{item['dates'].get('deadline') or ''}"
+    funder = re.sub(r"[^a-z0-9]+", " ", ascii_fold(item["funder"]))
+    funder = " ".join(funder.split())
+    raw = "|".join([
+        normalized,
+        item["dates"].get("deadline") or "",
+        funder,
+        item["instrument"]["type"],
+    ])
     return hashlib.sha1(raw.encode("utf-8")).hexdigest()
 
 
@@ -47,8 +54,8 @@ def deduplicate(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
         if not existing or len(item["documents"]) > len(existing["documents"]):
             by_id[item["id"]] = item
 
-    # Cross-source co-publications: retain one canonical record, but never merge
-    # records on title alone; the deadline must also be identical.
+    # Cross-source co-publications: retain one canonical record only when title,
+    # deadline, funder and instrument agree. Ambiguous similarities stay apart.
     by_fingerprint: dict[str, dict[str, Any]] = {}
     result: list[dict[str, Any]] = []
     for item in by_id.values():
@@ -68,10 +75,13 @@ def deduplicate(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
     return result
 
 
-def detect_changes(current: dict[str, Any], previous: dict[str, Any] | None, detected_at: str) -> None:
+def detect_changes(
+    current: dict[str, Any], previous: dict[str, Any] | None, detected_at: str,
+) -> bool:
     if not previous:
-        return
+        return False
     current["changes"] = copy.deepcopy(previous.get("changes", []))
+    changed = False
     for field in TRACKED_FIELDS:
         before, after = _get(previous, field), _get(current, field)
         if before == after:
@@ -95,6 +105,8 @@ def detect_changes(current: dict[str, Any], previous: dict[str, Any] | None, det
             "impact_days": impact_days,
             "source_document": source_document,
         })
+        changed = True
+    return changed
 
 
 def aggregate(
@@ -102,6 +114,7 @@ def aggregate(
     portfolios: list[dict[str, Any]], generated_at: str | None = None,
 ) -> dict[str, Any]:
     generated_at = generated_at or utc_now()
+    change_mode = "incremental" if previous is not None else "baseline"
     previous = previous or {"sources": [], "opportunities": []}
     previous_ops = {item["id"]: item for item in previous.get("opportunities", [])}
     previous_sources = {item["id"]: item for item in previous.get("sources", [])}
@@ -112,7 +125,7 @@ def aggregate(
         source = snapshot["source"]
         source_id = source["id"]
         prior_health = previous_sources.get(source_id, {})
-        current_items = snapshot.get("opportunities", [])
+        current_items = copy.deepcopy(snapshot.get("opportunities", []))
         error = snapshot.get("error")
         if snapshot.get("status") in {"healthy", "stale"}:
             last_success = snapshot["checked_at"]
@@ -152,8 +165,39 @@ def aggregate(
         })
 
     items = deduplicate(all_items)
+    current_ids = {item["id"] for item in items}
+    healthy_sources = {
+        snapshot["source"]["id"]: snapshot
+        for snapshot in snapshots if snapshot.get("status") == "healthy"
+    }
+    if change_mode == "incremental":
+        for previous_item in previous_ops.values():
+            source_id = previous_item["source"]["id"]
+            if (
+                previous_item["id"] in current_ids
+                or source_id not in healthy_sources
+                or previous_item["status"] == "closed"
+            ):
+                continue
+            closed_item = copy.deepcopy(previous_item)
+            closed_item["status"] = "closed"
+            closed_item["source"]["checked_at"] = healthy_sources[source_id]["checked_at"]
+            closed_item["source"]["stale"] = False
+            items.append(closed_item)
+
     for item in items:
-        detect_changes(item, previous_ops.get(item["id"]), generated_at)
+        previous_item = previous_ops.get(item["id"])
+        changed = detect_changes(item, previous_item, generated_at)
+        if change_mode == "baseline":
+            item["change_status"] = "baseline"
+        elif previous_item is None:
+            item["change_status"] = "new"
+        elif item["status"] == "closed" and previous_item["status"] != "closed":
+            item["change_status"] = "closed"
+        elif changed:
+            item["change_status"] = "changed"
+        else:
+            item["change_status"] = "unchanged"
         apply_matching(item, portfolios)
 
     items.sort(key=lambda item: (
@@ -162,7 +206,6 @@ def aggregate(
         -item["matching"]["ponte_score"],
         item["title"],
     ))
-    prior_ids = set(previous_ops)
     now = datetime.fromisoformat(generated_at.replace("Z", "+00:00")).date()
     urgent = 0
     for item in items:
@@ -172,15 +215,21 @@ def aggregate(
 
     return {
         "version": "2.0",
+        "change_mode": change_mode,
         "generated_at": generated_at,
         "sources": sorted(source_health, key=lambda source: source["id"]),
         "summary": {
             "monitored": len(items),
             "open": sum(item["status"] == "open" for item in items),
             "urgent": urgent,
-            "new": sum(item["id"] not in prior_ids for item in items),
-            "changed": sum(bool(item["changes"] and item["changes"][-1]["detected_at"] == generated_at) for item in items),
-            "priority_a": sum(item["matching"]["ponte_score"] >= 80 for item in items),
+            "new": sum(item["change_status"] == "new" for item in items),
+            "changed": sum(item["change_status"] == "changed" for item in items),
+            "closed": sum(item["change_status"] == "closed" for item in items),
+            "unchanged": sum(item["change_status"] == "unchanged" for item in items),
+            "priority_a": sum(
+                item["status"] == "open" and item["matching"]["ponte_score"] >= 80
+                for item in items
+            ),
             "stale_sources": sum(source["status"] != "healthy" for source in source_health),
         },
         "opportunities": items,

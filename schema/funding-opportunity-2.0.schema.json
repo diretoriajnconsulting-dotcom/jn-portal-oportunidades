@@ -4,21 +4,24 @@
   "title": "PONTE Funding Intelligence — catálogo multifuente v2",
   "type": "object",
   "additionalProperties": false,
-  "required": ["version", "generated_at", "sources", "summary", "opportunities"],
+  "required": ["version", "change_mode", "generated_at", "sources", "summary", "opportunities"],
   "properties": {
     "version": {"const": "2.0"},
+    "change_mode": {"enum": ["baseline", "incremental"]},
     "generated_at": {"type": "string", "format": "date-time"},
     "sources": {"type": "array", "items": {"$ref": "#/$defs/sourceHealth"}},
     "summary": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["monitored", "open", "urgent", "new", "changed", "priority_a", "stale_sources"],
+      "required": ["monitored", "open", "urgent", "new", "changed", "closed", "unchanged", "priority_a", "stale_sources"],
       "properties": {
         "monitored": {"type": "integer", "minimum": 0},
         "open": {"type": "integer", "minimum": 0},
         "urgent": {"type": "integer", "minimum": 0},
         "new": {"type": "integer", "minimum": 0},
         "changed": {"type": "integer", "minimum": 0},
+        "closed": {"type": "integer", "minimum": 0},
+        "unchanged": {"type": "integer", "minimum": 0},
         "priority_a": {"type": "integer", "minimum": 0},
         "stale_sources": {"type": "integer", "minimum": 0}
       }
@@ -81,7 +84,7 @@
     "opportunity": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["id", "source", "external_id", "title", "description", "funder", "instrument", "status", "dates", "eligibility", "themes", "funding", "documents", "changes", "matching"],
+      "required": ["id", "source", "external_id", "title", "description", "funder", "instrument", "status", "dates", "eligibility", "themes", "funding", "documents", "changes", "change_status", "matching"],
       "properties": {
         "id": {"type": "string", "pattern": "^[a-z0-9-]+$"},
         "source": {
@@ -141,11 +144,13 @@
         },
         "documents": {"type": "array", "items": {"$ref": "#/$defs/document"}},
         "changes": {"type": "array", "items": {"$ref": "#/$defs/change"}},
+        "change_status": {"enum": ["baseline", "new", "changed", "closed", "unchanged"]},
         "matching": {
           "type": "object",
           "additionalProperties": false,
-          "required": ["ponte_score", "portfolio_tags", "matches"],
+          "required": ["eligible", "ponte_score", "portfolio_tags", "matches"],
           "properties": {
+            "eligible": {"type": "boolean"},
             "ponte_score": {"type": "integer", "minimum": 0, "maximum": 100},
             "portfolio_tags": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
             "matches": {"type": "array", "items": {"$ref": "#/$defs/match"}}

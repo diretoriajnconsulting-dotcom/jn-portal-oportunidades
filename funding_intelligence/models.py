@@ -5,6 +5,7 @@ import re
 import unicodedata
 from datetime import date, datetime, timezone
 from typing import Any
+from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
 
 ORGANIZATION_TYPES = {
@@ -27,10 +28,21 @@ def slug(value: str | None) -> str:
     return re.sub(r"[^a-z0-9]+", "-", ascii_fold(value)).strip("-")
 
 
-def stable_id(source_id: str, external_id: str | None, title: str) -> str:
+def stable_id(
+    source_id: str, external_id: str | None, title: str,
+    source_url: str | None = None,
+) -> str:
     if external_id:
         return f"{slug(source_id)}-{slug(external_id)}"
-    digest = hashlib.sha1(title.encode("utf-8")).hexdigest()[:12]
+    identity = title
+    if source_url:
+        parsed = urlsplit(source_url)
+        query = urlencode(sorted(
+            (key, value) for key, value in parse_qsl(parsed.query)
+            if not key.lower().startswith("utm_")
+        ))
+        identity = urlunsplit((parsed.scheme.lower(), parsed.netloc.lower(), parsed.path.rstrip("/"), query, ""))
+    digest = hashlib.sha1(identity.encode("utf-8")).hexdigest()[:12]
     return f"{slug(source_id)}-{digest}"
 
 
@@ -108,7 +120,7 @@ def opportunity(
     org_types = [x for x in dict.fromkeys(organization_types or ["outros"])
                  if x in ORGANIZATION_TYPES]
     return {
-        "id": stable_id(source_id, external_id, title),
+        "id": stable_id(source_id, external_id, title, source_url),
         "source": {
             "id": source_id,
             "name": source_name,
@@ -132,5 +144,6 @@ def opportunity(
         "funding": {"program_budget": program_budget},
         "documents": documents or [],
         "changes": [],
-        "matching": {"ponte_score": 0, "portfolio_tags": [], "matches": []},
+        "change_status": "baseline",
+        "matching": {"eligible": False, "ponte_score": 0, "portfolio_tags": [], "matches": []},
     }

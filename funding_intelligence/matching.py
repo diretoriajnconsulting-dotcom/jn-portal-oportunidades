@@ -12,16 +12,19 @@ def apply_matching(opportunity: dict[str, Any], portfolios: list[dict[str, Any]]
     for portfolio in portfolios:
         reasons = []
         org_overlap = opportunity_orgs & set(portfolio["organization_types"])
+        if not org_overlap:
+            # Eligibility is a hard gate: strategic affinity cannot compensate
+            # for an incompatible applicant type.
+            continue
         geo_overlap = opportunity_geo & set(portfolio["geography"])
         theme_overlap = opportunity_themes & set(portfolio["themes"])
 
-        eligibility_score = 40 if org_overlap else 0
+        eligibility_score = 40
         geography_score = 20 if geo_overlap or "BR" in opportunity_geo else 0
         theme_score = min(40, 15 * len(theme_overlap))
         score = eligibility_score + geography_score + theme_score
 
-        if org_overlap:
-            reasons.append("proponente: " + ", ".join(sorted(org_overlap)))
+        reasons.append("proponente: " + ", ".join(sorted(org_overlap)))
         if geo_overlap or "BR" in opportunity_geo:
             reasons.append("território compatível")
         if theme_overlap:
@@ -42,6 +45,7 @@ def apply_matching(opportunity: dict[str, Any], portfolios: list[dict[str, Any]]
         portfolio = next(p for p in portfolios if p["id"] == item["portfolio_id"])
         matching_tags.extend(portfolio.get("tags", []))
     opportunity["matching"] = {
+        "eligible": bool(relevant),
         "ponte_score": top_score,
         "portfolio_tags": list(dict.fromkeys(matching_tags)),
         "matches": relevant,
