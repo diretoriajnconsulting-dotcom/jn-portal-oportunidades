@@ -32,21 +32,32 @@ from datetime import date, datetime, timezone
 
 import duckdb
 
-REPO = "https://repositorio.dados.gov.br/seges/detru"
+# FONTE ATUAL. O Comunicado Transferegov nº 23/2026 (17/07/2026) anunciou a
+# migração do repositório de dados abertos. O endereço antigo continua
+# respondendo, mas congelado em 17/07/2026 06:30 — serve exatamente um dado
+# velho, sem erro, o que é o pior modo de falhar. Desligamento em 31/08/2026.
+#
+# O novo ambiente é um container Azure Blob: cada arquivo é um .zip direto,
+# sem o sufixo .csv do repositório antigo, e o container aceita listagem em
+# ?restype=container&comp=list — útil para conferir o inventário à mão.
+API = "https://api-publica.transferegov.gestao.gov.br/downloads/dadosgov"
+REPO = "https://repositorio.dados.gov.br/seges/detru"      # legado, até 31/08/2026
 BASE_PORTAL = "https://portal.transferegov.sistema.gov.br"
 ARQUIVOS = ["siconv_programa", "siconv_programa_proposta", "siconv_proposta"]
 UA = {"User-Agent": "ponte-radar-oportunidades/1.0"}
 
-# O repositório de origem muda de rota sem aviso. Tentamos as variantes
-# conhecidas em ordem, da mais provável para a menos.
+# A origem muda de rota sem aviso — já mudou duas vezes. Tentamos as variantes
+# conhecidas em ordem, da mais provável para a menos. O legado fica no fim como
+# rede de segurança: se o novo ambiente cair antes de 31/08, o painel ainda sai,
+# e a defasagem no cabeçalho denuncia que o dado veio do lugar velho.
 def rotas_possiveis(nome):
     return [
+        f"{API}/{nome}.zip",
+        f"{API}/{nome}.csv.zip",
         f"{REPO}/{nome}.csv.zip",
         f"{REPO}/{nome}.zip",
         f"{BASE_PORTAL}/downloads/{nome}.zip",
         f"{BASE_PORTAL}/downloads/arquivos/{nome}.zip",
-        f"{BASE_PORTAL}/arquivos/{nome}.zip",
-        f"{BASE_PORTAL}/dados/{nome}.zip",
     ]
 
 SSL_CTX = ssl.create_default_context()
@@ -78,8 +89,9 @@ def baixar(nome, cache):
     """
     Baixa e extrai um arquivo da origem, tentando as rotas conhecidas em ordem.
 
-    Devolve (caminho_do_csv, last_modified). Levanta RuntimeError se nenhuma
-    rota funcionar — o job deve falhar alto, não publicar dado velho em silêncio.
+    Devolve (caminho_do_csv, last_modified, url_que_funcionou). Levanta
+    RuntimeError se nenhuma rota funcionar — o job deve falhar alto, não
+    publicar dado velho em silêncio.
 
     O Last-Modified é o que alimenta `origem.defasada` no contrato: sem ele o
     painel não consegue distinguir "nada aconteceu" de "ninguém coletou".
@@ -109,9 +121,14 @@ def baixar(nome, cache):
                 raise RuntimeError("arquivo suspeito de tão pequeno")
 
             with zipfile.ZipFile(alvo) as zf:
-                interno = zf.namelist()[0]
+                # Não confiar no índice 0: o novo ambiente pode empacotar
+                # manifesto ou README junto. Pega o primeiro .csv de verdade e
+                # só cai no primeiro item se não houver nenhum.
+                nomes = zf.namelist()
+                interno = next((n for n in nomes if n.lower().endswith(".csv")),
+                               nomes[0])
                 zf.extract(interno, cache)
-            return os.path.join(cache, interno), lm
+            return os.path.join(cache, interno), lm, url
 
         except Exception as ex:
             ultimo_erro = ex
@@ -139,8 +156,15 @@ def coletar(uf, cache):
     con = duckdb.connect(":memory:")
     lms = {}
     caminhos = {}
+    urls = {}
     for a in ARQUIVOS:
-        caminhos[a], lms[a] = baixar(a, cache)
+        caminhos[a], lms[a], urls[a] = baixar(a, cache)
+
+    # Se alguma parte veio do repositório legado, o painel precisa saber: o
+    # dado de lá está congelado desde 17/07/2026 e some em 31/08.
+    if any(REPO in u for u in urls.values()):
+        log("  ATENÇÃO: parte dos arquivos veio do repositório legado "
+            "(repositorio.dados.gov.br), que será desligado em 31/08/2026")
 
     log("  carregando programa")
     carregar(con, "programa", caminhos["siconv_programa"], f"""
@@ -174,7 +198,7 @@ def coletar(uf, cache):
     for c in caminhos.values():
         if os.path.exists(c):
             os.remove(c)
-    return con, lms
+    return con, lms, urls
 
 
 # Um mesmo programa aparece com vários COD_PROGRAMA — o SICONV emite um código
@@ -219,11 +243,42 @@ def analisar(con, uf, temas, estado_ant):
         FROM programa p JOIN prog_prop pp ON pp.ID_PROGRAMA = p.ID_PROGRAMA
         GROUP BY 1""").fetchall())
 
+    # Mesma contagem, agora quebrada por situação da proposta. Serve para
+    # distinguir quem já submeteu de quem ainda está montando — leituras de
+    # concorrência muito diferentes:
+    #   "8 enviadas"        → a disputa já está formada
+    #   "0 enviadas, 8 em elaboração" → há 8 concorrentes ainda trabalhando
+    conc_sit = {}
+    for cod, situacao, n in con.execute("""
+        SELECT p.COD_PROGRAMA, pr.SITUACAO, count(DISTINCT pp.ID_PROPOSTA)
+        FROM programa p
+        JOIN prog_prop pp ON pp.ID_PROGRAMA = p.ID_PROGRAMA
+        JOIN proposta pr  ON pr.ID_PROPOSTA = pp.ID_PROPOSTA
+        GROUP BY 1, 2""").fetchall():
+        conc_sit.setdefault(cod, {})[(situacao or "não informada").strip()] = n
+
     codigos_abertos = set()
     for a in abertos:
         a["codigos"] = list(a["codigos"])
         codigos_abertos.update(a["codigos"])
         a["propostas_no_programa"] = sum(conc.get(c, 0) for c in a["codigos"])
+
+        # Consolida o breakdown por situação de todos os códigos do programa
+        por_situacao = {}
+        for c in a["codigos"]:
+            for sit, n in conc_sit.get(c, {}).items():
+                por_situacao[sit] = por_situacao.get(sit, 0) + n
+        a["propostas_por_situacao"] = por_situacao
+
+        # Classificação por padrão de texto, não por lista fixa: o SICONV muda
+        # a redação das situações sem aviso, e uma lista fechada silenciaria
+        # categorias novas. Em elaboração = ainda não submetida.
+        em_elaboracao = sum(
+            n for sit, n in por_situacao.items()
+            if "elabora" in sit.lower() or "cadastrad" in sit.lower()
+        )
+        a["propostas_em_elaboracao"] = em_elaboracao
+        a["propostas_enviadas"] = a["propostas_no_programa"] - em_elaboracao
         # Casa SÓ contra o nome do programa. Incluir o órgão marcava como
         # aderente todo programa do "Ministério da Integração e do
         # Desenvolvimento Regional" — 23 falsos positivos na validação.
@@ -491,7 +546,7 @@ def main():
     os.makedirs(a.saida, exist_ok=True)
     inicio = time.time()
     try:
-        con, lms = coletar(a.uf, a.cache)
+        con, lms, urls = coletar(a.uf, a.cache)
     except Exception as ex:
         log(f"FALHA ao coletar: {ex}")
         return 2
@@ -503,6 +558,7 @@ def main():
         f.write(montar_painel(ach, lms, agora))
     with open(os.path.join(a.saida, "achados.json"), "w", encoding="utf-8") as f:
         json.dump({**ach, "origem_last_modified": lms,
+                   "origem_urls": urls,
                    "gerado_em": agora.isoformat()}, f, ensure_ascii=False, indent=1)
     with open(os.path.join(a.saida, "estado.json"), "w", encoding="utf-8") as f:
         json.dump({"executado_em": agora.isoformat(), "uf": a.uf,

@@ -16,7 +16,10 @@ import json
 import sys
 from datetime import datetime, timezone
 
-VERSAO = "1.0"
+# 1.1 acrescenta propostas_enviadas, propostas_em_elaboracao e
+# propostas_por_situacao em cada oportunidade. Minor: campos novos não quebram
+# consumidores antigos, que simplesmente os ignoram.
+VERSAO = "1.1"
 URGENTE_DIAS = 15
 
 
@@ -53,6 +56,13 @@ def main():
     novos = {ident(x) for x in ach.get("novos", [])}
     origem_dt, dias = defasagem(ach.get("origem_last_modified"))
 
+    # Diretório real de onde os arquivos vieram. Sem isso o painel mentiria
+    # sobre a procedência durante a janela de migração, em que a mesma execução
+    # pode misturar ambiente novo e legado.
+    urls = [u for u in (ach.get("origem_urls") or {}).values() if u]
+    repositorio = (urls[0].rsplit("/", 1)[0] + "/" if urls
+                   else "https://api-publica.transferegov.gestao.gov.br/downloads/dadosgov/")
+
     ops = []
     for o in ach.get("abertos", []):
         i = ident(o)
@@ -73,6 +83,10 @@ def main():
             "temas": o.get("temas") or [],
             "codigos": o.get("codigos") or [],
             "propostas_recebidas": o.get("propostas_no_programa") or 0,
+            # Campos novos na 1.1 — o front antigo ignora o que não conhece.
+            "propostas_enviadas": o.get("propostas_enviadas") or 0,
+            "propostas_em_elaboracao": o.get("propostas_em_elaboracao") or 0,
+            "propostas_por_situacao": o.get("propostas_por_situacao") or {},
         })
     ops.sort(key=lambda x: (x["dias_restantes"] if x["dias_restantes"] is not None
                             else 9999, x["programa"] or ""))
@@ -95,7 +109,10 @@ def main():
         "gerado_em": ach.get("gerado_em"),
         "uf": ach.get("uf"),
         "origem": {
-            "repositorio": "https://repositorio.dados.gov.br/seges/detru/",
+            # De onde o dado veio DE FATO nesta execução, não onde deveria
+            # estar. O radar tenta várias rotas; se caiu no repositório legado
+            # o painel precisa dizer isso, e não a URL que gostaríamos.
+            "repositorio": repositorio,
             "modulo": "Transferências Discricionárias (SICONV)",
             "atualizada_em": origem_dt.isoformat() if origem_dt else None,
             "defasagem_dias": dias,

@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://ponteprojetos.example/schemas/oportunidades-1.0.json",
+  "$id": "https://ponteprojetos.example/schemas/oportunidades-1.1.json",
   "title": "Painel de oportunidades — Transferegov Discricionárias",
   "type": "object",
   "required": ["versao", "gerado_em", "uf", "origem", "resumo", "filtros",
@@ -100,6 +100,19 @@
           "propostas_recebidas": {
             "type": "integer", "minimum": 0,
             "description": "Leitura de concorrência. Zero é informação, não ausência de dado."
+          },
+          "propostas_enviadas": {
+            "type": "integer", "minimum": 0,
+            "description": "Contrato 1.1. Propostas já submetidas — a disputa formada."
+          },
+          "propostas_em_elaboracao": {
+            "type": "integer", "minimum": 0,
+            "description": "Contrato 1.1. Propostas ainda em montagem — concorrentes trabalhando agora."
+          },
+          "propostas_por_situacao": {
+            "type": "object",
+            "additionalProperties": { "type": "integer", "minimum": 0 },
+            "description": "Contrato 1.1. Contagem por SIT_PROPOSTA literal do SICONV, sem normalização. Fonte de verdade caso a classificação enviadas/elaboração esteja errada."
           }
         }
       }
