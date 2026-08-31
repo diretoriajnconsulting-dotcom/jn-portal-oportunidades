@@ -1,21 +1,21 @@
 {
  "versao": "1.1",
- "gerado_em": "2026-08-30T16:50:53.982870",
+ "gerado_em": "2026-08-31T19:10:59.736845",
  "uf": "PB",
  "origem": {
   "repositorio": "https://api-publica.transferegov.gestao.gov.br/downloads/dadosgov/",
   "modulo": "Transferências Discricionárias (SICONV)",
-  "atualizada_em": "2026-08-30T11:11:35+00:00",
+  "atualizada_em": "2026-08-31T11:12:28+00:00",
   "defasagem_dias": 0,
   "defasada": false
  },
  "resumo": {
-  "abertas": 156,
-  "urgentes": 43,
-  "aderentes": 39,
+  "abertas": 155,
+  "urgentes": 30,
+  "aderentes": 38,
   "novas": 0,
-  "propostas_recentes": 16,
-  "encerradas": 0
+  "propostas_recentes": 0,
+  "encerradas": 1
  },
  "filtros": {
   "naturezas": [
@@ -49,33 +49,6 @@
  },
  "oportunidades": [
   {
-   "id": "063cbbda985d",
-   "programa": "FCP - Emenda da Bancada de Cultura - Entes Públicos",
-   "orgao": "MINISTERIO DA CULTURA",
-   "natureza": "Administração Pública Municipal",
-   "canal": "emenda",
-   "modalidade": "CONVENIO",
-   "situacao": "DISPONIBILIZADO",
-   "abre": "2026-06-19",
-   "fecha": "2026-08-30",
-   "dias_restantes": 0,
-   "urgente": false,
-   "nova": false,
-   "aderente": true,
-   "temas": [
-    "cultura"
-   ],
-   "codigos": [
-    "2040820260004"
-   ],
-   "propostas_recebidas": 2,
-   "propostas_enviadas": 2,
-   "propostas_em_elaboracao": 0,
-   "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Enviado para Análise": 2
-   }
-  },
-  {
    "id": "dd925191e7f0",
    "programa": "5837 - Promoção da Cidadania, Defesa de Direitos Humanos e Reparação de Violações",
    "orgao": "MINISTERIO DOS DIREITOS HUMANOS E CIDADANIA",
@@ -85,8 +58,8 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-07-13",
    "fecha": "2026-08-31",
-   "dias_restantes": 1,
-   "urgente": true,
+   "dias_restantes": 0,
+   "urgente": false,
    "nova": false,
    "aderente": false,
    "temas": [],
@@ -97,42 +70,9 @@
    "propostas_enviadas": 15,
    "propostas_em_elaboracao": 1,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho em Complementação": 3,
+    "Proposta/Plano de Trabalho Aprovados": 12,
     "Proposta/Plano de Trabalho Cadastrados": 1,
-    "Proposta/Plano de Trabalho Aprovados": 12
-   }
-  },
-  {
-   "id": "706485983033",
-   "programa": "Fomento ao Setor Agropecuário - Emendas Individuais",
-   "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
-   "natureza": "Administração Pública Estadual ou do Distrito Federal",
-   "canal": "emenda",
-   "modalidade": "CONTRATO DE REPASSE / CONVENIO / CONVENIO OU CONTRATO DE REPASSE",
-   "situacao": "DISPONIBILIZADO",
-   "abre": "2026-02-10",
-   "fecha": "2026-08-31",
-   "dias_restantes": 1,
-   "urgente": true,
-   "nova": false,
-   "aderente": false,
-   "temas": [],
-   "codigos": [
-    "2200020260002"
-   ],
-   "propostas_recebidas": 247,
-   "propostas_enviadas": 247,
-   "propostas_em_elaboracao": 0,
-   "propostas_por_situacao": {
-    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 2,
-    "Proposta/Plano de Trabalho Complementado em Análise": 7,
-    "Proposta/Plano de Trabalho Aprovados": 210,
-    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 3,
-    "Proposta/Plano de Trabalho em Complementação": 9,
-    "Proposta/Plano de Trabalho Enviado para Análise": 2,
-    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 12,
-    "Proposta Aprovada e Plano de Trabalho em Complementação": 1,
-    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 1
+    "Proposta/Plano de Trabalho em Complementação": 3
    }
   },
   {
@@ -141,12 +81,12 @@
    "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
    "natureza": "Administração Pública Municipal",
    "canal": "emenda",
-   "modalidade": "CONTRATO DE REPASSE / CONVENIO / CONVENIO OU CONTRATO DE REPASSE",
+   "modalidade": "CONVENIO / CONVENIO OU CONTRATO DE REPASSE / CONTRATO DE REPASSE",
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-10",
    "fecha": "2026-08-31",
-   "dias_restantes": 1,
-   "urgente": true,
+   "dias_restantes": 0,
+   "urgente": false,
    "nova": false,
    "aderente": false,
    "temas": [],
@@ -157,15 +97,15 @@
    "propostas_enviadas": 247,
    "propostas_em_elaboracao": 0,
    "propostas_por_situacao": {
-    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 2,
+    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 12,
     "Proposta/Plano de Trabalho Complementado em Análise": 7,
     "Proposta/Plano de Trabalho Aprovados": 210,
     "Proposta/Plano de Trabalho Complementado Enviado para Análise": 3,
-    "Proposta/Plano de Trabalho em Complementação": 9,
+    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 1,
     "Proposta/Plano de Trabalho Enviado para Análise": 2,
-    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 12,
     "Proposta Aprovada e Plano de Trabalho em Complementação": 1,
-    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 1
+    "Proposta/Plano de Trabalho em Complementação": 9,
+    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 2
    }
   },
   {
@@ -174,12 +114,12 @@
    "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
    "natureza": "Consórcio Público",
    "canal": "emenda",
-   "modalidade": "CONTRATO DE REPASSE / CONVENIO / CONVENIO OU CONTRATO DE REPASSE",
+   "modalidade": "CONVENIO / CONVENIO OU CONTRATO DE REPASSE / CONTRATO DE REPASSE",
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-10",
    "fecha": "2026-08-31",
-   "dias_restantes": 1,
-   "urgente": true,
+   "dias_restantes": 0,
+   "urgente": false,
    "nova": false,
    "aderente": false,
    "temas": [],
@@ -190,15 +130,48 @@
    "propostas_enviadas": 247,
    "propostas_em_elaboracao": 0,
    "propostas_por_situacao": {
-    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 2,
+    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 12,
     "Proposta/Plano de Trabalho Complementado em Análise": 7,
     "Proposta/Plano de Trabalho Aprovados": 210,
     "Proposta/Plano de Trabalho Complementado Enviado para Análise": 3,
-    "Proposta/Plano de Trabalho em Complementação": 9,
+    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 1,
     "Proposta/Plano de Trabalho Enviado para Análise": 2,
-    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 12,
     "Proposta Aprovada e Plano de Trabalho em Complementação": 1,
-    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 1
+    "Proposta/Plano de Trabalho em Complementação": 9,
+    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 2
+   }
+  },
+  {
+   "id": "706485983033",
+   "programa": "Fomento ao Setor Agropecuário - Emendas Individuais",
+   "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
+   "natureza": "Administração Pública Estadual ou do Distrito Federal",
+   "canal": "emenda",
+   "modalidade": "CONVENIO / CONVENIO OU CONTRATO DE REPASSE / CONTRATO DE REPASSE",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-10",
+   "fecha": "2026-08-31",
+   "dias_restantes": 0,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2200020260002"
+   ],
+   "propostas_recebidas": 247,
+   "propostas_enviadas": 247,
+   "propostas_em_elaboracao": 0,
+   "propostas_por_situacao": {
+    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 12,
+    "Proposta/Plano de Trabalho Complementado em Análise": 7,
+    "Proposta/Plano de Trabalho Aprovados": 210,
+    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 3,
+    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 1,
+    "Proposta/Plano de Trabalho Enviado para Análise": 2,
+    "Proposta Aprovada e Plano de Trabalho em Complementação": 1,
+    "Proposta/Plano de Trabalho em Complementação": 9,
+    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 2
    }
   },
   {
@@ -207,12 +180,12 @@
    "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
    "natureza": "Empresa pública/Sociedade de economia mista",
    "canal": "emenda",
-   "modalidade": "CONVENIO / CONVENIO OU CONTRATO DE REPASSE / CONTRATO DE REPASSE",
+   "modalidade": "CONTRATO DE REPASSE / CONVENIO / CONVENIO OU CONTRATO DE REPASSE",
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-10",
    "fecha": "2026-08-31",
-   "dias_restantes": 1,
-   "urgente": true,
+   "dias_restantes": 0,
+   "urgente": false,
    "nova": false,
    "aderente": false,
    "temas": [],
@@ -223,15 +196,15 @@
    "propostas_enviadas": 247,
    "propostas_em_elaboracao": 0,
    "propostas_por_situacao": {
-    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 2,
+    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 12,
     "Proposta/Plano de Trabalho Complementado em Análise": 7,
     "Proposta/Plano de Trabalho Aprovados": 210,
     "Proposta/Plano de Trabalho Complementado Enviado para Análise": 3,
-    "Proposta/Plano de Trabalho em Complementação": 9,
+    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 1,
     "Proposta/Plano de Trabalho Enviado para Análise": 2,
-    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 12,
     "Proposta Aprovada e Plano de Trabalho em Complementação": 1,
-    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 1
+    "Proposta/Plano de Trabalho em Complementação": 9,
+    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 2
    }
   },
   {
@@ -244,8 +217,8 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-10",
    "fecha": "2026-08-31",
-   "dias_restantes": 1,
-   "urgente": true,
+   "dias_restantes": 0,
+   "urgente": false,
    "nova": false,
    "aderente": false,
    "temas": [],
@@ -257,11 +230,11 @@
    "propostas_em_elaboracao": 2,
    "propostas_por_situacao": {
     "Proposta/Plano de Trabalho Aprovados": 62,
-    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 16,
-    "Proposta/Plano de Trabalho Complementado em Análise": 16,
+    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 10,
     "Proposta/Plano de Trabalho em Complementação": 24,
+    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 16,
     "Proposta/Plano de Trabalho Cadastrados": 2,
-    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 10
+    "Proposta/Plano de Trabalho Complementado em Análise": 16
    }
   },
   {
@@ -274,8 +247,8 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-07-22",
    "fecha": "2026-08-31",
-   "dias_restantes": 1,
-   "urgente": true,
+   "dias_restantes": 0,
+   "urgente": false,
    "nova": false,
    "aderente": false,
    "temas": [],
@@ -299,8 +272,8 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-23",
    "fecha": "2026-08-31",
-   "dias_restantes": 1,
-   "urgente": true,
+   "dias_restantes": 0,
+   "urgente": false,
    "nova": false,
    "aderente": false,
    "temas": [],
@@ -311,8 +284,8 @@
    "propostas_enviadas": 2,
    "propostas_em_elaboracao": 0,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Enviado para Análise": 1,
-    "Proposta/Plano de Trabalho em Complementação": 1
+    "Proposta/Plano de Trabalho em Complementação": 1,
+    "Proposta/Plano de Trabalho Enviado para Análise": 1
    }
   },
   {
@@ -325,8 +298,8 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-23",
    "fecha": "2026-08-31",
-   "dias_restantes": 1,
-   "urgente": true,
+   "dias_restantes": 0,
+   "urgente": false,
    "nova": false,
    "aderente": false,
    "temas": [],
@@ -337,8 +310,8 @@
    "propostas_enviadas": 2,
    "propostas_em_elaboracao": 0,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Enviado para Análise": 1,
-    "Proposta/Plano de Trabalho em Complementação": 1
+    "Proposta/Plano de Trabalho em Complementação": 1,
+    "Proposta/Plano de Trabalho Enviado para Análise": 1
    }
   },
   {
@@ -351,8 +324,8 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-06-18",
    "fecha": "2026-08-31",
-   "dias_restantes": 1,
-   "urgente": true,
+   "dias_restantes": 0,
+   "urgente": false,
    "nova": false,
    "aderente": false,
    "temas": [],
@@ -364,8 +337,8 @@
    "propostas_em_elaboracao": 0,
    "propostas_por_situacao": {
     "Proposta/Plano de Trabalho Complementado Enviado para Análise": 2,
-    "Proposta/Plano de Trabalho em Complementação": 1,
-    "Proposta/Plano de Trabalho Enviado para Análise": 1
+    "Proposta/Plano de Trabalho Enviado para Análise": 1,
+    "Proposta/Plano de Trabalho em Complementação": 1
    }
   },
   {
@@ -378,8 +351,8 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-07-20",
    "fecha": "2026-08-31",
-   "dias_restantes": 1,
-   "urgente": true,
+   "dias_restantes": 0,
+   "urgente": false,
    "nova": false,
    "aderente": false,
    "temas": [],
@@ -401,8 +374,8 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-07-20",
    "fecha": "2026-08-31",
-   "dias_restantes": 1,
-   "urgente": true,
+   "dias_restantes": 0,
+   "urgente": false,
    "nova": false,
    "aderente": false,
    "temas": [],
@@ -424,8 +397,8 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-07-20",
    "fecha": "2026-08-31",
-   "dias_restantes": 1,
-   "urgente": true,
+   "dias_restantes": 0,
+   "urgente": false,
    "nova": false,
    "aderente": false,
    "temas": [],
@@ -447,7 +420,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-08-19",
    "fecha": "2026-09-02",
-   "dias_restantes": 3,
+   "dias_restantes": 2,
    "urgente": true,
    "nova": false,
    "aderente": false,
@@ -472,7 +445,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-08-19",
    "fecha": "2026-09-02",
-   "dias_restantes": 3,
+   "dias_restantes": 2,
    "urgente": true,
    "nova": false,
    "aderente": false,
@@ -484,8 +457,8 @@
    "propostas_enviadas": 2,
    "propostas_em_elaboracao": 0,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Enviado para Análise": 1,
-    "Proposta/Plano de Trabalho em Análise": 1
+    "Proposta/Plano de Trabalho em Análise": 1,
+    "Proposta/Plano de Trabalho Enviado para Análise": 1
    }
   },
   {
@@ -498,7 +471,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-23",
    "fecha": "2026-09-04",
-   "dias_restantes": 5,
+   "dias_restantes": 4,
    "urgente": true,
    "nova": false,
    "aderente": false,
@@ -510,12 +483,12 @@
    "propostas_enviadas": 36,
    "propostas_em_elaboracao": 0,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 12,
     "Proposta/Plano de Trabalho em Complementação": 9,
-    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 3,
+    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 12,
     "Proposta/Plano de Trabalho Aprovados": 6,
-    "Proposta/Plano de Trabalho Complementado em Análise": 3,
-    "Proposta/Plano de Trabalho Enviado para Análise": 3
+    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 3,
+    "Proposta/Plano de Trabalho Enviado para Análise": 3,
+    "Proposta/Plano de Trabalho Complementado em Análise": 3
    }
   },
   {
@@ -528,7 +501,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-04-06",
    "fecha": "2026-09-04",
-   "dias_restantes": 5,
+   "dias_restantes": 4,
    "urgente": true,
    "nova": false,
    "aderente": false,
@@ -540,9 +513,9 @@
    "propostas_enviadas": 11,
    "propostas_em_elaboracao": 0,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho em Análise": 4,
-    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 2,
     "Proposta/Plano de Trabalho em Complementação": 4,
+    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 2,
+    "Proposta/Plano de Trabalho em Análise": 4,
     "Proposta/Plano de Trabalho Enviado para Análise": 1
    }
   },
@@ -556,7 +529,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-08-17",
    "fecha": "2026-09-04",
-   "dias_restantes": 5,
+   "dias_restantes": 4,
    "urgente": true,
    "nova": false,
    "aderente": true,
@@ -571,8 +544,8 @@
    "propostas_enviadas": 4,
    "propostas_em_elaboracao": 0,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Aprovados": 2,
     "Proposta/Plano de Trabalho Enviado para Análise": 1,
+    "Proposta/Plano de Trabalho Aprovados": 2,
     "Proposta/Plano de Trabalho Complementado Enviado para Análise": 1
    }
   },
@@ -586,7 +559,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-08-17",
    "fecha": "2026-09-04",
-   "dias_restantes": 5,
+   "dias_restantes": 4,
    "urgente": true,
    "nova": false,
    "aderente": true,
@@ -601,8 +574,8 @@
    "propostas_enviadas": 4,
    "propostas_em_elaboracao": 0,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Aprovados": 2,
     "Proposta/Plano de Trabalho Enviado para Análise": 1,
+    "Proposta/Plano de Trabalho Aprovados": 2,
     "Proposta/Plano de Trabalho Complementado Enviado para Análise": 1
    }
   },
@@ -612,11 +585,11 @@
    "orgao": "MINISTERIO DO ESPORTE",
    "natureza": "Consórcio Público",
    "canal": "emenda",
-   "modalidade": "CONTRATO DE REPASSE / CONVENIO / CONVENIO OU CONTRATO DE REPASSE",
+   "modalidade": "CONVENIO / CONVENIO OU CONTRATO DE REPASSE / CONTRATO DE REPASSE",
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-20",
    "fecha": "2026-09-06",
-   "dias_restantes": 7,
+   "dias_restantes": 6,
    "urgente": true,
    "nova": false,
    "aderente": false,
@@ -629,11 +602,11 @@
    "propostas_em_elaboracao": 0,
    "propostas_por_situacao": {
     "Proposta/Plano de Trabalho Aprovados": 49,
-    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 1,
-    "Proposta/Plano de Trabalho em Complementação": 2,
     "Proposta Aprovada e Plano de Trabalho em Complementação": 2,
-    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 1,
-    "Proposta/Plano de Trabalho Enviado para Análise": 1
+    "Proposta/Plano de Trabalho em Complementação": 2,
+    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 1,
+    "Proposta/Plano de Trabalho Enviado para Análise": 1,
+    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 1
    }
   },
   {
@@ -642,11 +615,11 @@
    "orgao": "MINISTERIO DO ESPORTE",
    "natureza": "Administração Pública Municipal",
    "canal": "emenda",
-   "modalidade": "CONTRATO DE REPASSE / CONVENIO / CONVENIO OU CONTRATO DE REPASSE",
+   "modalidade": "CONVENIO / CONVENIO OU CONTRATO DE REPASSE / CONTRATO DE REPASSE",
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-20",
    "fecha": "2026-09-06",
-   "dias_restantes": 7,
+   "dias_restantes": 6,
    "urgente": true,
    "nova": false,
    "aderente": false,
@@ -659,11 +632,11 @@
    "propostas_em_elaboracao": 0,
    "propostas_por_situacao": {
     "Proposta/Plano de Trabalho Aprovados": 49,
-    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 1,
-    "Proposta/Plano de Trabalho em Complementação": 2,
     "Proposta Aprovada e Plano de Trabalho em Complementação": 2,
-    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 1,
-    "Proposta/Plano de Trabalho Enviado para Análise": 1
+    "Proposta/Plano de Trabalho em Complementação": 2,
+    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 1,
+    "Proposta/Plano de Trabalho Enviado para Análise": 1,
+    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 1
    }
   },
   {
@@ -672,11 +645,11 @@
    "orgao": "MINISTERIO DO ESPORTE",
    "natureza": "Administração Pública Estadual ou do Distrito Federal",
    "canal": "emenda",
-   "modalidade": "CONVENIO / CONVENIO OU CONTRATO DE REPASSE / CONTRATO DE REPASSE",
+   "modalidade": "CONTRATO DE REPASSE / CONVENIO / CONVENIO OU CONTRATO DE REPASSE",
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-20",
    "fecha": "2026-09-06",
-   "dias_restantes": 7,
+   "dias_restantes": 6,
    "urgente": true,
    "nova": false,
    "aderente": false,
@@ -689,79 +662,11 @@
    "propostas_em_elaboracao": 0,
    "propostas_por_situacao": {
     "Proposta/Plano de Trabalho Aprovados": 49,
-    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 1,
-    "Proposta/Plano de Trabalho em Complementação": 2,
     "Proposta Aprovada e Plano de Trabalho em Complementação": 2,
-    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 1,
-    "Proposta/Plano de Trabalho Enviado para Análise": 1
-   }
-  },
-  {
-   "id": "a7d6eaf976a9",
-   "programa": "Apoio a Implantacao e Modernizacao de Infraestrutura para Esporte Amador, Educacional, Recreativo e de Lazer -SNEAELIS (Emenda de Comiss?o - RP8)",
-   "orgao": "MINISTERIO DO ESPORTE",
-   "natureza": "Administração Pública Municipal",
-   "canal": "emenda",
-   "modalidade": "CONTRATO DE REPASSE / CONVENIO / CONVENIO OU CONTRATO DE REPASSE",
-   "situacao": "DISPONIBILIZADO",
-   "abre": "2026-05-07",
-   "fecha": "2026-09-06",
-   "dias_restantes": 7,
-   "urgente": true,
-   "nova": false,
-   "aderente": false,
-   "temas": [],
-   "codigos": [
-    "5100020260027"
-   ],
-   "propostas_recebidas": 351,
-   "propostas_enviadas": 348,
-   "propostas_em_elaboracao": 3,
-   "propostas_por_situacao": {
-    "Proposta Aprovada e Plano de Trabalho em Complementação": 39,
-    "Proposta/Plano de Trabalho Aprovados": 275,
-    "Proposta Aprovada e Plano de Trabalho em Análise": 5,
-    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 8,
-    "Proposta/Plano de Trabalho em Complementação": 8,
-    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 4,
-    "Proposta/Plano de Trabalho Complementado em Análise": 2,
-    "Proposta/Plano de Trabalho Cadastrados": 3,
-    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 6,
-    "Proposta/Plano de Trabalho Enviado para Análise": 1
-   }
-  },
-  {
-   "id": "ed977045d485",
-   "programa": "Apoio a Implantacao e Modernizacao de Infraestrutura para Esporte Amador, Educacional, Recreativo e de Lazer -SNEAELIS (Emenda de Comiss?o - RP8)",
-   "orgao": "MINISTERIO DO ESPORTE",
-   "natureza": "Administração Pública Estadual ou do Distrito Federal",
-   "canal": "emenda",
-   "modalidade": "CONTRATO DE REPASSE / CONVENIO / CONVENIO OU CONTRATO DE REPASSE",
-   "situacao": "DISPONIBILIZADO",
-   "abre": "2026-05-07",
-   "fecha": "2026-09-06",
-   "dias_restantes": 7,
-   "urgente": true,
-   "nova": false,
-   "aderente": false,
-   "temas": [],
-   "codigos": [
-    "5100020260027"
-   ],
-   "propostas_recebidas": 351,
-   "propostas_enviadas": 348,
-   "propostas_em_elaboracao": 3,
-   "propostas_por_situacao": {
-    "Proposta Aprovada e Plano de Trabalho em Complementação": 39,
-    "Proposta/Plano de Trabalho Aprovados": 275,
-    "Proposta Aprovada e Plano de Trabalho em Análise": 5,
-    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 8,
-    "Proposta/Plano de Trabalho em Complementação": 8,
-    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 4,
-    "Proposta/Plano de Trabalho Complementado em Análise": 2,
-    "Proposta/Plano de Trabalho Cadastrados": 3,
-    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 6,
-    "Proposta/Plano de Trabalho Enviado para Análise": 1
+    "Proposta/Plano de Trabalho em Complementação": 2,
+    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 1,
+    "Proposta/Plano de Trabalho Enviado para Análise": 1,
+    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 1
    }
   },
   {
@@ -770,11 +675,11 @@
    "orgao": "MINISTERIO DO ESPORTE",
    "natureza": "Consórcio Público",
    "canal": "emenda",
-   "modalidade": "CONVENIO / CONVENIO OU CONTRATO DE REPASSE / CONTRATO DE REPASSE",
+   "modalidade": "CONTRATO DE REPASSE / CONVENIO / CONVENIO OU CONTRATO DE REPASSE",
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-05-07",
    "fecha": "2026-09-06",
-   "dias_restantes": 7,
+   "dias_restantes": 6,
    "urgente": true,
    "nova": false,
    "aderente": false,
@@ -788,48 +693,82 @@
    "propostas_por_situacao": {
     "Proposta Aprovada e Plano de Trabalho em Complementação": 39,
     "Proposta/Plano de Trabalho Aprovados": 275,
-    "Proposta Aprovada e Plano de Trabalho em Análise": 5,
-    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 8,
     "Proposta/Plano de Trabalho em Complementação": 8,
-    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 4,
+    "Proposta Aprovada e Plano de Trabalho em Análise": 5,
     "Proposta/Plano de Trabalho Complementado em Análise": 2,
-    "Proposta/Plano de Trabalho Cadastrados": 3,
+    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 4,
+    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 8,
+    "Proposta/Plano de Trabalho Enviado para Análise": 1,
     "Proposta/Plano de Trabalho Complementado Enviado para Análise": 6,
-    "Proposta/Plano de Trabalho Enviado para Análise": 1
+    "Proposta/Plano de Trabalho Cadastrados": 3
    }
   },
   {
-   "id": "43c74278ca25",
-   "programa": "Desenvolvimento de Atividades e Apoio a Programas, Eventos e Projetos de Esporte Amador, Educacao, Lazer e Inclusao Social - SNEAELIS (Emenda Parlamentar Individual - RP6 - Convênio)",
+   "id": "a7d6eaf976a9",
+   "programa": "Apoio a Implantacao e Modernizacao de Infraestrutura para Esporte Amador, Educacional, Recreativo e de Lazer -SNEAELIS (Emenda de Comiss?o - RP8)",
    "orgao": "MINISTERIO DO ESPORTE",
-   "natureza": "Empresa pública/Sociedade de economia mista",
+   "natureza": "Administração Pública Municipal",
    "canal": "emenda",
-   "modalidade": "CONVENIO",
+   "modalidade": "CONVENIO / CONVENIO OU CONTRATO DE REPASSE / CONTRATO DE REPASSE",
    "situacao": "DISPONIBILIZADO",
-   "abre": "2026-02-20",
+   "abre": "2026-05-07",
    "fecha": "2026-09-06",
-   "dias_restantes": 7,
+   "dias_restantes": 6,
    "urgente": true,
    "nova": false,
    "aderente": false,
    "temas": [],
    "codigos": [
-    "5100020260013"
+    "5100020260027"
    ],
-   "propostas_recebidas": 128,
-   "propostas_enviadas": 128,
-   "propostas_em_elaboracao": 0,
+   "propostas_recebidas": 351,
+   "propostas_enviadas": 348,
+   "propostas_em_elaboracao": 3,
    "propostas_por_situacao": {
-    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 56,
-    "Proposta Aprovada e Plano de Trabalho em Complementação": 23,
-    "Proposta/Plano de Trabalho Enviado para Análise": 2,
-    "Proposta/Plano de Trabalho Aprovados": 2,
-    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 9,
-    "Proposta/Plano de Trabalho em Complementação": 4,
+    "Proposta Aprovada e Plano de Trabalho em Complementação": 39,
+    "Proposta/Plano de Trabalho Aprovados": 275,
+    "Proposta/Plano de Trabalho em Complementação": 8,
+    "Proposta Aprovada e Plano de Trabalho em Análise": 5,
     "Proposta/Plano de Trabalho Complementado em Análise": 2,
-    "Proposta/Plano de Trabalho em Análise": 2,
-    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 2,
-    "Proposta Aprovada e Plano de Trabalho em Análise": 26
+    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 4,
+    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 8,
+    "Proposta/Plano de Trabalho Enviado para Análise": 1,
+    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 6,
+    "Proposta/Plano de Trabalho Cadastrados": 3
+   }
+  },
+  {
+   "id": "ed977045d485",
+   "programa": "Apoio a Implantacao e Modernizacao de Infraestrutura para Esporte Amador, Educacional, Recreativo e de Lazer -SNEAELIS (Emenda de Comiss?o - RP8)",
+   "orgao": "MINISTERIO DO ESPORTE",
+   "natureza": "Administração Pública Estadual ou do Distrito Federal",
+   "canal": "emenda",
+   "modalidade": "CONVENIO / CONVENIO OU CONTRATO DE REPASSE / CONTRATO DE REPASSE",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-05-07",
+   "fecha": "2026-09-06",
+   "dias_restantes": 6,
+   "urgente": true,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "5100020260027"
+   ],
+   "propostas_recebidas": 351,
+   "propostas_enviadas": 348,
+   "propostas_em_elaboracao": 3,
+   "propostas_por_situacao": {
+    "Proposta Aprovada e Plano de Trabalho em Complementação": 39,
+    "Proposta/Plano de Trabalho Aprovados": 275,
+    "Proposta/Plano de Trabalho em Complementação": 8,
+    "Proposta Aprovada e Plano de Trabalho em Análise": 5,
+    "Proposta/Plano de Trabalho Complementado em Análise": 2,
+    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 4,
+    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 8,
+    "Proposta/Plano de Trabalho Enviado para Análise": 1,
+    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 6,
+    "Proposta/Plano de Trabalho Cadastrados": 3
    }
   },
   {
@@ -842,7 +781,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-20",
    "fecha": "2026-09-06",
-   "dias_restantes": 7,
+   "dias_restantes": 6,
    "urgente": true,
    "nova": false,
    "aderente": false,
@@ -854,16 +793,50 @@
    "propostas_enviadas": 128,
    "propostas_em_elaboracao": 0,
    "propostas_por_situacao": {
-    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 56,
     "Proposta Aprovada e Plano de Trabalho em Complementação": 23,
+    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 56,
+    "Proposta Aprovada e Plano de Trabalho em Análise": 26,
+    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 9,
+    "Proposta/Plano de Trabalho Complementado em Análise": 2,
     "Proposta/Plano de Trabalho Enviado para Análise": 2,
     "Proposta/Plano de Trabalho Aprovados": 2,
-    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 9,
     "Proposta/Plano de Trabalho em Complementação": 4,
-    "Proposta/Plano de Trabalho Complementado em Análise": 2,
-    "Proposta/Plano de Trabalho em Análise": 2,
     "Proposta/Plano de Trabalho Complementado Enviado para Análise": 2,
-    "Proposta Aprovada e Plano de Trabalho em Análise": 26
+    "Proposta/Plano de Trabalho em Análise": 2
+   }
+  },
+  {
+   "id": "43c74278ca25",
+   "programa": "Desenvolvimento de Atividades e Apoio a Programas, Eventos e Projetos de Esporte Amador, Educacao, Lazer e Inclusao Social - SNEAELIS (Emenda Parlamentar Individual - RP6 - Convênio)",
+   "orgao": "MINISTERIO DO ESPORTE",
+   "natureza": "Empresa pública/Sociedade de economia mista",
+   "canal": "emenda",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-20",
+   "fecha": "2026-09-06",
+   "dias_restantes": 6,
+   "urgente": true,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "5100020260013"
+   ],
+   "propostas_recebidas": 128,
+   "propostas_enviadas": 128,
+   "propostas_em_elaboracao": 0,
+   "propostas_por_situacao": {
+    "Proposta Aprovada e Plano de Trabalho em Complementação": 23,
+    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 56,
+    "Proposta Aprovada e Plano de Trabalho em Análise": 26,
+    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 9,
+    "Proposta/Plano de Trabalho Complementado em Análise": 2,
+    "Proposta/Plano de Trabalho Enviado para Análise": 2,
+    "Proposta/Plano de Trabalho Aprovados": 2,
+    "Proposta/Plano de Trabalho em Complementação": 4,
+    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 2,
+    "Proposta/Plano de Trabalho em Análise": 2
    }
   },
   {
@@ -876,7 +849,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-20",
    "fecha": "2026-09-06",
-   "dias_restantes": 7,
+   "dias_restantes": 6,
    "urgente": true,
    "nova": false,
    "aderente": false,
@@ -888,16 +861,16 @@
    "propostas_enviadas": 128,
    "propostas_em_elaboracao": 0,
    "propostas_por_situacao": {
-    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 56,
     "Proposta Aprovada e Plano de Trabalho em Complementação": 23,
+    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 56,
+    "Proposta Aprovada e Plano de Trabalho em Análise": 26,
+    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 9,
+    "Proposta/Plano de Trabalho Complementado em Análise": 2,
     "Proposta/Plano de Trabalho Enviado para Análise": 2,
     "Proposta/Plano de Trabalho Aprovados": 2,
-    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 9,
     "Proposta/Plano de Trabalho em Complementação": 4,
-    "Proposta/Plano de Trabalho Complementado em Análise": 2,
-    "Proposta/Plano de Trabalho em Análise": 2,
     "Proposta/Plano de Trabalho Complementado Enviado para Análise": 2,
-    "Proposta Aprovada e Plano de Trabalho em Análise": 26
+    "Proposta/Plano de Trabalho em Análise": 2
    }
   },
   {
@@ -910,7 +883,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-20",
    "fecha": "2026-09-06",
-   "dias_restantes": 7,
+   "dias_restantes": 6,
    "urgente": true,
    "nova": false,
    "aderente": false,
@@ -922,16 +895,16 @@
    "propostas_enviadas": 128,
    "propostas_em_elaboracao": 0,
    "propostas_por_situacao": {
-    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 56,
     "Proposta Aprovada e Plano de Trabalho em Complementação": 23,
+    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 56,
+    "Proposta Aprovada e Plano de Trabalho em Análise": 26,
+    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 9,
+    "Proposta/Plano de Trabalho Complementado em Análise": 2,
     "Proposta/Plano de Trabalho Enviado para Análise": 2,
     "Proposta/Plano de Trabalho Aprovados": 2,
-    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 9,
     "Proposta/Plano de Trabalho em Complementação": 4,
-    "Proposta/Plano de Trabalho Complementado em Análise": 2,
-    "Proposta/Plano de Trabalho em Análise": 2,
     "Proposta/Plano de Trabalho Complementado Enviado para Análise": 2,
-    "Proposta Aprovada e Plano de Trabalho em Análise": 26
+    "Proposta/Plano de Trabalho em Análise": 2
    }
   },
   {
@@ -944,7 +917,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-20",
    "fecha": "2026-09-06",
-   "dias_restantes": 7,
+   "dias_restantes": 6,
    "urgente": true,
    "nova": false,
    "aderente": false,
@@ -956,18 +929,18 @@
    "propostas_enviadas": 770,
    "propostas_em_elaboracao": 8,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Aprovados": 406,
-    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 1,
     "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 32,
     "Proposta Aprovada e Plano de Trabalho em Análise": 46,
     "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 129,
-    "Proposta/Plano de Trabalho em Complementação": 15,
-    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 24,
+    "Proposta/Plano de Trabalho Aprovados": 406,
     "Proposta Aprovada e Plano de Trabalho em Complementação": 104,
+    "Proposta/Plano de Trabalho Complementado em Análise": 5,
+    "Proposta/Plano de Trabalho em Complementação": 15,
     "Proposta/Plano de Trabalho Cadastrados": 8,
     "Proposta/Plano de Trabalho em Análise": 5,
-    "Proposta/Plano de Trabalho Enviado para Análise": 3,
-    "Proposta/Plano de Trabalho Complementado em Análise": 5
+    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 1,
+    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 24,
+    "Proposta/Plano de Trabalho Enviado para Análise": 3
    }
   },
   {
@@ -980,7 +953,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-05-06",
    "fecha": "2026-09-06",
-   "dias_restantes": 7,
+   "dias_restantes": 6,
    "urgente": true,
    "nova": false,
    "aderente": false,
@@ -992,17 +965,17 @@
    "propostas_enviadas": 352,
    "propostas_em_elaboracao": 4,
    "propostas_por_situacao": {
-    "Proposta Aprovada e Plano de Trabalho em Complementação": 112,
-    "Proposta/Plano de Trabalho Complementado em Análise": 14,
     "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 132,
+    "Proposta/Plano de Trabalho em Complementação": 9,
     "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 46,
     "Proposta Aprovada e Plano de Trabalho em Análise": 17,
-    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 8,
+    "Proposta Aprovada e Plano de Trabalho em Complementação": 112,
+    "Proposta/Plano de Trabalho Complementado em Análise": 14,
     "Proposta/Plano de Trabalho em Análise": 9,
+    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 8,
+    "Proposta/Plano de Trabalho Enviado para Análise": 3,
     "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 2,
-    "Proposta/Plano de Trabalho em Complementação": 9,
-    "Proposta/Plano de Trabalho Cadastrados": 4,
-    "Proposta/Plano de Trabalho Enviado para Análise": 3
+    "Proposta/Plano de Trabalho Cadastrados": 4
    }
   },
   {
@@ -1015,7 +988,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-05-06",
    "fecha": "2026-09-06",
-   "dias_restantes": 7,
+   "dias_restantes": 6,
    "urgente": true,
    "nova": false,
    "aderente": false,
@@ -1027,17 +1000,17 @@
    "propostas_enviadas": 352,
    "propostas_em_elaboracao": 4,
    "propostas_por_situacao": {
-    "Proposta Aprovada e Plano de Trabalho em Complementação": 112,
-    "Proposta/Plano de Trabalho Complementado em Análise": 14,
     "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 132,
+    "Proposta/Plano de Trabalho em Complementação": 9,
     "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 46,
     "Proposta Aprovada e Plano de Trabalho em Análise": 17,
-    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 8,
+    "Proposta Aprovada e Plano de Trabalho em Complementação": 112,
+    "Proposta/Plano de Trabalho Complementado em Análise": 14,
     "Proposta/Plano de Trabalho em Análise": 9,
+    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 8,
+    "Proposta/Plano de Trabalho Enviado para Análise": 3,
     "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 2,
-    "Proposta/Plano de Trabalho em Complementação": 9,
-    "Proposta/Plano de Trabalho Cadastrados": 4,
-    "Proposta/Plano de Trabalho Enviado para Análise": 3
+    "Proposta/Plano de Trabalho Cadastrados": 4
    }
   },
   {
@@ -1050,7 +1023,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-05-06",
    "fecha": "2026-09-06",
-   "dias_restantes": 7,
+   "dias_restantes": 6,
    "urgente": true,
    "nova": false,
    "aderente": false,
@@ -1062,17 +1035,17 @@
    "propostas_enviadas": 352,
    "propostas_em_elaboracao": 4,
    "propostas_por_situacao": {
-    "Proposta Aprovada e Plano de Trabalho em Complementação": 112,
-    "Proposta/Plano de Trabalho Complementado em Análise": 14,
     "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 132,
+    "Proposta/Plano de Trabalho em Complementação": 9,
     "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 46,
     "Proposta Aprovada e Plano de Trabalho em Análise": 17,
-    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 8,
+    "Proposta Aprovada e Plano de Trabalho em Complementação": 112,
+    "Proposta/Plano de Trabalho Complementado em Análise": 14,
     "Proposta/Plano de Trabalho em Análise": 9,
+    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 8,
+    "Proposta/Plano de Trabalho Enviado para Análise": 3,
     "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 2,
-    "Proposta/Plano de Trabalho em Complementação": 9,
-    "Proposta/Plano de Trabalho Cadastrados": 4,
-    "Proposta/Plano de Trabalho Enviado para Análise": 3
+    "Proposta/Plano de Trabalho Cadastrados": 4
    }
   },
   {
@@ -1085,7 +1058,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-05-06",
    "fecha": "2026-09-06",
-   "dias_restantes": 7,
+   "dias_restantes": 6,
    "urgente": true,
    "nova": false,
    "aderente": false,
@@ -1098,15 +1071,15 @@
    "propostas_em_elaboracao": 7,
    "propostas_por_situacao": {
     "Proposta/Plano de Trabalho Aprovados": 50,
-    "Proposta Aprovada e Plano de Trabalho em Complementação": 59,
-    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 6,
-    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 100,
-    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 27,
-    "Proposta Aprovada e Plano de Trabalho em Análise": 16,
     "Proposta/Plano de Trabalho Cadastrados": 7,
+    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 6,
+    "Proposta Aprovada e Plano de Trabalho em Complementação": 59,
+    "Proposta Aprovada e Plano de Trabalho em Análise": 16,
+    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 27,
+    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 100,
+    "Proposta/Plano de Trabalho Complementado em Análise": 3,
     "Proposta/Plano de Trabalho Enviado para Análise": 2,
     "Proposta/Plano de Trabalho em Complementação": 7,
-    "Proposta/Plano de Trabalho Complementado em Análise": 3,
     "Proposta/Plano de Trabalho em Análise": 1
    }
   },
@@ -1120,7 +1093,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-08-24",
    "fecha": "2026-09-07",
-   "dias_restantes": 8,
+   "dias_restantes": 7,
    "urgente": true,
    "nova": false,
    "aderente": false,
@@ -1145,7 +1118,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-05-04",
    "fecha": "2026-09-11",
-   "dias_restantes": 12,
+   "dias_restantes": 11,
    "urgente": true,
    "nova": false,
    "aderente": false,
@@ -1157,15 +1130,15 @@
    "propostas_enviadas": 71,
    "propostas_em_elaboracao": 3,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho em Complementação": 19,
     "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 14,
-    "Proposta Aprovada e Plano de Trabalho em Complementação": 3,
-    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 20,
-    "Proposta/Plano de Trabalho Cadastrados": 3,
     "Proposta/Plano de Trabalho Aprovados": 11,
+    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 20,
+    "Proposta Aprovada e Plano de Trabalho em Complementação": 3,
+    "Proposta/Plano de Trabalho Cadastrados": 3,
+    "Proposta/Plano de Trabalho em Complementação": 19,
+    "Proposta/Plano de Trabalho Complementado em Análise": 1,
     "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 2,
-    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 1,
-    "Proposta/Plano de Trabalho Complementado em Análise": 1
+    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 1
    }
   },
   {
@@ -1174,11 +1147,11 @@
    "orgao": "MINISTERIO DA CULTURA",
    "natureza": "Consórcio Público",
    "canal": "emenda",
-   "modalidade": "CONVENIO / CONVENIO OU CONTRATO DE REPASSE / CONTRATO DE REPASSE",
+   "modalidade": "CONTRATO DE REPASSE / CONVENIO / CONVENIO OU CONTRATO DE REPASSE",
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-05-04",
    "fecha": "2026-09-11",
-   "dias_restantes": 12,
+   "dias_restantes": 11,
    "urgente": true,
    "nova": false,
    "aderente": false,
@@ -1190,16 +1163,16 @@
    "propostas_enviadas": 134,
    "propostas_em_elaboracao": 0,
    "propostas_por_situacao": {
-    "Proposta Aprovada e Plano de Trabalho em Análise": 20,
     "Proposta/Plano de Trabalho Aprovados": 56,
     "Proposta/Plano de Trabalho Complementado Enviado para Análise": 16,
-    "Proposta/Plano de Trabalho em Complementação": 20,
     "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 6,
+    "Proposta Aprovada e Plano de Trabalho em Análise": 20,
     "Proposta Aprovada e Plano de Trabalho em Complementação": 5,
-    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 2,
-    "Proposta/Plano de Trabalho Enviado para Análise": 5,
     "Proposta/Plano de Trabalho Complementado em Análise": 3,
-    "Proposta/Plano de Trabalho em Análise": 1
+    "Proposta/Plano de Trabalho Enviado para Análise": 5,
+    "Proposta/Plano de Trabalho em Complementação": 20,
+    "Proposta/Plano de Trabalho em Análise": 1,
+    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 2
    }
   },
   {
@@ -1208,11 +1181,11 @@
    "orgao": "MINISTERIO DA CULTURA",
    "natureza": "Administração Pública Municipal",
    "canal": "emenda",
-   "modalidade": "CONVENIO / CONVENIO OU CONTRATO DE REPASSE / CONTRATO DE REPASSE",
+   "modalidade": "CONTRATO DE REPASSE / CONVENIO / CONVENIO OU CONTRATO DE REPASSE",
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-05-04",
    "fecha": "2026-09-11",
-   "dias_restantes": 12,
+   "dias_restantes": 11,
    "urgente": true,
    "nova": false,
    "aderente": false,
@@ -1224,16 +1197,16 @@
    "propostas_enviadas": 134,
    "propostas_em_elaboracao": 0,
    "propostas_por_situacao": {
-    "Proposta Aprovada e Plano de Trabalho em Análise": 20,
     "Proposta/Plano de Trabalho Aprovados": 56,
     "Proposta/Plano de Trabalho Complementado Enviado para Análise": 16,
-    "Proposta/Plano de Trabalho em Complementação": 20,
     "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 6,
+    "Proposta Aprovada e Plano de Trabalho em Análise": 20,
     "Proposta Aprovada e Plano de Trabalho em Complementação": 5,
-    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 2,
-    "Proposta/Plano de Trabalho Enviado para Análise": 5,
     "Proposta/Plano de Trabalho Complementado em Análise": 3,
-    "Proposta/Plano de Trabalho em Análise": 1
+    "Proposta/Plano de Trabalho Enviado para Análise": 5,
+    "Proposta/Plano de Trabalho em Complementação": 20,
+    "Proposta/Plano de Trabalho em Análise": 1,
+    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 2
    }
   },
   {
@@ -1242,11 +1215,11 @@
    "orgao": "MINISTERIO DA CULTURA",
    "natureza": "Administração Pública Estadual ou do Distrito Federal",
    "canal": "emenda",
-   "modalidade": "CONTRATO DE REPASSE / CONVENIO / CONVENIO OU CONTRATO DE REPASSE",
+   "modalidade": "CONVENIO / CONVENIO OU CONTRATO DE REPASSE / CONTRATO DE REPASSE",
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-05-04",
    "fecha": "2026-09-11",
-   "dias_restantes": 12,
+   "dias_restantes": 11,
    "urgente": true,
    "nova": false,
    "aderente": false,
@@ -1258,16 +1231,16 @@
    "propostas_enviadas": 134,
    "propostas_em_elaboracao": 0,
    "propostas_por_situacao": {
-    "Proposta Aprovada e Plano de Trabalho em Análise": 20,
     "Proposta/Plano de Trabalho Aprovados": 56,
     "Proposta/Plano de Trabalho Complementado Enviado para Análise": 16,
-    "Proposta/Plano de Trabalho em Complementação": 20,
     "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 6,
+    "Proposta Aprovada e Plano de Trabalho em Análise": 20,
     "Proposta Aprovada e Plano de Trabalho em Complementação": 5,
-    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 2,
-    "Proposta/Plano de Trabalho Enviado para Análise": 5,
     "Proposta/Plano de Trabalho Complementado em Análise": 3,
-    "Proposta/Plano de Trabalho em Análise": 1
+    "Proposta/Plano de Trabalho Enviado para Análise": 5,
+    "Proposta/Plano de Trabalho em Complementação": 20,
+    "Proposta/Plano de Trabalho em Análise": 1,
+    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 2
    }
   },
   {
@@ -1280,7 +1253,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-24",
    "fecha": "2026-09-11",
-   "dias_restantes": 12,
+   "dias_restantes": 11,
    "urgente": true,
    "nova": false,
    "aderente": false,
@@ -1293,8 +1266,8 @@
    "propostas_enviadas": 1,
    "propostas_em_elaboracao": 1,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 1,
-    "Proposta/Plano de Trabalho Cadastrados": 1
+    "Proposta/Plano de Trabalho Cadastrados": 1,
+    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 1
    }
   },
   {
@@ -1307,7 +1280,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-06-19",
    "fecha": "2026-09-14",
-   "dias_restantes": 15,
+   "dias_restantes": 14,
    "urgente": true,
    "nova": false,
    "aderente": true,
@@ -1321,8 +1294,8 @@
    "propostas_enviadas": 4,
    "propostas_em_elaboracao": 0,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Aprovados": 1,
-    "Proposta/Plano de Trabalho Enviado para Análise": 3
+    "Proposta/Plano de Trabalho Enviado para Análise": 3,
+    "Proposta/Plano de Trabalho Aprovados": 1
    }
   },
   {
@@ -1335,7 +1308,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-07-11",
    "fecha": "2026-09-14",
-   "dias_restantes": 15,
+   "dias_restantes": 14,
    "urgente": true,
    "nova": false,
    "aderente": false,
@@ -1347,12 +1320,12 @@
    "propostas_enviadas": 22,
    "propostas_em_elaboracao": 0,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Enviado para Análise": 5,
     "Proposta/Plano de Trabalho Aprovados": 11,
-    "Proposta/Plano de Trabalho em Complementação": 2,
-    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 2,
+    "Proposta/Plano de Trabalho Complementado em Análise": 1,
+    "Proposta/Plano de Trabalho Enviado para Análise": 5,
     "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 1,
-    "Proposta/Plano de Trabalho Complementado em Análise": 1
+    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 2,
+    "Proposta/Plano de Trabalho em Complementação": 2
    }
   },
   {
@@ -1365,7 +1338,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-08-13",
    "fecha": "2026-09-14",
-   "dias_restantes": 15,
+   "dias_restantes": 14,
    "urgente": true,
    "nova": false,
    "aderente": true,
@@ -1379,8 +1352,8 @@
    "propostas_enviadas": 9,
    "propostas_em_elaboracao": 17,
    "propostas_por_situacao": {
-    "Enviada para Análise Preliminar": 9,
-    "Proposta/Plano de Trabalho Cadastrados": 17
+    "Proposta/Plano de Trabalho Cadastrados": 17,
+    "Enviada para Análise Preliminar": 9
    }
   },
   {
@@ -1393,7 +1366,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-08-18",
    "fecha": "2026-09-17",
-   "dias_restantes": 18,
+   "dias_restantes": 17,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -1405,8 +1378,8 @@
    "propostas_enviadas": 2,
    "propostas_em_elaboracao": 2,
    "propostas_por_situacao": {
-    "Enviada para Análise Preliminar": 2,
-    "Proposta/Plano de Trabalho Cadastrados": 2
+    "Proposta/Plano de Trabalho Cadastrados": 2,
+    "Enviada para Análise Preliminar": 2
    }
   },
   {
@@ -1419,7 +1392,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-24",
    "fecha": "2026-09-30",
-   "dias_restantes": 31,
+   "dias_restantes": 30,
    "urgente": false,
    "nova": false,
    "aderente": true,
@@ -1433,8 +1406,8 @@
    "propostas_enviadas": 9,
    "propostas_em_elaboracao": 0,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho em Complementação": 2,
     "Proposta/Plano de Trabalho Aprovados": 6,
+    "Proposta/Plano de Trabalho em Complementação": 2,
     "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 1
    }
   },
@@ -1448,7 +1421,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-08-24",
    "fecha": "2026-10-24",
-   "dias_restantes": 55,
+   "dias_restantes": 54,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -1473,7 +1446,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-08-25",
    "fecha": "2026-10-25",
-   "dias_restantes": 56,
+   "dias_restantes": 55,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -1489,43 +1462,6 @@
    }
   },
   {
-   "id": "15f6dfec0829",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-   "natureza": "Empresa pública/Sociedade de economia mista",
-   "canal": "proposta",
-   "modalidade": "CONVENIO",
-   "situacao": "DISPONIBILIZADO",
-   "abre": "2026-02-19",
-   "fecha": "2026-11-30",
-   "dias_restantes": 92,
-   "urgente": false,
-   "nova": false,
-   "aderente": false,
-   "temas": [],
-   "codigos": [
-    "5300020260001",
-    "5300020260036"
-   ],
-   "propostas_recebidas": 5912,
-   "propostas_enviadas": 5595,
-   "propostas_em_elaboracao": 317,
-   "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Enviado para Análise": 4999,
-    "Proposta Aprovada e Plano de Trabalho em Complementação": 72,
-    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 97,
-    "Proposta Aprovada e Plano de Trabalho em Análise": 67,
-    "Proposta/Plano de Trabalho Cadastrados": 317,
-    "Proposta/Plano de Trabalho Aprovados": 310,
-    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 5,
-    "Proposta/Plano de Trabalho Complementado em Análise": 5,
-    "Proposta/Plano de Trabalho em Complementação": 28,
-    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 5,
-    "Proposta/Plano de Trabalho em Análise": 5,
-    "Proposta/Plano de Trabalho Rejeitados": 2
-   }
-  },
-  {
    "id": "47a546683349",
    "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
    "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
@@ -1535,7 +1471,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-19",
    "fecha": "2026-11-30",
-   "dias_restantes": 92,
+   "dias_restantes": 91,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -1548,18 +1484,18 @@
    "propostas_enviadas": 5595,
    "propostas_em_elaboracao": 317,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Enviado para Análise": 4999,
-    "Proposta Aprovada e Plano de Trabalho em Complementação": 72,
+    "Proposta/Plano de Trabalho em Complementação": 28,
     "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 97,
     "Proposta Aprovada e Plano de Trabalho em Análise": 67,
+    "Proposta/Plano de Trabalho Enviado para Análise": 4999,
+    "Proposta Aprovada e Plano de Trabalho em Complementação": 72,
     "Proposta/Plano de Trabalho Cadastrados": 317,
     "Proposta/Plano de Trabalho Aprovados": 310,
     "Proposta/Plano de Trabalho Complementado Enviado para Análise": 5,
-    "Proposta/Plano de Trabalho Complementado em Análise": 5,
-    "Proposta/Plano de Trabalho em Complementação": 28,
     "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 5,
-    "Proposta/Plano de Trabalho em Análise": 5,
-    "Proposta/Plano de Trabalho Rejeitados": 2
+    "Proposta/Plano de Trabalho Complementado em Análise": 5,
+    "Proposta/Plano de Trabalho Rejeitados": 2,
+    "Proposta/Plano de Trabalho em Análise": 5
    }
   },
   {
@@ -1572,7 +1508,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-19",
    "fecha": "2026-11-30",
-   "dias_restantes": 92,
+   "dias_restantes": 91,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -1585,18 +1521,18 @@
    "propostas_enviadas": 5595,
    "propostas_em_elaboracao": 317,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Enviado para Análise": 4999,
-    "Proposta Aprovada e Plano de Trabalho em Complementação": 72,
+    "Proposta/Plano de Trabalho em Complementação": 28,
     "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 97,
     "Proposta Aprovada e Plano de Trabalho em Análise": 67,
+    "Proposta/Plano de Trabalho Enviado para Análise": 4999,
+    "Proposta Aprovada e Plano de Trabalho em Complementação": 72,
     "Proposta/Plano de Trabalho Cadastrados": 317,
     "Proposta/Plano de Trabalho Aprovados": 310,
     "Proposta/Plano de Trabalho Complementado Enviado para Análise": 5,
-    "Proposta/Plano de Trabalho Complementado em Análise": 5,
-    "Proposta/Plano de Trabalho em Complementação": 28,
     "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 5,
-    "Proposta/Plano de Trabalho em Análise": 5,
-    "Proposta/Plano de Trabalho Rejeitados": 2
+    "Proposta/Plano de Trabalho Complementado em Análise": 5,
+    "Proposta/Plano de Trabalho Rejeitados": 2,
+    "Proposta/Plano de Trabalho em Análise": 5
    }
   },
   {
@@ -1609,7 +1545,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-05-15",
    "fecha": "2026-11-30",
-   "dias_restantes": 92,
+   "dias_restantes": 91,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -1622,11 +1558,11 @@
    "propostas_em_elaboracao": 43,
    "propostas_por_situacao": {
     "Proposta/Plano de Trabalho Cadastrados": 43,
-    "Proposta/Plano de Trabalho em Análise": 2,
     "Proposta/Plano de Trabalho Enviado para Análise": 709,
-    "Proposta Aprovada e Plano de Trabalho em Complementação": 1,
-    "Proposta/Plano de Trabalho Complementado em Análise": 1,
+    "Proposta/Plano de Trabalho em Análise": 2,
     "Proposta Aprovada e Plano de Trabalho em Análise": 1,
+    "Proposta/Plano de Trabalho Complementado em Análise": 1,
+    "Proposta Aprovada e Plano de Trabalho em Complementação": 1,
     "Proposta/Plano de Trabalho em Complementação": 1
    }
   },
@@ -1640,7 +1576,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-19",
    "fecha": "2026-11-30",
-   "dias_restantes": 92,
+   "dias_restantes": 91,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -1653,51 +1589,55 @@
    "propostas_enviadas": 5595,
    "propostas_em_elaboracao": 317,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Enviado para Análise": 4999,
-    "Proposta Aprovada e Plano de Trabalho em Complementação": 72,
+    "Proposta/Plano de Trabalho em Complementação": 28,
     "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 97,
     "Proposta Aprovada e Plano de Trabalho em Análise": 67,
+    "Proposta/Plano de Trabalho Enviado para Análise": 4999,
+    "Proposta Aprovada e Plano de Trabalho em Complementação": 72,
     "Proposta/Plano de Trabalho Cadastrados": 317,
     "Proposta/Plano de Trabalho Aprovados": 310,
     "Proposta/Plano de Trabalho Complementado Enviado para Análise": 5,
-    "Proposta/Plano de Trabalho Complementado em Análise": 5,
-    "Proposta/Plano de Trabalho em Complementação": 28,
     "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 5,
-    "Proposta/Plano de Trabalho em Análise": 5,
-    "Proposta/Plano de Trabalho Rejeitados": 2
+    "Proposta/Plano de Trabalho Complementado em Análise": 5,
+    "Proposta/Plano de Trabalho Rejeitados": 2,
+    "Proposta/Plano de Trabalho em Análise": 5
    }
   },
   {
-   "id": "9cfe2aeceffa",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP8 - CDR",
+   "id": "15f6dfec0829",
+   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
    "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
    "natureza": "Empresa pública/Sociedade de economia mista",
-   "canal": "emenda",
+   "canal": "proposta",
    "modalidade": "CONVENIO",
    "situacao": "DISPONIBILIZADO",
-   "abre": "2026-02-23",
+   "abre": "2026-02-19",
    "fecha": "2026-11-30",
-   "dias_restantes": 92,
+   "dias_restantes": 91,
    "urgente": false,
    "nova": false,
    "aderente": false,
    "temas": [],
    "codigos": [
-    "5300020260016"
+    "5300020260001",
+    "5300020260036"
    ],
-   "propostas_recebidas": 378,
-   "propostas_enviadas": 377,
-   "propostas_em_elaboracao": 1,
+   "propostas_recebidas": 5912,
+   "propostas_enviadas": 5595,
+   "propostas_em_elaboracao": 317,
    "propostas_por_situacao": {
-    "Proposta Aprovada e Plano de Trabalho em Análise": 34,
-    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 6,
+    "Proposta/Plano de Trabalho em Complementação": 28,
+    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 97,
+    "Proposta Aprovada e Plano de Trabalho em Análise": 67,
+    "Proposta/Plano de Trabalho Enviado para Análise": 4999,
+    "Proposta Aprovada e Plano de Trabalho em Complementação": 72,
+    "Proposta/Plano de Trabalho Cadastrados": 317,
     "Proposta/Plano de Trabalho Aprovados": 310,
-    "Proposta/Plano de Trabalho Enviado para Análise": 2,
-    "Proposta Aprovada e Plano de Trabalho em Complementação": 17,
-    "Proposta/Plano de Trabalho em Complementação": 4,
-    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 2,
-    "Proposta/Plano de Trabalho Cadastrados": 1,
-    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 2
+    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 5,
+    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 5,
+    "Proposta/Plano de Trabalho Complementado em Análise": 5,
+    "Proposta/Plano de Trabalho Rejeitados": 2,
+    "Proposta/Plano de Trabalho em Análise": 5
    }
   },
   {
@@ -1710,7 +1650,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-23",
    "fecha": "2026-11-30",
-   "dias_restantes": 92,
+   "dias_restantes": 91,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -1723,8 +1663,8 @@
    "propostas_em_elaboracao": 0,
    "propostas_por_situacao": {
     "Proposta Aprovada e Plano de Trabalho em Complementação": 2,
-    "Proposta/Plano de Trabalho Aprovados": 1,
-    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 1
+    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 1,
+    "Proposta/Plano de Trabalho Aprovados": 1
    }
   },
   {
@@ -1737,7 +1677,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-23",
    "fecha": "2026-11-30",
-   "dias_restantes": 92,
+   "dias_restantes": 91,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -1749,14 +1689,14 @@
    "propostas_enviadas": 377,
    "propostas_em_elaboracao": 1,
    "propostas_por_situacao": {
-    "Proposta Aprovada e Plano de Trabalho em Análise": 34,
-    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 6,
     "Proposta/Plano de Trabalho Aprovados": 310,
-    "Proposta/Plano de Trabalho Enviado para Análise": 2,
-    "Proposta Aprovada e Plano de Trabalho em Complementação": 17,
-    "Proposta/Plano de Trabalho em Complementação": 4,
-    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 2,
     "Proposta/Plano de Trabalho Cadastrados": 1,
+    "Proposta Aprovada e Plano de Trabalho em Complementação": 17,
+    "Proposta Aprovada e Plano de Trabalho em Análise": 34,
+    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 2,
+    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 6,
+    "Proposta/Plano de Trabalho Enviado para Análise": 2,
+    "Proposta/Plano de Trabalho em Complementação": 4,
     "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 2
    }
   },
@@ -1770,7 +1710,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-23",
    "fecha": "2026-11-30",
-   "dias_restantes": 92,
+   "dias_restantes": 91,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -1782,14 +1722,47 @@
    "propostas_enviadas": 377,
    "propostas_em_elaboracao": 1,
    "propostas_por_situacao": {
-    "Proposta Aprovada e Plano de Trabalho em Análise": 34,
-    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 6,
     "Proposta/Plano de Trabalho Aprovados": 310,
-    "Proposta/Plano de Trabalho Enviado para Análise": 2,
-    "Proposta Aprovada e Plano de Trabalho em Complementação": 17,
-    "Proposta/Plano de Trabalho em Complementação": 4,
-    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 2,
     "Proposta/Plano de Trabalho Cadastrados": 1,
+    "Proposta Aprovada e Plano de Trabalho em Complementação": 17,
+    "Proposta Aprovada e Plano de Trabalho em Análise": 34,
+    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 2,
+    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 6,
+    "Proposta/Plano de Trabalho Enviado para Análise": 2,
+    "Proposta/Plano de Trabalho em Complementação": 4,
+    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 2
+   }
+  },
+  {
+   "id": "9cfe2aeceffa",
+   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP8 - CDR",
+   "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
+   "natureza": "Empresa pública/Sociedade de economia mista",
+   "canal": "emenda",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-23",
+   "fecha": "2026-11-30",
+   "dias_restantes": 91,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "5300020260016"
+   ],
+   "propostas_recebidas": 378,
+   "propostas_enviadas": 377,
+   "propostas_em_elaboracao": 1,
+   "propostas_por_situacao": {
+    "Proposta/Plano de Trabalho Aprovados": 310,
+    "Proposta/Plano de Trabalho Cadastrados": 1,
+    "Proposta Aprovada e Plano de Trabalho em Complementação": 17,
+    "Proposta Aprovada e Plano de Trabalho em Análise": 34,
+    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 2,
+    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 6,
+    "Proposta/Plano de Trabalho Enviado para Análise": 2,
+    "Proposta/Plano de Trabalho em Complementação": 4,
     "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 2
    }
   },
@@ -1803,7 +1776,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-23",
    "fecha": "2026-11-30",
-   "dias_restantes": 92,
+   "dias_restantes": 91,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -1815,87 +1788,15 @@
    "propostas_enviadas": 377,
    "propostas_em_elaboracao": 1,
    "propostas_por_situacao": {
-    "Proposta Aprovada e Plano de Trabalho em Análise": 34,
-    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 6,
     "Proposta/Plano de Trabalho Aprovados": 310,
-    "Proposta/Plano de Trabalho Enviado para Análise": 2,
-    "Proposta Aprovada e Plano de Trabalho em Complementação": 17,
-    "Proposta/Plano de Trabalho em Complementação": 4,
-    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 2,
     "Proposta/Plano de Trabalho Cadastrados": 1,
+    "Proposta Aprovada e Plano de Trabalho em Complementação": 17,
+    "Proposta Aprovada e Plano de Trabalho em Análise": 34,
+    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 2,
+    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 6,
+    "Proposta/Plano de Trabalho Enviado para Análise": 2,
+    "Proposta/Plano de Trabalho em Complementação": 4,
     "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 2
-   }
-  },
-  {
-   "id": "597f1460ae55",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP8 - CINDRE",
-   "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-   "natureza": "Administração Pública Estadual ou do Distrito Federal",
-   "canal": "emenda",
-   "modalidade": "CONVENIO",
-   "situacao": "DISPONIBILIZADO",
-   "abre": "2026-02-23",
-   "fecha": "2026-11-30",
-   "dias_restantes": 92,
-   "urgente": false,
-   "nova": false,
-   "aderente": false,
-   "temas": [],
-   "codigos": [
-    "5300020260014"
-   ],
-   "propostas_recebidas": 772,
-   "propostas_enviadas": 767,
-   "propostas_em_elaboracao": 5,
-   "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho em Complementação": 22,
-    "Proposta Aprovada e Plano de Trabalho em Complementação": 41,
-    "Proposta/Plano de Trabalho Enviado para Análise": 12,
-    "Proposta/Plano de Trabalho Aprovados": 400,
-    "Proposta/Plano de Trabalho em Análise": 3,
-    "Proposta/Plano de Trabalho Cadastrados": 5,
-    "Proposta Aprovada e Plano de Trabalho em Análise": 245,
-    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 28,
-    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 9,
-    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 2,
-    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 3,
-    "Proposta/Plano de Trabalho Complementado em Análise": 2
-   }
-  },
-  {
-   "id": "7893a4f9f3ef",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP8 - CINDRE",
-   "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-   "natureza": "Consórcio Público",
-   "canal": "emenda",
-   "modalidade": "CONVENIO",
-   "situacao": "DISPONIBILIZADO",
-   "abre": "2026-02-23",
-   "fecha": "2026-11-30",
-   "dias_restantes": 92,
-   "urgente": false,
-   "nova": false,
-   "aderente": false,
-   "temas": [],
-   "codigos": [
-    "5300020260014"
-   ],
-   "propostas_recebidas": 772,
-   "propostas_enviadas": 767,
-   "propostas_em_elaboracao": 5,
-   "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho em Complementação": 22,
-    "Proposta Aprovada e Plano de Trabalho em Complementação": 41,
-    "Proposta/Plano de Trabalho Enviado para Análise": 12,
-    "Proposta/Plano de Trabalho Aprovados": 400,
-    "Proposta/Plano de Trabalho em Análise": 3,
-    "Proposta/Plano de Trabalho Cadastrados": 5,
-    "Proposta Aprovada e Plano de Trabalho em Análise": 245,
-    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 28,
-    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 9,
-    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 2,
-    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 3,
-    "Proposta/Plano de Trabalho Complementado em Análise": 2
    }
   },
   {
@@ -1908,7 +1809,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-23",
    "fecha": "2026-11-30",
-   "dias_restantes": 92,
+   "dias_restantes": 91,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -1920,18 +1821,90 @@
    "propostas_enviadas": 767,
    "propostas_em_elaboracao": 5,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho em Complementação": 22,
     "Proposta Aprovada e Plano de Trabalho em Complementação": 41,
     "Proposta/Plano de Trabalho Enviado para Análise": 12,
     "Proposta/Plano de Trabalho Aprovados": 400,
-    "Proposta/Plano de Trabalho em Análise": 3,
     "Proposta/Plano de Trabalho Cadastrados": 5,
+    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 3,
+    "Proposta/Plano de Trabalho em Complementação": 22,
     "Proposta Aprovada e Plano de Trabalho em Análise": 245,
     "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 28,
-    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 9,
+    "Proposta/Plano de Trabalho Complementado em Análise": 2,
     "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 2,
+    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 9,
+    "Proposta/Plano de Trabalho em Análise": 3
+   }
+  },
+  {
+   "id": "597f1460ae55",
+   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP8 - CINDRE",
+   "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
+   "natureza": "Administração Pública Estadual ou do Distrito Federal",
+   "canal": "emenda",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-23",
+   "fecha": "2026-11-30",
+   "dias_restantes": 91,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "5300020260014"
+   ],
+   "propostas_recebidas": 772,
+   "propostas_enviadas": 767,
+   "propostas_em_elaboracao": 5,
+   "propostas_por_situacao": {
+    "Proposta Aprovada e Plano de Trabalho em Complementação": 41,
+    "Proposta/Plano de Trabalho Enviado para Análise": 12,
+    "Proposta/Plano de Trabalho Aprovados": 400,
+    "Proposta/Plano de Trabalho Cadastrados": 5,
     "Proposta/Plano de Trabalho Complementado Enviado para Análise": 3,
-    "Proposta/Plano de Trabalho Complementado em Análise": 2
+    "Proposta/Plano de Trabalho em Complementação": 22,
+    "Proposta Aprovada e Plano de Trabalho em Análise": 245,
+    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 28,
+    "Proposta/Plano de Trabalho Complementado em Análise": 2,
+    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 2,
+    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 9,
+    "Proposta/Plano de Trabalho em Análise": 3
+   }
+  },
+  {
+   "id": "7893a4f9f3ef",
+   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP8 - CINDRE",
+   "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
+   "natureza": "Consórcio Público",
+   "canal": "emenda",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-23",
+   "fecha": "2026-11-30",
+   "dias_restantes": 91,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "5300020260014"
+   ],
+   "propostas_recebidas": 772,
+   "propostas_enviadas": 767,
+   "propostas_em_elaboracao": 5,
+   "propostas_por_situacao": {
+    "Proposta Aprovada e Plano de Trabalho em Complementação": 41,
+    "Proposta/Plano de Trabalho Enviado para Análise": 12,
+    "Proposta/Plano de Trabalho Aprovados": 400,
+    "Proposta/Plano de Trabalho Cadastrados": 5,
+    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 3,
+    "Proposta/Plano de Trabalho em Complementação": 22,
+    "Proposta Aprovada e Plano de Trabalho em Análise": 245,
+    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 28,
+    "Proposta/Plano de Trabalho Complementado em Análise": 2,
+    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 2,
+    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 9,
+    "Proposta/Plano de Trabalho em Análise": 3
    }
   },
   {
@@ -1944,7 +1917,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-23",
    "fecha": "2026-11-30",
-   "dias_restantes": 92,
+   "dias_restantes": 91,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -1956,18 +1929,18 @@
    "propostas_enviadas": 767,
    "propostas_em_elaboracao": 5,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho em Complementação": 22,
     "Proposta Aprovada e Plano de Trabalho em Complementação": 41,
     "Proposta/Plano de Trabalho Enviado para Análise": 12,
     "Proposta/Plano de Trabalho Aprovados": 400,
-    "Proposta/Plano de Trabalho em Análise": 3,
     "Proposta/Plano de Trabalho Cadastrados": 5,
+    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 3,
+    "Proposta/Plano de Trabalho em Complementação": 22,
     "Proposta Aprovada e Plano de Trabalho em Análise": 245,
     "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 28,
-    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 9,
+    "Proposta/Plano de Trabalho Complementado em Análise": 2,
     "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 2,
-    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 3,
-    "Proposta/Plano de Trabalho Complementado em Análise": 2
+    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 9,
+    "Proposta/Plano de Trabalho em Análise": 3
    }
   },
   {
@@ -1980,7 +1953,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-23",
    "fecha": "2026-11-30",
-   "dias_restantes": 92,
+   "dias_restantes": 91,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -1993,11 +1966,11 @@
    "propostas_em_elaboracao": 1,
    "propostas_por_situacao": {
     "Proposta/Plano de Trabalho Complementado em Análise": 1,
-    "Proposta/Plano de Trabalho Aprovados": 4,
-    "Proposta/Plano de Trabalho em Complementação": 1,
-    "Proposta/Plano de Trabalho Cadastrados": 1,
     "Proposta Aprovada e Plano de Trabalho em Complementação": 6,
-    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 2
+    "Proposta/Plano de Trabalho Aprovados": 4,
+    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 2,
+    "Proposta/Plano de Trabalho Cadastrados": 1,
+    "Proposta/Plano de Trabalho em Complementação": 1
    }
   },
   {
@@ -2010,7 +1983,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-05-15",
    "fecha": "2026-11-30",
-   "dias_restantes": 92,
+   "dias_restantes": 91,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -2033,7 +2006,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-19",
    "fecha": "2026-12-15",
-   "dias_restantes": 107,
+   "dias_restantes": 106,
    "urgente": false,
    "nova": false,
    "aderente": true,
@@ -2055,33 +2028,6 @@
    }
   },
   {
-   "id": "972ba92ca317",
-   "programa": "IMPLANTACAO, DESENVOLVIMENTO E MANUTENCAO DE SAUDE DIGITAL, TELESSAUDE E INOVACAO NO SUS",
-   "orgao": "MINISTERIO DA SAUDE",
-   "natureza": "Administração Pública Estadual ou do Distrito Federal",
-   "canal": "emenda",
-   "modalidade": "CONVENIO",
-   "situacao": "DISPONIBILIZADO",
-   "abre": "2026-05-21",
-   "fecha": "2026-12-30",
-   "dias_restantes": 122,
-   "urgente": false,
-   "nova": false,
-   "aderente": true,
-   "temas": [
-    "inovac"
-   ],
-   "codigos": [
-    "3600020260073"
-   ],
-   "propostas_recebidas": 1,
-   "propostas_enviadas": 1,
-   "propostas_em_elaboracao": 0,
-   "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Aprovados": 1
-   }
-  },
-  {
    "id": "01a9a6eb7db5",
    "programa": "IMPLANTACAO, DESENVOLVIMENTO E MANUTENCAO DE SAUDE DIGITAL, TELESSAUDE E INOVACAO NO SUS",
    "orgao": "MINISTERIO DA SAUDE",
@@ -2091,7 +2037,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-05-21",
    "fecha": "2026-12-30",
-   "dias_restantes": 122,
+   "dias_restantes": 121,
    "urgente": false,
    "nova": false,
    "aderente": true,
@@ -2118,7 +2064,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-05-21",
    "fecha": "2026-12-30",
-   "dias_restantes": 122,
+   "dias_restantes": 121,
    "urgente": false,
    "nova": false,
    "aderente": true,
@@ -2145,7 +2091,34 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-05-21",
    "fecha": "2026-12-30",
-   "dias_restantes": 122,
+   "dias_restantes": 121,
+   "urgente": false,
+   "nova": false,
+   "aderente": true,
+   "temas": [
+    "inovac"
+   ],
+   "codigos": [
+    "3600020260073"
+   ],
+   "propostas_recebidas": 1,
+   "propostas_enviadas": 1,
+   "propostas_em_elaboracao": 0,
+   "propostas_por_situacao": {
+    "Proposta/Plano de Trabalho Aprovados": 1
+   }
+  },
+  {
+   "id": "972ba92ca317",
+   "programa": "IMPLANTACAO, DESENVOLVIMENTO E MANUTENCAO DE SAUDE DIGITAL, TELESSAUDE E INOVACAO NO SUS",
+   "orgao": "MINISTERIO DA SAUDE",
+   "natureza": "Administração Pública Estadual ou do Distrito Federal",
+   "canal": "emenda",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-05-21",
+   "fecha": "2026-12-30",
+   "dias_restantes": 121,
    "urgente": false,
    "nova": false,
    "aderente": true,
@@ -2172,7 +2145,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-03",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -2195,7 +2168,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-03",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -2218,7 +2191,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-03",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -2241,7 +2214,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-03-09",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -2266,32 +2239,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-03",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
-   "urgente": false,
-   "nova": false,
-   "aderente": true,
-   "temas": [
-    "desenvolvimento regional"
-   ],
-   "codigos": [
-    "2220320260002"
-   ],
-   "propostas_recebidas": 0,
-   "propostas_enviadas": 0,
-   "propostas_em_elaboracao": 0,
-   "propostas_por_situacao": {}
-  },
-  {
-   "id": "85f7d90d887f",
-   "programa": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317. 00SX.0001 – Ação: Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - Nacional – RP (2)",
-   "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-   "natureza": "Administração Pública Municipal",
-   "canal": "emenda",
-   "modalidade": "CONVENIO",
-   "situacao": "DISPONIBILIZADO",
-   "abre": "2026-02-03",
-   "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": true,
@@ -2316,7 +2264,32 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-03",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
+   "urgente": false,
+   "nova": false,
+   "aderente": true,
+   "temas": [
+    "desenvolvimento regional"
+   ],
+   "codigos": [
+    "2220320260002"
+   ],
+   "propostas_recebidas": 0,
+   "propostas_enviadas": 0,
+   "propostas_em_elaboracao": 0,
+   "propostas_por_situacao": {}
+  },
+  {
+   "id": "85f7d90d887f",
+   "programa": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317. 00SX.0001 – Ação: Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - Nacional – RP (2)",
+   "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
+   "natureza": "Administração Pública Municipal",
+   "canal": "emenda",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-03",
+   "fecha": "2026-12-31",
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": true,
@@ -2341,7 +2314,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-03",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": true,
@@ -2366,7 +2339,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-03",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": true,
@@ -2391,7 +2364,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-03",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": true,
@@ -2416,7 +2389,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-03",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": true,
@@ -2441,7 +2414,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-03",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": true,
@@ -2466,7 +2439,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-03",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": true,
@@ -2475,31 +2448,6 @@
    ],
    "codigos": [
     "2220320260011"
-   ],
-   "propostas_recebidas": 0,
-   "propostas_enviadas": 0,
-   "propostas_em_elaboracao": 0,
-   "propostas_por_situacao": {}
-  },
-  {
-   "id": "aaf1a88a9af9",
-   "programa": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317. 00SX.0025 – Ação: Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - No Estado da Paraíba – RP (7)",
-   "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-   "natureza": "Administração Pública Estadual ou do Distrito Federal",
-   "canal": "emenda",
-   "modalidade": "CONVENIO",
-   "situacao": "DISPONIBILIZADO",
-   "abre": "2026-02-03",
-   "fecha": "2026-12-31",
-   "dias_restantes": 123,
-   "urgente": false,
-   "nova": false,
-   "aderente": true,
-   "temas": [
-    "desenvolvimento regional"
-   ],
-   "codigos": [
-    "2220320260012"
    ],
    "propostas_recebidas": 0,
    "propostas_enviadas": 0,
@@ -2516,7 +2464,32 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-03",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
+   "urgente": false,
+   "nova": false,
+   "aderente": true,
+   "temas": [
+    "desenvolvimento regional"
+   ],
+   "codigos": [
+    "2220320260012"
+   ],
+   "propostas_recebidas": 0,
+   "propostas_enviadas": 0,
+   "propostas_em_elaboracao": 0,
+   "propostas_por_situacao": {}
+  },
+  {
+   "id": "aaf1a88a9af9",
+   "programa": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317. 00SX.0025 – Ação: Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - No Estado da Paraíba – RP (7)",
+   "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
+   "natureza": "Administração Pública Estadual ou do Distrito Federal",
+   "canal": "emenda",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-03",
+   "fecha": "2026-12-31",
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": true,
@@ -2541,7 +2514,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-03",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": true,
@@ -2566,7 +2539,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-04",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": true,
@@ -2591,7 +2564,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-04",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": true,
@@ -2616,7 +2589,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-04",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": true,
@@ -2625,31 +2598,6 @@
    ],
    "codigos": [
     "2220320260025"
-   ],
-   "propostas_recebidas": 0,
-   "propostas_enviadas": 0,
-   "propostas_em_elaboracao": 0,
-   "propostas_por_situacao": {}
-  },
-  {
-   "id": "8e1f67b3e3bd",
-   "programa": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT – 20.608.2317. 214S.0002 – Ação: Estruturação e Dinamização de Atividades Produtivas (Rotas de Integração Nacional e Bioeconomia) - Exterior – RP (6)",
-   "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-   "natureza": "Administração Pública Estadual ou do Distrito Federal",
-   "canal": "emenda",
-   "modalidade": "CONVENIO",
-   "situacao": "DISPONIBILIZADO",
-   "abre": "2026-02-05",
-   "fecha": "2026-12-31",
-   "dias_restantes": 123,
-   "urgente": false,
-   "nova": false,
-   "aderente": true,
-   "temas": [
-    "desenvolvimento regional"
-   ],
-   "codigos": [
-    "2220320260041"
    ],
    "propostas_recebidas": 0,
    "propostas_enviadas": 0,
@@ -2666,7 +2614,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-05",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": true,
@@ -2691,7 +2639,32 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-05",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
+   "urgente": false,
+   "nova": false,
+   "aderente": true,
+   "temas": [
+    "desenvolvimento regional"
+   ],
+   "codigos": [
+    "2220320260041"
+   ],
+   "propostas_recebidas": 0,
+   "propostas_enviadas": 0,
+   "propostas_em_elaboracao": 0,
+   "propostas_por_situacao": {}
+  },
+  {
+   "id": "8e1f67b3e3bd",
+   "programa": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT – 20.608.2317. 214S.0002 – Ação: Estruturação e Dinamização de Atividades Produtivas (Rotas de Integração Nacional e Bioeconomia) - Exterior – RP (6)",
+   "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
+   "natureza": "Administração Pública Estadual ou do Distrito Federal",
+   "canal": "emenda",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-05",
+   "fecha": "2026-12-31",
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": true,
@@ -2716,7 +2689,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-07-13",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": true,
@@ -2744,7 +2717,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-07-13",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": true,
@@ -2772,7 +2745,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-05-19",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": true,
@@ -2800,7 +2773,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-01-02",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -2826,7 +2799,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-01-02",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -2838,13 +2811,13 @@
    "propostas_enviadas": 40,
    "propostas_em_elaboracao": 2,
    "propostas_por_situacao": {
+    "Proposta/Plano de Trabalho Complementado em Análise": 3,
     "Proposta/Plano de Trabalho Aprovados": 18,
     "Proposta/Plano de Trabalho Complementado Enviado para Análise": 6,
-    "Proposta/Plano de Trabalho em Complementação": 6,
-    "Proposta/Plano de Trabalho Complementado em Análise": 3,
-    "Proposta/Plano de Trabalho Enviado para Análise": 4,
     "Proposta/Plano de Trabalho em Análise": 3,
-    "Proposta/Plano de Trabalho Cadastrados": 2
+    "Proposta/Plano de Trabalho Cadastrados": 2,
+    "Proposta/Plano de Trabalho em Complementação": 6,
+    "Proposta/Plano de Trabalho Enviado para Análise": 4
    }
   },
   {
@@ -2857,7 +2830,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-01-02",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -2869,13 +2842,13 @@
    "propostas_enviadas": 40,
    "propostas_em_elaboracao": 2,
    "propostas_por_situacao": {
+    "Proposta/Plano de Trabalho Complementado em Análise": 3,
     "Proposta/Plano de Trabalho Aprovados": 18,
     "Proposta/Plano de Trabalho Complementado Enviado para Análise": 6,
-    "Proposta/Plano de Trabalho em Complementação": 6,
-    "Proposta/Plano de Trabalho Complementado em Análise": 3,
-    "Proposta/Plano de Trabalho Enviado para Análise": 4,
     "Proposta/Plano de Trabalho em Análise": 3,
-    "Proposta/Plano de Trabalho Cadastrados": 2
+    "Proposta/Plano de Trabalho Cadastrados": 2,
+    "Proposta/Plano de Trabalho em Complementação": 6,
+    "Proposta/Plano de Trabalho Enviado para Análise": 4
    }
   },
   {
@@ -2888,7 +2861,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-01-16",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": true,
@@ -2902,8 +2875,8 @@
    "propostas_enviadas": 1,
    "propostas_em_elaboracao": 1,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Aprovados": 1,
-    "Proposta/Plano de Trabalho Cadastrados": 1
+    "Proposta/Plano de Trabalho Cadastrados": 1,
+    "Proposta/Plano de Trabalho Aprovados": 1
    }
   },
   {
@@ -2916,7 +2889,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-03-10",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": true,
@@ -2943,7 +2916,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-03-10",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": true,
@@ -2970,7 +2943,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-03-10",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": true,
@@ -2988,33 +2961,6 @@
    }
   },
   {
-   "id": "9867885be618",
-   "programa": "Ações da Diretoria de Articulação e Inovação em Educação Aberta (DIEA) da Capes - Sistema UAB",
-   "orgao": "MINISTERIO DA EDUCACAO",
-   "natureza": "Organização da Sociedade Civil",
-   "canal": "proposta",
-   "modalidade": "CONVENIO",
-   "situacao": "DISPONIBILIZADO",
-   "abre": "2026-03-10",
-   "fecha": "2026-12-31",
-   "dias_restantes": 123,
-   "urgente": false,
-   "nova": false,
-   "aderente": true,
-   "temas": [
-    "inovaç"
-   ],
-   "codigos": [
-    "2629120260004"
-   ],
-   "propostas_recebidas": 4,
-   "propostas_enviadas": 4,
-   "propostas_em_elaboracao": 0,
-   "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Enviado para Análise": 4
-   }
-  },
-  {
    "id": "31e031f9c6ec",
    "programa": "Ações da Diretoria de Articulação e Inovação em Educação Aberta (DIEA) da Capes - Sistema UAB",
    "orgao": "MINISTERIO DA EDUCACAO",
@@ -3024,7 +2970,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-03-10",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": true,
@@ -3051,7 +2997,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-03-10",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": true,
@@ -3069,38 +3015,30 @@
    }
   },
   {
-   "id": "47cee2d527eb",
-   "programa": "Fomento ao Setor Agropecu?rio - Emendas de Comiss?o SF",
-   "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
-   "natureza": "Empresa pública/Sociedade de economia mista",
-   "canal": "emenda",
-   "modalidade": "CONVENIO / CONVENIO OU CONTRATO DE REPASSE / CONTRATO DE REPASSE",
+   "id": "9867885be618",
+   "programa": "Ações da Diretoria de Articulação e Inovação em Educação Aberta (DIEA) da Capes - Sistema UAB",
+   "orgao": "MINISTERIO DA EDUCACAO",
+   "natureza": "Organização da Sociedade Civil",
+   "canal": "proposta",
+   "modalidade": "CONVENIO",
    "situacao": "DISPONIBILIZADO",
-   "abre": "2026-02-11",
+   "abre": "2026-03-10",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
-   "aderente": false,
-   "temas": [],
-   "codigos": [
-    "2200020260013"
+   "aderente": true,
+   "temas": [
+    "inovaç"
    ],
-   "propostas_recebidas": 344,
-   "propostas_enviadas": 341,
-   "propostas_em_elaboracao": 3,
+   "codigos": [
+    "2629120260004"
+   ],
+   "propostas_recebidas": 4,
+   "propostas_enviadas": 4,
+   "propostas_em_elaboracao": 0,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho em Complementação": 20,
-    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 5,
-    "Proposta/Plano de Trabalho Complementado em Análise": 5,
-    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 26,
-    "Proposta/Plano de Trabalho Aprovados": 258,
-    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 5,
-    "Proposta Aprovada e Plano de Trabalho em Complementação": 14,
-    "Proposta/Plano de Trabalho Cadastrados": 3,
-    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 3,
-    "Proposta/Plano de Trabalho Enviado para Análise": 2,
-    "Proposta Aprovada e Plano de Trabalho em Análise": 3
+    "Proposta/Plano de Trabalho Enviado para Análise": 4
    }
   },
   {
@@ -3109,11 +3047,11 @@
    "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
    "natureza": "Administração Pública Municipal",
    "canal": "emenda",
-   "modalidade": "CONTRATO DE REPASSE / CONVENIO / CONVENIO OU CONTRATO DE REPASSE",
+   "modalidade": "CONVENIO / CONVENIO OU CONTRATO DE REPASSE / CONTRATO DE REPASSE",
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-11",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -3125,17 +3063,17 @@
    "propostas_enviadas": 341,
    "propostas_em_elaboracao": 3,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho em Complementação": 20,
-    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 5,
-    "Proposta/Plano de Trabalho Complementado em Análise": 5,
     "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 26,
-    "Proposta/Plano de Trabalho Aprovados": 258,
-    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 5,
     "Proposta Aprovada e Plano de Trabalho em Complementação": 14,
+    "Proposta/Plano de Trabalho Aprovados": 258,
+    "Proposta/Plano de Trabalho em Complementação": 20,
+    "Proposta Aprovada e Plano de Trabalho em Análise": 3,
+    "Proposta/Plano de Trabalho Complementado em Análise": 5,
     "Proposta/Plano de Trabalho Cadastrados": 3,
+    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 5,
+    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 5,
     "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 3,
-    "Proposta/Plano de Trabalho Enviado para Análise": 2,
-    "Proposta Aprovada e Plano de Trabalho em Análise": 3
+    "Proposta/Plano de Trabalho Enviado para Análise": 2
    }
   },
   {
@@ -3144,11 +3082,11 @@
    "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
    "natureza": "Administração Pública Estadual ou do Distrito Federal",
    "canal": "emenda",
-   "modalidade": "CONTRATO DE REPASSE / CONVENIO / CONVENIO OU CONTRATO DE REPASSE",
+   "modalidade": "CONVENIO / CONVENIO OU CONTRATO DE REPASSE / CONTRATO DE REPASSE",
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-11",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -3160,17 +3098,52 @@
    "propostas_enviadas": 341,
    "propostas_em_elaboracao": 3,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho em Complementação": 20,
-    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 5,
-    "Proposta/Plano de Trabalho Complementado em Análise": 5,
     "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 26,
-    "Proposta/Plano de Trabalho Aprovados": 258,
-    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 5,
     "Proposta Aprovada e Plano de Trabalho em Complementação": 14,
+    "Proposta/Plano de Trabalho Aprovados": 258,
+    "Proposta/Plano de Trabalho em Complementação": 20,
+    "Proposta Aprovada e Plano de Trabalho em Análise": 3,
+    "Proposta/Plano de Trabalho Complementado em Análise": 5,
     "Proposta/Plano de Trabalho Cadastrados": 3,
+    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 5,
+    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 5,
     "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 3,
-    "Proposta/Plano de Trabalho Enviado para Análise": 2,
-    "Proposta Aprovada e Plano de Trabalho em Análise": 3
+    "Proposta/Plano de Trabalho Enviado para Análise": 2
+   }
+  },
+  {
+   "id": "47cee2d527eb",
+   "programa": "Fomento ao Setor Agropecu?rio - Emendas de Comiss?o SF",
+   "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
+   "natureza": "Empresa pública/Sociedade de economia mista",
+   "canal": "emenda",
+   "modalidade": "CONTRATO DE REPASSE / CONVENIO / CONVENIO OU CONTRATO DE REPASSE",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-11",
+   "fecha": "2026-12-31",
+   "dias_restantes": 122,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2200020260013"
+   ],
+   "propostas_recebidas": 344,
+   "propostas_enviadas": 341,
+   "propostas_em_elaboracao": 3,
+   "propostas_por_situacao": {
+    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 26,
+    "Proposta Aprovada e Plano de Trabalho em Complementação": 14,
+    "Proposta/Plano de Trabalho Aprovados": 258,
+    "Proposta/Plano de Trabalho em Complementação": 20,
+    "Proposta Aprovada e Plano de Trabalho em Análise": 3,
+    "Proposta/Plano de Trabalho Complementado em Análise": 5,
+    "Proposta/Plano de Trabalho Cadastrados": 3,
+    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 5,
+    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 5,
+    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 3,
+    "Proposta/Plano de Trabalho Enviado para Análise": 2
    }
   },
   {
@@ -3179,11 +3152,11 @@
    "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
    "natureza": "Consórcio Público",
    "canal": "emenda",
-   "modalidade": "CONVENIO / CONVENIO OU CONTRATO DE REPASSE / CONTRATO DE REPASSE",
+   "modalidade": "CONTRATO DE REPASSE / CONVENIO / CONVENIO OU CONTRATO DE REPASSE",
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-11",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -3195,17 +3168,17 @@
    "propostas_enviadas": 341,
    "propostas_em_elaboracao": 3,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho em Complementação": 20,
-    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 5,
-    "Proposta/Plano de Trabalho Complementado em Análise": 5,
     "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 26,
-    "Proposta/Plano de Trabalho Aprovados": 258,
-    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 5,
     "Proposta Aprovada e Plano de Trabalho em Complementação": 14,
+    "Proposta/Plano de Trabalho Aprovados": 258,
+    "Proposta/Plano de Trabalho em Complementação": 20,
+    "Proposta Aprovada e Plano de Trabalho em Análise": 3,
+    "Proposta/Plano de Trabalho Complementado em Análise": 5,
     "Proposta/Plano de Trabalho Cadastrados": 3,
+    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 5,
+    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 5,
     "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 3,
-    "Proposta/Plano de Trabalho Enviado para Análise": 2,
-    "Proposta Aprovada e Plano de Trabalho em Análise": 3
+    "Proposta/Plano de Trabalho Enviado para Análise": 2
    }
   },
   {
@@ -3218,7 +3191,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-11",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -3231,8 +3204,8 @@
    "propostas_em_elaboracao": 1,
    "propostas_por_situacao": {
     "Proposta/Plano de Trabalho Aprovados": 14,
-    "Proposta/Plano de Trabalho em Complementação": 6,
     "Proposta/Plano de Trabalho Complementado Enviado para Análise": 3,
+    "Proposta/Plano de Trabalho em Complementação": 6,
     "Proposta/Plano de Trabalho Cadastrados": 1
    }
   },
@@ -3246,7 +3219,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-11",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -3268,11 +3241,11 @@
    "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
    "natureza": "Administração Pública Municipal",
    "canal": "emenda",
-   "modalidade": "CONTRATO DE REPASSE / CONVENIO / CONVENIO OU CONTRATO DE REPASSE",
+   "modalidade": "CONVENIO / CONVENIO OU CONTRATO DE REPASSE / CONTRATO DE REPASSE",
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-11",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -3284,14 +3257,14 @@
    "propostas_enviadas": 79,
    "propostas_em_elaboracao": 1,
    "propostas_por_situacao": {
+    "Proposta/Plano de Trabalho em Complementação": 8,
     "Proposta/Plano de Trabalho Aprovados": 60,
     "Proposta/Plano de Trabalho Cadastrados": 1,
+    "Proposta Aprovada e Plano de Trabalho em Complementação": 3,
     "Proposta Aprovada e Plano de Trabalho em Análise": 1,
-    "Proposta/Plano de Trabalho em Complementação": 8,
     "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 2,
-    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 1,
     "Proposta/Plano de Trabalho Complementado em Análise": 4,
-    "Proposta Aprovada e Plano de Trabalho em Complementação": 3
+    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 1
    }
   },
   {
@@ -3300,11 +3273,11 @@
    "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
    "natureza": "Administração Pública Estadual ou do Distrito Federal",
    "canal": "emenda",
-   "modalidade": "CONTRATO DE REPASSE / CONVENIO / CONVENIO OU CONTRATO DE REPASSE",
+   "modalidade": "CONVENIO / CONVENIO OU CONTRATO DE REPASSE / CONTRATO DE REPASSE",
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-11",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -3316,14 +3289,14 @@
    "propostas_enviadas": 79,
    "propostas_em_elaboracao": 1,
    "propostas_por_situacao": {
+    "Proposta/Plano de Trabalho em Complementação": 8,
     "Proposta/Plano de Trabalho Aprovados": 60,
     "Proposta/Plano de Trabalho Cadastrados": 1,
+    "Proposta Aprovada e Plano de Trabalho em Complementação": 3,
     "Proposta Aprovada e Plano de Trabalho em Análise": 1,
-    "Proposta/Plano de Trabalho em Complementação": 8,
     "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 2,
-    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 1,
     "Proposta/Plano de Trabalho Complementado em Análise": 4,
-    "Proposta Aprovada e Plano de Trabalho em Complementação": 3
+    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 1
    }
   },
   {
@@ -3332,11 +3305,11 @@
    "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
    "natureza": "Empresa pública/Sociedade de economia mista",
    "canal": "emenda",
-   "modalidade": "CONTRATO DE REPASSE / CONVENIO / CONVENIO OU CONTRATO DE REPASSE",
+   "modalidade": "CONVENIO / CONVENIO OU CONTRATO DE REPASSE / CONTRATO DE REPASSE",
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-11",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -3348,14 +3321,14 @@
    "propostas_enviadas": 79,
    "propostas_em_elaboracao": 1,
    "propostas_por_situacao": {
+    "Proposta/Plano de Trabalho em Complementação": 8,
     "Proposta/Plano de Trabalho Aprovados": 60,
     "Proposta/Plano de Trabalho Cadastrados": 1,
+    "Proposta Aprovada e Plano de Trabalho em Complementação": 3,
     "Proposta Aprovada e Plano de Trabalho em Análise": 1,
-    "Proposta/Plano de Trabalho em Complementação": 8,
     "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 2,
-    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 1,
     "Proposta/Plano de Trabalho Complementado em Análise": 4,
-    "Proposta Aprovada e Plano de Trabalho em Complementação": 3
+    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 1
    }
   },
   {
@@ -3364,11 +3337,11 @@
    "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
    "natureza": "Consórcio Público",
    "canal": "emenda",
-   "modalidade": "CONVENIO / CONVENIO OU CONTRATO DE REPASSE / CONTRATO DE REPASSE",
+   "modalidade": "CONTRATO DE REPASSE / CONVENIO / CONVENIO OU CONTRATO DE REPASSE",
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-11",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -3380,14 +3353,14 @@
    "propostas_enviadas": 79,
    "propostas_em_elaboracao": 1,
    "propostas_por_situacao": {
+    "Proposta/Plano de Trabalho em Complementação": 8,
     "Proposta/Plano de Trabalho Aprovados": 60,
     "Proposta/Plano de Trabalho Cadastrados": 1,
+    "Proposta Aprovada e Plano de Trabalho em Complementação": 3,
     "Proposta Aprovada e Plano de Trabalho em Análise": 1,
-    "Proposta/Plano de Trabalho em Complementação": 8,
     "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 2,
-    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 1,
     "Proposta/Plano de Trabalho Complementado em Análise": 4,
-    "Proposta Aprovada e Plano de Trabalho em Complementação": 3
+    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 1
    }
   },
   {
@@ -3400,7 +3373,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-10",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -3426,7 +3399,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-10",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -3452,7 +3425,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-10",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -3478,7 +3451,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-10",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -3500,11 +3473,11 @@
    "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
    "natureza": "Administração Pública Estadual ou do Distrito Federal",
    "canal": "proposta",
-   "modalidade": "CONVENIO / CONVENIO OU CONTRATO DE REPASSE / CONTRATO DE REPASSE",
+   "modalidade": "CONTRATO DE REPASSE / CONVENIO / CONVENIO OU CONTRATO DE REPASSE",
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-09",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -3529,11 +3502,11 @@
    "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
    "natureza": "Empresa pública/Sociedade de economia mista",
    "canal": "proposta",
-   "modalidade": "CONTRATO DE REPASSE / CONVENIO / CONVENIO OU CONTRATO DE REPASSE",
+   "modalidade": "CONVENIO / CONVENIO OU CONTRATO DE REPASSE / CONTRATO DE REPASSE",
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-09",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -3558,11 +3531,11 @@
    "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
    "natureza": "Consórcio Público",
    "canal": "proposta",
-   "modalidade": "CONTRATO DE REPASSE / CONVENIO / CONVENIO OU CONTRATO DE REPASSE",
+   "modalidade": "CONVENIO / CONVENIO OU CONTRATO DE REPASSE / CONTRATO DE REPASSE",
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-09",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -3587,11 +3560,11 @@
    "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
    "natureza": "Administração Pública Municipal",
    "canal": "proposta",
-   "modalidade": "CONTRATO DE REPASSE / CONVENIO / CONVENIO OU CONTRATO DE REPASSE",
+   "modalidade": "CONVENIO / CONVENIO OU CONTRATO DE REPASSE / CONTRATO DE REPASSE",
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-09",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -3620,7 +3593,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-09",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -3640,52 +3613,6 @@
    }
   },
   {
-   "id": "c3259725a3e1",
-   "programa": "INFRA-ESTRUTURA BÁSICA – SR(PB) Superintendência Regional do INCRA na PARAIBA– CONVÊNIO.",
-   "orgao": "MINISTÉRIO DO DESENVOLVIMENTO AGRÁRIO E AGRICULTURA FAMILIAR",
-   "natureza": "Administração Pública Municipal",
-   "canal": "emenda",
-   "modalidade": "CONVENIO",
-   "situacao": "CADASTRADO",
-   "abre": "2026-03-11",
-   "fecha": "2026-12-31",
-   "dias_restantes": 123,
-   "urgente": false,
-   "nova": false,
-   "aderente": false,
-   "temas": [],
-   "codigos": [
-    "2220120260023"
-   ],
-   "propostas_recebidas": 0,
-   "propostas_enviadas": 0,
-   "propostas_em_elaboracao": 0,
-   "propostas_por_situacao": {}
-  },
-  {
-   "id": "34e30792c8fc",
-   "programa": "INFRA-ESTRUTURA BÁSICA – SR(PB) Superintendência Regional do INCRA na PARAIBA– CONVÊNIO.",
-   "orgao": "MINISTÉRIO DO DESENVOLVIMENTO AGRÁRIO E AGRICULTURA FAMILIAR",
-   "natureza": "Consórcio Público",
-   "canal": "emenda",
-   "modalidade": "CONVENIO",
-   "situacao": "CADASTRADO",
-   "abre": "2026-03-11",
-   "fecha": "2026-12-31",
-   "dias_restantes": 123,
-   "urgente": false,
-   "nova": false,
-   "aderente": false,
-   "temas": [],
-   "codigos": [
-    "2220120260023"
-   ],
-   "propostas_recebidas": 0,
-   "propostas_enviadas": 0,
-   "propostas_em_elaboracao": 0,
-   "propostas_por_situacao": {}
-  },
-  {
    "id": "2364b5f0be18",
    "programa": "INFRA-ESTRUTURA BÁSICA – SR(PB) Superintendência Regional do INCRA na PARAIBA– CONVÊNIO.",
    "orgao": "MINISTÉRIO DO DESENVOLVIMENTO AGRÁRIO E AGRICULTURA FAMILIAR",
@@ -3695,7 +3622,7 @@
    "situacao": "CADASTRADO",
    "abre": "2026-03-11",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -3718,7 +3645,7 @@
    "situacao": "CADASTRADO",
    "abre": "2026-03-11",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -3741,7 +3668,7 @@
    "situacao": "CADASTRADO",
    "abre": "2026-03-11",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -3764,7 +3691,7 @@
    "situacao": "CADASTRADO",
    "abre": "2026-03-11",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -3778,31 +3705,50 @@
    "propostas_por_situacao": {}
   },
   {
-   "id": "b4af6f7996eb",
-   "programa": "Programa 2319 - Acao 00T1 - Apoio a Politica Nacional de Desenvolvimento Urbano Voltado a Implantacao e Qualificacao Viaria – RP7",
-   "orgao": "MINISTERIO DAS CIDADES",
+   "id": "c3259725a3e1",
+   "programa": "INFRA-ESTRUTURA BÁSICA – SR(PB) Superintendência Regional do INCRA na PARAIBA– CONVÊNIO.",
+   "orgao": "MINISTÉRIO DO DESENVOLVIMENTO AGRÁRIO E AGRICULTURA FAMILIAR",
    "natureza": "Administração Pública Municipal",
    "canal": "emenda",
-   "modalidade": "CONTRATO DE REPASSE",
-   "situacao": "DISPONIBILIZADO",
-   "abre": "2026-02-11",
+   "modalidade": "CONVENIO",
+   "situacao": "CADASTRADO",
+   "abre": "2026-03-11",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": false,
    "temas": [],
    "codigos": [
-    "5600020260022"
+    "2220120260023"
    ],
-   "propostas_recebidas": 15,
-   "propostas_enviadas": 15,
+   "propostas_recebidas": 0,
+   "propostas_enviadas": 0,
    "propostas_em_elaboracao": 0,
-   "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Aprovados": 10,
-    "Proposta/Plano de Trabalho em Complementação": 1,
-    "Proposta Aprovada e Plano de Trabalho em Análise": 4
-   }
+   "propostas_por_situacao": {}
+  },
+  {
+   "id": "34e30792c8fc",
+   "programa": "INFRA-ESTRUTURA BÁSICA – SR(PB) Superintendência Regional do INCRA na PARAIBA– CONVÊNIO.",
+   "orgao": "MINISTÉRIO DO DESENVOLVIMENTO AGRÁRIO E AGRICULTURA FAMILIAR",
+   "natureza": "Consórcio Público",
+   "canal": "emenda",
+   "modalidade": "CONVENIO",
+   "situacao": "CADASTRADO",
+   "abre": "2026-03-11",
+   "fecha": "2026-12-31",
+   "dias_restantes": 122,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2220120260023"
+   ],
+   "propostas_recebidas": 0,
+   "propostas_enviadas": 0,
+   "propostas_em_elaboracao": 0,
+   "propostas_por_situacao": {}
   },
   {
    "id": "eec35144bfaa",
@@ -3814,7 +3760,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-11",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -3827,8 +3773,8 @@
    "propostas_em_elaboracao": 0,
    "propostas_por_situacao": {
     "Proposta/Plano de Trabalho Aprovados": 10,
-    "Proposta/Plano de Trabalho em Complementação": 1,
-    "Proposta Aprovada e Plano de Trabalho em Análise": 4
+    "Proposta Aprovada e Plano de Trabalho em Análise": 4,
+    "Proposta/Plano de Trabalho em Complementação": 1
    }
   },
   {
@@ -3841,7 +3787,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-11",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -3854,8 +3800,35 @@
    "propostas_em_elaboracao": 0,
    "propostas_por_situacao": {
     "Proposta/Plano de Trabalho Aprovados": 10,
-    "Proposta/Plano de Trabalho em Complementação": 1,
-    "Proposta Aprovada e Plano de Trabalho em Análise": 4
+    "Proposta Aprovada e Plano de Trabalho em Análise": 4,
+    "Proposta/Plano de Trabalho em Complementação": 1
+   }
+  },
+  {
+   "id": "b4af6f7996eb",
+   "programa": "Programa 2319 - Acao 00T1 - Apoio a Politica Nacional de Desenvolvimento Urbano Voltado a Implantacao e Qualificacao Viaria – RP7",
+   "orgao": "MINISTERIO DAS CIDADES",
+   "natureza": "Administração Pública Municipal",
+   "canal": "emenda",
+   "modalidade": "CONTRATO DE REPASSE",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-11",
+   "fecha": "2026-12-31",
+   "dias_restantes": 122,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "5600020260022"
+   ],
+   "propostas_recebidas": 15,
+   "propostas_enviadas": 15,
+   "propostas_em_elaboracao": 0,
+   "propostas_por_situacao": {
+    "Proposta/Plano de Trabalho Aprovados": 10,
+    "Proposta Aprovada e Plano de Trabalho em Análise": 4,
+    "Proposta/Plano de Trabalho em Complementação": 1
    }
   },
   {
@@ -3868,7 +3841,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-11",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -3880,16 +3853,16 @@
    "propostas_enviadas": 992,
    "propostas_em_elaboracao": 21,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho em Complementação": 54,
-    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 6,
     "Proposta Aprovada e Plano de Trabalho em Complementação": 58,
-    "Proposta/Plano de Trabalho Aprovados": 811,
     "Proposta/Plano de Trabalho Cadastrados": 21,
-    "Proposta Aprovada e Plano de Trabalho em Análise": 20,
+    "Proposta/Plano de Trabalho Aprovados": 811,
+    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 13,
+    "Proposta/Plano de Trabalho em Complementação": 54,
     "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 19,
-    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 3,
+    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 6,
     "Proposta/Plano de Trabalho Enviado para Análise": 8,
-    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 13
+    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 3,
+    "Proposta Aprovada e Plano de Trabalho em Análise": 20
    }
   },
   {
@@ -3902,7 +3875,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-11",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -3914,16 +3887,16 @@
    "propostas_enviadas": 992,
    "propostas_em_elaboracao": 21,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho em Complementação": 54,
-    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 6,
     "Proposta Aprovada e Plano de Trabalho em Complementação": 58,
-    "Proposta/Plano de Trabalho Aprovados": 811,
     "Proposta/Plano de Trabalho Cadastrados": 21,
-    "Proposta Aprovada e Plano de Trabalho em Análise": 20,
+    "Proposta/Plano de Trabalho Aprovados": 811,
+    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 13,
+    "Proposta/Plano de Trabalho em Complementação": 54,
     "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 19,
-    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 3,
+    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 6,
     "Proposta/Plano de Trabalho Enviado para Análise": 8,
-    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 13
+    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 3,
+    "Proposta Aprovada e Plano de Trabalho em Análise": 20
    }
   },
   {
@@ -3936,7 +3909,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-11",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -3948,16 +3921,16 @@
    "propostas_enviadas": 992,
    "propostas_em_elaboracao": 21,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho em Complementação": 54,
-    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 6,
     "Proposta Aprovada e Plano de Trabalho em Complementação": 58,
-    "Proposta/Plano de Trabalho Aprovados": 811,
     "Proposta/Plano de Trabalho Cadastrados": 21,
-    "Proposta Aprovada e Plano de Trabalho em Análise": 20,
+    "Proposta/Plano de Trabalho Aprovados": 811,
+    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 13,
+    "Proposta/Plano de Trabalho em Complementação": 54,
     "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 19,
-    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 3,
+    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 6,
     "Proposta/Plano de Trabalho Enviado para Análise": 8,
-    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 13
+    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 3,
+    "Proposta Aprovada e Plano de Trabalho em Análise": 20
    }
   },
   {
@@ -3970,7 +3943,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-01-02",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -3995,7 +3968,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-11",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -4007,16 +3980,16 @@
    "propostas_enviadas": 1766,
    "propostas_em_elaboracao": 365,
    "propostas_por_situacao": {
-    "Proposta Aprovada e Plano de Trabalho em Análise": 2,
     "Proposta/Plano de Trabalho Cadastrados": 365,
     "Proposta/Plano de Trabalho Complementado Enviado para Análise": 505,
-    "Proposta/Plano de Trabalho Enviado para Análise": 541,
-    "Proposta/Plano de Trabalho em Complementação": 695,
-    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 4,
-    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 3,
     "Proposta/Plano de Trabalho Aprovados": 9,
-    "Proposta Aprovada e Plano de Trabalho em Complementação": 4,
+    "Proposta/Plano de Trabalho Enviado para Análise": 541,
     "Proposta/Plano de Trabalho Complementado em Análise": 1,
+    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 3,
+    "Proposta/Plano de Trabalho em Complementação": 695,
+    "Proposta Aprovada e Plano de Trabalho em Complementação": 4,
+    "Proposta Aprovada e Plano de Trabalho em Análise": 2,
+    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 4,
     "Proposta/Plano de Trabalho Rejeitados": 2
    }
   },
@@ -4030,7 +4003,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-11",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -4042,16 +4015,16 @@
    "propostas_enviadas": 1766,
    "propostas_em_elaboracao": 365,
    "propostas_por_situacao": {
-    "Proposta Aprovada e Plano de Trabalho em Análise": 2,
     "Proposta/Plano de Trabalho Cadastrados": 365,
     "Proposta/Plano de Trabalho Complementado Enviado para Análise": 505,
-    "Proposta/Plano de Trabalho Enviado para Análise": 541,
-    "Proposta/Plano de Trabalho em Complementação": 695,
-    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 4,
-    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 3,
     "Proposta/Plano de Trabalho Aprovados": 9,
-    "Proposta Aprovada e Plano de Trabalho em Complementação": 4,
+    "Proposta/Plano de Trabalho Enviado para Análise": 541,
     "Proposta/Plano de Trabalho Complementado em Análise": 1,
+    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 3,
+    "Proposta/Plano de Trabalho em Complementação": 695,
+    "Proposta Aprovada e Plano de Trabalho em Complementação": 4,
+    "Proposta Aprovada e Plano de Trabalho em Análise": 2,
+    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 4,
     "Proposta/Plano de Trabalho Rejeitados": 2
    }
   },
@@ -4065,7 +4038,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-11",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -4077,16 +4050,16 @@
    "propostas_enviadas": 1766,
    "propostas_em_elaboracao": 365,
    "propostas_por_situacao": {
-    "Proposta Aprovada e Plano de Trabalho em Análise": 2,
     "Proposta/Plano de Trabalho Cadastrados": 365,
     "Proposta/Plano de Trabalho Complementado Enviado para Análise": 505,
-    "Proposta/Plano de Trabalho Enviado para Análise": 541,
-    "Proposta/Plano de Trabalho em Complementação": 695,
-    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 4,
-    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 3,
     "Proposta/Plano de Trabalho Aprovados": 9,
-    "Proposta Aprovada e Plano de Trabalho em Complementação": 4,
+    "Proposta/Plano de Trabalho Enviado para Análise": 541,
     "Proposta/Plano de Trabalho Complementado em Análise": 1,
+    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 3,
+    "Proposta/Plano de Trabalho em Complementação": 695,
+    "Proposta Aprovada e Plano de Trabalho em Complementação": 4,
+    "Proposta Aprovada e Plano de Trabalho em Análise": 2,
+    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 4,
     "Proposta/Plano de Trabalho Rejeitados": 2
    }
   },
@@ -4100,7 +4073,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-11",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -4112,16 +4085,16 @@
    "propostas_enviadas": 1766,
    "propostas_em_elaboracao": 365,
    "propostas_por_situacao": {
-    "Proposta Aprovada e Plano de Trabalho em Análise": 2,
     "Proposta/Plano de Trabalho Cadastrados": 365,
     "Proposta/Plano de Trabalho Complementado Enviado para Análise": 505,
-    "Proposta/Plano de Trabalho Enviado para Análise": 541,
-    "Proposta/Plano de Trabalho em Complementação": 695,
-    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 4,
-    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 3,
     "Proposta/Plano de Trabalho Aprovados": 9,
-    "Proposta Aprovada e Plano de Trabalho em Complementação": 4,
+    "Proposta/Plano de Trabalho Enviado para Análise": 541,
     "Proposta/Plano de Trabalho Complementado em Análise": 1,
+    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 3,
+    "Proposta/Plano de Trabalho em Complementação": 695,
+    "Proposta Aprovada e Plano de Trabalho em Complementação": 4,
+    "Proposta Aprovada e Plano de Trabalho em Análise": 2,
+    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 4,
     "Proposta/Plano de Trabalho Rejeitados": 2
    }
   },
@@ -4135,7 +4108,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-11",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -4163,7 +4136,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-11",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -4191,7 +4164,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-11",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -4219,7 +4192,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-11",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -4247,7 +4220,7 @@
    "situacao": "CADASTRADO",
    "abre": "2026-01-02",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -4259,10 +4232,10 @@
    "propostas_enviadas": 300,
    "propostas_em_elaboracao": 38,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Cadastrados": 38,
     "Proposta/Plano de Trabalho Aprovados": 140,
-    "Proposta/Plano de Trabalho Enviado para Análise": 133,
-    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 27
+    "Proposta/Plano de Trabalho Cadastrados": 38,
+    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 27,
+    "Proposta/Plano de Trabalho Enviado para Análise": 133
    }
   },
   {
@@ -4275,7 +4248,7 @@
    "situacao": "CADASTRADO",
    "abre": "2026-01-02",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -4287,10 +4260,10 @@
    "propostas_enviadas": 300,
    "propostas_em_elaboracao": 38,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Cadastrados": 38,
     "Proposta/Plano de Trabalho Aprovados": 140,
-    "Proposta/Plano de Trabalho Enviado para Análise": 133,
-    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 27
+    "Proposta/Plano de Trabalho Cadastrados": 38,
+    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 27,
+    "Proposta/Plano de Trabalho Enviado para Análise": 133
    }
   },
   {
@@ -4303,7 +4276,7 @@
    "situacao": "CADASTRADO",
    "abre": "2026-01-02",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -4315,10 +4288,10 @@
    "propostas_enviadas": 300,
    "propostas_em_elaboracao": 38,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Cadastrados": 38,
     "Proposta/Plano de Trabalho Aprovados": 140,
-    "Proposta/Plano de Trabalho Enviado para Análise": 133,
-    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 27
+    "Proposta/Plano de Trabalho Cadastrados": 38,
+    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 27,
+    "Proposta/Plano de Trabalho Enviado para Análise": 133
    }
   },
   {
@@ -4331,7 +4304,7 @@
    "situacao": "CADASTRADO",
    "abre": "2026-01-02",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -4343,10 +4316,10 @@
    "propostas_enviadas": 300,
    "propostas_em_elaboracao": 38,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Cadastrados": 38,
     "Proposta/Plano de Trabalho Aprovados": 140,
-    "Proposta/Plano de Trabalho Enviado para Análise": 133,
-    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 27
+    "Proposta/Plano de Trabalho Cadastrados": 38,
+    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 27,
+    "Proposta/Plano de Trabalho Enviado para Análise": 133
    }
   },
   {
@@ -4359,7 +4332,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-01-21",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -4372,12 +4345,12 @@
    "propostas_em_elaboracao": 0,
    "propostas_por_situacao": {
     "Proposta/Plano de Trabalho em Complementação": 9,
-    "Proposta/Plano de Trabalho Aprovados": 67,
+    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 1,
     "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 2,
+    "Proposta/Plano de Trabalho Aprovados": 67,
     "Proposta/Plano de Trabalho em Análise": 4,
     "Proposta/Plano de Trabalho Complementado Enviado para Análise": 2,
-    "Proposta/Plano de Trabalho Complementado em Análise": 1,
-    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 1
+    "Proposta/Plano de Trabalho Complementado em Análise": 1
    }
   },
   {
@@ -4390,7 +4363,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-18",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -4418,7 +4391,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-18",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -4446,7 +4419,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-23",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -4471,7 +4444,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-23",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -4496,7 +4469,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-23",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -4521,7 +4494,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-23",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -4546,7 +4519,7 @@
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-07-31",
    "fecha": "2026-12-31",
-   "dias_restantes": 123,
+   "dias_restantes": 122,
    "urgente": false,
    "nova": false,
    "aderente": false,
@@ -4562,199 +4535,8 @@
    }
   }
  ],
- "propostas_recentes": [
-  {
-   "data": "2026-08-29",
-   "programa": "Programa Nacional de Estradas Rurais - PRONER",
-   "proponente": "MUNICIPIO DE PASSAGEM FRANCA DO PIAUI",
-   "municipio": "PASSAGEM FRANCA DO PIAUÍ",
-   "uf": "PI",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Enviado para Análise",
-   "valor_global": 2100000.0,
-   "objeto": "Execução de Obras e Serviços de Engenharia em Estradas Vicinais no município de Passagem Franca do Piauí - PI",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-08-29",
-   "programa": "Programa Nacional de Estradas Rurais - PRONER",
-   "proponente": "MUNICIPIO DE PASSAGEM FRANCA DO PIAUI",
-   "municipio": "PASSAGEM FRANCA DO PIAUÍ",
-   "uf": "PI",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Enviado para Análise",
-   "valor_global": 2100000.0,
-   "objeto": "Execução de Obras e Serviços de Engenharia em Estradas Vicinais no município de Passagem Franca do Piauí - PI",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-08-29",
-   "programa": "Programa Nacional de Estradas Rurais - PRONER",
-   "proponente": "MUNICIPIO DE PASSAGEM FRANCA DO PIAUI",
-   "municipio": "PASSAGEM FRANCA DO PIAUÍ",
-   "uf": "PI",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Enviado para Análise",
-   "valor_global": 2100000.0,
-   "objeto": "Execução de Obras e Serviços de Engenharia em Estradas Vicinais no município de Passagem Franca do Piauí - PI",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-08-29",
-   "programa": "Programa Nacional de Estradas Rurais - PRONER",
-   "proponente": "MUNICIPIO DE PASSAGEM FRANCA DO PIAUI",
-   "municipio": "PASSAGEM FRANCA DO PIAUÍ",
-   "uf": "PI",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Enviado para Análise",
-   "valor_global": 2100000.0,
-   "objeto": "Execução de Obras e Serviços de Engenharia em Estradas Vicinais no município de Passagem Franca do Piauí - PI",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-08-29",
-   "programa": "Fomento ao Setor Agropecuário - Emendas Individuais",
-   "proponente": "SECRETARIA DE AGRICULTURA E ABASTECIMENTO",
-   "municipio": "SÃO PAULO",
-   "uf": "SP",
-   "natureza": "Administração Pública Estadual ou do Distrito Federal",
-   "situacao": "Proposta/Plano de Trabalho Enviado para Análise",
-   "valor_global": 305500.0,
-   "objeto": "Aquisição de Máquinas e Equipamentos",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-08-29",
-   "programa": "Fomento ao Setor Agropecuário - Emendas Individuais",
-   "proponente": "SECRETARIA DE AGRICULTURA E ABASTECIMENTO",
-   "municipio": "SÃO PAULO",
-   "uf": "SP",
-   "natureza": "Administração Pública Estadual ou do Distrito Federal",
-   "situacao": "Proposta/Plano de Trabalho Enviado para Análise",
-   "valor_global": 305500.0,
-   "objeto": "Aquisição de Máquinas e Equipamentos",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-08-29",
-   "programa": "Fomento ao Setor Agropecuário - Emendas Individuais",
-   "proponente": "SECRETARIA DE AGRICULTURA E ABASTECIMENTO",
-   "municipio": "SÃO PAULO",
-   "uf": "SP",
-   "natureza": "Administração Pública Estadual ou do Distrito Federal",
-   "situacao": "Proposta/Plano de Trabalho Enviado para Análise",
-   "valor_global": 305500.0,
-   "objeto": "Aquisição de Máquinas e Equipamentos",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-08-29",
-   "programa": "Fomento ao Setor Agropecuário - Emendas Individuais",
-   "proponente": "SECRETARIA DE AGRICULTURA E ABASTECIMENTO",
-   "municipio": "SÃO PAULO",
-   "uf": "SP",
-   "natureza": "Administração Pública Estadual ou do Distrito Federal",
-   "situacao": "Proposta/Plano de Trabalho Enviado para Análise",
-   "valor_global": 305500.0,
-   "objeto": "Aquisição de Máquinas e Equipamentos",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-08-29",
-   "programa": "Fomento ao Setor Agropecuário - Emendas Individuais",
-   "proponente": "SECRETARIA DE AGRICULTURA E ABASTECIMENTO",
-   "municipio": "SÃO PAULO",
-   "uf": "SP",
-   "natureza": "Administração Pública Estadual ou do Distrito Federal",
-   "situacao": "Proposta/Plano de Trabalho Enviado para Análise",
-   "valor_global": 305500.0,
-   "objeto": "Aquisição de Máquinas e Equipamentos",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-08-29",
-   "programa": "Fomento ao Setor Agropecuário - Emendas Individuais",
-   "proponente": "SECRETARIA DE AGRICULTURA E ABASTECIMENTO",
-   "municipio": "SÃO PAULO",
-   "uf": "SP",
-   "natureza": "Administração Pública Estadual ou do Distrito Federal",
-   "situacao": "Proposta/Plano de Trabalho Enviado para Análise",
-   "valor_global": 305500.0,
-   "objeto": "Aquisição de Máquinas e Equipamentos",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-08-29",
-   "programa": "Fomento ao Setor Agropecuário - Emendas Individuais",
-   "proponente": "SECRETARIA DE AGRICULTURA E ABASTECIMENTO",
-   "municipio": "SÃO PAULO",
-   "uf": "SP",
-   "natureza": "Administração Pública Estadual ou do Distrito Federal",
-   "situacao": "Proposta/Plano de Trabalho Enviado para Análise",
-   "valor_global": 305500.0,
-   "objeto": "Aquisição de Máquinas e Equipamentos",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-08-29",
-   "programa": "Fomento ao Setor Agropecuário - Emendas Individuais",
-   "proponente": "SECRETARIA DE AGRICULTURA E ABASTECIMENTO",
-   "municipio": "SÃO PAULO",
-   "uf": "SP",
-   "natureza": "Administração Pública Estadual ou do Distrito Federal",
-   "situacao": "Proposta/Plano de Trabalho Enviado para Análise",
-   "valor_global": 305500.0,
-   "objeto": "Aquisição de Máquinas e Equipamentos",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-08-29",
-   "programa": "Fomento ao Setor Agropecuário - Emendas Individuais",
-   "proponente": "SECRETARIA DE AGRICULTURA E ABASTECIMENTO",
-   "municipio": "SÃO PAULO",
-   "uf": "SP",
-   "natureza": "Administração Pública Estadual ou do Distrito Federal",
-   "situacao": "Proposta/Plano de Trabalho Enviado para Análise",
-   "valor_global": 305500.0,
-   "objeto": "Aquisição de Máquinas e Equipamentos",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-08-29",
-   "programa": "Fomento ao Setor Agropecuário - Emendas Individuais",
-   "proponente": "SECRETARIA DE AGRICULTURA E ABASTECIMENTO",
-   "municipio": "SÃO PAULO",
-   "uf": "SP",
-   "natureza": "Administração Pública Estadual ou do Distrito Federal",
-   "situacao": "Proposta/Plano de Trabalho Enviado para Análise",
-   "valor_global": 305500.0,
-   "objeto": "Aquisição de Máquinas e Equipamentos",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-08-29",
-   "programa": "Fomento ao Setor Agropecuário - Emendas Individuais",
-   "proponente": "SECRETARIA DE AGRICULTURA E ABASTECIMENTO",
-   "municipio": "SÃO PAULO",
-   "uf": "SP",
-   "natureza": "Administração Pública Estadual ou do Distrito Federal",
-   "situacao": "Proposta/Plano de Trabalho Enviado para Análise",
-   "valor_global": 305500.0,
-   "objeto": "Aquisição de Máquinas e Equipamentos",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-08-29",
-   "programa": "Fomento ao Setor Agropecuário - Emendas Individuais",
-   "proponente": "SECRETARIA DE AGRICULTURA E ABASTECIMENTO",
-   "municipio": "SÃO PAULO",
-   "uf": "SP",
-   "natureza": "Administração Pública Estadual ou do Distrito Federal",
-   "situacao": "Proposta/Plano de Trabalho Enviado para Análise",
-   "valor_global": 305500.0,
-   "objeto": "Aquisição de Máquinas e Equipamentos",
-   "mesma_uf": false
-  }
- ],
- "encerradas": []
+ "propostas_recentes": [],
+ "encerradas": [
+  "2040820260004"
+ ]
 }
