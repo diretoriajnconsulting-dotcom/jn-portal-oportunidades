@@ -1,15 +1,15 @@
 {
   "version": "2.0",
   "change_mode": "incremental",
-  "generated_at": "2026-09-03T16:35:05+00:00",
+  "generated_at": "2026-09-04T16:31:10+00:00",
   "sources": [
     {
       "id": "cnpq",
       "name": "CNPq",
       "url": "https://www.gov.br/cnpq/pt-br/chamadas/abertas-para-submissao",
       "status": "healthy",
-      "checked_at": "2026-09-03T16:34:20+00:00",
-      "last_success_at": "2026-09-03T16:34:20+00:00",
+      "checked_at": "2026-09-04T16:30:09+00:00",
+      "last_success_at": "2026-09-04T16:30:09+00:00",
       "last_change_at": "2026-09-03T16:34:20+00:00",
       "opportunity_count": 7,
       "consecutive_errors": 0,
@@ -19,22 +19,22 @@
       "id": "fapesq",
       "name": "FAPESQ-PB",
       "url": "https://fapesq.rpp.br/editais/2026/editais-2026",
-      "status": "healthy",
-      "checked_at": "2026-09-03T16:34:27+00:00",
+      "status": "error",
+      "checked_at": "2026-09-04T16:30:09+00:00",
       "last_success_at": "2026-09-03T16:34:27+00:00",
       "last_change_at": "2026-08-20T12:32:07+00:00",
       "opportunity_count": 3,
-      "consecutive_errors": 0,
-      "error": null
+      "consecutive_errors": 1,
+      "error": "URLError: <urlopen error timed out>"
     },
     {
       "id": "finep",
       "name": "Finep",
       "url": "https://www.finep.gov.br/oportunidades",
       "status": "healthy",
-      "checked_at": "2026-09-03T16:34:20+00:00",
-      "last_success_at": "2026-09-03T16:34:20+00:00",
-      "last_change_at": "2026-09-03T16:34:20+00:00",
+      "checked_at": "2026-09-04T16:30:08+00:00",
+      "last_success_at": "2026-09-04T16:30:08+00:00",
+      "last_change_at": "2026-09-04T16:30:08+00:00",
       "opportunity_count": 12,
       "consecutive_errors": 0,
       "error": null
@@ -44,333 +44,26 @@
       "name": "TransfereGov",
       "url": "https://repositorio.dados.gov.br/seges/detru/",
       "status": "healthy",
-      "checked_at": "2026-09-03T16:34:51+00:00",
-      "last_success_at": "2026-09-03T16:34:51+00:00",
-      "last_change_at": "2026-09-03T16:34:51+00:00",
-      "opportunity_count": 149,
+      "checked_at": "2026-09-04T16:30:21+00:00",
+      "last_success_at": "2026-09-04T16:30:21+00:00",
+      "last_change_at": "2026-09-04T16:30:21+00:00",
+      "opportunity_count": 151,
       "consecutive_errors": 0,
       "error": null
     }
   ],
   "summary": {
     "monitored": 174,
-    "open": 168,
-    "urgent": 41,
-    "new": 5,
-    "changed": 0,
-    "closed": 3,
-    "unchanged": 166,
+    "open": 170,
+    "urgent": 42,
+    "new": 3,
+    "changed": 1,
+    "closed": 1,
+    "unchanged": 169,
     "priority_a": 9,
-    "stale_sources": 0
+    "stale_sources": 1
   },
   "opportunities": [
-    {
-      "id": "transferegov-004562f6bf04-emenda",
-      "source": {
-        "id": "transferegov",
-        "name": "TransfereGov",
-        "official": true,
-        "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
-        "stale": false
-      },
-      "external_id": "004562f6bf04-emenda",
-      "title": "Diagnóstico Agrário para Fortalecimento e Desenvolvimento Rural da Região Centro Sul do RS",
-      "description": null,
-      "funder": "MINISTERIO DA EDUCACAO",
-      "instrument": {
-        "type": "convenio",
-        "repayable": false
-      },
-      "status": "open",
-      "dates": {
-        "published": "2026-08-31",
-        "deadline": "2026-09-03"
-      },
-      "eligibility": {
-        "organization_types": [
-          "osc"
-        ],
-        "geography": [
-          "PB"
-        ]
-      },
-      "themes": [],
-      "funding": {
-        "program_budget": null
-      },
-      "documents": [],
-      "changes": [],
-      "change_status": "unchanged",
-      "matching": {
-        "eligible": true,
-        "ponte_score": 60,
-        "portfolio_tags": [
-          "clima",
-          "energia",
-          "cidades",
-          "esg",
-          "impacto_social",
-          "territorio",
-          "politicas_publicas"
-        ],
-        "matches": [
-          {
-            "portfolio_id": "ponte-clima",
-            "portfolio_name": "PONTE — Clima, Energia e Cidades",
-            "score": 60,
-            "reasons": [
-              "proponente: osc",
-              "território compatível"
-            ]
-          },
-          {
-            "portfolio_id": "ponte-impacto-publico",
-            "portfolio_name": "PONTE — Desenvolvimento Territorial e Impacto",
-            "score": 60,
-            "reasons": [
-              "proponente: osc",
-              "território compatível"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "id": "finep-754473",
-      "source": {
-        "id": "finep",
-        "name": "Finep",
-        "official": true,
-        "url": "https://www.finep.gov.br/e/chamada-publica/222684/754473",
-        "checked_at": "2026-09-03T16:34:20+00:00",
-        "stale": false
-      },
-      "external_id": "754473",
-      "title": "Finep Mais Inovação Brasil – Rodada 2 – Transformação Mineral",
-      "description": "Esta Seleção Pública tem por objetivo conceder recursos de subvenção econômica para atividades de pesquisa, desenvolvimento tecnológico e inovação (PD&I) em projetos inovadores, com risco tecnológico associado, executados por empresas, obrigatoriamente com a parceria de Instituições Científicas, Tecnológicas e de Inovação (ICTs). A iniciativa busca promover o adensamento das cadeias de transformação mineral, com foco em minerais críticos e estratégicos, contribuindo para uma descarbonização e uma transição energética seguras e sustentáveis, no âmbito das seguintes linhas temáticas definidas no item 2 do Anexo 1 do Regulamento. Orçamento: R$ 215,2 milhões Público-alvo: Empresas Prazo para envio das propostas alterado para 04/09/2026, 18h00 (horário de Brasília)” Em caso de dúvidas e orientações sobre a seleção pública: cp_transformacao_mineral@finep.gov.br Para apresentar sua proposta através da Plataforma de Apoio e Financiamento, verifique abaixo os materiais de orientação para cadastro e preenchimento do formulário no sistema: Manuais Manual do Cliente - Cadastro Manual do Cliente - Formulário de Apresentação de Proposta - FAP Manual do Cliente - Recursos Vídeos Tutorial geral Como se vincular a uma empresa já cadastrada Problemas de acesso à Plataforma da Finep Em caso de dúvidas e para orientações sobre cadastro (como CPF, CNPJ, vinculação, segmentos cadastrais e pendências cadastrais), clique aqui.",
-      "funder": "Finep / FNDCT",
-      "instrument": {
-        "type": "subvencao_economica",
-        "repayable": false
-      },
-      "status": "open",
-      "dates": {
-        "published": "2026-02-06",
-        "deadline": "2026-09-04"
-      },
-      "eligibility": {
-        "organization_types": [
-          "startup",
-          "empresa",
-          "cooperativa",
-          "ict"
-        ],
-        "geography": [
-          "BR"
-        ]
-      },
-      "themes": [
-        "industria_e_materiais_avancados",
-        "energia_e_transicao_sustentavel",
-        "energia",
-        "industrias_extrativas_e_minerais",
-        "subvencao_economica",
-        "finep_mais_inovacao_brasil_rodada_2_transformacao_mineral"
-      ],
-      "funding": {
-        "program_budget": 215200000.0
-      },
-      "documents": [
-        {
-          "title": "Plataforma de Apoio e Financiamento",
-          "url": "https://financiamento.finep.gov.br/credito/externo/",
-          "published": null
-        },
-        {
-          "title": "Manual do Cliente - Cadastro",
-          "url": "http://download.finep.gov.br/ManuaisSubvencaoDireta/Manual_Cliente_Cadastro.pdf",
-          "published": null
-        },
-        {
-          "title": "Manual do Cliente - Formulário de Apresentação de Proposta - FAP",
-          "url": "http://download.finep.gov.br/ManuaisSubvencaoDireta/ManuaisSubvencaoDireta/Manual_Cliente_Formulario_Apresentacao_Proposta_FAP.pdf",
-          "published": null
-        },
-        {
-          "title": "Manual do Cliente - Recursos",
-          "url": "https://download.finep.gov.br/ManuaisSubvencaoDireta/Manual_Cliente_Recursos.pdf",
-          "published": null
-        },
-        {
-          "title": "Tutorial geral",
-          "url": "http://download.finep.gov.br/ManuaisSubvencaoDireta/ManuaisSubvencaoDireta/TutorialGeral-SubvencaoDireta.mp4",
-          "published": null
-        },
-        {
-          "title": "Como se vincular a uma empresa já cadastrada",
-          "url": "http://download.finep.gov.br/ManuaisSubvencaoDireta/Comosevincularaumaempresajacadastrada.mp4",
-          "published": null
-        },
-        {
-          "title": "Problemas de acesso à Plataforma da Finep",
-          "url": "https://download.finep.gov.br/ManuaisSubvencaoDireta/ManuaisSubvencaoDireta/ProblemasacessoPlataformadaFinep.mp4",
-          "published": null
-        },
-        {
-          "title": "clique aqui",
-          "url": "https://download.finep.gov.br/guia_subvencao_direta.html",
-          "published": null
-        }
-      ],
-      "changes": [
-        {
-          "detected_at": "2026-08-28T22:30:44+00:00",
-          "field": "dates.deadline",
-          "before": "2026-08-31",
-          "after": "2026-09-04",
-          "impact_days": 4,
-          "source_document": "https://download.finep.gov.br/guia_subvencao_direta.html"
-        }
-      ],
-      "change_status": "unchanged",
-      "matching": {
-        "eligible": true,
-        "ponte_score": 75,
-        "portfolio_tags": [
-          "clima",
-          "energia",
-          "cidades",
-          "esg",
-          "bioeconomia",
-          "agtech",
-          "saude",
-          "pdi",
-          "impacto_social",
-          "territorio",
-          "politicas_publicas",
-          "inovacao",
-          "ia",
-          "saas",
-          "transformacao_digital"
-        ],
-        "matches": [
-          {
-            "portfolio_id": "ponte-clima",
-            "portfolio_name": "PONTE — Clima, Energia e Cidades",
-            "score": 75,
-            "reasons": [
-              "proponente: empresa, ict, startup",
-              "território compatível",
-              "temas: energia"
-            ]
-          },
-          {
-            "portfolio_id": "ponte-bioeconomia",
-            "portfolio_name": "PONTE — Bioeconomia, Agro e Saúde",
-            "score": 60,
-            "reasons": [
-              "proponente: cooperativa, empresa, ict, startup",
-              "território compatível"
-            ]
-          },
-          {
-            "portfolio_id": "ponte-impacto-publico",
-            "portfolio_name": "PONTE — Desenvolvimento Territorial e Impacto",
-            "score": 60,
-            "reasons": [
-              "proponente: cooperativa",
-              "território compatível"
-            ]
-          },
-          {
-            "portfolio_id": "ponte-inovacao",
-            "portfolio_name": "PONTE — Inovação e Transformação Digital",
-            "score": 60,
-            "reasons": [
-              "proponente: empresa, ict, startup",
-              "território compatível"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "id": "transferegov-dd30c353ea5a-emenda",
-      "source": {
-        "id": "transferegov",
-        "name": "TransfereGov",
-        "official": true,
-        "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
-        "stale": false
-      },
-      "external_id": "dd30c353ea5a-emenda",
-      "title": "Preservação do Patrimônio Cultural Brasileiro",
-      "description": null,
-      "funder": "MINISTERIO DA CULTURA",
-      "instrument": {
-        "type": "convenio",
-        "repayable": false
-      },
-      "status": "open",
-      "dates": {
-        "published": "2026-08-17",
-        "deadline": "2026-09-04"
-      },
-      "eligibility": {
-        "organization_types": [
-          "estado"
-        ],
-        "geography": [
-          "PB"
-        ]
-      },
-      "themes": [
-        "cultura",
-        "patrimonio"
-      ],
-      "funding": {
-        "program_budget": null
-      },
-      "documents": [],
-      "changes": [],
-      "change_status": "unchanged",
-      "matching": {
-        "eligible": true,
-        "ponte_score": 75,
-        "portfolio_tags": [
-          "impacto_social",
-          "territorio",
-          "politicas_publicas",
-          "clima",
-          "energia",
-          "cidades",
-          "esg"
-        ],
-        "matches": [
-          {
-            "portfolio_id": "ponte-impacto-publico",
-            "portfolio_name": "PONTE — Desenvolvimento Territorial e Impacto",
-            "score": 75,
-            "reasons": [
-              "proponente: estado",
-              "território compatível",
-              "temas: cultura"
-            ]
-          },
-          {
-            "portfolio_id": "ponte-clima",
-            "portfolio_name": "PONTE — Clima, Energia e Cidades",
-            "score": 60,
-            "reasons": [
-              "proponente: estado",
-              "território compatível"
-            ]
-          }
-        ]
-      }
-    },
     {
       "id": "transferegov-539a74d7a9f7-emenda",
       "source": {
@@ -378,7 +71,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "539a74d7a9f7-emenda",
@@ -448,13 +141,89 @@
       }
     },
     {
+      "id": "transferegov-dd30c353ea5a-emenda",
+      "source": {
+        "id": "transferegov",
+        "name": "TransfereGov",
+        "official": true,
+        "url": "https://repositorio.dados.gov.br/seges/detru/",
+        "checked_at": "2026-09-04T16:30:21+00:00",
+        "stale": false
+      },
+      "external_id": "dd30c353ea5a-emenda",
+      "title": "Preservação do Patrimônio Cultural Brasileiro",
+      "description": null,
+      "funder": "MINISTERIO DA CULTURA",
+      "instrument": {
+        "type": "convenio",
+        "repayable": false
+      },
+      "status": "open",
+      "dates": {
+        "published": "2026-08-17",
+        "deadline": "2026-09-04"
+      },
+      "eligibility": {
+        "organization_types": [
+          "estado"
+        ],
+        "geography": [
+          "PB"
+        ]
+      },
+      "themes": [
+        "cultura",
+        "patrimonio"
+      ],
+      "funding": {
+        "program_budget": null
+      },
+      "documents": [],
+      "changes": [],
+      "change_status": "unchanged",
+      "matching": {
+        "eligible": true,
+        "ponte_score": 75,
+        "portfolio_tags": [
+          "impacto_social",
+          "territorio",
+          "politicas_publicas",
+          "clima",
+          "energia",
+          "cidades",
+          "esg"
+        ],
+        "matches": [
+          {
+            "portfolio_id": "ponte-impacto-publico",
+            "portfolio_name": "PONTE — Desenvolvimento Territorial e Impacto",
+            "score": 75,
+            "reasons": [
+              "proponente: estado",
+              "território compatível",
+              "temas: cultura"
+            ]
+          },
+          {
+            "portfolio_id": "ponte-clima",
+            "portfolio_name": "PONTE — Clima, Energia e Cidades",
+            "score": 60,
+            "reasons": [
+              "proponente: estado",
+              "território compatível"
+            ]
+          }
+        ]
+      }
+    },
+    {
       "id": "transferegov-0e03145b090c-emenda",
       "source": {
         "id": "transferegov",
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "0e03145b090c-emenda",
@@ -520,13 +289,85 @@
       }
     },
     {
+      "id": "transferegov-554e97a622bb-emenda",
+      "source": {
+        "id": "transferegov",
+        "name": "TransfereGov",
+        "official": true,
+        "url": "https://repositorio.dados.gov.br/seges/detru/",
+        "checked_at": "2026-09-04T16:30:21+00:00",
+        "stale": false
+      },
+      "external_id": "554e97a622bb-emenda",
+      "title": "Diagnóstico Agrário para Fortalecimento e Desenvolvimento Rural da Região Centro Sul do RS",
+      "description": null,
+      "funder": "MINISTERIO DA EDUCACAO",
+      "instrument": {
+        "type": "convenio",
+        "repayable": false
+      },
+      "status": "open",
+      "dates": {
+        "published": "2026-08-31",
+        "deadline": "2026-09-04"
+      },
+      "eligibility": {
+        "organization_types": [
+          "osc"
+        ],
+        "geography": [
+          "PB"
+        ]
+      },
+      "themes": [],
+      "funding": {
+        "program_budget": null
+      },
+      "documents": [],
+      "changes": [],
+      "change_status": "new",
+      "matching": {
+        "eligible": true,
+        "ponte_score": 60,
+        "portfolio_tags": [
+          "clima",
+          "energia",
+          "cidades",
+          "esg",
+          "impacto_social",
+          "territorio",
+          "politicas_publicas"
+        ],
+        "matches": [
+          {
+            "portfolio_id": "ponte-clima",
+            "portfolio_name": "PONTE — Clima, Energia e Cidades",
+            "score": 60,
+            "reasons": [
+              "proponente: osc",
+              "território compatível"
+            ]
+          },
+          {
+            "portfolio_id": "ponte-impacto-publico",
+            "portfolio_name": "PONTE — Desenvolvimento Territorial e Impacto",
+            "score": 60,
+            "reasons": [
+              "proponente: osc",
+              "território compatível"
+            ]
+          }
+        ]
+      }
+    },
+    {
       "id": "transferegov-e2735368f2d0-emenda",
       "source": {
         "id": "transferegov",
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "e2735368f2d0-emenda",
@@ -598,7 +439,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "5b4304ad26c5-emenda",
@@ -670,7 +511,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "91287aa7e3dc-emenda",
@@ -742,7 +583,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "222d68b4d0ec-emenda",
@@ -814,7 +655,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "ed2d5279fa3d-emenda",
@@ -886,7 +727,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "fe35bca903b5-emenda",
@@ -958,7 +799,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "ed977045d485-emenda",
@@ -1030,7 +871,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "a7d6eaf976a9-emenda",
@@ -1102,7 +943,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "8ebb11869bf4-emenda",
@@ -1168,85 +1009,13 @@
       }
     },
     {
-      "id": "transferegov-cd66a25679be-emenda",
-      "source": {
-        "id": "transferegov",
-        "name": "TransfereGov",
-        "official": true,
-        "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
-        "stale": false
-      },
-      "external_id": "cd66a25679be-emenda",
-      "title": "Desenvolvimento de Atividades e Apoio a Programas, Eventos e Projetos de Esporte Amador, Educacao, Lazer e Inclusao Social - SNEAELIS (Emenda Parlamentar Individual - RP6 - Convênio)",
-      "description": null,
-      "funder": "MINISTERIO DO ESPORTE",
-      "instrument": {
-        "type": "convenio",
-        "repayable": false
-      },
-      "status": "open",
-      "dates": {
-        "published": "2026-02-20",
-        "deadline": "2026-09-06"
-      },
-      "eligibility": {
-        "organization_types": [
-          "municipio"
-        ],
-        "geography": [
-          "PB"
-        ]
-      },
-      "themes": [],
-      "funding": {
-        "program_budget": null
-      },
-      "documents": [],
-      "changes": [],
-      "change_status": "unchanged",
-      "matching": {
-        "eligible": true,
-        "ponte_score": 60,
-        "portfolio_tags": [
-          "clima",
-          "energia",
-          "cidades",
-          "esg",
-          "impacto_social",
-          "territorio",
-          "politicas_publicas"
-        ],
-        "matches": [
-          {
-            "portfolio_id": "ponte-clima",
-            "portfolio_name": "PONTE — Clima, Energia e Cidades",
-            "score": 60,
-            "reasons": [
-              "proponente: municipio",
-              "território compatível"
-            ]
-          },
-          {
-            "portfolio_id": "ponte-impacto-publico",
-            "portfolio_name": "PONTE — Desenvolvimento Territorial e Impacto",
-            "score": 60,
-            "reasons": [
-              "proponente: municipio",
-              "território compatível"
-            ]
-          }
-        ]
-      }
-    },
-    {
       "id": "transferegov-b84f92cee427-emenda",
       "source": {
         "id": "transferegov",
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "b84f92cee427-emenda",
@@ -1312,13 +1081,85 @@
       }
     },
     {
+      "id": "transferegov-cd66a25679be-emenda",
+      "source": {
+        "id": "transferegov",
+        "name": "TransfereGov",
+        "official": true,
+        "url": "https://repositorio.dados.gov.br/seges/detru/",
+        "checked_at": "2026-09-04T16:30:21+00:00",
+        "stale": false
+      },
+      "external_id": "cd66a25679be-emenda",
+      "title": "Desenvolvimento de Atividades e Apoio a Programas, Eventos e Projetos de Esporte Amador, Educacao, Lazer e Inclusao Social - SNEAELIS (Emenda Parlamentar Individual - RP6 - Convênio)",
+      "description": null,
+      "funder": "MINISTERIO DO ESPORTE",
+      "instrument": {
+        "type": "convenio",
+        "repayable": false
+      },
+      "status": "open",
+      "dates": {
+        "published": "2026-02-20",
+        "deadline": "2026-09-06"
+      },
+      "eligibility": {
+        "organization_types": [
+          "municipio"
+        ],
+        "geography": [
+          "PB"
+        ]
+      },
+      "themes": [],
+      "funding": {
+        "program_budget": null
+      },
+      "documents": [],
+      "changes": [],
+      "change_status": "unchanged",
+      "matching": {
+        "eligible": true,
+        "ponte_score": 60,
+        "portfolio_tags": [
+          "clima",
+          "energia",
+          "cidades",
+          "esg",
+          "impacto_social",
+          "territorio",
+          "politicas_publicas"
+        ],
+        "matches": [
+          {
+            "portfolio_id": "ponte-clima",
+            "portfolio_name": "PONTE — Clima, Energia e Cidades",
+            "score": 60,
+            "reasons": [
+              "proponente: municipio",
+              "território compatível"
+            ]
+          },
+          {
+            "portfolio_id": "ponte-impacto-publico",
+            "portfolio_name": "PONTE — Desenvolvimento Territorial e Impacto",
+            "score": 60,
+            "reasons": [
+              "proponente: municipio",
+              "território compatível"
+            ]
+          }
+        ]
+      }
+    },
+    {
       "id": "transferegov-43c74278ca25-emenda",
       "source": {
         "id": "transferegov",
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "43c74278ca25-emenda",
@@ -1404,7 +1245,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "f2cb341d6d77-emenda",
@@ -1470,85 +1311,13 @@
       }
     },
     {
-      "id": "transferegov-c16f2c544629-emenda",
-      "source": {
-        "id": "transferegov",
-        "name": "TransfereGov",
-        "official": true,
-        "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
-        "stale": false
-      },
-      "external_id": "c16f2c544629-emenda",
-      "title": "Desenvolvimento de Atividades e Apoio a Programas, Eventos e Projetos de Esporte Amador, Educacao, Lazer e Inclusao Social - SNEAELIS (Emenda de Comissao - RP8 - Convenio)",
-      "description": null,
-      "funder": "MINISTERIO DO ESPORTE",
-      "instrument": {
-        "type": "convenio",
-        "repayable": false
-      },
-      "status": "open",
-      "dates": {
-        "published": "2026-05-06",
-        "deadline": "2026-09-06"
-      },
-      "eligibility": {
-        "organization_types": [
-          "municipio"
-        ],
-        "geography": [
-          "PB"
-        ]
-      },
-      "themes": [],
-      "funding": {
-        "program_budget": null
-      },
-      "documents": [],
-      "changes": [],
-      "change_status": "unchanged",
-      "matching": {
-        "eligible": true,
-        "ponte_score": 60,
-        "portfolio_tags": [
-          "clima",
-          "energia",
-          "cidades",
-          "esg",
-          "impacto_social",
-          "territorio",
-          "politicas_publicas"
-        ],
-        "matches": [
-          {
-            "portfolio_id": "ponte-clima",
-            "portfolio_name": "PONTE — Clima, Energia e Cidades",
-            "score": 60,
-            "reasons": [
-              "proponente: municipio",
-              "território compatível"
-            ]
-          },
-          {
-            "portfolio_id": "ponte-impacto-publico",
-            "portfolio_name": "PONTE — Desenvolvimento Territorial e Impacto",
-            "score": 60,
-            "reasons": [
-              "proponente: municipio",
-              "território compatível"
-            ]
-          }
-        ]
-      }
-    },
-    {
       "id": "transferegov-203828e3a7f3-emenda",
       "source": {
         "id": "transferegov",
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "203828e3a7f3-emenda",
@@ -1614,13 +1383,85 @@
       }
     },
     {
+      "id": "transferegov-c16f2c544629-emenda",
+      "source": {
+        "id": "transferegov",
+        "name": "TransfereGov",
+        "official": true,
+        "url": "https://repositorio.dados.gov.br/seges/detru/",
+        "checked_at": "2026-09-04T16:30:21+00:00",
+        "stale": false
+      },
+      "external_id": "c16f2c544629-emenda",
+      "title": "Desenvolvimento de Atividades e Apoio a Programas, Eventos e Projetos de Esporte Amador, Educacao, Lazer e Inclusao Social - SNEAELIS (Emenda de Comissao - RP8 - Convenio)",
+      "description": null,
+      "funder": "MINISTERIO DO ESPORTE",
+      "instrument": {
+        "type": "convenio",
+        "repayable": false
+      },
+      "status": "open",
+      "dates": {
+        "published": "2026-05-06",
+        "deadline": "2026-09-06"
+      },
+      "eligibility": {
+        "organization_types": [
+          "municipio"
+        ],
+        "geography": [
+          "PB"
+        ]
+      },
+      "themes": [],
+      "funding": {
+        "program_budget": null
+      },
+      "documents": [],
+      "changes": [],
+      "change_status": "unchanged",
+      "matching": {
+        "eligible": true,
+        "ponte_score": 60,
+        "portfolio_tags": [
+          "clima",
+          "energia",
+          "cidades",
+          "esg",
+          "impacto_social",
+          "territorio",
+          "politicas_publicas"
+        ],
+        "matches": [
+          {
+            "portfolio_id": "ponte-clima",
+            "portfolio_name": "PONTE — Clima, Energia e Cidades",
+            "score": 60,
+            "reasons": [
+              "proponente: municipio",
+              "território compatível"
+            ]
+          },
+          {
+            "portfolio_id": "ponte-impacto-publico",
+            "portfolio_name": "PONTE — Desenvolvimento Territorial e Impacto",
+            "score": 60,
+            "reasons": [
+              "proponente: municipio",
+              "território compatível"
+            ]
+          }
+        ]
+      }
+    },
+    {
       "id": "transferegov-deecfca35a3b-emenda",
       "source": {
         "id": "transferegov",
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "deecfca35a3b-emenda",
@@ -1692,7 +1533,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "a436617d8413-emenda",
@@ -1764,7 +1605,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "0a39bb78d222-emenda",
@@ -1836,7 +1677,7 @@
         "name": "Finep",
         "official": true,
         "url": "https://www.finep.gov.br/e/chamada-publica/222684/1019381",
-        "checked_at": "2026-09-03T16:34:20+00:00",
+        "checked_at": "2026-09-04T16:30:08+00:00",
         "stale": false
       },
       "external_id": "1019381",
@@ -1951,7 +1792,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "8a226852457b-emenda",
@@ -2017,13 +1858,85 @@
       }
     },
     {
+      "id": "transferegov-a977edea9e22-proposta",
+      "source": {
+        "id": "transferegov",
+        "name": "TransfereGov",
+        "official": true,
+        "url": "https://repositorio.dados.gov.br/seges/detru/",
+        "checked_at": "2026-09-04T16:30:21+00:00",
+        "stale": false
+      },
+      "external_id": "a977edea9e22-proposta",
+      "title": "SENASP - Programa Brasil contra o Crime Organizado – Eixos 1, 2, 3 e 5 – FIIS",
+      "description": null,
+      "funder": "MINISTERIO DA JUSTICA E SEGURANCA PUBLICA",
+      "instrument": {
+        "type": "convenio",
+        "repayable": false
+      },
+      "status": "open",
+      "dates": {
+        "published": "2026-07-20",
+        "deadline": "2026-09-10"
+      },
+      "eligibility": {
+        "organization_types": [
+          "estado"
+        ],
+        "geography": [
+          "PB"
+        ]
+      },
+      "themes": [],
+      "funding": {
+        "program_budget": null
+      },
+      "documents": [],
+      "changes": [],
+      "change_status": "new",
+      "matching": {
+        "eligible": true,
+        "ponte_score": 60,
+        "portfolio_tags": [
+          "clima",
+          "energia",
+          "cidades",
+          "esg",
+          "impacto_social",
+          "territorio",
+          "politicas_publicas"
+        ],
+        "matches": [
+          {
+            "portfolio_id": "ponte-clima",
+            "portfolio_name": "PONTE — Clima, Energia e Cidades",
+            "score": 60,
+            "reasons": [
+              "proponente: estado",
+              "território compatível"
+            ]
+          },
+          {
+            "portfolio_id": "ponte-impacto-publico",
+            "portfolio_name": "PONTE — Desenvolvimento Territorial e Impacto",
+            "score": 60,
+            "reasons": [
+              "proponente: estado",
+              "território compatível"
+            ]
+          }
+        ]
+      }
+    },
+    {
       "id": "finep-749717",
       "source": {
         "id": "finep",
         "name": "Finep",
         "official": true,
         "url": "https://www.finep.gov.br/e/chamada-publica/222684/749717",
-        "checked_at": "2026-09-03T16:34:20+00:00",
+        "checked_at": "2026-09-04T16:30:08+00:00",
         "stale": false
       },
       "external_id": "749717",
@@ -2131,13 +2044,85 @@
       }
     },
     {
+      "id": "transferegov-6bf58fe3fefb-emenda",
+      "source": {
+        "id": "transferegov",
+        "name": "TransfereGov",
+        "official": true,
+        "url": "https://repositorio.dados.gov.br/seges/detru/",
+        "checked_at": "2026-09-04T16:30:21+00:00",
+        "stale": false
+      },
+      "external_id": "6bf58fe3fefb-emenda",
+      "title": "Comunica??o para Inclus?o e Transforma??",
+      "description": null,
+      "funder": "MINISTERIO DAS COMUNICACOES",
+      "instrument": {
+        "type": "convenio",
+        "repayable": false
+      },
+      "status": "open",
+      "dates": {
+        "published": "2026-02-23",
+        "deadline": "2026-09-11"
+      },
+      "eligibility": {
+        "organization_types": [
+          "osc"
+        ],
+        "geography": [
+          "PB"
+        ]
+      },
+      "themes": [],
+      "funding": {
+        "program_budget": null
+      },
+      "documents": [],
+      "changes": [],
+      "change_status": "new",
+      "matching": {
+        "eligible": true,
+        "ponte_score": 60,
+        "portfolio_tags": [
+          "clima",
+          "energia",
+          "cidades",
+          "esg",
+          "impacto_social",
+          "territorio",
+          "politicas_publicas"
+        ],
+        "matches": [
+          {
+            "portfolio_id": "ponte-clima",
+            "portfolio_name": "PONTE — Clima, Energia e Cidades",
+            "score": 60,
+            "reasons": [
+              "proponente: osc",
+              "território compatível"
+            ]
+          },
+          {
+            "portfolio_id": "ponte-impacto-publico",
+            "portfolio_name": "PONTE — Desenvolvimento Territorial e Impacto",
+            "score": 60,
+            "reasons": [
+              "proponente: osc",
+              "território compatível"
+            ]
+          }
+        ]
+      }
+    },
+    {
       "id": "transferegov-86e2c18797dc-emenda",
       "source": {
         "id": "transferegov",
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "86e2c18797dc-emenda",
@@ -2209,7 +2194,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "8f7024602380-emenda",
@@ -2281,7 +2266,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "7bb9c38d13a7-emenda",
@@ -2353,7 +2338,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "f950ad81c88c-emenda",
@@ -2425,7 +2410,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "8d0dd652d5ef-emenda",
@@ -2497,7 +2482,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "743b72486446-emenda",
@@ -2572,7 +2557,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "d125745df9cb-proposta",
@@ -2647,7 +2632,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "b4447e8e4e74-emenda",
@@ -2719,7 +2704,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "309e6dcfab28-emenda",
@@ -2791,7 +2776,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "3f0a19864cdc-emenda",
@@ -2863,7 +2848,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "30589fbe6f29-proposta",
@@ -2935,7 +2920,7 @@
         "name": "CNPq",
         "official": true,
         "url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-24-2026/chamada-publica-cnpq-N-24-2026",
-        "checked_at": "2026-09-03T16:34:20+00:00",
+        "checked_at": "2026-09-04T16:30:09+00:00",
         "stale": false
       },
       "external_id": "24-2026",
@@ -3077,7 +3062,7 @@
         "name": "CNPq",
         "official": true,
         "url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-13-2026/chamada-publica-cnpq-N-13-2026",
-        "checked_at": "2026-09-03T16:34:20+00:00",
+        "checked_at": "2026-09-04T16:30:09+00:00",
         "stale": false
       },
       "external_id": "13-2026",
@@ -3228,7 +3213,7 @@
         "name": "Finep",
         "official": true,
         "url": "https://www.finep.gov.br/e/chamada-publica/222684/754704",
-        "checked_at": "2026-09-03T16:34:20+00:00",
+        "checked_at": "2026-09-04T16:30:08+00:00",
         "stale": false
       },
       "external_id": "754704",
@@ -3384,7 +3369,7 @@
         "name": "Finep",
         "official": true,
         "url": "https://www.finep.gov.br/e/chamada-publica/222684/943682",
-        "checked_at": "2026-09-03T16:34:20+00:00",
+        "checked_at": "2026-09-04T16:30:08+00:00",
         "stale": false
       },
       "external_id": "943682",
@@ -3472,7 +3457,7 @@
         "name": "Finep",
         "official": true,
         "url": "https://www.finep.gov.br/e/chamada-publica/222684/968467",
-        "checked_at": "2026-09-03T16:34:20+00:00",
+        "checked_at": "2026-09-04T16:30:08+00:00",
         "stale": false
       },
       "external_id": "968467",
@@ -3575,7 +3560,7 @@
         "name": "Finep",
         "official": true,
         "url": "https://www.finep.gov.br/e/chamada-publica/222684/755376",
-        "checked_at": "2026-09-03T16:34:20+00:00",
+        "checked_at": "2026-09-04T16:30:08+00:00",
         "stale": false
       },
       "external_id": "755376",
@@ -3737,7 +3722,7 @@
         "name": "Finep",
         "official": true,
         "url": "https://www.finep.gov.br/e/chamada-publica/222684/755485",
-        "checked_at": "2026-09-03T16:34:20+00:00",
+        "checked_at": "2026-09-04T16:30:08+00:00",
         "stale": false
       },
       "external_id": "755485",
@@ -3885,7 +3870,7 @@
         "name": "Finep",
         "official": true,
         "url": "https://www.finep.gov.br/e/chamada-publica/222684/754839",
-        "checked_at": "2026-09-03T16:34:20+00:00",
+        "checked_at": "2026-09-04T16:30:08+00:00",
         "stale": false
       },
       "external_id": "754839",
@@ -4034,7 +4019,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "1d36851e1704-emenda",
@@ -4109,7 +4094,7 @@
         "name": "CNPq",
         "official": true,
         "url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-20-2026/chamada-publica-cnpq-N-20-2026",
-        "checked_at": "2026-09-03T16:34:20+00:00",
+        "checked_at": "2026-09-04T16:30:09+00:00",
         "stale": false
       },
       "external_id": "20-2026",
@@ -4254,7 +4239,7 @@
         "name": "Finep",
         "official": true,
         "url": "https://www.finep.gov.br/e/chamada-publica/222684/755605",
-        "checked_at": "2026-09-03T16:34:20+00:00",
+        "checked_at": "2026-09-04T16:30:08+00:00",
         "stale": false
       },
       "external_id": "755605",
@@ -4400,7 +4385,7 @@
         "name": "CNPq",
         "official": true,
         "url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-21-2026/chamada-publica-cnpq-N-21-2026",
-        "checked_at": "2026-09-03T16:34:20+00:00",
+        "checked_at": "2026-09-04T16:30:09+00:00",
         "stale": false
       },
       "external_id": "21-2026",
@@ -4498,7 +4483,7 @@
         "name": "Finep",
         "official": true,
         "url": "https://www.finep.gov.br/e/chamada-publica/222684/754961",
-        "checked_at": "2026-09-03T16:34:20+00:00",
+        "checked_at": "2026-09-04T16:30:08+00:00",
         "stale": false
       },
       "external_id": "754961",
@@ -4658,7 +4643,7 @@
         "name": "CNPq",
         "official": true,
         "url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-29-2026/chamada-publica-cnpq-N-29-2026",
-        "checked_at": "2026-09-03T16:34:20+00:00",
+        "checked_at": "2026-09-04T16:30:09+00:00",
         "stale": false
       },
       "external_id": "29-2026",
@@ -4786,7 +4771,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "91f48f5a8431-emenda",
@@ -4858,7 +4843,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "827cae6ce1cc-emenda",
@@ -4924,13 +4909,180 @@
       }
     },
     {
+      "id": "finep-754473",
+      "source": {
+        "id": "finep",
+        "name": "Finep",
+        "official": true,
+        "url": "https://www.finep.gov.br/e/chamada-publica/222684/754473",
+        "checked_at": "2026-09-04T16:30:08+00:00",
+        "stale": false
+      },
+      "external_id": "754473",
+      "title": "Finep Mais Inovação Brasil – Rodada 2 – Transformação Mineral",
+      "description": "Esta Seleção Pública tem por objetivo conceder recursos de subvenção econômica para atividades de pesquisa, desenvolvimento tecnológico e inovação (PD&I) em projetos inovadores, com risco tecnológico associado, executados por empresas, obrigatoriamente com a parceria de Instituições Científicas, Tecnológicas e de Inovação (ICTs). A iniciativa busca promover o adensamento das cadeias de transformação mineral, com foco em minerais críticos e estratégicos, contribuindo para uma descarbonização e uma transição energética seguras e sustentáveis, no âmbito das seguintes linhas temáticas definidas no item 2 do Anexo 1 do Regulamento. Orçamento: R$ 215,2 milhões Público-alvo: Empresas Prazo para envio das propostas alterado para 30/11/2026, 18h00 (horário de Brasília) Em caso de dúvidas e orientações sobre a seleção pública: cp_transformacao_mineral@finep.gov.br Para apresentar sua proposta através da Plataforma de Apoio e Financiamento, verifique abaixo os materiais de orientação para cadastro e preenchimento do formulário no sistema: Manuais Manual do Cliente - Cadastro Manual do Cliente - Formulário de Apresentação de Proposta - FAP Manual do Cliente - Recursos Vídeos Tutorial geral Como se vincular a uma empresa já cadastrada Problemas de acesso à Plataforma da Finep Em caso de dúvidas e para orientações sobre cadastro (como CPF, CNPJ, vinculação, segmentos cadastrais e pendências cadastrais), clique aqui.",
+      "funder": "Finep / FNDCT",
+      "instrument": {
+        "type": "subvencao_economica",
+        "repayable": false
+      },
+      "status": "open",
+      "dates": {
+        "published": "2026-02-06",
+        "deadline": "2026-11-30"
+      },
+      "eligibility": {
+        "organization_types": [
+          "startup",
+          "empresa",
+          "cooperativa",
+          "ict"
+        ],
+        "geography": [
+          "BR"
+        ]
+      },
+      "themes": [
+        "industria_e_materiais_avancados",
+        "energia_e_transicao_sustentavel",
+        "energia",
+        "industrias_extrativas_e_minerais",
+        "subvencao_economica",
+        "finep_mais_inovacao_brasil_rodada_2_transformacao_mineral"
+      ],
+      "funding": {
+        "program_budget": 215200000.0
+      },
+      "documents": [
+        {
+          "title": "Plataforma de Apoio e Financiamento",
+          "url": "https://financiamento.finep.gov.br/credito/externo/",
+          "published": null
+        },
+        {
+          "title": "Manual do Cliente - Cadastro",
+          "url": "http://download.finep.gov.br/ManuaisSubvencaoDireta/Manual_Cliente_Cadastro.pdf",
+          "published": null
+        },
+        {
+          "title": "Manual do Cliente - Formulário de Apresentação de Proposta - FAP",
+          "url": "http://download.finep.gov.br/ManuaisSubvencaoDireta/ManuaisSubvencaoDireta/Manual_Cliente_Formulario_Apresentacao_Proposta_FAP.pdf",
+          "published": null
+        },
+        {
+          "title": "Manual do Cliente - Recursos",
+          "url": "https://download.finep.gov.br/ManuaisSubvencaoDireta/Manual_Cliente_Recursos.pdf",
+          "published": null
+        },
+        {
+          "title": "Tutorial geral",
+          "url": "http://download.finep.gov.br/ManuaisSubvencaoDireta/ManuaisSubvencaoDireta/TutorialGeral-SubvencaoDireta.mp4",
+          "published": null
+        },
+        {
+          "title": "Como se vincular a uma empresa já cadastrada",
+          "url": "http://download.finep.gov.br/ManuaisSubvencaoDireta/Comosevincularaumaempresajacadastrada.mp4",
+          "published": null
+        },
+        {
+          "title": "Problemas de acesso à Plataforma da Finep",
+          "url": "https://download.finep.gov.br/ManuaisSubvencaoDireta/ManuaisSubvencaoDireta/ProblemasacessoPlataformadaFinep.mp4",
+          "published": null
+        },
+        {
+          "title": "clique aqui",
+          "url": "https://download.finep.gov.br/guia_subvencao_direta.html",
+          "published": null
+        }
+      ],
+      "changes": [
+        {
+          "detected_at": "2026-08-28T22:30:44+00:00",
+          "field": "dates.deadline",
+          "before": "2026-08-31",
+          "after": "2026-09-04",
+          "impact_days": 4,
+          "source_document": "https://download.finep.gov.br/guia_subvencao_direta.html"
+        },
+        {
+          "detected_at": "2026-09-04T16:31:10+00:00",
+          "field": "dates.deadline",
+          "before": "2026-09-04",
+          "after": "2026-11-30",
+          "impact_days": 87,
+          "source_document": "https://download.finep.gov.br/guia_subvencao_direta.html"
+        }
+      ],
+      "change_status": "changed",
+      "matching": {
+        "eligible": true,
+        "ponte_score": 75,
+        "portfolio_tags": [
+          "clima",
+          "energia",
+          "cidades",
+          "esg",
+          "bioeconomia",
+          "agtech",
+          "saude",
+          "pdi",
+          "impacto_social",
+          "territorio",
+          "politicas_publicas",
+          "inovacao",
+          "ia",
+          "saas",
+          "transformacao_digital"
+        ],
+        "matches": [
+          {
+            "portfolio_id": "ponte-clima",
+            "portfolio_name": "PONTE — Clima, Energia e Cidades",
+            "score": 75,
+            "reasons": [
+              "proponente: empresa, ict, startup",
+              "território compatível",
+              "temas: energia"
+            ]
+          },
+          {
+            "portfolio_id": "ponte-bioeconomia",
+            "portfolio_name": "PONTE — Bioeconomia, Agro e Saúde",
+            "score": 60,
+            "reasons": [
+              "proponente: cooperativa, empresa, ict, startup",
+              "território compatível"
+            ]
+          },
+          {
+            "portfolio_id": "ponte-impacto-publico",
+            "portfolio_name": "PONTE — Desenvolvimento Territorial e Impacto",
+            "score": 60,
+            "reasons": [
+              "proponente: cooperativa",
+              "território compatível"
+            ]
+          },
+          {
+            "portfolio_id": "ponte-inovacao",
+            "portfolio_name": "PONTE — Inovação e Transformação Digital",
+            "score": 60,
+            "reasons": [
+              "proponente: empresa, ict, startup",
+              "território compatível"
+            ]
+          }
+        ]
+      }
+    },
+    {
       "id": "transferegov-94099b1658de-proposta",
       "source": {
         "id": "transferegov",
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "94099b1658de-proposta",
@@ -5002,7 +5154,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "15f6dfec0829-proposta",
@@ -5082,85 +5234,13 @@
       }
     },
     {
-      "id": "transferegov-47a546683349-proposta",
-      "source": {
-        "id": "transferegov",
-        "name": "TransfereGov",
-        "official": true,
-        "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
-        "stale": false
-      },
-      "external_id": "47a546683349-proposta",
-      "title": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-      "description": null,
-      "funder": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-      "instrument": {
-        "type": "convenio",
-        "repayable": false
-      },
-      "status": "open",
-      "dates": {
-        "published": "2026-02-19",
-        "deadline": "2026-11-30"
-      },
-      "eligibility": {
-        "organization_types": [
-          "municipio"
-        ],
-        "geography": [
-          "PB"
-        ]
-      },
-      "themes": [],
-      "funding": {
-        "program_budget": null
-      },
-      "documents": [],
-      "changes": [],
-      "change_status": "unchanged",
-      "matching": {
-        "eligible": true,
-        "ponte_score": 60,
-        "portfolio_tags": [
-          "clima",
-          "energia",
-          "cidades",
-          "esg",
-          "impacto_social",
-          "territorio",
-          "politicas_publicas"
-        ],
-        "matches": [
-          {
-            "portfolio_id": "ponte-clima",
-            "portfolio_name": "PONTE — Clima, Energia e Cidades",
-            "score": 60,
-            "reasons": [
-              "proponente: municipio",
-              "território compatível"
-            ]
-          },
-          {
-            "portfolio_id": "ponte-impacto-publico",
-            "portfolio_name": "PONTE — Desenvolvimento Territorial e Impacto",
-            "score": 60,
-            "reasons": [
-              "proponente: municipio",
-              "território compatível"
-            ]
-          }
-        ]
-      }
-    },
-    {
       "id": "transferegov-fc45a62961c0-proposta",
       "source": {
         "id": "transferegov",
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "fc45a62961c0-proposta",
@@ -5226,13 +5306,85 @@
       }
     },
     {
+      "id": "transferegov-47a546683349-proposta",
+      "source": {
+        "id": "transferegov",
+        "name": "TransfereGov",
+        "official": true,
+        "url": "https://repositorio.dados.gov.br/seges/detru/",
+        "checked_at": "2026-09-04T16:30:21+00:00",
+        "stale": false
+      },
+      "external_id": "47a546683349-proposta",
+      "title": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
+      "description": null,
+      "funder": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
+      "instrument": {
+        "type": "convenio",
+        "repayable": false
+      },
+      "status": "open",
+      "dates": {
+        "published": "2026-02-19",
+        "deadline": "2026-11-30"
+      },
+      "eligibility": {
+        "organization_types": [
+          "municipio"
+        ],
+        "geography": [
+          "PB"
+        ]
+      },
+      "themes": [],
+      "funding": {
+        "program_budget": null
+      },
+      "documents": [],
+      "changes": [],
+      "change_status": "unchanged",
+      "matching": {
+        "eligible": true,
+        "ponte_score": 60,
+        "portfolio_tags": [
+          "clima",
+          "energia",
+          "cidades",
+          "esg",
+          "impacto_social",
+          "territorio",
+          "politicas_publicas"
+        ],
+        "matches": [
+          {
+            "portfolio_id": "ponte-clima",
+            "portfolio_name": "PONTE — Clima, Energia e Cidades",
+            "score": 60,
+            "reasons": [
+              "proponente: municipio",
+              "território compatível"
+            ]
+          },
+          {
+            "portfolio_id": "ponte-impacto-publico",
+            "portfolio_name": "PONTE — Desenvolvimento Territorial e Impacto",
+            "score": 60,
+            "reasons": [
+              "proponente: municipio",
+              "território compatível"
+            ]
+          }
+        ]
+      }
+    },
+    {
       "id": "transferegov-eb81a0d6b0de-proposta",
       "source": {
         "id": "transferegov",
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "eb81a0d6b0de-proposta",
@@ -5298,85 +5450,13 @@
       }
     },
     {
-      "id": "transferegov-8bd326f76da8-emenda",
-      "source": {
-        "id": "transferegov",
-        "name": "TransfereGov",
-        "official": true,
-        "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
-        "stale": false
-      },
-      "external_id": "8bd326f76da8-emenda",
-      "title": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP8 - CDR",
-      "description": null,
-      "funder": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-      "instrument": {
-        "type": "convenio",
-        "repayable": false
-      },
-      "status": "open",
-      "dates": {
-        "published": "2026-02-23",
-        "deadline": "2026-11-30"
-      },
-      "eligibility": {
-        "organization_types": [
-          "estado"
-        ],
-        "geography": [
-          "PB"
-        ]
-      },
-      "themes": [],
-      "funding": {
-        "program_budget": null
-      },
-      "documents": [],
-      "changes": [],
-      "change_status": "unchanged",
-      "matching": {
-        "eligible": true,
-        "ponte_score": 60,
-        "portfolio_tags": [
-          "clima",
-          "energia",
-          "cidades",
-          "esg",
-          "impacto_social",
-          "territorio",
-          "politicas_publicas"
-        ],
-        "matches": [
-          {
-            "portfolio_id": "ponte-clima",
-            "portfolio_name": "PONTE — Clima, Energia e Cidades",
-            "score": 60,
-            "reasons": [
-              "proponente: estado",
-              "território compatível"
-            ]
-          },
-          {
-            "portfolio_id": "ponte-impacto-publico",
-            "portfolio_name": "PONTE — Desenvolvimento Territorial e Impacto",
-            "score": 60,
-            "reasons": [
-              "proponente: estado",
-              "território compatível"
-            ]
-          }
-        ]
-      }
-    },
-    {
       "id": "transferegov-c8f48c81ee0a-emenda",
       "source": {
         "id": "transferegov",
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "c8f48c81ee0a-emenda",
@@ -5442,13 +5522,85 @@
       }
     },
     {
+      "id": "transferegov-8bd326f76da8-emenda",
+      "source": {
+        "id": "transferegov",
+        "name": "TransfereGov",
+        "official": true,
+        "url": "https://repositorio.dados.gov.br/seges/detru/",
+        "checked_at": "2026-09-04T16:30:21+00:00",
+        "stale": false
+      },
+      "external_id": "8bd326f76da8-emenda",
+      "title": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP8 - CDR",
+      "description": null,
+      "funder": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
+      "instrument": {
+        "type": "convenio",
+        "repayable": false
+      },
+      "status": "open",
+      "dates": {
+        "published": "2026-02-23",
+        "deadline": "2026-11-30"
+      },
+      "eligibility": {
+        "organization_types": [
+          "estado"
+        ],
+        "geography": [
+          "PB"
+        ]
+      },
+      "themes": [],
+      "funding": {
+        "program_budget": null
+      },
+      "documents": [],
+      "changes": [],
+      "change_status": "unchanged",
+      "matching": {
+        "eligible": true,
+        "ponte_score": 60,
+        "portfolio_tags": [
+          "clima",
+          "energia",
+          "cidades",
+          "esg",
+          "impacto_social",
+          "territorio",
+          "politicas_publicas"
+        ],
+        "matches": [
+          {
+            "portfolio_id": "ponte-clima",
+            "portfolio_name": "PONTE — Clima, Energia e Cidades",
+            "score": 60,
+            "reasons": [
+              "proponente: estado",
+              "território compatível"
+            ]
+          },
+          {
+            "portfolio_id": "ponte-impacto-publico",
+            "portfolio_name": "PONTE — Desenvolvimento Territorial e Impacto",
+            "score": 60,
+            "reasons": [
+              "proponente: estado",
+              "território compatível"
+            ]
+          }
+        ]
+      }
+    },
+    {
       "id": "transferegov-6b1df0e8bf1a-emenda",
       "source": {
         "id": "transferegov",
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "6b1df0e8bf1a-emenda",
@@ -5520,7 +5672,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "9cfe2aeceffa-emenda",
@@ -5606,7 +5758,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "7477f7f9a162-emenda",
@@ -5678,7 +5830,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "1155fc5e5b65-emenda",
@@ -5750,7 +5902,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "d9e23509e886-emenda",
@@ -5822,7 +5974,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "7893a4f9f3ef-emenda",
@@ -5894,7 +6046,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "597f1460ae55-emenda",
@@ -5966,7 +6118,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "517c96d31b7b-emenda",
@@ -6052,7 +6204,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "01ff8d57cb5a-emenda",
@@ -6124,7 +6276,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "1e886cb5e2c0-proposta",
@@ -6154,7 +6306,7 @@
       },
       "documents": [],
       "changes": [],
-      "change_status": "new",
+      "change_status": "unchanged",
       "matching": {
         "eligible": true,
         "ponte_score": 60,
@@ -6196,7 +6348,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "6af40cd2ab2a-proposta",
@@ -6226,7 +6378,7 @@
       },
       "documents": [],
       "changes": [],
-      "change_status": "new",
+      "change_status": "unchanged",
       "matching": {
         "eligible": true,
         "ponte_score": 60,
@@ -6255,78 +6407,6 @@
             "score": 60,
             "reasons": [
               "proponente: estado",
-              "território compatível"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "id": "transferegov-d50b6ca60ed8-proposta",
-      "source": {
-        "id": "transferegov",
-        "name": "TransfereGov",
-        "official": true,
-        "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
-        "stale": false
-      },
-      "external_id": "d50b6ca60ed8-proposta",
-      "title": "Ação 214S - Rotas de Integração Nacional - RP2",
-      "description": null,
-      "funder": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-      "instrument": {
-        "type": "convenio",
-        "repayable": false
-      },
-      "status": "open",
-      "dates": {
-        "published": "2026-02-19",
-        "deadline": "2026-11-30"
-      },
-      "eligibility": {
-        "organization_types": [
-          "consorcio_publico"
-        ],
-        "geography": [
-          "PB"
-        ]
-      },
-      "themes": [],
-      "funding": {
-        "program_budget": null
-      },
-      "documents": [],
-      "changes": [],
-      "change_status": "new",
-      "matching": {
-        "eligible": true,
-        "ponte_score": 60,
-        "portfolio_tags": [
-          "clima",
-          "energia",
-          "cidades",
-          "esg",
-          "impacto_social",
-          "territorio",
-          "politicas_publicas"
-        ],
-        "matches": [
-          {
-            "portfolio_id": "ponte-clima",
-            "portfolio_name": "PONTE — Clima, Energia e Cidades",
-            "score": 60,
-            "reasons": [
-              "proponente: consorcio_publico",
-              "território compatível"
-            ]
-          },
-          {
-            "portfolio_id": "ponte-impacto-publico",
-            "portfolio_name": "PONTE — Desenvolvimento Territorial e Impacto",
-            "score": 60,
-            "reasons": [
-              "proponente: consorcio_publico",
               "território compatível"
             ]
           }
@@ -6340,7 +6420,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "73630194c041-proposta",
@@ -6370,7 +6450,7 @@
       },
       "documents": [],
       "changes": [],
-      "change_status": "new",
+      "change_status": "unchanged",
       "matching": {
         "eligible": true,
         "ponte_score": 60,
@@ -6420,13 +6500,85 @@
       }
     },
     {
+      "id": "transferegov-d50b6ca60ed8-proposta",
+      "source": {
+        "id": "transferegov",
+        "name": "TransfereGov",
+        "official": true,
+        "url": "https://repositorio.dados.gov.br/seges/detru/",
+        "checked_at": "2026-09-04T16:30:21+00:00",
+        "stale": false
+      },
+      "external_id": "d50b6ca60ed8-proposta",
+      "title": "Ação 214S - Rotas de Integração Nacional - RP2",
+      "description": null,
+      "funder": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
+      "instrument": {
+        "type": "convenio",
+        "repayable": false
+      },
+      "status": "open",
+      "dates": {
+        "published": "2026-02-19",
+        "deadline": "2026-11-30"
+      },
+      "eligibility": {
+        "organization_types": [
+          "consorcio_publico"
+        ],
+        "geography": [
+          "PB"
+        ]
+      },
+      "themes": [],
+      "funding": {
+        "program_budget": null
+      },
+      "documents": [],
+      "changes": [],
+      "change_status": "unchanged",
+      "matching": {
+        "eligible": true,
+        "ponte_score": 60,
+        "portfolio_tags": [
+          "clima",
+          "energia",
+          "cidades",
+          "esg",
+          "impacto_social",
+          "territorio",
+          "politicas_publicas"
+        ],
+        "matches": [
+          {
+            "portfolio_id": "ponte-clima",
+            "portfolio_name": "PONTE — Clima, Energia e Cidades",
+            "score": 60,
+            "reasons": [
+              "proponente: consorcio_publico",
+              "território compatível"
+            ]
+          },
+          {
+            "portfolio_id": "ponte-impacto-publico",
+            "portfolio_name": "PONTE — Desenvolvimento Territorial e Impacto",
+            "score": 60,
+            "reasons": [
+              "proponente: consorcio_publico",
+              "território compatível"
+            ]
+          }
+        ]
+      }
+    },
+    {
       "id": "finep-972778",
       "source": {
         "id": "finep",
         "name": "Finep",
         "official": true,
         "url": "https://www.finep.gov.br/e/chamada-publica/222684/972778",
-        "checked_at": "2026-09-03T16:34:20+00:00",
+        "checked_at": "2026-09-04T16:30:08+00:00",
         "stale": false
       },
       "external_id": "972778",
@@ -6515,7 +6667,7 @@
         "name": "CNPq",
         "official": true,
         "url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-30-2026/chamada-publica-cnpq-N-30-2026",
-        "checked_at": "2026-09-03T16:34:20+00:00",
+        "checked_at": "2026-09-04T16:30:09+00:00",
         "stale": false
       },
       "external_id": "30-2026",
@@ -6653,7 +6805,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "1b04d6c1723c-emenda",
@@ -6728,7 +6880,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "c35a9526d849-emenda",
@@ -6802,7 +6954,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "972ba92ca317-emenda",
@@ -6876,7 +7028,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "01a9a6eb7db5-emenda",
@@ -6950,7 +7102,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "42341e387caa-emenda",
@@ -7038,7 +7190,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "2efd52424050-proposta",
@@ -7114,7 +7266,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "cbdcc1077d67-proposta",
@@ -7190,7 +7342,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "301d46156f0e-emenda",
@@ -7265,11 +7417,86 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "85f7d90d887f-emenda",
       "title": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317. 00SX.0001 – Ação: Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - Nacional – RP (2)",
+      "description": null,
+      "funder": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
+      "instrument": {
+        "type": "convenio",
+        "repayable": false
+      },
+      "status": "open",
+      "dates": {
+        "published": "2026-02-03",
+        "deadline": "2026-12-31"
+      },
+      "eligibility": {
+        "organization_types": [
+          "municipio"
+        ],
+        "geography": [
+          "PB"
+        ]
+      },
+      "themes": [
+        "desenvolvimento_regional"
+      ],
+      "funding": {
+        "program_budget": null
+      },
+      "documents": [],
+      "changes": [],
+      "change_status": "unchanged",
+      "matching": {
+        "eligible": true,
+        "ponte_score": 75,
+        "portfolio_tags": [
+          "impacto_social",
+          "territorio",
+          "politicas_publicas",
+          "clima",
+          "energia",
+          "cidades",
+          "esg"
+        ],
+        "matches": [
+          {
+            "portfolio_id": "ponte-impacto-publico",
+            "portfolio_name": "PONTE — Desenvolvimento Territorial e Impacto",
+            "score": 75,
+            "reasons": [
+              "proponente: municipio",
+              "território compatível",
+              "temas: desenvolvimento_regional"
+            ]
+          },
+          {
+            "portfolio_id": "ponte-clima",
+            "portfolio_name": "PONTE — Clima, Energia e Cidades",
+            "score": 60,
+            "reasons": [
+              "proponente: municipio",
+              "território compatível"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "transferegov-cb004613f69b-emenda",
+      "source": {
+        "id": "transferegov",
+        "name": "TransfereGov",
+        "official": true,
+        "url": "https://repositorio.dados.gov.br/seges/detru/",
+        "checked_at": "2026-09-04T16:30:21+00:00",
+        "stale": false
+      },
+      "external_id": "cb004613f69b-emenda",
+      "title": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317. 00SX.0001 – Ação: Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - Nacional – RP (6)",
       "description": null,
       "funder": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
       "instrument": {
@@ -7340,7 +7567,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "3459dc87ca8a-emenda",
@@ -7409,88 +7636,13 @@
       }
     },
     {
-      "id": "transferegov-cb004613f69b-emenda",
-      "source": {
-        "id": "transferegov",
-        "name": "TransfereGov",
-        "official": true,
-        "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
-        "stale": false
-      },
-      "external_id": "cb004613f69b-emenda",
-      "title": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317. 00SX.0001 – Ação: Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - Nacional – RP (6)",
-      "description": null,
-      "funder": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-      "instrument": {
-        "type": "convenio",
-        "repayable": false
-      },
-      "status": "open",
-      "dates": {
-        "published": "2026-02-03",
-        "deadline": "2026-12-31"
-      },
-      "eligibility": {
-        "organization_types": [
-          "municipio"
-        ],
-        "geography": [
-          "PB"
-        ]
-      },
-      "themes": [
-        "desenvolvimento_regional"
-      ],
-      "funding": {
-        "program_budget": null
-      },
-      "documents": [],
-      "changes": [],
-      "change_status": "unchanged",
-      "matching": {
-        "eligible": true,
-        "ponte_score": 75,
-        "portfolio_tags": [
-          "impacto_social",
-          "territorio",
-          "politicas_publicas",
-          "clima",
-          "energia",
-          "cidades",
-          "esg"
-        ],
-        "matches": [
-          {
-            "portfolio_id": "ponte-impacto-publico",
-            "portfolio_name": "PONTE — Desenvolvimento Territorial e Impacto",
-            "score": 75,
-            "reasons": [
-              "proponente: municipio",
-              "território compatível",
-              "temas: desenvolvimento_regional"
-            ]
-          },
-          {
-            "portfolio_id": "ponte-clima",
-            "portfolio_name": "PONTE — Clima, Energia e Cidades",
-            "score": 60,
-            "reasons": [
-              "proponente: municipio",
-              "território compatível"
-            ]
-          }
-        ]
-      }
-    },
-    {
       "id": "transferegov-0aceb1eaf2f8-emenda",
       "source": {
         "id": "transferegov",
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "0aceb1eaf2f8-emenda",
@@ -7565,7 +7717,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "0000e14f8257-emenda",
@@ -7640,7 +7792,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "162fcce65fd1-emenda",
@@ -7715,7 +7867,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "aaf1a88a9af9-emenda",
@@ -7790,7 +7942,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "03e48f20cfd9-emenda",
@@ -7865,7 +8017,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "d75a5ad65e0c-emenda",
@@ -7940,7 +8092,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "4ddc172633fc-emenda",
@@ -8015,7 +8167,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "8e1f67b3e3bd-emenda",
@@ -8090,7 +8242,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "af95670453ac-emenda",
@@ -8162,7 +8314,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "20cec2fdd7b4-emenda",
@@ -8234,7 +8386,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "053054784aa4-emenda",
@@ -8320,7 +8472,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "7f226d041b3e-emenda",
@@ -8392,7 +8544,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "51cd8e5dc383-emenda",
@@ -8480,7 +8632,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "27c263d9781f-emenda",
@@ -8568,7 +8720,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "60074b1ac682-emenda",
@@ -8656,7 +8808,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "a3bbd0585e55-emenda",
@@ -8744,7 +8896,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "c8cc50dbb9e8-emenda",
@@ -8832,7 +8984,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "5c568c21afdd-emenda",
@@ -8920,7 +9072,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "2816f0e7f74a-emenda",
@@ -8995,7 +9147,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "ffe0ca9c73d8-emenda",
@@ -9067,7 +9219,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "acc07c229b57-emenda",
@@ -9139,7 +9291,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "2e8f1c872f88-emenda",
@@ -9211,7 +9363,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "178c7c60b3af-proposta",
@@ -9285,7 +9437,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "0c648af8a6b2-proposta",
@@ -9353,87 +9505,13 @@
       }
     },
     {
-      "id": "transferegov-8acb2d001271-proposta",
-      "source": {
-        "id": "transferegov",
-        "name": "TransfereGov",
-        "official": true,
-        "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
-        "stale": false
-      },
-      "external_id": "8acb2d001271-proposta",
-      "title": "Ações da Diretoria de Articulação e Inovação em Educação Aberta (DIEA) da Capes - PROEB e Inovação Tecnológica",
-      "description": null,
-      "funder": "MINISTERIO DA EDUCACAO",
-      "instrument": {
-        "type": "convenio",
-        "repayable": false
-      },
-      "status": "open",
-      "dates": {
-        "published": "2026-03-10",
-        "deadline": "2026-12-31"
-      },
-      "eligibility": {
-        "organization_types": [
-          "osc"
-        ],
-        "geography": [
-          "PB"
-        ]
-      },
-      "themes": [
-        "inovac"
-      ],
-      "funding": {
-        "program_budget": null
-      },
-      "documents": [],
-      "changes": [],
-      "change_status": "unchanged",
-      "matching": {
-        "eligible": true,
-        "ponte_score": 60,
-        "portfolio_tags": [
-          "clima",
-          "energia",
-          "cidades",
-          "esg",
-          "impacto_social",
-          "territorio",
-          "politicas_publicas"
-        ],
-        "matches": [
-          {
-            "portfolio_id": "ponte-clima",
-            "portfolio_name": "PONTE — Clima, Energia e Cidades",
-            "score": 60,
-            "reasons": [
-              "proponente: osc",
-              "território compatível"
-            ]
-          },
-          {
-            "portfolio_id": "ponte-impacto-publico",
-            "portfolio_name": "PONTE — Desenvolvimento Territorial e Impacto",
-            "score": 60,
-            "reasons": [
-              "proponente: osc",
-              "território compatível"
-            ]
-          }
-        ]
-      }
-    },
-    {
       "id": "transferegov-d1e6a2cc1c36-proposta",
       "source": {
         "id": "transferegov",
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "d1e6a2cc1c36-proposta",
@@ -9501,13 +9579,87 @@
       }
     },
     {
+      "id": "transferegov-8acb2d001271-proposta",
+      "source": {
+        "id": "transferegov",
+        "name": "TransfereGov",
+        "official": true,
+        "url": "https://repositorio.dados.gov.br/seges/detru/",
+        "checked_at": "2026-09-04T16:30:21+00:00",
+        "stale": false
+      },
+      "external_id": "8acb2d001271-proposta",
+      "title": "Ações da Diretoria de Articulação e Inovação em Educação Aberta (DIEA) da Capes - PROEB e Inovação Tecnológica",
+      "description": null,
+      "funder": "MINISTERIO DA EDUCACAO",
+      "instrument": {
+        "type": "convenio",
+        "repayable": false
+      },
+      "status": "open",
+      "dates": {
+        "published": "2026-03-10",
+        "deadline": "2026-12-31"
+      },
+      "eligibility": {
+        "organization_types": [
+          "osc"
+        ],
+        "geography": [
+          "PB"
+        ]
+      },
+      "themes": [
+        "inovac"
+      ],
+      "funding": {
+        "program_budget": null
+      },
+      "documents": [],
+      "changes": [],
+      "change_status": "unchanged",
+      "matching": {
+        "eligible": true,
+        "ponte_score": 60,
+        "portfolio_tags": [
+          "clima",
+          "energia",
+          "cidades",
+          "esg",
+          "impacto_social",
+          "territorio",
+          "politicas_publicas"
+        ],
+        "matches": [
+          {
+            "portfolio_id": "ponte-clima",
+            "portfolio_name": "PONTE — Clima, Energia e Cidades",
+            "score": 60,
+            "reasons": [
+              "proponente: osc",
+              "território compatível"
+            ]
+          },
+          {
+            "portfolio_id": "ponte-impacto-publico",
+            "portfolio_name": "PONTE — Desenvolvimento Territorial e Impacto",
+            "score": 60,
+            "reasons": [
+              "proponente: osc",
+              "território compatível"
+            ]
+          }
+        ]
+      }
+    },
+    {
       "id": "transferegov-31e031f9c6ec-proposta",
       "source": {
         "id": "transferegov",
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "31e031f9c6ec-proposta",
@@ -9581,7 +9733,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "ea7bef798acf-proposta",
@@ -9655,7 +9807,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "9867885be618-proposta",
@@ -9729,7 +9881,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "b3e54e09cfb2-emenda",
@@ -9801,7 +9953,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "d77b44c027b5-emenda",
@@ -9873,7 +10025,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "47cee2d527eb-emenda",
@@ -9959,7 +10111,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "dec2065c9ff1-emenda",
@@ -10031,7 +10183,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "9582a616db34-emenda",
@@ -10103,7 +10255,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "cf37a9a57975-emenda",
@@ -10169,13 +10321,85 @@
       }
     },
     {
+      "id": "transferegov-e06d7a704103-emenda",
+      "source": {
+        "id": "transferegov",
+        "name": "TransfereGov",
+        "official": true,
+        "url": "https://repositorio.dados.gov.br/seges/detru/",
+        "checked_at": "2026-09-04T16:30:21+00:00",
+        "stale": false
+      },
+      "external_id": "e06d7a704103-emenda",
+      "title": "Fomento ao Setor Agropecuário - Emendas de Comissão CD",
+      "description": null,
+      "funder": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
+      "instrument": {
+        "type": "convenio",
+        "repayable": false
+      },
+      "status": "open",
+      "dates": {
+        "published": "2026-02-11",
+        "deadline": "2026-12-31"
+      },
+      "eligibility": {
+        "organization_types": [
+          "estado"
+        ],
+        "geography": [
+          "PB"
+        ]
+      },
+      "themes": [],
+      "funding": {
+        "program_budget": null
+      },
+      "documents": [],
+      "changes": [],
+      "change_status": "unchanged",
+      "matching": {
+        "eligible": true,
+        "ponte_score": 60,
+        "portfolio_tags": [
+          "clima",
+          "energia",
+          "cidades",
+          "esg",
+          "impacto_social",
+          "territorio",
+          "politicas_publicas"
+        ],
+        "matches": [
+          {
+            "portfolio_id": "ponte-clima",
+            "portfolio_name": "PONTE — Clima, Energia e Cidades",
+            "score": 60,
+            "reasons": [
+              "proponente: estado",
+              "território compatível"
+            ]
+          },
+          {
+            "portfolio_id": "ponte-impacto-publico",
+            "portfolio_name": "PONTE — Desenvolvimento Territorial e Impacto",
+            "score": 60,
+            "reasons": [
+              "proponente: estado",
+              "território compatível"
+            ]
+          }
+        ]
+      }
+    },
+    {
       "id": "transferegov-3c579f3d9b90-emenda",
       "source": {
         "id": "transferegov",
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "3c579f3d9b90-emenda",
@@ -10255,85 +10479,13 @@
       }
     },
     {
-      "id": "transferegov-e06d7a704103-emenda",
-      "source": {
-        "id": "transferegov",
-        "name": "TransfereGov",
-        "official": true,
-        "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
-        "stale": false
-      },
-      "external_id": "e06d7a704103-emenda",
-      "title": "Fomento ao Setor Agropecuário - Emendas de Comissão CD",
-      "description": null,
-      "funder": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
-      "instrument": {
-        "type": "convenio",
-        "repayable": false
-      },
-      "status": "open",
-      "dates": {
-        "published": "2026-02-11",
-        "deadline": "2026-12-31"
-      },
-      "eligibility": {
-        "organization_types": [
-          "estado"
-        ],
-        "geography": [
-          "PB"
-        ]
-      },
-      "themes": [],
-      "funding": {
-        "program_budget": null
-      },
-      "documents": [],
-      "changes": [],
-      "change_status": "unchanged",
-      "matching": {
-        "eligible": true,
-        "ponte_score": 60,
-        "portfolio_tags": [
-          "clima",
-          "energia",
-          "cidades",
-          "esg",
-          "impacto_social",
-          "territorio",
-          "politicas_publicas"
-        ],
-        "matches": [
-          {
-            "portfolio_id": "ponte-clima",
-            "portfolio_name": "PONTE — Clima, Energia e Cidades",
-            "score": 60,
-            "reasons": [
-              "proponente: estado",
-              "território compatível"
-            ]
-          },
-          {
-            "portfolio_id": "ponte-impacto-publico",
-            "portfolio_name": "PONTE — Desenvolvimento Territorial e Impacto",
-            "score": 60,
-            "reasons": [
-              "proponente: estado",
-              "território compatível"
-            ]
-          }
-        ]
-      }
-    },
-    {
       "id": "transferegov-6894e90cac0b-emenda",
       "source": {
         "id": "transferegov",
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "6894e90cac0b-emenda",
@@ -10405,7 +10557,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "6c1e96702cc8-emenda",
@@ -10477,7 +10629,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "434a98934921-proposta",
@@ -10549,7 +10701,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "73cdb012fffd-proposta",
@@ -10621,7 +10773,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "e59d5f9eab85-proposta",
@@ -10693,7 +10845,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "26656fc749df-proposta",
@@ -10773,85 +10925,13 @@
       }
     },
     {
-      "id": "transferegov-b2c5408b2011-proposta",
-      "source": {
-        "id": "transferegov",
-        "name": "TransfereGov",
-        "official": true,
-        "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
-        "stale": false
-      },
-      "external_id": "b2c5408b2011-proposta",
-      "title": "Fomento ao Setor Agropecuário - Propostas Voluntárias",
-      "description": null,
-      "funder": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
-      "instrument": {
-        "type": "convenio",
-        "repayable": false
-      },
-      "status": "open",
-      "dates": {
-        "published": "2026-02-09",
-        "deadline": "2026-12-31"
-      },
-      "eligibility": {
-        "organization_types": [
-          "consorcio_publico"
-        ],
-        "geography": [
-          "PB"
-        ]
-      },
-      "themes": [],
-      "funding": {
-        "program_budget": null
-      },
-      "documents": [],
-      "changes": [],
-      "change_status": "unchanged",
-      "matching": {
-        "eligible": true,
-        "ponte_score": 60,
-        "portfolio_tags": [
-          "clima",
-          "energia",
-          "cidades",
-          "esg",
-          "impacto_social",
-          "territorio",
-          "politicas_publicas"
-        ],
-        "matches": [
-          {
-            "portfolio_id": "ponte-clima",
-            "portfolio_name": "PONTE — Clima, Energia e Cidades",
-            "score": 60,
-            "reasons": [
-              "proponente: consorcio_publico",
-              "território compatível"
-            ]
-          },
-          {
-            "portfolio_id": "ponte-impacto-publico",
-            "portfolio_name": "PONTE — Desenvolvimento Territorial e Impacto",
-            "score": 60,
-            "reasons": [
-              "proponente: consorcio_publico",
-              "território compatível"
-            ]
-          }
-        ]
-      }
-    },
-    {
       "id": "transferegov-8378829739f1-proposta",
       "source": {
         "id": "transferegov",
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "8378829739f1-proposta",
@@ -10931,13 +11011,85 @@
       }
     },
     {
+      "id": "transferegov-b2c5408b2011-proposta",
+      "source": {
+        "id": "transferegov",
+        "name": "TransfereGov",
+        "official": true,
+        "url": "https://repositorio.dados.gov.br/seges/detru/",
+        "checked_at": "2026-09-04T16:30:21+00:00",
+        "stale": false
+      },
+      "external_id": "b2c5408b2011-proposta",
+      "title": "Fomento ao Setor Agropecuário - Propostas Voluntárias",
+      "description": null,
+      "funder": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
+      "instrument": {
+        "type": "convenio",
+        "repayable": false
+      },
+      "status": "open",
+      "dates": {
+        "published": "2026-02-09",
+        "deadline": "2026-12-31"
+      },
+      "eligibility": {
+        "organization_types": [
+          "consorcio_publico"
+        ],
+        "geography": [
+          "PB"
+        ]
+      },
+      "themes": [],
+      "funding": {
+        "program_budget": null
+      },
+      "documents": [],
+      "changes": [],
+      "change_status": "unchanged",
+      "matching": {
+        "eligible": true,
+        "ponte_score": 60,
+        "portfolio_tags": [
+          "clima",
+          "energia",
+          "cidades",
+          "esg",
+          "impacto_social",
+          "territorio",
+          "politicas_publicas"
+        ],
+        "matches": [
+          {
+            "portfolio_id": "ponte-clima",
+            "portfolio_name": "PONTE — Clima, Energia e Cidades",
+            "score": 60,
+            "reasons": [
+              "proponente: consorcio_publico",
+              "território compatível"
+            ]
+          },
+          {
+            "portfolio_id": "ponte-impacto-publico",
+            "portfolio_name": "PONTE — Desenvolvimento Territorial e Impacto",
+            "score": 60,
+            "reasons": [
+              "proponente: consorcio_publico",
+              "território compatível"
+            ]
+          }
+        ]
+      }
+    },
+    {
       "id": "transferegov-0579c8b1d875-proposta",
       "source": {
         "id": "transferegov",
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "0579c8b1d875-proposta",
@@ -11009,7 +11161,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "b237f52ed9e6-proposta",
@@ -11081,7 +11233,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "82745b5d243c-proposta",
@@ -11153,7 +11305,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "41a3ff4c4bd5-proposta",
@@ -11225,7 +11377,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "ed33108262f2-proposta",
@@ -11297,7 +11449,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "75e6d3a8241d-emenda",
@@ -11363,85 +11515,13 @@
       }
     },
     {
-      "id": "transferegov-34e30792c8fc-emenda",
-      "source": {
-        "id": "transferegov",
-        "name": "TransfereGov",
-        "official": true,
-        "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
-        "stale": false
-      },
-      "external_id": "34e30792c8fc-emenda",
-      "title": "INFRA-ESTRUTURA BÁSICA – SR(PB) Superintendência Regional do INCRA na PARAIBA– CONVÊNIO.",
-      "description": null,
-      "funder": "MINISTÉRIO DO DESENVOLVIMENTO AGRÁRIO E AGRICULTURA FAMILIAR",
-      "instrument": {
-        "type": "convenio",
-        "repayable": false
-      },
-      "status": "open",
-      "dates": {
-        "published": "2026-03-11",
-        "deadline": "2026-12-31"
-      },
-      "eligibility": {
-        "organization_types": [
-          "consorcio_publico"
-        ],
-        "geography": [
-          "PB"
-        ]
-      },
-      "themes": [],
-      "funding": {
-        "program_budget": null
-      },
-      "documents": [],
-      "changes": [],
-      "change_status": "unchanged",
-      "matching": {
-        "eligible": true,
-        "ponte_score": 60,
-        "portfolio_tags": [
-          "clima",
-          "energia",
-          "cidades",
-          "esg",
-          "impacto_social",
-          "territorio",
-          "politicas_publicas"
-        ],
-        "matches": [
-          {
-            "portfolio_id": "ponte-clima",
-            "portfolio_name": "PONTE — Clima, Energia e Cidades",
-            "score": 60,
-            "reasons": [
-              "proponente: consorcio_publico",
-              "território compatível"
-            ]
-          },
-          {
-            "portfolio_id": "ponte-impacto-publico",
-            "portfolio_name": "PONTE — Desenvolvimento Territorial e Impacto",
-            "score": 60,
-            "reasons": [
-              "proponente: consorcio_publico",
-              "território compatível"
-            ]
-          }
-        ]
-      }
-    },
-    {
       "id": "transferegov-c3259725a3e1-emenda",
       "source": {
         "id": "transferegov",
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "c3259725a3e1-emenda",
@@ -11507,13 +11587,85 @@
       }
     },
     {
+      "id": "transferegov-34e30792c8fc-emenda",
+      "source": {
+        "id": "transferegov",
+        "name": "TransfereGov",
+        "official": true,
+        "url": "https://repositorio.dados.gov.br/seges/detru/",
+        "checked_at": "2026-09-04T16:30:21+00:00",
+        "stale": false
+      },
+      "external_id": "34e30792c8fc-emenda",
+      "title": "INFRA-ESTRUTURA BÁSICA – SR(PB) Superintendência Regional do INCRA na PARAIBA– CONVÊNIO.",
+      "description": null,
+      "funder": "MINISTÉRIO DO DESENVOLVIMENTO AGRÁRIO E AGRICULTURA FAMILIAR",
+      "instrument": {
+        "type": "convenio",
+        "repayable": false
+      },
+      "status": "open",
+      "dates": {
+        "published": "2026-03-11",
+        "deadline": "2026-12-31"
+      },
+      "eligibility": {
+        "organization_types": [
+          "consorcio_publico"
+        ],
+        "geography": [
+          "PB"
+        ]
+      },
+      "themes": [],
+      "funding": {
+        "program_budget": null
+      },
+      "documents": [],
+      "changes": [],
+      "change_status": "unchanged",
+      "matching": {
+        "eligible": true,
+        "ponte_score": 60,
+        "portfolio_tags": [
+          "clima",
+          "energia",
+          "cidades",
+          "esg",
+          "impacto_social",
+          "territorio",
+          "politicas_publicas"
+        ],
+        "matches": [
+          {
+            "portfolio_id": "ponte-clima",
+            "portfolio_name": "PONTE — Clima, Energia e Cidades",
+            "score": 60,
+            "reasons": [
+              "proponente: consorcio_publico",
+              "território compatível"
+            ]
+          },
+          {
+            "portfolio_id": "ponte-impacto-publico",
+            "portfolio_name": "PONTE — Desenvolvimento Territorial e Impacto",
+            "score": 60,
+            "reasons": [
+              "proponente: consorcio_publico",
+              "território compatível"
+            ]
+          }
+        ]
+      }
+    },
+    {
       "id": "transferegov-2364b5f0be18-proposta",
       "source": {
         "id": "transferegov",
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "2364b5f0be18-proposta",
@@ -11585,7 +11737,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "8ebbfcefe741-emenda",
@@ -11657,7 +11809,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "b4af6f7996eb-emenda",
@@ -11729,7 +11881,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "eec35144bfaa-emenda",
@@ -11801,7 +11953,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "2e7ad40690ee-emenda",
@@ -11867,85 +12019,13 @@
       }
     },
     {
-      "id": "transferegov-cf9ce5d7a7b8-emenda",
-      "source": {
-        "id": "transferegov",
-        "name": "TransfereGov",
-        "official": true,
-        "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
-        "stale": false
-      },
-      "external_id": "cf9ce5d7a7b8-emenda",
-      "title": "Programa 2319 - Acao 00T1 - Apoio a Politica Nacional de Desenvolvimento Urbano Voltado a Implantacao e Qualificacao Viaria – RP8",
-      "description": null,
-      "funder": "MINISTERIO DAS CIDADES",
-      "instrument": {
-        "type": "convenio",
-        "repayable": false
-      },
-      "status": "open",
-      "dates": {
-        "published": "2026-02-11",
-        "deadline": "2026-12-31"
-      },
-      "eligibility": {
-        "organization_types": [
-          "estado"
-        ],
-        "geography": [
-          "PB"
-        ]
-      },
-      "themes": [],
-      "funding": {
-        "program_budget": null
-      },
-      "documents": [],
-      "changes": [],
-      "change_status": "unchanged",
-      "matching": {
-        "eligible": true,
-        "ponte_score": 60,
-        "portfolio_tags": [
-          "clima",
-          "energia",
-          "cidades",
-          "esg",
-          "impacto_social",
-          "territorio",
-          "politicas_publicas"
-        ],
-        "matches": [
-          {
-            "portfolio_id": "ponte-clima",
-            "portfolio_name": "PONTE — Clima, Energia e Cidades",
-            "score": 60,
-            "reasons": [
-              "proponente: estado",
-              "território compatível"
-            ]
-          },
-          {
-            "portfolio_id": "ponte-impacto-publico",
-            "portfolio_name": "PONTE — Desenvolvimento Territorial e Impacto",
-            "score": 60,
-            "reasons": [
-              "proponente: estado",
-              "território compatível"
-            ]
-          }
-        ]
-      }
-    },
-    {
       "id": "transferegov-2aded7bb7891-emenda",
       "source": {
         "id": "transferegov",
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "2aded7bb7891-emenda",
@@ -12011,13 +12091,85 @@
       }
     },
     {
+      "id": "transferegov-cf9ce5d7a7b8-emenda",
+      "source": {
+        "id": "transferegov",
+        "name": "TransfereGov",
+        "official": true,
+        "url": "https://repositorio.dados.gov.br/seges/detru/",
+        "checked_at": "2026-09-04T16:30:21+00:00",
+        "stale": false
+      },
+      "external_id": "cf9ce5d7a7b8-emenda",
+      "title": "Programa 2319 - Acao 00T1 - Apoio a Politica Nacional de Desenvolvimento Urbano Voltado a Implantacao e Qualificacao Viaria – RP8",
+      "description": null,
+      "funder": "MINISTERIO DAS CIDADES",
+      "instrument": {
+        "type": "convenio",
+        "repayable": false
+      },
+      "status": "open",
+      "dates": {
+        "published": "2026-02-11",
+        "deadline": "2026-12-31"
+      },
+      "eligibility": {
+        "organization_types": [
+          "estado"
+        ],
+        "geography": [
+          "PB"
+        ]
+      },
+      "themes": [],
+      "funding": {
+        "program_budget": null
+      },
+      "documents": [],
+      "changes": [],
+      "change_status": "unchanged",
+      "matching": {
+        "eligible": true,
+        "ponte_score": 60,
+        "portfolio_tags": [
+          "clima",
+          "energia",
+          "cidades",
+          "esg",
+          "impacto_social",
+          "territorio",
+          "politicas_publicas"
+        ],
+        "matches": [
+          {
+            "portfolio_id": "ponte-clima",
+            "portfolio_name": "PONTE — Clima, Energia e Cidades",
+            "score": 60,
+            "reasons": [
+              "proponente: estado",
+              "território compatível"
+            ]
+          },
+          {
+            "portfolio_id": "ponte-impacto-publico",
+            "portfolio_name": "PONTE — Desenvolvimento Territorial e Impacto",
+            "score": 60,
+            "reasons": [
+              "proponente: estado",
+              "território compatível"
+            ]
+          }
+        ]
+      }
+    },
+    {
       "id": "transferegov-07ce3a9a42ea-proposta",
       "source": {
         "id": "transferegov",
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "07ce3a9a42ea-proposta",
@@ -12083,85 +12235,13 @@
       }
     },
     {
-      "id": "transferegov-5a44230f1beb-proposta",
-      "source": {
-        "id": "transferegov",
-        "name": "TransfereGov",
-        "official": true,
-        "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
-        "stale": false
-      },
-      "external_id": "5a44230f1beb-proposta",
-      "title": "Programa Nacional de Estradas Rurais - PRONER",
-      "description": null,
-      "funder": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
-      "instrument": {
-        "type": "convenio",
-        "repayable": false
-      },
-      "status": "open",
-      "dates": {
-        "published": "2026-02-11",
-        "deadline": "2026-12-31"
-      },
-      "eligibility": {
-        "organization_types": [
-          "municipio"
-        ],
-        "geography": [
-          "PB"
-        ]
-      },
-      "themes": [],
-      "funding": {
-        "program_budget": null
-      },
-      "documents": [],
-      "changes": [],
-      "change_status": "unchanged",
-      "matching": {
-        "eligible": true,
-        "ponte_score": 60,
-        "portfolio_tags": [
-          "clima",
-          "energia",
-          "cidades",
-          "esg",
-          "impacto_social",
-          "territorio",
-          "politicas_publicas"
-        ],
-        "matches": [
-          {
-            "portfolio_id": "ponte-clima",
-            "portfolio_name": "PONTE — Clima, Energia e Cidades",
-            "score": 60,
-            "reasons": [
-              "proponente: municipio",
-              "território compatível"
-            ]
-          },
-          {
-            "portfolio_id": "ponte-impacto-publico",
-            "portfolio_name": "PONTE — Desenvolvimento Territorial e Impacto",
-            "score": 60,
-            "reasons": [
-              "proponente: municipio",
-              "território compatível"
-            ]
-          }
-        ]
-      }
-    },
-    {
       "id": "transferegov-9564fd6820fb-proposta",
       "source": {
         "id": "transferegov",
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "9564fd6820fb-proposta",
@@ -12241,16 +12321,16 @@
       }
     },
     {
-      "id": "transferegov-d10e98b45a86-proposta",
+      "id": "transferegov-5a44230f1beb-proposta",
       "source": {
         "id": "transferegov",
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
-      "external_id": "d10e98b45a86-proposta",
+      "external_id": "5a44230f1beb-proposta",
       "title": "Programa Nacional de Estradas Rurais - PRONER",
       "description": null,
       "funder": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
@@ -12265,7 +12345,7 @@
       },
       "eligibility": {
         "organization_types": [
-          "estado"
+          "municipio"
         ],
         "geography": [
           "PB"
@@ -12296,7 +12376,7 @@
             "portfolio_name": "PONTE — Clima, Energia e Cidades",
             "score": 60,
             "reasons": [
-              "proponente: estado",
+              "proponente: municipio",
               "território compatível"
             ]
           },
@@ -12305,7 +12385,7 @@
             "portfolio_name": "PONTE — Desenvolvimento Territorial e Impacto",
             "score": 60,
             "reasons": [
-              "proponente: estado",
+              "proponente: municipio",
               "território compatível"
             ]
           }
@@ -12319,7 +12399,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "af92f20657aa-proposta",
@@ -12385,13 +12465,157 @@
       }
     },
     {
+      "id": "transferegov-d10e98b45a86-proposta",
+      "source": {
+        "id": "transferegov",
+        "name": "TransfereGov",
+        "official": true,
+        "url": "https://repositorio.dados.gov.br/seges/detru/",
+        "checked_at": "2026-09-04T16:30:21+00:00",
+        "stale": false
+      },
+      "external_id": "d10e98b45a86-proposta",
+      "title": "Programa Nacional de Estradas Rurais - PRONER",
+      "description": null,
+      "funder": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
+      "instrument": {
+        "type": "convenio",
+        "repayable": false
+      },
+      "status": "open",
+      "dates": {
+        "published": "2026-02-11",
+        "deadline": "2026-12-31"
+      },
+      "eligibility": {
+        "organization_types": [
+          "estado"
+        ],
+        "geography": [
+          "PB"
+        ]
+      },
+      "themes": [],
+      "funding": {
+        "program_budget": null
+      },
+      "documents": [],
+      "changes": [],
+      "change_status": "unchanged",
+      "matching": {
+        "eligible": true,
+        "ponte_score": 60,
+        "portfolio_tags": [
+          "clima",
+          "energia",
+          "cidades",
+          "esg",
+          "impacto_social",
+          "territorio",
+          "politicas_publicas"
+        ],
+        "matches": [
+          {
+            "portfolio_id": "ponte-clima",
+            "portfolio_name": "PONTE — Clima, Energia e Cidades",
+            "score": 60,
+            "reasons": [
+              "proponente: estado",
+              "território compatível"
+            ]
+          },
+          {
+            "portfolio_id": "ponte-impacto-publico",
+            "portfolio_name": "PONTE — Desenvolvimento Territorial e Impacto",
+            "score": 60,
+            "reasons": [
+              "proponente: estado",
+              "território compatível"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "transferegov-365eb8e0abd8-proposta",
+      "source": {
+        "id": "transferegov",
+        "name": "TransfereGov",
+        "official": true,
+        "url": "https://repositorio.dados.gov.br/seges/detru/",
+        "checked_at": "2026-09-04T16:30:21+00:00",
+        "stale": false
+      },
+      "external_id": "365eb8e0abd8-proposta",
+      "title": "Programa Nacional de Modernização e Apoio à Produção Agrícola - PROMAQ",
+      "description": null,
+      "funder": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
+      "instrument": {
+        "type": "convenio",
+        "repayable": false
+      },
+      "status": "open",
+      "dates": {
+        "published": "2026-02-11",
+        "deadline": "2026-12-31"
+      },
+      "eligibility": {
+        "organization_types": [
+          "municipio"
+        ],
+        "geography": [
+          "PB"
+        ]
+      },
+      "themes": [],
+      "funding": {
+        "program_budget": null
+      },
+      "documents": [],
+      "changes": [],
+      "change_status": "unchanged",
+      "matching": {
+        "eligible": true,
+        "ponte_score": 60,
+        "portfolio_tags": [
+          "clima",
+          "energia",
+          "cidades",
+          "esg",
+          "impacto_social",
+          "territorio",
+          "politicas_publicas"
+        ],
+        "matches": [
+          {
+            "portfolio_id": "ponte-clima",
+            "portfolio_name": "PONTE — Clima, Energia e Cidades",
+            "score": 60,
+            "reasons": [
+              "proponente: municipio",
+              "território compatível"
+            ]
+          },
+          {
+            "portfolio_id": "ponte-impacto-publico",
+            "portfolio_name": "PONTE — Desenvolvimento Territorial e Impacto",
+            "score": 60,
+            "reasons": [
+              "proponente: municipio",
+              "território compatível"
+            ]
+          }
+        ]
+      }
+    },
+    {
       "id": "transferegov-6343112db2fb-proposta",
       "source": {
         "id": "transferegov",
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "6343112db2fb-proposta",
@@ -12477,7 +12701,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "fe6d7b97e356-proposta",
@@ -12543,85 +12767,13 @@
       }
     },
     {
-      "id": "transferegov-365eb8e0abd8-proposta",
-      "source": {
-        "id": "transferegov",
-        "name": "TransfereGov",
-        "official": true,
-        "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
-        "stale": false
-      },
-      "external_id": "365eb8e0abd8-proposta",
-      "title": "Programa Nacional de Modernização e Apoio à Produção Agrícola - PROMAQ",
-      "description": null,
-      "funder": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
-      "instrument": {
-        "type": "convenio",
-        "repayable": false
-      },
-      "status": "open",
-      "dates": {
-        "published": "2026-02-11",
-        "deadline": "2026-12-31"
-      },
-      "eligibility": {
-        "organization_types": [
-          "municipio"
-        ],
-        "geography": [
-          "PB"
-        ]
-      },
-      "themes": [],
-      "funding": {
-        "program_budget": null
-      },
-      "documents": [],
-      "changes": [],
-      "change_status": "unchanged",
-      "matching": {
-        "eligible": true,
-        "ponte_score": 60,
-        "portfolio_tags": [
-          "clima",
-          "energia",
-          "cidades",
-          "esg",
-          "impacto_social",
-          "territorio",
-          "politicas_publicas"
-        ],
-        "matches": [
-          {
-            "portfolio_id": "ponte-clima",
-            "portfolio_name": "PONTE — Clima, Energia e Cidades",
-            "score": 60,
-            "reasons": [
-              "proponente: municipio",
-              "território compatível"
-            ]
-          },
-          {
-            "portfolio_id": "ponte-impacto-publico",
-            "portfolio_name": "PONTE — Desenvolvimento Territorial e Impacto",
-            "score": 60,
-            "reasons": [
-              "proponente: municipio",
-              "território compatível"
-            ]
-          }
-        ]
-      }
-    },
-    {
       "id": "transferegov-ff5547bd1d19-proposta",
       "source": {
         "id": "transferegov",
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "ff5547bd1d19-proposta",
@@ -12693,82 +12845,10 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "dc90984f5cef-emenda",
-      "title": "Programa SIMEC/PAR",
-      "description": null,
-      "funder": "MINISTERIO DA EDUCACAO",
-      "instrument": {
-        "type": "convenio",
-        "repayable": false
-      },
-      "status": "open",
-      "dates": {
-        "published": "2026-01-02",
-        "deadline": "2026-12-31"
-      },
-      "eligibility": {
-        "organization_types": [
-          "estado"
-        ],
-        "geography": [
-          "PB"
-        ]
-      },
-      "themes": [],
-      "funding": {
-        "program_budget": null
-      },
-      "documents": [],
-      "changes": [],
-      "change_status": "unchanged",
-      "matching": {
-        "eligible": true,
-        "ponte_score": 60,
-        "portfolio_tags": [
-          "clima",
-          "energia",
-          "cidades",
-          "esg",
-          "impacto_social",
-          "territorio",
-          "politicas_publicas"
-        ],
-        "matches": [
-          {
-            "portfolio_id": "ponte-clima",
-            "portfolio_name": "PONTE — Clima, Energia e Cidades",
-            "score": 60,
-            "reasons": [
-              "proponente: estado",
-              "território compatível"
-            ]
-          },
-          {
-            "portfolio_id": "ponte-impacto-publico",
-            "portfolio_name": "PONTE — Desenvolvimento Territorial e Impacto",
-            "score": 60,
-            "reasons": [
-              "proponente: estado",
-              "território compatível"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "id": "transferegov-37d43e0e4aa6-proposta",
-      "source": {
-        "id": "transferegov",
-        "name": "TransfereGov",
-        "official": true,
-        "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
-        "stale": false
-      },
-      "external_id": "37d43e0e4aa6-proposta",
       "title": "Programa SIMEC/PAR",
       "description": null,
       "funder": "MINISTERIO DA EDUCACAO",
@@ -12837,7 +12917,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "e620a6161c78-proposta",
@@ -12903,13 +12983,85 @@
       }
     },
     {
+      "id": "transferegov-37d43e0e4aa6-proposta",
+      "source": {
+        "id": "transferegov",
+        "name": "TransfereGov",
+        "official": true,
+        "url": "https://repositorio.dados.gov.br/seges/detru/",
+        "checked_at": "2026-09-04T16:30:21+00:00",
+        "stale": false
+      },
+      "external_id": "37d43e0e4aa6-proposta",
+      "title": "Programa SIMEC/PAR",
+      "description": null,
+      "funder": "MINISTERIO DA EDUCACAO",
+      "instrument": {
+        "type": "convenio",
+        "repayable": false
+      },
+      "status": "open",
+      "dates": {
+        "published": "2026-01-02",
+        "deadline": "2026-12-31"
+      },
+      "eligibility": {
+        "organization_types": [
+          "estado"
+        ],
+        "geography": [
+          "PB"
+        ]
+      },
+      "themes": [],
+      "funding": {
+        "program_budget": null
+      },
+      "documents": [],
+      "changes": [],
+      "change_status": "unchanged",
+      "matching": {
+        "eligible": true,
+        "ponte_score": 60,
+        "portfolio_tags": [
+          "clima",
+          "energia",
+          "cidades",
+          "esg",
+          "impacto_social",
+          "territorio",
+          "politicas_publicas"
+        ],
+        "matches": [
+          {
+            "portfolio_id": "ponte-clima",
+            "portfolio_name": "PONTE — Clima, Energia e Cidades",
+            "score": 60,
+            "reasons": [
+              "proponente: estado",
+              "território compatível"
+            ]
+          },
+          {
+            "portfolio_id": "ponte-impacto-publico",
+            "portfolio_name": "PONTE — Desenvolvimento Territorial e Impacto",
+            "score": 60,
+            "reasons": [
+              "proponente: estado",
+              "território compatível"
+            ]
+          }
+        ]
+      }
+    },
+    {
       "id": "transferegov-798891922ee6-emenda",
       "source": {
         "id": "transferegov",
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "798891922ee6-emenda",
@@ -12981,7 +13133,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "a7b7abcf3939-emenda",
@@ -13047,85 +13199,13 @@
       }
     },
     {
-      "id": "transferegov-8feff373fb53-emenda",
-      "source": {
-        "id": "transferegov",
-        "name": "TransfereGov",
-        "official": true,
-        "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
-        "stale": false
-      },
-      "external_id": "8feff373fb53-emenda",
-      "title": "Promoção e Apoio ao Desenvolvimento do Futebol Masculino e Feminino - Convênio (RP 6) - SNFDT",
-      "description": null,
-      "funder": "MINISTERIO DO ESPORTE",
-      "instrument": {
-        "type": "convenio",
-        "repayable": false
-      },
-      "status": "open",
-      "dates": {
-        "published": "2026-02-18",
-        "deadline": "2026-12-31"
-      },
-      "eligibility": {
-        "organization_types": [
-          "estado"
-        ],
-        "geography": [
-          "PB"
-        ]
-      },
-      "themes": [],
-      "funding": {
-        "program_budget": null
-      },
-      "documents": [],
-      "changes": [],
-      "change_status": "unchanged",
-      "matching": {
-        "eligible": true,
-        "ponte_score": 60,
-        "portfolio_tags": [
-          "clima",
-          "energia",
-          "cidades",
-          "esg",
-          "impacto_social",
-          "territorio",
-          "politicas_publicas"
-        ],
-        "matches": [
-          {
-            "portfolio_id": "ponte-clima",
-            "portfolio_name": "PONTE — Clima, Energia e Cidades",
-            "score": 60,
-            "reasons": [
-              "proponente: estado",
-              "território compatível"
-            ]
-          },
-          {
-            "portfolio_id": "ponte-impacto-publico",
-            "portfolio_name": "PONTE — Desenvolvimento Territorial e Impacto",
-            "score": 60,
-            "reasons": [
-              "proponente: estado",
-              "território compatível"
-            ]
-          }
-        ]
-      }
-    },
-    {
       "id": "transferegov-50747ecfbe6b-emenda",
       "source": {
         "id": "transferegov",
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "50747ecfbe6b-emenda",
@@ -13191,31 +13271,31 @@
       }
     },
     {
-      "id": "transferegov-8299038b90d5-emenda",
+      "id": "transferegov-8feff373fb53-emenda",
       "source": {
         "id": "transferegov",
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
-      "external_id": "8299038b90d5-emenda",
-      "title": "SNDUM - MCidades 00SY - Apoio a Projetos e Obras de Reabilitação, de Acessibilidade e Modernização Tecnológica em Áreas Urbanas - RP7",
+      "external_id": "8feff373fb53-emenda",
+      "title": "Promoção e Apoio ao Desenvolvimento do Futebol Masculino e Feminino - Convênio (RP 6) - SNFDT",
       "description": null,
-      "funder": "MINISTERIO DAS CIDADES",
+      "funder": "MINISTERIO DO ESPORTE",
       "instrument": {
         "type": "convenio",
         "repayable": false
       },
       "status": "open",
       "dates": {
-        "published": "2026-02-23",
+        "published": "2026-02-18",
         "deadline": "2026-12-31"
       },
       "eligibility": {
         "organization_types": [
-          "municipio"
+          "estado"
         ],
         "geography": [
           "PB"
@@ -13246,7 +13326,7 @@
             "portfolio_name": "PONTE — Clima, Energia e Cidades",
             "score": 60,
             "reasons": [
-              "proponente: municipio",
+              "proponente: estado",
               "território compatível"
             ]
           },
@@ -13255,7 +13335,7 @@
             "portfolio_name": "PONTE — Desenvolvimento Territorial e Impacto",
             "score": 60,
             "reasons": [
-              "proponente: municipio",
+              "proponente: estado",
               "território compatível"
             ]
           }
@@ -13269,7 +13349,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "fcdaaf83be02-emenda",
@@ -13335,16 +13415,16 @@
       }
     },
     {
-      "id": "transferegov-c3e682d2ccd1-emenda",
+      "id": "transferegov-8299038b90d5-emenda",
       "source": {
         "id": "transferegov",
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
-      "external_id": "c3e682d2ccd1-emenda",
+      "external_id": "8299038b90d5-emenda",
       "title": "SNDUM - MCidades 00SY - Apoio a Projetos e Obras de Reabilitação, de Acessibilidade e Modernização Tecnológica em Áreas Urbanas - RP7",
       "description": null,
       "funder": "MINISTERIO DAS CIDADES",
@@ -13359,7 +13439,7 @@
       },
       "eligibility": {
         "organization_types": [
-          "consorcio_publico"
+          "municipio"
         ],
         "geography": [
           "PB"
@@ -13390,7 +13470,7 @@
             "portfolio_name": "PONTE — Clima, Energia e Cidades",
             "score": 60,
             "reasons": [
-              "proponente: consorcio_publico",
+              "proponente: municipio",
               "território compatível"
             ]
           },
@@ -13399,7 +13479,7 @@
             "portfolio_name": "PONTE — Desenvolvimento Territorial e Impacto",
             "score": 60,
             "reasons": [
-              "proponente: consorcio_publico",
+              "proponente: municipio",
               "território compatível"
             ]
           }
@@ -13413,7 +13493,7 @@
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "418334b8e98f-emenda",
@@ -13493,13 +13573,85 @@
       }
     },
     {
+      "id": "transferegov-c3e682d2ccd1-emenda",
+      "source": {
+        "id": "transferegov",
+        "name": "TransfereGov",
+        "official": true,
+        "url": "https://repositorio.dados.gov.br/seges/detru/",
+        "checked_at": "2026-09-04T16:30:21+00:00",
+        "stale": false
+      },
+      "external_id": "c3e682d2ccd1-emenda",
+      "title": "SNDUM - MCidades 00SY - Apoio a Projetos e Obras de Reabilitação, de Acessibilidade e Modernização Tecnológica em Áreas Urbanas - RP7",
+      "description": null,
+      "funder": "MINISTERIO DAS CIDADES",
+      "instrument": {
+        "type": "convenio",
+        "repayable": false
+      },
+      "status": "open",
+      "dates": {
+        "published": "2026-02-23",
+        "deadline": "2026-12-31"
+      },
+      "eligibility": {
+        "organization_types": [
+          "consorcio_publico"
+        ],
+        "geography": [
+          "PB"
+        ]
+      },
+      "themes": [],
+      "funding": {
+        "program_budget": null
+      },
+      "documents": [],
+      "changes": [],
+      "change_status": "unchanged",
+      "matching": {
+        "eligible": true,
+        "ponte_score": 60,
+        "portfolio_tags": [
+          "clima",
+          "energia",
+          "cidades",
+          "esg",
+          "impacto_social",
+          "territorio",
+          "politicas_publicas"
+        ],
+        "matches": [
+          {
+            "portfolio_id": "ponte-clima",
+            "portfolio_name": "PONTE — Clima, Energia e Cidades",
+            "score": 60,
+            "reasons": [
+              "proponente: consorcio_publico",
+              "território compatível"
+            ]
+          },
+          {
+            "portfolio_id": "ponte-impacto-publico",
+            "portfolio_name": "PONTE — Desenvolvimento Territorial e Impacto",
+            "score": 60,
+            "reasons": [
+              "proponente: consorcio_publico",
+              "território compatível"
+            ]
+          }
+        ]
+      }
+    },
+    {
       "id": "transferegov-703b2c8aa909-emenda",
       "source": {
         "id": "transferegov",
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
       "external_id": "703b2c8aa909-emenda",
@@ -13571,7 +13723,7 @@
         "name": "CNPq",
         "official": true,
         "url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-32-2026/chamada-publica-cnpq-N-32-2026",
-        "checked_at": "2026-09-03T16:34:20+00:00",
+        "checked_at": "2026-09-04T16:30:09+00:00",
         "stale": false
       },
       "external_id": "32-2026",
@@ -13638,10 +13790,15 @@
           "title": "Chamada",
           "url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-32-2026/ChamadaPblicaANR322026_2766435.pdf",
           "published": null
+        },
+        {
+          "title": "https://anr.fr/en",
+          "url": "https://anr.fr/en",
+          "published": null
         }
       ],
       "changes": [],
-      "change_status": "new",
+      "change_status": "unchanged",
       "matching": {
         "eligible": true,
         "ponte_score": 75,
@@ -13710,8 +13867,8 @@
         "name": "FAPESQ-PB",
         "official": true,
         "url": "https://fapesq.rpp.br/editais/2026/edital-no-57-2026-2013-selecao-de-oficineiros-avaliadores-para-o-festival-de-arte-e-cultura-na-escola-2013-arte-em-cena-2026",
-        "checked_at": "2026-09-03T16:34:27+00:00",
-        "stale": false
+        "checked_at": "2026-09-04T16:30:09+00:00",
+        "stale": true
       },
       "external_id": "57-2026",
       "title": "EDITAL Nº 57/2026 – SELEÇÃO DE OFICINEIROS/AVALIADORES PARA O FESTIVAL DE ARTE E CULTURA NA ESCOLA – ARTE EM CENA 2026",
@@ -13815,197 +13972,27 @@
       }
     },
     {
-      "id": "finep-754567",
-      "source": {
-        "id": "finep",
-        "name": "Finep",
-        "official": true,
-        "url": "https://www.finep.gov.br/e/chamada-publica/222684/754567",
-        "checked_at": "2026-09-03T16:34:20+00:00",
-        "stale": false
-      },
-      "external_id": "754567",
-      "title": "Finep Mais Inovação Brasil – Rodada 2 – Transição Energética",
-      "description": "Esta Seleção Pública tem por objetivo conceder recursos de subvenção econômica para atividades de pesquisa, desenvolvimento tecnológico e inovação (PD&I) em projetos inovadores, com risco tecnológico associado, executados por empresas, obrigatoriamente com a parceria de Instituições Científicas, Tecnológicas e de Inovação (ICTs). A iniciativa busca promover o desenvolvimento de tecnologias essenciais para a transição energética, em temáticas como tecnologias para geração de eletricidade, armazenamento de energia, hidrogênio de baixa emissão de carbono, biocombustíveis, biogás e biometano, captura de carbono, dentre outros, conforme linhas temáticas definidas no item 2 do Anexo 1 do Regulamento. Disponibilização do sistema de submissão de propostas: 03/03/2026 Orçamento: R$ 500 milhões Público-alvo: Empresas Prazo para envio das propostas alterado para 02/09/2026, 18h00 (horário de Brasília) Em caso de dúvidas e orientações sobre a seleção pública: cp_transicao_energetica@finep.gov.br Para apresentar sua proposta através da Plataforma de Apoio e Financiamento, verifique abaixo os materiais de orientação para cadastro e preenchimento do formulário no sistema: Manuais Manual do Cliente - Cadastro Manual do Cliente - Formulário de Apresentação de Proposta - FAP Manual do Cliente - Recursos Vídeos Tutorial geral Como se vincular a uma empresa já cadastrada Problemas de acesso à Plataforma da Finep Em caso de dúvidas e para orientações sobre cadastro (como CPF, CNPJ, vinculação, segmentos cadastrais e pendências cadastrais), clique aqui.",
-      "funder": "Finep / FNDCT",
-      "instrument": {
-        "type": "subvencao_economica",
-        "repayable": false
-      },
-      "status": "closed",
-      "dates": {
-        "published": "2026-02-06",
-        "deadline": "2026-09-02"
-      },
-      "eligibility": {
-        "organization_types": [
-          "startup",
-          "empresa",
-          "cooperativa",
-          "ict"
-        ],
-        "geography": [
-          "BR"
-        ]
-      },
-      "themes": [
-        "energia_e_transicao_sustentavel",
-        "energia",
-        "agro_bioeconomia_e_alimentos",
-        "bioeconomia",
-        "agroindustria",
-        "subvencao_economica",
-        "finep_mais_inovacao_brasil_rodada_2_transicao_energetica",
-        "descarbonizacao"
-      ],
-      "funding": {
-        "program_budget": 500000000.0
-      },
-      "documents": [
-        {
-          "title": "Plataforma de Apoio e Financiamento",
-          "url": "https://financiamento.finep.gov.br/credito/externo/",
-          "published": null
-        },
-        {
-          "title": "Manual do Cliente - Cadastro",
-          "url": "http://download.finep.gov.br/ManuaisSubvencaoDireta/Manual_Cliente_Cadastro.pdf",
-          "published": null
-        },
-        {
-          "title": "Manual do Cliente - Formulário de Apresentação de Proposta - FAP",
-          "url": "http://download.finep.gov.br/ManuaisSubvencaoDireta/ManuaisSubvencaoDireta/Manual_Cliente_Formulario_Apresentacao_Proposta_FAP.pdf",
-          "published": null
-        },
-        {
-          "title": "Manual do Cliente - Recursos",
-          "url": "https://download.finep.gov.br/ManuaisSubvencaoDireta/Manual_Cliente_Recursos.pdf",
-          "published": null
-        },
-        {
-          "title": "Tutorial geral",
-          "url": "http://download.finep.gov.br/ManuaisSubvencaoDireta/ManuaisSubvencaoDireta/TutorialGeral-SubvencaoDireta.mp4",
-          "published": null
-        },
-        {
-          "title": "Como se vincular a uma empresa já cadastrada",
-          "url": "http://download.finep.gov.br/ManuaisSubvencaoDireta/Comosevincularaumaempresajacadastrada.mp4",
-          "published": null
-        },
-        {
-          "title": "Problemas de acesso à Plataforma da Finep",
-          "url": "https://download.finep.gov.br/ManuaisSubvencaoDireta/ManuaisSubvencaoDireta/ProblemasacessoPlataformadaFinep.mp4",
-          "published": null
-        },
-        {
-          "title": "clique aqui",
-          "url": "https://download.finep.gov.br/guia_subvencao_direta.html",
-          "published": null
-        }
-      ],
-      "changes": [
-        {
-          "detected_at": "2026-08-28T22:30:44+00:00",
-          "field": "dates.deadline",
-          "before": "2026-08-31",
-          "after": "2026-09-02",
-          "impact_days": 2,
-          "source_document": "https://download.finep.gov.br/guia_subvencao_direta.html"
-        },
-        {
-          "detected_at": "2026-09-03T16:35:05+00:00",
-          "field": "status",
-          "before": "open",
-          "after": "closed",
-          "impact_days": null,
-          "source_document": "https://download.finep.gov.br/guia_subvencao_direta.html"
-        }
-      ],
-      "change_status": "closed",
-      "matching": {
-        "eligible": true,
-        "ponte_score": 90,
-        "portfolio_tags": [
-          "bioeconomia",
-          "agtech",
-          "saude",
-          "pdi",
-          "clima",
-          "energia",
-          "cidades",
-          "esg",
-          "impacto_social",
-          "territorio",
-          "politicas_publicas",
-          "inovacao",
-          "ia",
-          "saas",
-          "transformacao_digital"
-        ],
-        "matches": [
-          {
-            "portfolio_id": "ponte-bioeconomia",
-            "portfolio_name": "PONTE — Bioeconomia, Agro e Saúde",
-            "score": 90,
-            "reasons": [
-              "proponente: cooperativa, empresa, ict, startup",
-              "território compatível",
-              "temas: agroindustria, bioeconomia"
-            ]
-          },
-          {
-            "portfolio_id": "ponte-clima",
-            "portfolio_name": "PONTE — Clima, Energia e Cidades",
-            "score": 90,
-            "reasons": [
-              "proponente: empresa, ict, startup",
-              "território compatível",
-              "temas: descarbonizacao, energia"
-            ]
-          },
-          {
-            "portfolio_id": "ponte-impacto-publico",
-            "portfolio_name": "PONTE — Desenvolvimento Territorial e Impacto",
-            "score": 60,
-            "reasons": [
-              "proponente: cooperativa",
-              "território compatível"
-            ]
-          },
-          {
-            "portfolio_id": "ponte-inovacao",
-            "portfolio_name": "PONTE — Inovação e Transformação Digital",
-            "score": 60,
-            "reasons": [
-              "proponente: empresa, ict, startup",
-              "território compatível"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "id": "transferegov-573734c32afc-emenda",
+      "id": "transferegov-004562f6bf04-emenda",
       "source": {
         "id": "transferegov",
         "name": "TransfereGov",
         "official": true,
         "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
+        "checked_at": "2026-09-04T16:30:21+00:00",
         "stale": false
       },
-      "external_id": "573734c32afc-emenda",
-      "title": "FCP - EP 2026 (Ação 20ZF/MinC) - Entes Privados",
+      "external_id": "004562f6bf04-emenda",
+      "title": "Diagnóstico Agrário para Fortalecimento e Desenvolvimento Rural da Região Centro Sul do RS",
       "description": null,
-      "funder": "MINISTERIO DA CULTURA",
+      "funder": "MINISTERIO DA EDUCACAO",
       "instrument": {
         "type": "convenio",
         "repayable": false
       },
       "status": "closed",
       "dates": {
-        "published": "2026-08-19",
-        "deadline": "2026-09-02"
+        "published": "2026-08-31",
+        "deadline": "2026-09-03"
       },
       "eligibility": {
         "organization_types": [
@@ -14022,7 +14009,7 @@
       "documents": [],
       "changes": [
         {
-          "detected_at": "2026-09-03T16:35:05+00:00",
+          "detected_at": "2026-09-04T16:31:10+00:00",
           "field": "status",
           "before": "open",
           "after": "closed",
@@ -14059,87 +14046,6 @@
             "score": 60,
             "reasons": [
               "proponente: osc",
-              "território compatível"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "id": "transferegov-c543053c5c8d-emenda",
-      "source": {
-        "id": "transferegov",
-        "name": "TransfereGov",
-        "official": true,
-        "url": "https://repositorio.dados.gov.br/seges/detru/",
-        "checked_at": "2026-09-03T16:34:51+00:00",
-        "stale": false
-      },
-      "external_id": "c543053c5c8d-emenda",
-      "title": "FCP - EP 2026 (Ação 20ZF/MinC) - Entes Públicos",
-      "description": null,
-      "funder": "MINISTERIO DA CULTURA",
-      "instrument": {
-        "type": "convenio",
-        "repayable": false
-      },
-      "status": "closed",
-      "dates": {
-        "published": "2026-08-19",
-        "deadline": "2026-09-02"
-      },
-      "eligibility": {
-        "organization_types": [
-          "municipio"
-        ],
-        "geography": [
-          "PB"
-        ]
-      },
-      "themes": [],
-      "funding": {
-        "program_budget": null
-      },
-      "documents": [],
-      "changes": [
-        {
-          "detected_at": "2026-09-03T16:35:05+00:00",
-          "field": "status",
-          "before": "open",
-          "after": "closed",
-          "impact_days": null,
-          "source_document": "https://repositorio.dados.gov.br/seges/detru/"
-        }
-      ],
-      "change_status": "closed",
-      "matching": {
-        "eligible": true,
-        "ponte_score": 60,
-        "portfolio_tags": [
-          "clima",
-          "energia",
-          "cidades",
-          "esg",
-          "impacto_social",
-          "territorio",
-          "politicas_publicas"
-        ],
-        "matches": [
-          {
-            "portfolio_id": "ponte-clima",
-            "portfolio_name": "PONTE — Clima, Energia e Cidades",
-            "score": 60,
-            "reasons": [
-              "proponente: municipio",
-              "território compatível"
-            ]
-          },
-          {
-            "portfolio_id": "ponte-impacto-publico",
-            "portfolio_name": "PONTE — Desenvolvimento Territorial e Impacto",
-            "score": 60,
-            "reasons": [
-              "proponente: municipio",
               "território compatível"
             ]
           }
@@ -14153,8 +14059,8 @@
         "name": "FAPESQ-PB",
         "official": true,
         "url": "https://fapesq.rpp.br/editais/2026/edital-no-58-2026-2013-processo-seletivo-para-contratacao-de-coordenadores-audiovisuais-equipe-tecnica-e-cadastro-de-reserva-cr-dos-nucleos-de-inovacao-estadual-da-paraiba-nie-pb",
-        "checked_at": "2026-09-03T16:34:27+00:00",
-        "stale": false
+        "checked_at": "2026-09-04T16:30:09+00:00",
+        "stale": true
       },
       "external_id": "58-2026",
       "title": "EDITAL Nº 58/2026 – PROCESSO SELETIVO PARA CONTRATAÇÃO DE COORDENADORES AUDIOVISUAIS, EQUIPE TÉCNICA E CADASTRO DE RESERVA (CR) DOS NÚCLEOS DE INOVAÇÃO ESTADUAL DA PARAÍBA(NIE-PB)",
@@ -14270,8 +14176,8 @@
         "name": "FAPESQ-PB",
         "official": true,
         "url": "https://fapesq.rpp.br/editais/2026/edital-no-59-2026-2013-selecao-de-estudantes-para-o-projeto-conexao-mundo-2026-2027",
-        "checked_at": "2026-09-03T16:34:27+00:00",
-        "stale": false
+        "checked_at": "2026-09-04T16:30:09+00:00",
+        "stale": true
       },
       "external_id": "59-2026",
       "title": "EDITAL Nº 59/2026 – SELEÇÃO DE ESTUDANTES PARA O PROJETO CONEXÃO MUNDO 2026/2027",
