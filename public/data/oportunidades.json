@@ -1,6 +1,6 @@
 {
  "versao": "1.1",
- "gerado_em": "2026-09-10T16:33:31.551789",
+ "gerado_em": "2026-09-10T23:56:29.553729",
  "uf": "PB",
  "origem": {
   "repositorio": "https://api-publica.transferegov.gestao.gov.br/downloads/dadosgov/",
@@ -13,9 +13,9 @@
   "abertas": 147,
   "urgentes": 32,
   "aderentes": 40,
-  "novas": 17,
-  "propostas_recentes": 151,
-  "encerradas": 1
+  "novas": 0,
+  "propostas_recentes": 0,
+  "encerradas": 0
  },
  "filtros": {
   "naturezas": [
@@ -60,7 +60,7 @@
    "fecha": "2026-09-10",
    "dias_restantes": 0,
    "urgente": false,
-   "nova": true,
+   "nova": false,
    "aderente": false,
    "temas": [],
    "codigos": [
@@ -106,7 +106,7 @@
    "fecha": "2026-09-11",
    "dias_restantes": 1,
    "urgente": true,
-   "nova": true,
+   "nova": false,
    "aderente": true,
    "temas": [
     "socioassist"
@@ -141,9 +141,9 @@
    "propostas_enviadas": 20,
    "propostas_em_elaboracao": 0,
    "propostas_por_situacao": {
+    "Proposta/Plano de Trabalho Aprovados": 12,
     "Proposta/Plano de Trabalho Complementado Enviado para Análise": 3,
     "Proposta/Plano de Trabalho Enviado para Análise": 3,
-    "Proposta/Plano de Trabalho Aprovados": 12,
     "Proposta/Plano de Trabalho em Complementação": 1,
     "Proposta/Plano de Trabalho Complementado em Análise": 1
    }
@@ -193,16 +193,16 @@
    "propostas_enviadas": 72,
    "propostas_em_elaboracao": 2,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 14,
     "Proposta/Plano de Trabalho Aprovados": 14,
     "Proposta/Plano de Trabalho Complementado Enviado para Análise": 19,
+    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 14,
+    "Proposta/Plano de Trabalho Complementado em Análise": 1,
     "Proposta/Plano de Trabalho em Complementação": 18,
     "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 1,
     "Proposta/Plano de Trabalho Cadastrados": 2,
-    "Proposta/Plano de Trabalho Complementado em Análise": 1,
+    "Proposta Aprovada e Plano de Trabalho em Análise": 1,
     "Proposta Aprovada e Plano de Trabalho em Complementação": 3,
-    "Proposta/Plano de Trabalho Enviado para Análise": 1,
-    "Proposta Aprovada e Plano de Trabalho em Análise": 1
+    "Proposta/Plano de Trabalho Enviado para Análise": 1
    }
   },
   {
@@ -210,40 +210,6 @@
    "programa": "Emenda de Comissao - Publico",
    "orgao": "MINISTERIO DA CULTURA",
    "natureza": "Consórcio Público",
-   "canal": "emenda",
-   "modalidade": "CONTRATO DE REPASSE / CONVENIO / CONVENIO OU CONTRATO DE REPASSE",
-   "situacao": "DISPONIBILIZADO",
-   "abre": "2026-05-04",
-   "fecha": "2026-09-11",
-   "dias_restantes": 1,
-   "urgente": true,
-   "nova": false,
-   "aderente": false,
-   "temas": [],
-   "codigos": [
-    "4200020260003"
-   ],
-   "propostas_recebidas": 136,
-   "propostas_enviadas": 135,
-   "propostas_em_elaboracao": 1,
-   "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho em Complementação": 28,
-    "Proposta Aprovada e Plano de Trabalho em Análise": 8,
-    "Proposta/Plano de Trabalho Aprovados": 66,
-    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 6,
-    "Proposta Aprovada e Plano de Trabalho em Complementação": 11,
-    "Proposta/Plano de Trabalho Cadastrados": 1,
-    "Proposta/Plano de Trabalho Complementado em Análise": 2,
-    "Proposta/Plano de Trabalho Enviado para Análise": 6,
-    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 6,
-    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 2
-   }
-  },
-  {
-   "id": "8f7024602380",
-   "programa": "Emenda de Comissao - Publico",
-   "orgao": "MINISTERIO DA CULTURA",
-   "natureza": "Administração Pública Estadual ou do Distrito Federal",
    "canal": "emenda",
    "modalidade": "CONVENIO / CONVENIO OU CONTRATO DE REPASSE / CONTRATO DE REPASSE",
    "situacao": "DISPONIBILIZADO",
@@ -261,23 +227,23 @@
    "propostas_enviadas": 135,
    "propostas_em_elaboracao": 1,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho em Complementação": 28,
-    "Proposta Aprovada e Plano de Trabalho em Análise": 8,
+    "Proposta Aprovada e Plano de Trabalho em Complementação": 11,
     "Proposta/Plano de Trabalho Aprovados": 66,
     "Proposta/Plano de Trabalho Complementado Enviado para Análise": 6,
-    "Proposta Aprovada e Plano de Trabalho em Complementação": 11,
-    "Proposta/Plano de Trabalho Cadastrados": 1,
+    "Proposta/Plano de Trabalho em Complementação": 28,
     "Proposta/Plano de Trabalho Complementado em Análise": 2,
     "Proposta/Plano de Trabalho Enviado para Análise": 6,
     "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 6,
-    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 2
+    "Proposta Aprovada e Plano de Trabalho em Análise": 8,
+    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 2,
+    "Proposta/Plano de Trabalho Cadastrados": 1
    }
   },
   {
-   "id": "7bb9c38d13a7",
+   "id": "8f7024602380",
    "programa": "Emenda de Comissao - Publico",
    "orgao": "MINISTERIO DA CULTURA",
-   "natureza": "Administração Pública Municipal",
+   "natureza": "Administração Pública Estadual ou do Distrito Federal",
    "canal": "emenda",
    "modalidade": "CONTRATO DE REPASSE / CONVENIO / CONVENIO OU CONTRATO DE REPASSE",
    "situacao": "DISPONIBILIZADO",
@@ -295,16 +261,50 @@
    "propostas_enviadas": 135,
    "propostas_em_elaboracao": 1,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho em Complementação": 28,
-    "Proposta Aprovada e Plano de Trabalho em Análise": 8,
+    "Proposta Aprovada e Plano de Trabalho em Complementação": 11,
     "Proposta/Plano de Trabalho Aprovados": 66,
     "Proposta/Plano de Trabalho Complementado Enviado para Análise": 6,
-    "Proposta Aprovada e Plano de Trabalho em Complementação": 11,
-    "Proposta/Plano de Trabalho Cadastrados": 1,
+    "Proposta/Plano de Trabalho em Complementação": 28,
     "Proposta/Plano de Trabalho Complementado em Análise": 2,
     "Proposta/Plano de Trabalho Enviado para Análise": 6,
     "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 6,
-    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 2
+    "Proposta Aprovada e Plano de Trabalho em Análise": 8,
+    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 2,
+    "Proposta/Plano de Trabalho Cadastrados": 1
+   }
+  },
+  {
+   "id": "7bb9c38d13a7",
+   "programa": "Emenda de Comissao - Publico",
+   "orgao": "MINISTERIO DA CULTURA",
+   "natureza": "Administração Pública Municipal",
+   "canal": "emenda",
+   "modalidade": "CONVENIO / CONVENIO OU CONTRATO DE REPASSE / CONTRATO DE REPASSE",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-05-04",
+   "fecha": "2026-09-11",
+   "dias_restantes": 1,
+   "urgente": true,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "4200020260003"
+   ],
+   "propostas_recebidas": 136,
+   "propostas_enviadas": 135,
+   "propostas_em_elaboracao": 1,
+   "propostas_por_situacao": {
+    "Proposta Aprovada e Plano de Trabalho em Complementação": 11,
+    "Proposta/Plano de Trabalho Aprovados": 66,
+    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 6,
+    "Proposta/Plano de Trabalho em Complementação": 28,
+    "Proposta/Plano de Trabalho Complementado em Análise": 2,
+    "Proposta/Plano de Trabalho Enviado para Análise": 6,
+    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 6,
+    "Proposta Aprovada e Plano de Trabalho em Análise": 8,
+    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 2,
+    "Proposta/Plano de Trabalho Cadastrados": 1
    }
   },
   {
@@ -319,7 +319,7 @@
    "fecha": "2026-09-11",
    "dias_restantes": 1,
    "urgente": true,
-   "nova": true,
+   "nova": false,
    "aderente": false,
    "temas": [],
    "codigos": [
@@ -353,8 +353,8 @@
    "propostas_enviadas": 2,
    "propostas_em_elaboracao": 1,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Cadastrados": 1,
     "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 1,
+    "Proposta/Plano de Trabalho Cadastrados": 1,
     "Proposta/Plano de Trabalho em Análise": 1
    }
   },
@@ -380,8 +380,8 @@
    "propostas_enviadas": 2,
    "propostas_em_elaboracao": 0,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Enviado para Análise": 1,
-    "Proposta/Plano de Trabalho em Análise": 1
+    "Proposta/Plano de Trabalho em Análise": 1,
+    "Proposta/Plano de Trabalho Enviado para Análise": 1
    }
   },
   {
@@ -408,8 +408,8 @@
    "propostas_enviadas": 4,
    "propostas_em_elaboracao": 0,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Enviado para Análise": 3,
-    "Proposta/Plano de Trabalho Aprovados": 1
+    "Proposta/Plano de Trabalho Aprovados": 1,
+    "Proposta/Plano de Trabalho Enviado para Análise": 3
    }
   },
   {
@@ -436,10 +436,10 @@
    "propostas_por_situacao": {
     "Proposta/Plano de Trabalho Aprovados": 12,
     "Proposta/Plano de Trabalho em Complementação": 4,
-    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 1,
     "Proposta/Plano de Trabalho Complementado Enviado para Análise": 2,
     "Proposta/Plano de Trabalho em Análise": 2,
-    "Proposta/Plano de Trabalho Enviado para Análise": 1
+    "Proposta/Plano de Trabalho Enviado para Análise": 1,
+    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 1
    }
   },
   {
@@ -466,8 +466,8 @@
    "propostas_enviadas": 21,
    "propostas_em_elaboracao": 49,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Cadastrados": 49,
-    "Enviada para Análise Preliminar": 21
+    "Enviada para Análise Preliminar": 21,
+    "Proposta/Plano de Trabalho Cadastrados": 49
    }
   },
   {
@@ -475,35 +475,6 @@
    "programa": "SENASP - Emendas Individuais (RP6) - ACAO 21BM",
    "orgao": "MINISTERIO DA JUSTICA E SEGURANCA PUBLICA",
    "natureza": "Administração Pública Municipal",
-   "canal": "emenda",
-   "modalidade": "CONVENIO / CONVENIO OU CONTRATO DE REPASSE / CONTRATO DE REPASSE",
-   "situacao": "DISPONIBILIZADO",
-   "abre": "2026-02-18",
-   "fecha": "2026-09-14",
-   "dias_restantes": 4,
-   "urgente": true,
-   "nova": false,
-   "aderente": false,
-   "temas": [],
-   "codigos": [
-    "3000020260003"
-   ],
-   "propostas_recebidas": 62,
-   "propostas_enviadas": 62,
-   "propostas_em_elaboracao": 0,
-   "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho em Complementação": 18,
-    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 20,
-    "Proposta/Plano de Trabalho Aprovados": 18,
-    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 5,
-    "Proposta/Plano de Trabalho Complementado em Análise": 1
-   }
-  },
-  {
-   "id": "3f0a19864cdc",
-   "programa": "SENASP - Emendas Individuais (RP6) - ACAO 21BM",
-   "orgao": "MINISTERIO DA JUSTICA E SEGURANCA PUBLICA",
-   "natureza": "Administração Pública Estadual ou do Distrito Federal",
    "canal": "emenda",
    "modalidade": "CONTRATO DE REPASSE / CONVENIO / CONVENIO OU CONTRATO DE REPASSE",
    "situacao": "DISPONIBILIZADO",
@@ -521,11 +492,40 @@
    "propostas_enviadas": 62,
    "propostas_em_elaboracao": 0,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho em Complementação": 18,
-    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 20,
     "Proposta/Plano de Trabalho Aprovados": 18,
-    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 5,
-    "Proposta/Plano de Trabalho Complementado em Análise": 1
+    "Proposta/Plano de Trabalho Complementado em Análise": 1,
+    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 20,
+    "Proposta/Plano de Trabalho em Complementação": 18,
+    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 5
+   }
+  },
+  {
+   "id": "3f0a19864cdc",
+   "programa": "SENASP - Emendas Individuais (RP6) - ACAO 21BM",
+   "orgao": "MINISTERIO DA JUSTICA E SEGURANCA PUBLICA",
+   "natureza": "Administração Pública Estadual ou do Distrito Federal",
+   "canal": "emenda",
+   "modalidade": "CONVENIO / CONVENIO OU CONTRATO DE REPASSE / CONTRATO DE REPASSE",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-18",
+   "fecha": "2026-09-14",
+   "dias_restantes": 4,
+   "urgente": true,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "3000020260003"
+   ],
+   "propostas_recebidas": 62,
+   "propostas_enviadas": 62,
+   "propostas_em_elaboracao": 0,
+   "propostas_por_situacao": {
+    "Proposta/Plano de Trabalho Aprovados": 18,
+    "Proposta/Plano de Trabalho Complementado em Análise": 1,
+    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 20,
+    "Proposta/Plano de Trabalho em Complementação": 18,
+    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 5
    }
   },
   {
@@ -551,10 +551,10 @@
    "propostas_em_elaboracao": 0,
    "propostas_por_situacao": {
     "Proposta/Plano de Trabalho Aprovados": 21,
-    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 3,
+    "Proposta/Plano de Trabalho em Complementação": 4,
     "Proposta/Plano de Trabalho Complementado em Análise": 2,
     "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 1,
-    "Proposta/Plano de Trabalho em Complementação": 4
+    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 3
    }
   },
   {
@@ -579,9 +579,9 @@
    "propostas_enviadas": 16,
    "propostas_em_elaboracao": 0,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho em Complementação": 3,
     "Proposta/Plano de Trabalho Aprovados": 12,
-    "Proposta/Plano de Trabalho em Análise": 1
+    "Proposta/Plano de Trabalho em Análise": 1,
+    "Proposta/Plano de Trabalho em Complementação": 3
    }
   },
   {
@@ -606,8 +606,8 @@
    "propostas_enviadas": 3,
    "propostas_em_elaboracao": 6,
    "propostas_por_situacao": {
-    "Enviada para Análise Preliminar": 3,
-    "Proposta/Plano de Trabalho Cadastrados": 6
+    "Proposta/Plano de Trabalho Cadastrados": 6,
+    "Enviada para Análise Preliminar": 3
    }
   },
   {
@@ -622,7 +622,7 @@
    "fecha": "2026-09-25",
    "dias_restantes": 15,
    "urgente": true,
-   "nova": true,
+   "nova": false,
    "aderente": false,
    "temas": [],
    "codigos": [
@@ -632,16 +632,16 @@
    "propostas_enviadas": 686,
    "propostas_em_elaboracao": 5,
    "propostas_por_situacao": {
+    "Proposta Aprovada e Plano de Trabalho em Análise": 15,
+    "Proposta/Plano de Trabalho em Complementação": 179,
+    "Proposta Aprovada e Plano de Trabalho em Complementação": 21,
     "Proposta/Plano de Trabalho Aprovados": 436,
     "Proposta/Plano de Trabalho Complementado Enviado para Análise": 12,
-    "Proposta/Plano de Trabalho Cadastrados": 5,
-    "Proposta Aprovada e Plano de Trabalho em Complementação": 21,
-    "Proposta/Plano de Trabalho Complementado em Análise": 9,
-    "Proposta/Plano de Trabalho em Complementação": 179,
     "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 11,
-    "Proposta Aprovada e Plano de Trabalho em Análise": 15,
+    "Proposta/Plano de Trabalho Complementado em Análise": 9,
     "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 2,
-    "Proposta/Plano de Trabalho Enviado para Análise": 1
+    "Proposta/Plano de Trabalho Enviado para Análise": 1,
+    "Proposta/Plano de Trabalho Cadastrados": 5
    }
   },
   {
@@ -656,7 +656,7 @@
    "fecha": "2026-09-25",
    "dias_restantes": 15,
    "urgente": true,
-   "nova": true,
+   "nova": false,
    "aderente": false,
    "temas": [],
    "codigos": [
@@ -666,16 +666,16 @@
    "propostas_enviadas": 686,
    "propostas_em_elaboracao": 5,
    "propostas_por_situacao": {
+    "Proposta Aprovada e Plano de Trabalho em Análise": 15,
+    "Proposta/Plano de Trabalho em Complementação": 179,
+    "Proposta Aprovada e Plano de Trabalho em Complementação": 21,
     "Proposta/Plano de Trabalho Aprovados": 436,
     "Proposta/Plano de Trabalho Complementado Enviado para Análise": 12,
-    "Proposta/Plano de Trabalho Cadastrados": 5,
-    "Proposta Aprovada e Plano de Trabalho em Complementação": 21,
-    "Proposta/Plano de Trabalho Complementado em Análise": 9,
-    "Proposta/Plano de Trabalho em Complementação": 179,
     "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 11,
-    "Proposta Aprovada e Plano de Trabalho em Análise": 15,
+    "Proposta/Plano de Trabalho Complementado em Análise": 9,
     "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 2,
-    "Proposta/Plano de Trabalho Enviado para Análise": 1
+    "Proposta/Plano de Trabalho Enviado para Análise": 1,
+    "Proposta/Plano de Trabalho Cadastrados": 5
    }
   },
   {
@@ -690,7 +690,7 @@
    "fecha": "2026-09-25",
    "dias_restantes": 15,
    "urgente": true,
-   "nova": true,
+   "nova": false,
    "aderente": false,
    "temas": [],
    "codigos": [
@@ -700,16 +700,16 @@
    "propostas_enviadas": 686,
    "propostas_em_elaboracao": 5,
    "propostas_por_situacao": {
+    "Proposta Aprovada e Plano de Trabalho em Análise": 15,
+    "Proposta/Plano de Trabalho em Complementação": 179,
+    "Proposta Aprovada e Plano de Trabalho em Complementação": 21,
     "Proposta/Plano de Trabalho Aprovados": 436,
     "Proposta/Plano de Trabalho Complementado Enviado para Análise": 12,
-    "Proposta/Plano de Trabalho Cadastrados": 5,
-    "Proposta Aprovada e Plano de Trabalho em Complementação": 21,
-    "Proposta/Plano de Trabalho Complementado em Análise": 9,
-    "Proposta/Plano de Trabalho em Complementação": 179,
     "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 11,
-    "Proposta Aprovada e Plano de Trabalho em Análise": 15,
+    "Proposta/Plano de Trabalho Complementado em Análise": 9,
     "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 2,
-    "Proposta/Plano de Trabalho Enviado para Análise": 1
+    "Proposta/Plano de Trabalho Enviado para Análise": 1,
+    "Proposta/Plano de Trabalho Cadastrados": 5
    }
   },
   {
@@ -724,7 +724,7 @@
    "fecha": "2026-09-25",
    "dias_restantes": 15,
    "urgente": true,
-   "nova": true,
+   "nova": false,
    "aderente": false,
    "temas": [],
    "codigos": [
@@ -734,16 +734,16 @@
    "propostas_enviadas": 686,
    "propostas_em_elaboracao": 5,
    "propostas_por_situacao": {
+    "Proposta Aprovada e Plano de Trabalho em Análise": 15,
+    "Proposta/Plano de Trabalho em Complementação": 179,
+    "Proposta Aprovada e Plano de Trabalho em Complementação": 21,
     "Proposta/Plano de Trabalho Aprovados": 436,
     "Proposta/Plano de Trabalho Complementado Enviado para Análise": 12,
-    "Proposta/Plano de Trabalho Cadastrados": 5,
-    "Proposta Aprovada e Plano de Trabalho em Complementação": 21,
-    "Proposta/Plano de Trabalho Complementado em Análise": 9,
-    "Proposta/Plano de Trabalho em Complementação": 179,
     "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 11,
-    "Proposta Aprovada e Plano de Trabalho em Análise": 15,
+    "Proposta/Plano de Trabalho Complementado em Análise": 9,
     "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 2,
-    "Proposta/Plano de Trabalho Enviado para Análise": 1
+    "Proposta/Plano de Trabalho Enviado para Análise": 1,
+    "Proposta/Plano de Trabalho Cadastrados": 5
    }
   },
   {
@@ -758,7 +758,7 @@
    "fecha": "2026-09-25",
    "dias_restantes": 15,
    "urgente": true,
-   "nova": true,
+   "nova": false,
    "aderente": true,
    "temas": [
     "turismo"
@@ -783,7 +783,32 @@
    "fecha": "2026-09-25",
    "dias_restantes": 15,
    "urgente": true,
-   "nova": true,
+   "nova": false,
+   "aderente": true,
+   "temas": [
+    "turismo"
+   ],
+   "codigos": [
+    "5400020260022"
+   ],
+   "propostas_recebidas": 0,
+   "propostas_enviadas": 0,
+   "propostas_em_elaboracao": 0,
+   "propostas_por_situacao": {}
+  },
+  {
+   "id": "75a7b4a6319c",
+   "programa": "Comissão de Turismo 2026 - DEQUA",
+   "orgao": "MINISTERIO DO TURISMO",
+   "natureza": "Administração Pública Municipal",
+   "canal": "emenda",
+   "modalidade": "CONVENIO",
+   "situacao": "CADASTRADO",
+   "abre": "2026-05-27",
+   "fecha": "2026-09-25",
+   "dias_restantes": 15,
+   "urgente": true,
+   "nova": false,
    "aderente": true,
    "temas": [
     "turismo"
@@ -808,7 +833,7 @@
    "fecha": "2026-09-25",
    "dias_restantes": 15,
    "urgente": true,
-   "nova": true,
+   "nova": false,
    "aderente": true,
    "temas": [
     "turismo"
@@ -833,7 +858,7 @@
    "fecha": "2026-09-25",
    "dias_restantes": 15,
    "urgente": true,
-   "nova": true,
+   "nova": false,
    "aderente": true,
    "temas": [
     "turismo"
@@ -845,34 +870,9 @@
    "propostas_enviadas": 2,
    "propostas_em_elaboracao": 0,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho em Complementação": 1,
-    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 1
+    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 1,
+    "Proposta/Plano de Trabalho em Complementação": 1
    }
-  },
-  {
-   "id": "75a7b4a6319c",
-   "programa": "Comissão de Turismo 2026 - DEQUA",
-   "orgao": "MINISTERIO DO TURISMO",
-   "natureza": "Administração Pública Municipal",
-   "canal": "emenda",
-   "modalidade": "CONVENIO",
-   "situacao": "CADASTRADO",
-   "abre": "2026-05-27",
-   "fecha": "2026-09-25",
-   "dias_restantes": 15,
-   "urgente": true,
-   "nova": true,
-   "aderente": true,
-   "temas": [
-    "turismo"
-   ],
-   "codigos": [
-    "5400020260022"
-   ],
-   "propostas_recebidas": 0,
-   "propostas_enviadas": 0,
-   "propostas_em_elaboracao": 0,
-   "propostas_por_situacao": {}
   },
   {
    "id": "bc5c708874ef",
@@ -886,7 +886,7 @@
    "fecha": "2026-09-25",
    "dias_restantes": 15,
    "urgente": true,
-   "nova": true,
+   "nova": false,
    "aderente": false,
    "temas": [],
    "codigos": [
@@ -896,12 +896,12 @@
    "propostas_enviadas": 51,
    "propostas_em_elaboracao": 1,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho em Complementação": 20,
-    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 2,
     "Proposta/Plano de Trabalho Complementado em Análise": 3,
+    "Proposta/Plano de Trabalho em Complementação": 20,
     "Proposta/Plano de Trabalho Complementado Enviado para Análise": 12,
     "Proposta/Plano de Trabalho Aprovados": 14,
-    "Proposta/Plano de Trabalho Cadastrados": 1
+    "Proposta/Plano de Trabalho Cadastrados": 1,
+    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 2
    }
   },
   {
@@ -916,7 +916,7 @@
    "fecha": "2026-09-25",
    "dias_restantes": 15,
    "urgente": true,
-   "nova": true,
+   "nova": false,
    "aderente": false,
    "temas": [],
    "codigos": [
@@ -926,11 +926,11 @@
    "propostas_enviadas": 514,
    "propostas_em_elaboracao": 18,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho em Complementação": 342,
+    "Proposta/Plano de Trabalho Enviado para Análise": 24,
     "Proposta/Plano de Trabalho Complementado Enviado para Análise": 88,
     "Proposta/Plano de Trabalho Aprovados": 49,
     "Proposta/Plano de Trabalho Cadastrados": 18,
-    "Proposta/Plano de Trabalho Enviado para Análise": 24,
+    "Proposta/Plano de Trabalho em Complementação": 342,
     "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 2,
     "Proposta/Plano de Trabalho Complementado em Análise": 8,
     "Proposta/Plano de Trabalho em Análise": 1
@@ -948,7 +948,7 @@
    "fecha": "2026-09-25",
    "dias_restantes": 15,
    "urgente": true,
-   "nova": true,
+   "nova": false,
    "aderente": false,
    "temas": [],
    "codigos": [
@@ -958,11 +958,11 @@
    "propostas_enviadas": 514,
    "propostas_em_elaboracao": 18,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho em Complementação": 342,
+    "Proposta/Plano de Trabalho Enviado para Análise": 24,
     "Proposta/Plano de Trabalho Complementado Enviado para Análise": 88,
     "Proposta/Plano de Trabalho Aprovados": 49,
     "Proposta/Plano de Trabalho Cadastrados": 18,
-    "Proposta/Plano de Trabalho Enviado para Análise": 24,
+    "Proposta/Plano de Trabalho em Complementação": 342,
     "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 2,
     "Proposta/Plano de Trabalho Complementado em Análise": 8,
     "Proposta/Plano de Trabalho em Análise": 1
@@ -980,7 +980,7 @@
    "fecha": "2026-09-25",
    "dias_restantes": 15,
    "urgente": true,
-   "nova": true,
+   "nova": false,
    "aderente": false,
    "temas": [],
    "codigos": [
@@ -990,11 +990,11 @@
    "propostas_enviadas": 514,
    "propostas_em_elaboracao": 18,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho em Complementação": 342,
+    "Proposta/Plano de Trabalho Enviado para Análise": 24,
     "Proposta/Plano de Trabalho Complementado Enviado para Análise": 88,
     "Proposta/Plano de Trabalho Aprovados": 49,
     "Proposta/Plano de Trabalho Cadastrados": 18,
-    "Proposta/Plano de Trabalho Enviado para Análise": 24,
+    "Proposta/Plano de Trabalho em Complementação": 342,
     "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 2,
     "Proposta/Plano de Trabalho Complementado em Análise": 8,
     "Proposta/Plano de Trabalho em Análise": 1
@@ -1012,7 +1012,7 @@
    "fecha": "2026-09-25",
    "dias_restantes": 15,
    "urgente": true,
-   "nova": true,
+   "nova": false,
    "aderente": false,
    "temas": [],
    "codigos": [
@@ -1022,11 +1022,11 @@
    "propostas_enviadas": 514,
    "propostas_em_elaboracao": 18,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho em Complementação": 342,
+    "Proposta/Plano de Trabalho Enviado para Análise": 24,
     "Proposta/Plano de Trabalho Complementado Enviado para Análise": 88,
     "Proposta/Plano de Trabalho Aprovados": 49,
     "Proposta/Plano de Trabalho Cadastrados": 18,
-    "Proposta/Plano de Trabalho Enviado para Análise": 24,
+    "Proposta/Plano de Trabalho em Complementação": 342,
     "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 2,
     "Proposta/Plano de Trabalho Complementado em Análise": 8,
     "Proposta/Plano de Trabalho em Análise": 1
@@ -1056,10 +1056,10 @@
    "propostas_enviadas": 9,
    "propostas_em_elaboracao": 0,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho em Complementação": 1,
     "Proposta/Plano de Trabalho Aprovados": 6,
-    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 1,
-    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 1
+    "Proposta/Plano de Trabalho em Complementação": 1,
+    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 1,
+    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 1
    }
   },
   {
@@ -1135,17 +1135,17 @@
    "propostas_enviadas": 5633,
    "propostas_em_elaboracao": 340,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Cadastrados": 340,
-    "Proposta/Plano de Trabalho Aprovados": 329,
-    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 7,
-    "Proposta/Plano de Trabalho Enviado para Análise": 5035,
-    "Proposta Aprovada e Plano de Trabalho em Complementação": 59,
     "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 101,
     "Proposta Aprovada e Plano de Trabalho em Análise": 71,
-    "Proposta/Plano de Trabalho em Análise": 5,
+    "Proposta/Plano de Trabalho Enviado para Análise": 5035,
+    "Proposta Aprovada e Plano de Trabalho em Complementação": 59,
+    "Proposta/Plano de Trabalho Complementado em Análise": 4,
+    "Proposta/Plano de Trabalho Aprovados": 329,
+    "Proposta/Plano de Trabalho Cadastrados": 340,
     "Proposta/Plano de Trabalho em Complementação": 16,
     "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 4,
-    "Proposta/Plano de Trabalho Complementado em Análise": 4,
+    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 7,
+    "Proposta/Plano de Trabalho em Análise": 5,
     "Proposta/Plano de Trabalho Rejeitados": 2
    }
   },
@@ -1172,18 +1172,48 @@
    "propostas_enviadas": 5633,
    "propostas_em_elaboracao": 340,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Cadastrados": 340,
-    "Proposta/Plano de Trabalho Aprovados": 329,
-    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 7,
-    "Proposta/Plano de Trabalho Enviado para Análise": 5035,
-    "Proposta Aprovada e Plano de Trabalho em Complementação": 59,
     "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 101,
     "Proposta Aprovada e Plano de Trabalho em Análise": 71,
-    "Proposta/Plano de Trabalho em Análise": 5,
+    "Proposta/Plano de Trabalho Enviado para Análise": 5035,
+    "Proposta Aprovada e Plano de Trabalho em Complementação": 59,
+    "Proposta/Plano de Trabalho Complementado em Análise": 4,
+    "Proposta/Plano de Trabalho Aprovados": 329,
+    "Proposta/Plano de Trabalho Cadastrados": 340,
     "Proposta/Plano de Trabalho em Complementação": 16,
     "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 4,
-    "Proposta/Plano de Trabalho Complementado em Análise": 4,
+    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 7,
+    "Proposta/Plano de Trabalho em Análise": 5,
     "Proposta/Plano de Trabalho Rejeitados": 2
+   }
+  },
+  {
+   "id": "eb81a0d6b0de",
+   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
+   "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
+   "natureza": "Organização da Sociedade Civil",
+   "canal": "proposta",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-05-15",
+   "fecha": "2026-11-30",
+   "dias_restantes": 81,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "5300020260036"
+   ],
+   "propostas_recebidas": 807,
+   "propostas_enviadas": 733,
+   "propostas_em_elaboracao": 74,
+   "propostas_por_situacao": {
+    "Proposta/Plano de Trabalho Enviado para Análise": 727,
+    "Proposta/Plano de Trabalho Cadastrados": 74,
+    "Proposta/Plano de Trabalho em Análise": 2,
+    "Proposta Aprovada e Plano de Trabalho em Análise": 2,
+    "Proposta/Plano de Trabalho Complementado em Análise": 1,
+    "Proposta Aprovada e Plano de Trabalho em Complementação": 1
    }
   },
   {
@@ -1209,17 +1239,17 @@
    "propostas_enviadas": 5633,
    "propostas_em_elaboracao": 340,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Cadastrados": 340,
-    "Proposta/Plano de Trabalho Aprovados": 329,
-    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 7,
-    "Proposta/Plano de Trabalho Enviado para Análise": 5035,
-    "Proposta Aprovada e Plano de Trabalho em Complementação": 59,
     "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 101,
     "Proposta Aprovada e Plano de Trabalho em Análise": 71,
-    "Proposta/Plano de Trabalho em Análise": 5,
+    "Proposta/Plano de Trabalho Enviado para Análise": 5035,
+    "Proposta Aprovada e Plano de Trabalho em Complementação": 59,
+    "Proposta/Plano de Trabalho Complementado em Análise": 4,
+    "Proposta/Plano de Trabalho Aprovados": 329,
+    "Proposta/Plano de Trabalho Cadastrados": 340,
     "Proposta/Plano de Trabalho em Complementação": 16,
     "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 4,
-    "Proposta/Plano de Trabalho Complementado em Análise": 4,
+    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 7,
+    "Proposta/Plano de Trabalho em Análise": 5,
     "Proposta/Plano de Trabalho Rejeitados": 2
    }
   },
@@ -1246,48 +1276,18 @@
    "propostas_enviadas": 5633,
    "propostas_em_elaboracao": 340,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Cadastrados": 340,
-    "Proposta/Plano de Trabalho Aprovados": 329,
-    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 7,
-    "Proposta/Plano de Trabalho Enviado para Análise": 5035,
-    "Proposta Aprovada e Plano de Trabalho em Complementação": 59,
     "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 101,
     "Proposta Aprovada e Plano de Trabalho em Análise": 71,
-    "Proposta/Plano de Trabalho em Análise": 5,
+    "Proposta/Plano de Trabalho Enviado para Análise": 5035,
+    "Proposta Aprovada e Plano de Trabalho em Complementação": 59,
+    "Proposta/Plano de Trabalho Complementado em Análise": 4,
+    "Proposta/Plano de Trabalho Aprovados": 329,
+    "Proposta/Plano de Trabalho Cadastrados": 340,
     "Proposta/Plano de Trabalho em Complementação": 16,
     "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 4,
-    "Proposta/Plano de Trabalho Complementado em Análise": 4,
+    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 7,
+    "Proposta/Plano de Trabalho em Análise": 5,
     "Proposta/Plano de Trabalho Rejeitados": 2
-   }
-  },
-  {
-   "id": "eb81a0d6b0de",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-   "natureza": "Organização da Sociedade Civil",
-   "canal": "proposta",
-   "modalidade": "CONVENIO",
-   "situacao": "DISPONIBILIZADO",
-   "abre": "2026-05-15",
-   "fecha": "2026-11-30",
-   "dias_restantes": 81,
-   "urgente": false,
-   "nova": false,
-   "aderente": false,
-   "temas": [],
-   "codigos": [
-    "5300020260036"
-   ],
-   "propostas_recebidas": 807,
-   "propostas_enviadas": 733,
-   "propostas_em_elaboracao": 74,
-   "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Cadastrados": 74,
-    "Proposta/Plano de Trabalho Enviado para Análise": 727,
-    "Proposta Aprovada e Plano de Trabalho em Análise": 2,
-    "Proposta/Plano de Trabalho Complementado em Análise": 1,
-    "Proposta Aprovada e Plano de Trabalho em Complementação": 1,
-    "Proposta/Plano de Trabalho em Análise": 2
    }
   },
   {
@@ -1312,13 +1312,13 @@
    "propostas_enviadas": 378,
    "propostas_em_elaboracao": 0,
    "propostas_por_situacao": {
-    "Proposta Aprovada e Plano de Trabalho em Análise": 34,
-    "Proposta/Plano de Trabalho Aprovados": 313,
-    "Proposta Aprovada e Plano de Trabalho em Complementação": 14,
-    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 6,
-    "Proposta/Plano de Trabalho Enviado para Análise": 2,
     "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 2,
+    "Proposta Aprovada e Plano de Trabalho em Complementação": 14,
+    "Proposta/Plano de Trabalho Aprovados": 313,
+    "Proposta Aprovada e Plano de Trabalho em Análise": 34,
+    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 6,
     "Proposta/Plano de Trabalho em Complementação": 5,
+    "Proposta/Plano de Trabalho Enviado para Análise": 2,
     "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 2
    }
   },
@@ -1344,13 +1344,13 @@
    "propostas_enviadas": 378,
    "propostas_em_elaboracao": 0,
    "propostas_por_situacao": {
-    "Proposta Aprovada e Plano de Trabalho em Análise": 34,
-    "Proposta/Plano de Trabalho Aprovados": 313,
-    "Proposta Aprovada e Plano de Trabalho em Complementação": 14,
-    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 6,
-    "Proposta/Plano de Trabalho Enviado para Análise": 2,
     "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 2,
+    "Proposta Aprovada e Plano de Trabalho em Complementação": 14,
+    "Proposta/Plano de Trabalho Aprovados": 313,
+    "Proposta Aprovada e Plano de Trabalho em Análise": 34,
+    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 6,
     "Proposta/Plano de Trabalho em Complementação": 5,
+    "Proposta/Plano de Trabalho Enviado para Análise": 2,
     "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 2
    }
   },
@@ -1376,45 +1376,13 @@
    "propostas_enviadas": 378,
    "propostas_em_elaboracao": 0,
    "propostas_por_situacao": {
-    "Proposta Aprovada e Plano de Trabalho em Análise": 34,
-    "Proposta/Plano de Trabalho Aprovados": 313,
-    "Proposta Aprovada e Plano de Trabalho em Complementação": 14,
-    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 6,
-    "Proposta/Plano de Trabalho Enviado para Análise": 2,
     "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 2,
-    "Proposta/Plano de Trabalho em Complementação": 5,
-    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 2
-   }
-  },
-  {
-   "id": "6b1df0e8bf1a",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP8 - CDR",
-   "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-   "natureza": "Administração Pública Municipal",
-   "canal": "emenda",
-   "modalidade": "CONVENIO",
-   "situacao": "DISPONIBILIZADO",
-   "abre": "2026-02-23",
-   "fecha": "2026-11-30",
-   "dias_restantes": 81,
-   "urgente": false,
-   "nova": false,
-   "aderente": false,
-   "temas": [],
-   "codigos": [
-    "5300020260016"
-   ],
-   "propostas_recebidas": 378,
-   "propostas_enviadas": 378,
-   "propostas_em_elaboracao": 0,
-   "propostas_por_situacao": {
-    "Proposta Aprovada e Plano de Trabalho em Análise": 34,
-    "Proposta/Plano de Trabalho Aprovados": 313,
     "Proposta Aprovada e Plano de Trabalho em Complementação": 14,
+    "Proposta/Plano de Trabalho Aprovados": 313,
+    "Proposta Aprovada e Plano de Trabalho em Análise": 34,
     "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 6,
-    "Proposta/Plano de Trabalho Enviado para Análise": 2,
-    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 2,
     "Proposta/Plano de Trabalho em Complementação": 5,
+    "Proposta/Plano de Trabalho Enviado para Análise": 2,
     "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 2
    }
   },
@@ -1441,9 +1409,41 @@
    "propostas_em_elaboracao": 0,
    "propostas_por_situacao": {
     "Proposta/Plano de Trabalho Aprovados": 1,
-    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 1,
+    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 1,
     "Proposta Aprovada e Plano de Trabalho em Complementação": 1,
-    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 1
+    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 1
+   }
+  },
+  {
+   "id": "6b1df0e8bf1a",
+   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP8 - CDR",
+   "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
+   "natureza": "Administração Pública Municipal",
+   "canal": "emenda",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-23",
+   "fecha": "2026-11-30",
+   "dias_restantes": 81,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "5300020260016"
+   ],
+   "propostas_recebidas": 378,
+   "propostas_enviadas": 378,
+   "propostas_em_elaboracao": 0,
+   "propostas_por_situacao": {
+    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 2,
+    "Proposta Aprovada e Plano de Trabalho em Complementação": 14,
+    "Proposta/Plano de Trabalho Aprovados": 313,
+    "Proposta Aprovada e Plano de Trabalho em Análise": 34,
+    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 6,
+    "Proposta/Plano de Trabalho em Complementação": 5,
+    "Proposta/Plano de Trabalho Enviado para Análise": 2,
+    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 2
    }
   },
   {
@@ -1468,16 +1468,16 @@
    "propostas_enviadas": 770,
    "propostas_em_elaboracao": 4,
    "propostas_por_situacao": {
-    "Proposta Aprovada e Plano de Trabalho em Análise": 246,
-    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 24,
-    "Proposta/Plano de Trabalho em Complementação": 24,
+    "Proposta/Plano de Trabalho Aprovados": 409,
     "Proposta Aprovada e Plano de Trabalho em Complementação": 38,
     "Proposta/Plano de Trabalho Enviado para Análise": 12,
-    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 2,
-    "Proposta/Plano de Trabalho Aprovados": 409,
+    "Proposta/Plano de Trabalho em Complementação": 24,
+    "Proposta Aprovada e Plano de Trabalho em Análise": 246,
+    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 24,
     "Proposta/Plano de Trabalho Cadastrados": 4,
-    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 6,
+    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 2,
     "Proposta/Plano de Trabalho Complementado em Análise": 3,
+    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 6,
     "Proposta/Plano de Trabalho Complementado Enviado para Análise": 3,
     "Proposta/Plano de Trabalho em Análise": 3
    }
@@ -1504,82 +1504,16 @@
    "propostas_enviadas": 770,
    "propostas_em_elaboracao": 4,
    "propostas_por_situacao": {
-    "Proposta Aprovada e Plano de Trabalho em Análise": 246,
-    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 24,
-    "Proposta/Plano de Trabalho em Complementação": 24,
+    "Proposta/Plano de Trabalho Aprovados": 409,
     "Proposta Aprovada e Plano de Trabalho em Complementação": 38,
     "Proposta/Plano de Trabalho Enviado para Análise": 12,
-    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 2,
-    "Proposta/Plano de Trabalho Aprovados": 409,
-    "Proposta/Plano de Trabalho Cadastrados": 4,
-    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 6,
-    "Proposta/Plano de Trabalho Complementado em Análise": 3,
-    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 3,
-    "Proposta/Plano de Trabalho em Análise": 3
-   }
-  },
-  {
-   "id": "d9e23509e886",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP8 - CINDRE",
-   "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-   "natureza": "Organização da Sociedade Civil",
-   "canal": "emenda",
-   "modalidade": "TERMO DE FOMENTO",
-   "situacao": "DISPONIBILIZADO",
-   "abre": "2026-02-23",
-   "fecha": "2026-11-30",
-   "dias_restantes": 81,
-   "urgente": false,
-   "nova": false,
-   "aderente": false,
-   "temas": [],
-   "codigos": [
-    "5300020260015"
-   ],
-   "propostas_recebidas": 15,
-   "propostas_enviadas": 14,
-   "propostas_em_elaboracao": 1,
-   "propostas_por_situacao": {
-    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 1,
-    "Proposta/Plano de Trabalho em Complementação": 2,
-    "Proposta/Plano de Trabalho Aprovados": 6,
-    "Proposta/Plano de Trabalho Cadastrados": 1,
-    "Proposta Aprovada e Plano de Trabalho em Complementação": 3,
-    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 2
-   }
-  },
-  {
-   "id": "1155fc5e5b65",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP8 - CINDRE",
-   "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-   "natureza": "Administração Pública Municipal",
-   "canal": "emenda",
-   "modalidade": "CONVENIO",
-   "situacao": "DISPONIBILIZADO",
-   "abre": "2026-02-23",
-   "fecha": "2026-11-30",
-   "dias_restantes": 81,
-   "urgente": false,
-   "nova": false,
-   "aderente": false,
-   "temas": [],
-   "codigos": [
-    "5300020260014"
-   ],
-   "propostas_recebidas": 774,
-   "propostas_enviadas": 770,
-   "propostas_em_elaboracao": 4,
-   "propostas_por_situacao": {
+    "Proposta/Plano de Trabalho em Complementação": 24,
     "Proposta Aprovada e Plano de Trabalho em Análise": 246,
     "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 24,
-    "Proposta/Plano de Trabalho em Complementação": 24,
-    "Proposta Aprovada e Plano de Trabalho em Complementação": 38,
-    "Proposta/Plano de Trabalho Enviado para Análise": 12,
-    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 2,
-    "Proposta/Plano de Trabalho Aprovados": 409,
     "Proposta/Plano de Trabalho Cadastrados": 4,
-    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 6,
+    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 2,
     "Proposta/Plano de Trabalho Complementado em Análise": 3,
+    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 6,
     "Proposta/Plano de Trabalho Complementado Enviado para Análise": 3,
     "Proposta/Plano de Trabalho em Análise": 3
    }
@@ -1606,16 +1540,82 @@
    "propostas_enviadas": 770,
    "propostas_em_elaboracao": 4,
    "propostas_por_situacao": {
-    "Proposta Aprovada e Plano de Trabalho em Análise": 246,
-    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 24,
-    "Proposta/Plano de Trabalho em Complementação": 24,
+    "Proposta/Plano de Trabalho Aprovados": 409,
     "Proposta Aprovada e Plano de Trabalho em Complementação": 38,
     "Proposta/Plano de Trabalho Enviado para Análise": 12,
-    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 2,
-    "Proposta/Plano de Trabalho Aprovados": 409,
+    "Proposta/Plano de Trabalho em Complementação": 24,
+    "Proposta Aprovada e Plano de Trabalho em Análise": 246,
+    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 24,
     "Proposta/Plano de Trabalho Cadastrados": 4,
-    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 6,
+    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 2,
     "Proposta/Plano de Trabalho Complementado em Análise": 3,
+    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 6,
+    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 3,
+    "Proposta/Plano de Trabalho em Análise": 3
+   }
+  },
+  {
+   "id": "d9e23509e886",
+   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP8 - CINDRE",
+   "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
+   "natureza": "Organização da Sociedade Civil",
+   "canal": "emenda",
+   "modalidade": "TERMO DE FOMENTO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-23",
+   "fecha": "2026-11-30",
+   "dias_restantes": 81,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "5300020260015"
+   ],
+   "propostas_recebidas": 15,
+   "propostas_enviadas": 14,
+   "propostas_em_elaboracao": 1,
+   "propostas_por_situacao": {
+    "Proposta/Plano de Trabalho Aprovados": 6,
+    "Proposta Aprovada e Plano de Trabalho em Complementação": 3,
+    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 2,
+    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 1,
+    "Proposta/Plano de Trabalho em Complementação": 2,
+    "Proposta/Plano de Trabalho Cadastrados": 1
+   }
+  },
+  {
+   "id": "1155fc5e5b65",
+   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP8 - CINDRE",
+   "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
+   "natureza": "Administração Pública Municipal",
+   "canal": "emenda",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-23",
+   "fecha": "2026-11-30",
+   "dias_restantes": 81,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "5300020260014"
+   ],
+   "propostas_recebidas": 774,
+   "propostas_enviadas": 770,
+   "propostas_em_elaboracao": 4,
+   "propostas_por_situacao": {
+    "Proposta/Plano de Trabalho Aprovados": 409,
+    "Proposta Aprovada e Plano de Trabalho em Complementação": 38,
+    "Proposta/Plano de Trabalho Enviado para Análise": 12,
+    "Proposta/Plano de Trabalho em Complementação": 24,
+    "Proposta Aprovada e Plano de Trabalho em Análise": 246,
+    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 24,
+    "Proposta/Plano de Trabalho Cadastrados": 4,
+    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 2,
+    "Proposta/Plano de Trabalho Complementado em Análise": 3,
+    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 6,
     "Proposta/Plano de Trabalho Complementado Enviado para Análise": 3,
     "Proposta/Plano de Trabalho em Análise": 3
    }
@@ -1665,12 +1665,12 @@
    "propostas_enviadas": 440,
    "propostas_em_elaboracao": 44,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Enviado para Análise": 433,
     "Proposta/Plano de Trabalho Cadastrados": 44,
-    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 2,
+    "Proposta/Plano de Trabalho Enviado para Análise": 433,
     "Proposta Aprovada e Plano de Trabalho em Análise": 3,
     "Proposta/Plano de Trabalho Aprovados": 1,
-    "Proposta/Plano de Trabalho em Análise": 1
+    "Proposta/Plano de Trabalho em Análise": 1,
+    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 2
    }
   },
   {
@@ -1695,42 +1695,12 @@
    "propostas_enviadas": 440,
    "propostas_em_elaboracao": 44,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Enviado para Análise": 433,
     "Proposta/Plano de Trabalho Cadastrados": 44,
-    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 2,
+    "Proposta/Plano de Trabalho Enviado para Análise": 433,
     "Proposta Aprovada e Plano de Trabalho em Análise": 3,
     "Proposta/Plano de Trabalho Aprovados": 1,
-    "Proposta/Plano de Trabalho em Análise": 1
-   }
-  },
-  {
-   "id": "d50b6ca60ed8",
-   "programa": "Ação 214S - Rotas de Integração Nacional - RP2",
-   "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-   "natureza": "Consórcio Público",
-   "canal": "proposta",
-   "modalidade": "CONVENIO",
-   "situacao": "DISPONIBILIZADO",
-   "abre": "2026-02-19",
-   "fecha": "2026-11-30",
-   "dias_restantes": 81,
-   "urgente": false,
-   "nova": false,
-   "aderente": false,
-   "temas": [],
-   "codigos": [
-    "5300020260002"
-   ],
-   "propostas_recebidas": 484,
-   "propostas_enviadas": 440,
-   "propostas_em_elaboracao": 44,
-   "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Enviado para Análise": 433,
-    "Proposta/Plano de Trabalho Cadastrados": 44,
-    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 2,
-    "Proposta Aprovada e Plano de Trabalho em Análise": 3,
-    "Proposta/Plano de Trabalho Aprovados": 1,
-    "Proposta/Plano de Trabalho em Análise": 1
+    "Proposta/Plano de Trabalho em Análise": 1,
+    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 2
    }
   },
   {
@@ -1755,12 +1725,42 @@
    "propostas_enviadas": 440,
    "propostas_em_elaboracao": 44,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Enviado para Análise": 433,
     "Proposta/Plano de Trabalho Cadastrados": 44,
-    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 2,
+    "Proposta/Plano de Trabalho Enviado para Análise": 433,
     "Proposta Aprovada e Plano de Trabalho em Análise": 3,
     "Proposta/Plano de Trabalho Aprovados": 1,
-    "Proposta/Plano de Trabalho em Análise": 1
+    "Proposta/Plano de Trabalho em Análise": 1,
+    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 2
+   }
+  },
+  {
+   "id": "d50b6ca60ed8",
+   "programa": "Ação 214S - Rotas de Integração Nacional - RP2",
+   "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
+   "natureza": "Consórcio Público",
+   "canal": "proposta",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-19",
+   "fecha": "2026-11-30",
+   "dias_restantes": 81,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "5300020260002"
+   ],
+   "propostas_recebidas": 484,
+   "propostas_enviadas": 440,
+   "propostas_em_elaboracao": 44,
+   "propostas_por_situacao": {
+    "Proposta/Plano de Trabalho Cadastrados": 44,
+    "Proposta/Plano de Trabalho Enviado para Análise": 433,
+    "Proposta Aprovada e Plano de Trabalho em Análise": 3,
+    "Proposta/Plano de Trabalho Aprovados": 1,
+    "Proposta/Plano de Trabalho em Análise": 1,
+    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 2
    }
   },
   {
@@ -1849,33 +1849,6 @@
    }
   },
   {
-   "id": "01a9a6eb7db5",
-   "programa": "IMPLANTACAO, DESENVOLVIMENTO E MANUTENCAO DE SAUDE DIGITAL, TELESSAUDE E INOVACAO NO SUS",
-   "orgao": "MINISTERIO DA SAUDE",
-   "natureza": "Consórcio Público",
-   "canal": "emenda",
-   "modalidade": "CONVENIO",
-   "situacao": "DISPONIBILIZADO",
-   "abre": "2026-05-21",
-   "fecha": "2026-12-30",
-   "dias_restantes": 111,
-   "urgente": false,
-   "nova": false,
-   "aderente": true,
-   "temas": [
-    "inovac"
-   ],
-   "codigos": [
-    "3600020260073"
-   ],
-   "propostas_recebidas": 1,
-   "propostas_enviadas": 1,
-   "propostas_em_elaboracao": 0,
-   "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Aprovados": 1
-   }
-  },
-  {
    "id": "42341e387caa",
    "programa": "IMPLANTACAO, DESENVOLVIMENTO E MANUTENCAO DE SAUDE DIGITAL, TELESSAUDE E INOVACAO NO SUS",
    "orgao": "MINISTERIO DA SAUDE",
@@ -1903,10 +1876,37 @@
    }
   },
   {
-   "id": "af95670453ac",
+   "id": "01a9a6eb7db5",
+   "programa": "IMPLANTACAO, DESENVOLVIMENTO E MANUTENCAO DE SAUDE DIGITAL, TELESSAUDE E INOVACAO NO SUS",
+   "orgao": "MINISTERIO DA SAUDE",
+   "natureza": "Consórcio Público",
+   "canal": "emenda",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-05-21",
+   "fecha": "2026-12-30",
+   "dias_restantes": 111,
+   "urgente": false,
+   "nova": false,
+   "aderente": true,
+   "temas": [
+    "inovac"
+   ],
+   "codigos": [
+    "3600020260073"
+   ],
+   "propostas_recebidas": 1,
+   "propostas_enviadas": 1,
+   "propostas_em_elaboracao": 0,
+   "propostas_por_situacao": {
+    "Proposta/Plano de Trabalho Aprovados": 1
+   }
+  },
+  {
+   "id": "053054784aa4",
    "programa": "0032 - Programa de Gestão e Manutenção do Poder Executivo: PT - 04.122.0032. 2000.0001 – Ação: Administração da Unidade - Nacional – RP (2)",
    "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-   "natureza": "Administração Pública Estadual ou do Distrito Federal",
+   "natureza": "Empresa pública/Sociedade de economia mista",
    "canal": "emenda",
    "modalidade": "CONVENIO",
    "situacao": "DISPONIBILIZADO",
@@ -1949,10 +1949,10 @@
    "propostas_por_situacao": {}
   },
   {
-   "id": "053054784aa4",
+   "id": "af95670453ac",
    "programa": "0032 - Programa de Gestão e Manutenção do Poder Executivo: PT - 04.122.0032. 2000.0001 – Ação: Administração da Unidade - Nacional – RP (2)",
    "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-   "natureza": "Empresa pública/Sociedade de economia mista",
+   "natureza": "Administração Pública Estadual ou do Distrito Federal",
    "canal": "emenda",
    "modalidade": "CONVENIO",
    "situacao": "DISPONIBILIZADO",
@@ -2248,10 +2248,10 @@
    "propostas_por_situacao": {}
   },
   {
-   "id": "162fcce65fd1",
+   "id": "a3bbd0585e55",
    "programa": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317. 00SX.0025 – Ação: Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - No Estado da Paraíba – RP (7)",
    "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-   "natureza": "Administração Pública Municipal",
+   "natureza": "Empresa pública/Sociedade de economia mista",
    "canal": "emenda",
    "modalidade": "CONVENIO",
    "situacao": "DISPONIBILIZADO",
@@ -2273,10 +2273,10 @@
    "propostas_por_situacao": {}
   },
   {
-   "id": "a3bbd0585e55",
+   "id": "162fcce65fd1",
    "programa": "2317 - Desenvolvimento Regional e Ordenamento Territorial: PT - 15.244.2317. 00SX.0025 – Ação: Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - No Estado da Paraíba – RP (7)",
    "orgao": "MINISTÉRIO DA INTEGRAÇÃO E DO DESENVOLVIMENTO REGIONAL",
-   "natureza": "Empresa pública/Sociedade de economia mista",
+   "natureza": "Administração Pública Municipal",
    "canal": "emenda",
    "modalidade": "CONVENIO",
    "situacao": "DISPONIBILIZADO",
@@ -2497,9 +2497,9 @@
    "propostas_enviadas": 6,
    "propostas_em_elaboracao": 0,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Complementado em Análise": 1,
     "Proposta/Plano de Trabalho em Complementação": 4,
-    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 1
+    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 1,
+    "Proposta/Plano de Trabalho Complementado em Análise": 1
    }
   },
   {
@@ -2526,11 +2526,11 @@
    "propostas_por_situacao": {
     "Proposta/Plano de Trabalho Aprovados": 18,
     "Proposta/Plano de Trabalho Complementado Enviado para Análise": 5,
-    "Proposta/Plano de Trabalho em Complementação": 6,
+    "Proposta/Plano de Trabalho Cadastrados": 2,
+    "Proposta/Plano de Trabalho em Análise": 2,
     "Proposta/Plano de Trabalho Complementado em Análise": 5,
     "Proposta/Plano de Trabalho Enviado para Análise": 4,
-    "Proposta/Plano de Trabalho Cadastrados": 2,
-    "Proposta/Plano de Trabalho em Análise": 2
+    "Proposta/Plano de Trabalho em Complementação": 6
    }
   },
   {
@@ -2557,11 +2557,11 @@
    "propostas_por_situacao": {
     "Proposta/Plano de Trabalho Aprovados": 18,
     "Proposta/Plano de Trabalho Complementado Enviado para Análise": 5,
-    "Proposta/Plano de Trabalho em Complementação": 6,
+    "Proposta/Plano de Trabalho Cadastrados": 2,
+    "Proposta/Plano de Trabalho em Análise": 2,
     "Proposta/Plano de Trabalho Complementado em Análise": 5,
     "Proposta/Plano de Trabalho Enviado para Análise": 4,
-    "Proposta/Plano de Trabalho Cadastrados": 2,
-    "Proposta/Plano de Trabalho em Análise": 2
+    "Proposta/Plano de Trabalho em Complementação": 6
    }
   },
   {
@@ -2760,7 +2760,7 @@
    "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
    "natureza": "Administração Pública Estadual ou do Distrito Federal",
    "canal": "emenda",
-   "modalidade": "CONVENIO / CONVENIO OU CONTRATO DE REPASSE / CONTRATO DE REPASSE",
+   "modalidade": "CONTRATO DE REPASSE / CONVENIO / CONVENIO OU CONTRATO DE REPASSE",
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-11",
    "fecha": "2026-12-31",
@@ -2776,17 +2776,17 @@
    "propostas_enviadas": 341,
    "propostas_em_elaboracao": 3,
    "propostas_por_situacao": {
-    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 2,
-    "Proposta/Plano de Trabalho em Complementação": 19,
-    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 7,
-    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 26,
     "Proposta/Plano de Trabalho Aprovados": 253,
+    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 26,
     "Proposta Aprovada e Plano de Trabalho em Complementação": 17,
     "Proposta/Plano de Trabalho Complementado em Análise": 7,
+    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 7,
     "Proposta/Plano de Trabalho Complementado Enviado para Análise": 6,
     "Proposta/Plano de Trabalho Cadastrados": 3,
-    "Proposta Aprovada e Plano de Trabalho em Análise": 2,
-    "Proposta/Plano de Trabalho Enviado para Análise": 2
+    "Proposta/Plano de Trabalho Enviado para Análise": 2,
+    "Proposta/Plano de Trabalho em Complementação": 19,
+    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 2,
+    "Proposta Aprovada e Plano de Trabalho em Análise": 2
    }
   },
   {
@@ -2795,7 +2795,7 @@
    "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
    "natureza": "Empresa pública/Sociedade de economia mista",
    "canal": "emenda",
-   "modalidade": "CONTRATO DE REPASSE / CONVENIO / CONVENIO OU CONTRATO DE REPASSE",
+   "modalidade": "CONVENIO / CONVENIO OU CONTRATO DE REPASSE / CONTRATO DE REPASSE",
    "situacao": "DISPONIBILIZADO",
    "abre": "2026-02-11",
    "fecha": "2026-12-31",
@@ -2811,24 +2811,24 @@
    "propostas_enviadas": 341,
    "propostas_em_elaboracao": 3,
    "propostas_por_situacao": {
-    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 2,
-    "Proposta/Plano de Trabalho em Complementação": 19,
-    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 7,
-    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 26,
     "Proposta/Plano de Trabalho Aprovados": 253,
+    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 26,
     "Proposta Aprovada e Plano de Trabalho em Complementação": 17,
     "Proposta/Plano de Trabalho Complementado em Análise": 7,
+    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 7,
     "Proposta/Plano de Trabalho Complementado Enviado para Análise": 6,
     "Proposta/Plano de Trabalho Cadastrados": 3,
-    "Proposta Aprovada e Plano de Trabalho em Análise": 2,
-    "Proposta/Plano de Trabalho Enviado para Análise": 2
+    "Proposta/Plano de Trabalho Enviado para Análise": 2,
+    "Proposta/Plano de Trabalho em Complementação": 19,
+    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 2,
+    "Proposta Aprovada e Plano de Trabalho em Análise": 2
    }
   },
   {
-   "id": "d77b44c027b5",
+   "id": "dec2065c9ff1",
    "programa": "Fomento ao Setor Agropecu?rio - Emendas de Comiss?o SF",
    "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
-   "natureza": "Consórcio Público",
+   "natureza": "Administração Pública Municipal",
    "canal": "emenda",
    "modalidade": "CONTRATO DE REPASSE / CONVENIO / CONVENIO OU CONTRATO DE REPASSE",
    "situacao": "DISPONIBILIZADO",
@@ -2846,24 +2846,24 @@
    "propostas_enviadas": 341,
    "propostas_em_elaboracao": 3,
    "propostas_por_situacao": {
-    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 2,
-    "Proposta/Plano de Trabalho em Complementação": 19,
-    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 7,
-    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 26,
     "Proposta/Plano de Trabalho Aprovados": 253,
+    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 26,
     "Proposta Aprovada e Plano de Trabalho em Complementação": 17,
     "Proposta/Plano de Trabalho Complementado em Análise": 7,
+    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 7,
     "Proposta/Plano de Trabalho Complementado Enviado para Análise": 6,
     "Proposta/Plano de Trabalho Cadastrados": 3,
-    "Proposta Aprovada e Plano de Trabalho em Análise": 2,
-    "Proposta/Plano de Trabalho Enviado para Análise": 2
+    "Proposta/Plano de Trabalho Enviado para Análise": 2,
+    "Proposta/Plano de Trabalho em Complementação": 19,
+    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 2,
+    "Proposta Aprovada e Plano de Trabalho em Análise": 2
    }
   },
   {
-   "id": "dec2065c9ff1",
+   "id": "d77b44c027b5",
    "programa": "Fomento ao Setor Agropecu?rio - Emendas de Comiss?o SF",
    "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
-   "natureza": "Administração Pública Municipal",
+   "natureza": "Consórcio Público",
    "canal": "emenda",
    "modalidade": "CONVENIO / CONVENIO OU CONTRATO DE REPASSE / CONTRATO DE REPASSE",
    "situacao": "DISPONIBILIZADO",
@@ -2881,17 +2881,17 @@
    "propostas_enviadas": 341,
    "propostas_em_elaboracao": 3,
    "propostas_por_situacao": {
-    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 2,
-    "Proposta/Plano de Trabalho em Complementação": 19,
-    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 7,
-    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 26,
     "Proposta/Plano de Trabalho Aprovados": 253,
+    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 26,
     "Proposta Aprovada e Plano de Trabalho em Complementação": 17,
     "Proposta/Plano de Trabalho Complementado em Análise": 7,
+    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 7,
     "Proposta/Plano de Trabalho Complementado Enviado para Análise": 6,
     "Proposta/Plano de Trabalho Cadastrados": 3,
-    "Proposta Aprovada e Plano de Trabalho em Análise": 2,
-    "Proposta/Plano de Trabalho Enviado para Análise": 2
+    "Proposta/Plano de Trabalho Enviado para Análise": 2,
+    "Proposta/Plano de Trabalho em Complementação": 19,
+    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 2,
+    "Proposta Aprovada e Plano de Trabalho em Análise": 2
    }
   },
   {
@@ -2916,10 +2916,10 @@
    "propostas_enviadas": 23,
    "propostas_em_elaboracao": 1,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 3,
     "Proposta/Plano de Trabalho Aprovados": 14,
-    "Proposta/Plano de Trabalho em Complementação": 6,
-    "Proposta/Plano de Trabalho Cadastrados": 1
+    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 3,
+    "Proposta/Plano de Trabalho Cadastrados": 1,
+    "Proposta/Plano de Trabalho em Complementação": 6
    }
   },
   {
@@ -2945,8 +2945,8 @@
    "propostas_em_elaboracao": 0,
    "propostas_por_situacao": {
     "Proposta/Plano de Trabalho Aprovados": 3,
-    "Proposta/Plano de Trabalho em Complementação": 1,
-    "Proposta/Plano de Trabalho Complementado em Análise": 1
+    "Proposta/Plano de Trabalho Complementado em Análise": 1,
+    "Proposta/Plano de Trabalho em Complementação": 1
    }
   },
   {
@@ -2954,72 +2954,6 @@
    "programa": "Fomento ao Setor Agropecuário - Emendas de Comissão CD",
    "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
    "natureza": "Administração Pública Estadual ou do Distrito Federal",
-   "canal": "emenda",
-   "modalidade": "CONVENIO / CONVENIO OU CONTRATO DE REPASSE / CONTRATO DE REPASSE",
-   "situacao": "DISPONIBILIZADO",
-   "abre": "2026-02-11",
-   "fecha": "2026-12-31",
-   "dias_restantes": 112,
-   "urgente": false,
-   "nova": false,
-   "aderente": false,
-   "temas": [],
-   "codigos": [
-    "2200020260014"
-   ],
-   "propostas_recebidas": 81,
-   "propostas_enviadas": 80,
-   "propostas_em_elaboracao": 1,
-   "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Aprovados": 60,
-    "Proposta/Plano de Trabalho Cadastrados": 1,
-    "Proposta Aprovada e Plano de Trabalho em Análise": 1,
-    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 2,
-    "Proposta Aprovada e Plano de Trabalho em Complementação": 3,
-    "Proposta/Plano de Trabalho em Complementação": 5,
-    "Proposta/Plano de Trabalho Complementado em Análise": 2,
-    "Proposta/Plano de Trabalho Enviado para Análise": 1,
-    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 6
-   }
-  },
-  {
-   "id": "3c579f3d9b90",
-   "programa": "Fomento ao Setor Agropecuário - Emendas de Comissão CD",
-   "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
-   "natureza": "Empresa pública/Sociedade de economia mista",
-   "canal": "emenda",
-   "modalidade": "CONVENIO / CONVENIO OU CONTRATO DE REPASSE / CONTRATO DE REPASSE",
-   "situacao": "DISPONIBILIZADO",
-   "abre": "2026-02-11",
-   "fecha": "2026-12-31",
-   "dias_restantes": 112,
-   "urgente": false,
-   "nova": false,
-   "aderente": false,
-   "temas": [],
-   "codigos": [
-    "2200020260014"
-   ],
-   "propostas_recebidas": 81,
-   "propostas_enviadas": 80,
-   "propostas_em_elaboracao": 1,
-   "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Aprovados": 60,
-    "Proposta/Plano de Trabalho Cadastrados": 1,
-    "Proposta Aprovada e Plano de Trabalho em Análise": 1,
-    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 2,
-    "Proposta Aprovada e Plano de Trabalho em Complementação": 3,
-    "Proposta/Plano de Trabalho em Complementação": 5,
-    "Proposta/Plano de Trabalho Complementado em Análise": 2,
-    "Proposta/Plano de Trabalho Enviado para Análise": 1,
-    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 6
-   }
-  },
-  {
-   "id": "6894e90cac0b",
-   "programa": "Fomento ao Setor Agropecuário - Emendas de Comissão CD",
-   "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
-   "natureza": "Consórcio Público",
    "canal": "emenda",
    "modalidade": "CONTRATO DE REPASSE / CONVENIO / CONVENIO OU CONTRATO DE REPASSE",
    "situacao": "DISPONIBILIZADO",
@@ -3037,15 +2971,48 @@
    "propostas_enviadas": 80,
    "propostas_em_elaboracao": 1,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Aprovados": 60,
-    "Proposta/Plano de Trabalho Cadastrados": 1,
-    "Proposta Aprovada e Plano de Trabalho em Análise": 1,
-    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 2,
-    "Proposta Aprovada e Plano de Trabalho em Complementação": 3,
     "Proposta/Plano de Trabalho em Complementação": 5,
+    "Proposta Aprovada e Plano de Trabalho em Análise": 1,
+    "Proposta/Plano de Trabalho Aprovados": 60,
+    "Proposta Aprovada e Plano de Trabalho em Complementação": 3,
+    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 6,
+    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 2,
+    "Proposta/Plano de Trabalho Cadastrados": 1,
     "Proposta/Plano de Trabalho Complementado em Análise": 2,
-    "Proposta/Plano de Trabalho Enviado para Análise": 1,
-    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 6
+    "Proposta/Plano de Trabalho Enviado para Análise": 1
+   }
+  },
+  {
+   "id": "3c579f3d9b90",
+   "programa": "Fomento ao Setor Agropecuário - Emendas de Comissão CD",
+   "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
+   "natureza": "Empresa pública/Sociedade de economia mista",
+   "canal": "emenda",
+   "modalidade": "CONTRATO DE REPASSE / CONVENIO / CONVENIO OU CONTRATO DE REPASSE",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-11",
+   "fecha": "2026-12-31",
+   "dias_restantes": 112,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2200020260014"
+   ],
+   "propostas_recebidas": 81,
+   "propostas_enviadas": 80,
+   "propostas_em_elaboracao": 1,
+   "propostas_por_situacao": {
+    "Proposta/Plano de Trabalho em Complementação": 5,
+    "Proposta Aprovada e Plano de Trabalho em Análise": 1,
+    "Proposta/Plano de Trabalho Aprovados": 60,
+    "Proposta Aprovada e Plano de Trabalho em Complementação": 3,
+    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 6,
+    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 2,
+    "Proposta/Plano de Trabalho Cadastrados": 1,
+    "Proposta/Plano de Trabalho Complementado em Análise": 2,
+    "Proposta/Plano de Trabalho Enviado para Análise": 1
    }
   },
   {
@@ -3053,6 +3020,39 @@
    "programa": "Fomento ao Setor Agropecuário - Emendas de Comissão CD",
    "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
    "natureza": "Administração Pública Municipal",
+   "canal": "emenda",
+   "modalidade": "CONTRATO DE REPASSE / CONVENIO / CONVENIO OU CONTRATO DE REPASSE",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-11",
+   "fecha": "2026-12-31",
+   "dias_restantes": 112,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2200020260014"
+   ],
+   "propostas_recebidas": 81,
+   "propostas_enviadas": 80,
+   "propostas_em_elaboracao": 1,
+   "propostas_por_situacao": {
+    "Proposta/Plano de Trabalho em Complementação": 5,
+    "Proposta Aprovada e Plano de Trabalho em Análise": 1,
+    "Proposta/Plano de Trabalho Aprovados": 60,
+    "Proposta Aprovada e Plano de Trabalho em Complementação": 3,
+    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 6,
+    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 2,
+    "Proposta/Plano de Trabalho Cadastrados": 1,
+    "Proposta/Plano de Trabalho Complementado em Análise": 2,
+    "Proposta/Plano de Trabalho Enviado para Análise": 1
+   }
+  },
+  {
+   "id": "6894e90cac0b",
+   "programa": "Fomento ao Setor Agropecuário - Emendas de Comissão CD",
+   "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
+   "natureza": "Consórcio Público",
    "canal": "emenda",
    "modalidade": "CONVENIO / CONVENIO OU CONTRATO DE REPASSE / CONTRATO DE REPASSE",
    "situacao": "DISPONIBILIZADO",
@@ -3070,15 +3070,15 @@
    "propostas_enviadas": 80,
    "propostas_em_elaboracao": 1,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Aprovados": 60,
-    "Proposta/Plano de Trabalho Cadastrados": 1,
-    "Proposta Aprovada e Plano de Trabalho em Análise": 1,
-    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 2,
-    "Proposta Aprovada e Plano de Trabalho em Complementação": 3,
     "Proposta/Plano de Trabalho em Complementação": 5,
+    "Proposta Aprovada e Plano de Trabalho em Análise": 1,
+    "Proposta/Plano de Trabalho Aprovados": 60,
+    "Proposta Aprovada e Plano de Trabalho em Complementação": 3,
+    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 6,
+    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 2,
+    "Proposta/Plano de Trabalho Cadastrados": 1,
     "Proposta/Plano de Trabalho Complementado em Análise": 2,
-    "Proposta/Plano de Trabalho Enviado para Análise": 1,
-    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 6
+    "Proposta/Plano de Trabalho Enviado para Análise": 1
    }
   },
   {
@@ -3103,34 +3103,8 @@
    "propostas_enviadas": 620,
    "propostas_em_elaboracao": 61,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Enviado para Análise": 620,
-    "Proposta/Plano de Trabalho Cadastrados": 61
-   }
-  },
-  {
-   "id": "73cdb012fffd",
-   "programa": "Fomento ao Setor Agropecuário - Proposta Voluntária -  Obras de Fomento",
-   "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
-   "natureza": "Consórcio Público",
-   "canal": "proposta",
-   "modalidade": "CONTRATO DE REPASSE",
-   "situacao": "DISPONIBILIZADO",
-   "abre": "2026-02-10",
-   "fecha": "2026-12-31",
-   "dias_restantes": 112,
-   "urgente": false,
-   "nova": false,
-   "aderente": false,
-   "temas": [],
-   "codigos": [
-    "2200020260018"
-   ],
-   "propostas_recebidas": 681,
-   "propostas_enviadas": 620,
-   "propostas_em_elaboracao": 61,
-   "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Enviado para Análise": 620,
-    "Proposta/Plano de Trabalho Cadastrados": 61
+    "Proposta/Plano de Trabalho Cadastrados": 61,
+    "Proposta/Plano de Trabalho Enviado para Análise": 620
    }
   },
   {
@@ -3155,8 +3129,34 @@
    "propostas_enviadas": 620,
    "propostas_em_elaboracao": 61,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Enviado para Análise": 620,
-    "Proposta/Plano de Trabalho Cadastrados": 61
+    "Proposta/Plano de Trabalho Cadastrados": 61,
+    "Proposta/Plano de Trabalho Enviado para Análise": 620
+   }
+  },
+  {
+   "id": "73cdb012fffd",
+   "programa": "Fomento ao Setor Agropecuário - Proposta Voluntária -  Obras de Fomento",
+   "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
+   "natureza": "Consórcio Público",
+   "canal": "proposta",
+   "modalidade": "CONTRATO DE REPASSE",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-10",
+   "fecha": "2026-12-31",
+   "dias_restantes": 112,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2200020260018"
+   ],
+   "propostas_recebidas": 681,
+   "propostas_enviadas": 620,
+   "propostas_em_elaboracao": 61,
+   "propostas_por_situacao": {
+    "Proposta/Plano de Trabalho Cadastrados": 61,
+    "Proposta/Plano de Trabalho Enviado para Análise": 620
    }
   },
   {
@@ -3181,8 +3181,8 @@
    "propostas_enviadas": 620,
    "propostas_em_elaboracao": 61,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Enviado para Análise": 620,
-    "Proposta/Plano de Trabalho Cadastrados": 61
+    "Proposta/Plano de Trabalho Cadastrados": 61,
+    "Proposta/Plano de Trabalho Enviado para Análise": 620
    }
   },
   {
@@ -3190,64 +3190,6 @@
    "programa": "Fomento ao Setor Agropecuário - Propostas Voluntárias",
    "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
    "natureza": "Empresa pública/Sociedade de economia mista",
-   "canal": "proposta",
-   "modalidade": "CONVENIO / CONVENIO OU CONTRATO DE REPASSE / CONTRATO DE REPASSE",
-   "situacao": "DISPONIBILIZADO",
-   "abre": "2026-02-09",
-   "fecha": "2026-12-31",
-   "dias_restantes": 112,
-   "urgente": false,
-   "nova": false,
-   "aderente": false,
-   "temas": [],
-   "codigos": [
-    "2200020260004"
-   ],
-   "propostas_recebidas": 3620,
-   "propostas_enviadas": 3304,
-   "propostas_em_elaboracao": 316,
-   "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Enviado para Análise": 3301,
-    "Proposta/Plano de Trabalho Cadastrados": 316,
-    "Proposta/Plano de Trabalho em Complementação": 1,
-    "Proposta/Plano de Trabalho Complementado em Análise": 1,
-    "Proposta/Plano de Trabalho Aprovados": 1
-   }
-  },
-  {
-   "id": "b2c5408b2011",
-   "programa": "Fomento ao Setor Agropecuário - Propostas Voluntárias",
-   "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
-   "natureza": "Consórcio Público",
-   "canal": "proposta",
-   "modalidade": "CONVENIO / CONVENIO OU CONTRATO DE REPASSE / CONTRATO DE REPASSE",
-   "situacao": "DISPONIBILIZADO",
-   "abre": "2026-02-09",
-   "fecha": "2026-12-31",
-   "dias_restantes": 112,
-   "urgente": false,
-   "nova": false,
-   "aderente": false,
-   "temas": [],
-   "codigos": [
-    "2200020260004"
-   ],
-   "propostas_recebidas": 3620,
-   "propostas_enviadas": 3304,
-   "propostas_em_elaboracao": 316,
-   "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Enviado para Análise": 3301,
-    "Proposta/Plano de Trabalho Cadastrados": 316,
-    "Proposta/Plano de Trabalho em Complementação": 1,
-    "Proposta/Plano de Trabalho Complementado em Análise": 1,
-    "Proposta/Plano de Trabalho Aprovados": 1
-   }
-  },
-  {
-   "id": "b237f52ed9e6",
-   "programa": "Fomento ao Setor Agropecuário - Propostas Voluntárias",
-   "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
-   "natureza": "Administração Pública Estadual ou do Distrito Federal",
    "canal": "proposta",
    "modalidade": "CONTRATO DE REPASSE / CONVENIO / CONVENIO OU CONTRATO DE REPASSE",
    "situacao": "DISPONIBILIZADO",
@@ -3265,18 +3207,47 @@
    "propostas_enviadas": 3304,
    "propostas_em_elaboracao": 316,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Enviado para Análise": 3301,
     "Proposta/Plano de Trabalho Cadastrados": 316,
+    "Proposta/Plano de Trabalho Enviado para Análise": 3301,
     "Proposta/Plano de Trabalho em Complementação": 1,
-    "Proposta/Plano de Trabalho Complementado em Análise": 1,
-    "Proposta/Plano de Trabalho Aprovados": 1
+    "Proposta/Plano de Trabalho Aprovados": 1,
+    "Proposta/Plano de Trabalho Complementado em Análise": 1
    }
   },
   {
-   "id": "0579c8b1d875",
+   "id": "b2c5408b2011",
    "programa": "Fomento ao Setor Agropecuário - Propostas Voluntárias",
    "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
-   "natureza": "Administração Pública Municipal",
+   "natureza": "Consórcio Público",
+   "canal": "proposta",
+   "modalidade": "CONTRATO DE REPASSE / CONVENIO / CONVENIO OU CONTRATO DE REPASSE",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-09",
+   "fecha": "2026-12-31",
+   "dias_restantes": 112,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2200020260004"
+   ],
+   "propostas_recebidas": 3620,
+   "propostas_enviadas": 3304,
+   "propostas_em_elaboracao": 316,
+   "propostas_por_situacao": {
+    "Proposta/Plano de Trabalho Cadastrados": 316,
+    "Proposta/Plano de Trabalho Enviado para Análise": 3301,
+    "Proposta/Plano de Trabalho em Complementação": 1,
+    "Proposta/Plano de Trabalho Aprovados": 1,
+    "Proposta/Plano de Trabalho Complementado em Análise": 1
+   }
+  },
+  {
+   "id": "b237f52ed9e6",
+   "programa": "Fomento ao Setor Agropecuário - Propostas Voluntárias",
+   "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
+   "natureza": "Administração Pública Estadual ou do Distrito Federal",
    "canal": "proposta",
    "modalidade": "CONVENIO / CONVENIO OU CONTRATO DE REPASSE / CONTRATO DE REPASSE",
    "situacao": "DISPONIBILIZADO",
@@ -3294,11 +3265,40 @@
    "propostas_enviadas": 3304,
    "propostas_em_elaboracao": 316,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Enviado para Análise": 3301,
     "Proposta/Plano de Trabalho Cadastrados": 316,
+    "Proposta/Plano de Trabalho Enviado para Análise": 3301,
     "Proposta/Plano de Trabalho em Complementação": 1,
-    "Proposta/Plano de Trabalho Complementado em Análise": 1,
-    "Proposta/Plano de Trabalho Aprovados": 1
+    "Proposta/Plano de Trabalho Aprovados": 1,
+    "Proposta/Plano de Trabalho Complementado em Análise": 1
+   }
+  },
+  {
+   "id": "0579c8b1d875",
+   "programa": "Fomento ao Setor Agropecuário - Propostas Voluntárias",
+   "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
+   "natureza": "Administração Pública Municipal",
+   "canal": "proposta",
+   "modalidade": "CONTRATO DE REPASSE / CONVENIO / CONVENIO OU CONTRATO DE REPASSE",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-09",
+   "fecha": "2026-12-31",
+   "dias_restantes": 112,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2200020260004"
+   ],
+   "propostas_recebidas": 3620,
+   "propostas_enviadas": 3304,
+   "propostas_em_elaboracao": 316,
+   "propostas_por_situacao": {
+    "Proposta/Plano de Trabalho Cadastrados": 316,
+    "Proposta/Plano de Trabalho Enviado para Análise": 3301,
+    "Proposta/Plano de Trabalho em Complementação": 1,
+    "Proposta/Plano de Trabalho Aprovados": 1,
+    "Proposta/Plano de Trabalho Complementado em Análise": 1
    }
   },
   {
@@ -3323,10 +3323,10 @@
    "propostas_enviadas": 108,
    "propostas_em_elaboracao": 42,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Cadastrados": 42,
     "Proposta/Plano de Trabalho Enviado para Análise": 105,
-    "Proposta/Plano de Trabalho Aprovados": 1,
+    "Proposta/Plano de Trabalho Cadastrados": 42,
     "Proposta/Plano de Trabalho em Análise": 1,
+    "Proposta/Plano de Trabalho Aprovados": 1,
     "Proposta/Plano de Trabalho Rejeitados": 1
    }
   },
@@ -3490,8 +3490,8 @@
    "propostas_enviadas": 15,
    "propostas_em_elaboracao": 0,
    "propostas_por_situacao": {
-    "Proposta Aprovada e Plano de Trabalho em Análise": 4,
     "Proposta/Plano de Trabalho Aprovados": 10,
+    "Proposta Aprovada e Plano de Trabalho em Análise": 4,
     "Proposta/Plano de Trabalho em Complementação": 1
    }
   },
@@ -3517,8 +3517,8 @@
    "propostas_enviadas": 15,
    "propostas_em_elaboracao": 0,
    "propostas_por_situacao": {
-    "Proposta Aprovada e Plano de Trabalho em Análise": 4,
     "Proposta/Plano de Trabalho Aprovados": 10,
+    "Proposta Aprovada e Plano de Trabalho em Análise": 4,
     "Proposta/Plano de Trabalho em Complementação": 1
    }
   },
@@ -3544,8 +3544,8 @@
    "propostas_enviadas": 15,
    "propostas_em_elaboracao": 0,
    "propostas_por_situacao": {
-    "Proposta Aprovada e Plano de Trabalho em Análise": 4,
     "Proposta/Plano de Trabalho Aprovados": 10,
+    "Proposta Aprovada e Plano de Trabalho em Análise": 4,
     "Proposta/Plano de Trabalho em Complementação": 1
    }
   },
@@ -3571,16 +3571,16 @@
    "propostas_enviadas": 1000,
    "propostas_em_elaboracao": 19,
    "propostas_por_situacao": {
-    "Proposta Aprovada e Plano de Trabalho em Análise": 17,
-    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 15,
-    "Proposta/Plano de Trabalho em Complementação": 52,
-    "Proposta/Plano de Trabalho Enviado para Análise": 5,
-    "Proposta Aprovada e Plano de Trabalho em Complementação": 49,
     "Proposta/Plano de Trabalho Aprovados": 839,
-    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 6,
     "Proposta/Plano de Trabalho Cadastrados": 19,
+    "Proposta Aprovada e Plano de Trabalho em Complementação": 49,
+    "Proposta/Plano de Trabalho em Complementação": 52,
+    "Proposta Aprovada e Plano de Trabalho em Análise": 17,
     "Proposta/Plano de Trabalho Complementado Enviado para Análise": 14,
-    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 3
+    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 6,
+    "Proposta/Plano de Trabalho Enviado para Análise": 5,
+    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 3,
+    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 15
    }
   },
   {
@@ -3605,16 +3605,16 @@
    "propostas_enviadas": 1000,
    "propostas_em_elaboracao": 19,
    "propostas_por_situacao": {
-    "Proposta Aprovada e Plano de Trabalho em Análise": 17,
-    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 15,
-    "Proposta/Plano de Trabalho em Complementação": 52,
-    "Proposta/Plano de Trabalho Enviado para Análise": 5,
-    "Proposta Aprovada e Plano de Trabalho em Complementação": 49,
     "Proposta/Plano de Trabalho Aprovados": 839,
-    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 6,
     "Proposta/Plano de Trabalho Cadastrados": 19,
+    "Proposta Aprovada e Plano de Trabalho em Complementação": 49,
+    "Proposta/Plano de Trabalho em Complementação": 52,
+    "Proposta Aprovada e Plano de Trabalho em Análise": 17,
     "Proposta/Plano de Trabalho Complementado Enviado para Análise": 14,
-    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 3
+    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 6,
+    "Proposta/Plano de Trabalho Enviado para Análise": 5,
+    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 3,
+    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 15
    }
   },
   {
@@ -3639,16 +3639,16 @@
    "propostas_enviadas": 1000,
    "propostas_em_elaboracao": 19,
    "propostas_por_situacao": {
-    "Proposta Aprovada e Plano de Trabalho em Análise": 17,
-    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 15,
-    "Proposta/Plano de Trabalho em Complementação": 52,
-    "Proposta/Plano de Trabalho Enviado para Análise": 5,
-    "Proposta Aprovada e Plano de Trabalho em Complementação": 49,
     "Proposta/Plano de Trabalho Aprovados": 839,
-    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 6,
     "Proposta/Plano de Trabalho Cadastrados": 19,
+    "Proposta Aprovada e Plano de Trabalho em Complementação": 49,
+    "Proposta/Plano de Trabalho em Complementação": 52,
+    "Proposta Aprovada e Plano de Trabalho em Análise": 17,
     "Proposta/Plano de Trabalho Complementado Enviado para Análise": 14,
-    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 3
+    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 6,
+    "Proposta/Plano de Trabalho Enviado para Análise": 5,
+    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 3,
+    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 15
    }
   },
   {
@@ -3698,17 +3698,17 @@
    "propostas_enviadas": 1801,
    "propostas_em_elaboracao": 380,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho em Complementação": 692,
-    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 4,
-    "Proposta Aprovada e Plano de Trabalho em Análise": 2,
-    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 508,
-    "Proposta/Plano de Trabalho Aprovados": 9,
-    "Proposta/Plano de Trabalho Cadastrados": 380,
     "Proposta/Plano de Trabalho Enviado para Análise": 576,
+    "Proposta/Plano de Trabalho Cadastrados": 380,
+    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 508,
+    "Proposta/Plano de Trabalho em Complementação": 692,
     "Proposta Aprovada e Plano de Trabalho em Complementação": 4,
-    "Proposta/Plano de Trabalho Rejeitados": 2,
+    "Proposta/Plano de Trabalho Aprovados": 9,
     "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 3,
-    "Proposta/Plano de Trabalho Complementado em Análise": 1
+    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 4,
+    "Proposta/Plano de Trabalho Rejeitados": 2,
+    "Proposta/Plano de Trabalho Complementado em Análise": 1,
+    "Proposta Aprovada e Plano de Trabalho em Análise": 2
    }
   },
   {
@@ -3733,52 +3733,17 @@
    "propostas_enviadas": 1801,
    "propostas_em_elaboracao": 380,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho em Complementação": 692,
-    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 4,
-    "Proposta Aprovada e Plano de Trabalho em Análise": 2,
-    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 508,
-    "Proposta/Plano de Trabalho Aprovados": 9,
-    "Proposta/Plano de Trabalho Cadastrados": 380,
     "Proposta/Plano de Trabalho Enviado para Análise": 576,
-    "Proposta Aprovada e Plano de Trabalho em Complementação": 4,
-    "Proposta/Plano de Trabalho Rejeitados": 2,
-    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 3,
-    "Proposta/Plano de Trabalho Complementado em Análise": 1
-   }
-  },
-  {
-   "id": "af92f20657aa",
-   "programa": "Programa Nacional de Estradas Rurais - PRONER",
-   "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
-   "natureza": "Consórcio Público",
-   "canal": "proposta",
-   "modalidade": "CONVENIO",
-   "situacao": "DISPONIBILIZADO",
-   "abre": "2026-02-11",
-   "fecha": "2026-12-31",
-   "dias_restantes": 112,
-   "urgente": false,
-   "nova": false,
-   "aderente": false,
-   "temas": [],
-   "codigos": [
-    "2200020260006"
-   ],
-   "propostas_recebidas": 2181,
-   "propostas_enviadas": 1801,
-   "propostas_em_elaboracao": 380,
-   "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho em Complementação": 692,
-    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 4,
-    "Proposta Aprovada e Plano de Trabalho em Análise": 2,
-    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 508,
-    "Proposta/Plano de Trabalho Aprovados": 9,
     "Proposta/Plano de Trabalho Cadastrados": 380,
-    "Proposta/Plano de Trabalho Enviado para Análise": 576,
+    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 508,
+    "Proposta/Plano de Trabalho em Complementação": 692,
     "Proposta Aprovada e Plano de Trabalho em Complementação": 4,
-    "Proposta/Plano de Trabalho Rejeitados": 2,
+    "Proposta/Plano de Trabalho Aprovados": 9,
     "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 3,
-    "Proposta/Plano de Trabalho Complementado em Análise": 1
+    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 4,
+    "Proposta/Plano de Trabalho Rejeitados": 2,
+    "Proposta/Plano de Trabalho Complementado em Análise": 1,
+    "Proposta Aprovada e Plano de Trabalho em Análise": 2
    }
   },
   {
@@ -3803,17 +3768,52 @@
    "propostas_enviadas": 1801,
    "propostas_em_elaboracao": 380,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho em Complementação": 692,
-    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 4,
-    "Proposta Aprovada e Plano de Trabalho em Análise": 2,
-    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 508,
-    "Proposta/Plano de Trabalho Aprovados": 9,
-    "Proposta/Plano de Trabalho Cadastrados": 380,
     "Proposta/Plano de Trabalho Enviado para Análise": 576,
+    "Proposta/Plano de Trabalho Cadastrados": 380,
+    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 508,
+    "Proposta/Plano de Trabalho em Complementação": 692,
     "Proposta Aprovada e Plano de Trabalho em Complementação": 4,
-    "Proposta/Plano de Trabalho Rejeitados": 2,
+    "Proposta/Plano de Trabalho Aprovados": 9,
     "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 3,
-    "Proposta/Plano de Trabalho Complementado em Análise": 1
+    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 4,
+    "Proposta/Plano de Trabalho Rejeitados": 2,
+    "Proposta/Plano de Trabalho Complementado em Análise": 1,
+    "Proposta Aprovada e Plano de Trabalho em Análise": 2
+   }
+  },
+  {
+   "id": "af92f20657aa",
+   "programa": "Programa Nacional de Estradas Rurais - PRONER",
+   "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
+   "natureza": "Consórcio Público",
+   "canal": "proposta",
+   "modalidade": "CONVENIO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-11",
+   "fecha": "2026-12-31",
+   "dias_restantes": 112,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2200020260006"
+   ],
+   "propostas_recebidas": 2181,
+   "propostas_enviadas": 1801,
+   "propostas_em_elaboracao": 380,
+   "propostas_por_situacao": {
+    "Proposta/Plano de Trabalho Enviado para Análise": 576,
+    "Proposta/Plano de Trabalho Cadastrados": 380,
+    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 508,
+    "Proposta/Plano de Trabalho em Complementação": 692,
+    "Proposta Aprovada e Plano de Trabalho em Complementação": 4,
+    "Proposta/Plano de Trabalho Aprovados": 9,
+    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 3,
+    "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 4,
+    "Proposta/Plano de Trabalho Rejeitados": 2,
+    "Proposta/Plano de Trabalho Complementado em Análise": 1,
+    "Proposta Aprovada e Plano de Trabalho em Análise": 2
    }
   },
   {
@@ -3838,38 +3838,10 @@
    "propostas_enviadas": 2862,
    "propostas_em_elaboracao": 295,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Cadastrados": 295,
-    "Proposta/Plano de Trabalho em Análise": 1,
     "Proposta/Plano de Trabalho Enviado para Análise": 2860,
-    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 1
-   }
-  },
-  {
-   "id": "fe6d7b97e356",
-   "programa": "Programa Nacional de Modernização e Apoio à Produção Agrícola - PROMAQ",
-   "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
-   "natureza": "Administração Pública Estadual ou do Distrito Federal",
-   "canal": "proposta",
-   "modalidade": "TERMO DE COMPROMISSO",
-   "situacao": "DISPONIBILIZADO",
-   "abre": "2026-02-11",
-   "fecha": "2026-12-31",
-   "dias_restantes": 112,
-   "urgente": false,
-   "nova": false,
-   "aderente": false,
-   "temas": [],
-   "codigos": [
-    "2200020260022"
-   ],
-   "propostas_recebidas": 3157,
-   "propostas_enviadas": 2862,
-   "propostas_em_elaboracao": 295,
-   "propostas_por_situacao": {
     "Proposta/Plano de Trabalho Cadastrados": 295,
-    "Proposta/Plano de Trabalho em Análise": 1,
-    "Proposta/Plano de Trabalho Enviado para Análise": 2860,
-    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 1
+    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 1,
+    "Proposta/Plano de Trabalho em Análise": 1
    }
   },
   {
@@ -3894,10 +3866,10 @@
    "propostas_enviadas": 2862,
    "propostas_em_elaboracao": 295,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Cadastrados": 295,
-    "Proposta/Plano de Trabalho em Análise": 1,
     "Proposta/Plano de Trabalho Enviado para Análise": 2860,
-    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 1
+    "Proposta/Plano de Trabalho Cadastrados": 295,
+    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 1,
+    "Proposta/Plano de Trabalho em Análise": 1
    }
   },
   {
@@ -3922,10 +3894,38 @@
    "propostas_enviadas": 2862,
    "propostas_em_elaboracao": 295,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Cadastrados": 295,
-    "Proposta/Plano de Trabalho em Análise": 1,
     "Proposta/Plano de Trabalho Enviado para Análise": 2860,
-    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 1
+    "Proposta/Plano de Trabalho Cadastrados": 295,
+    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 1,
+    "Proposta/Plano de Trabalho em Análise": 1
+   }
+  },
+  {
+   "id": "fe6d7b97e356",
+   "programa": "Programa Nacional de Modernização e Apoio à Produção Agrícola - PROMAQ",
+   "orgao": "MINISTÉRIO DA AGRICULTURA E PECUÁRIA",
+   "natureza": "Administração Pública Estadual ou do Distrito Federal",
+   "canal": "proposta",
+   "modalidade": "TERMO DE COMPROMISSO",
+   "situacao": "DISPONIBILIZADO",
+   "abre": "2026-02-11",
+   "fecha": "2026-12-31",
+   "dias_restantes": 112,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2200020260022"
+   ],
+   "propostas_recebidas": 3157,
+   "propostas_enviadas": 2862,
+   "propostas_em_elaboracao": 295,
+   "propostas_por_situacao": {
+    "Proposta/Plano de Trabalho Enviado para Análise": 2860,
+    "Proposta/Plano de Trabalho Cadastrados": 295,
+    "Proposta/Plano de Trabalho Complementado Enviado para Análise": 1,
+    "Proposta/Plano de Trabalho em Análise": 1
    }
   },
   {
@@ -3950,66 +3950,10 @@
    "propostas_enviadas": 300,
    "propostas_em_elaboracao": 38,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Aprovados": 140,
-    "Proposta/Plano de Trabalho Cadastrados": 38,
+    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 27,
     "Proposta/Plano de Trabalho Enviado para Análise": 133,
-    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 27
-   }
-  },
-  {
-   "id": "e620a6161c78",
-   "programa": "Programa SIMEC/PAR",
-   "orgao": "MINISTERIO DA EDUCACAO",
-   "natureza": "Administração Pública Municipal",
-   "canal": "proposta",
-   "modalidade": "TERMO DE COMPROMISSO",
-   "situacao": "CADASTRADO",
-   "abre": "2026-01-02",
-   "fecha": "2026-12-31",
-   "dias_restantes": 112,
-   "urgente": false,
-   "nova": false,
-   "aderente": false,
-   "temas": [],
-   "codigos": [
-    "2629820260001"
-   ],
-   "propostas_recebidas": 338,
-   "propostas_enviadas": 300,
-   "propostas_em_elaboracao": 38,
-   "propostas_por_situacao": {
     "Proposta/Plano de Trabalho Aprovados": 140,
-    "Proposta/Plano de Trabalho Cadastrados": 38,
-    "Proposta/Plano de Trabalho Enviado para Análise": 133,
-    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 27
-   }
-  },
-  {
-   "id": "37d43e0e4aa6",
-   "programa": "Programa SIMEC/PAR",
-   "orgao": "MINISTERIO DA EDUCACAO",
-   "natureza": "Administração Pública Estadual ou do Distrito Federal",
-   "canal": "proposta",
-   "modalidade": "TERMO DE COMPROMISSO",
-   "situacao": "CADASTRADO",
-   "abre": "2026-01-02",
-   "fecha": "2026-12-31",
-   "dias_restantes": 112,
-   "urgente": false,
-   "nova": false,
-   "aderente": false,
-   "temas": [],
-   "codigos": [
-    "2629820260001"
-   ],
-   "propostas_recebidas": 338,
-   "propostas_enviadas": 300,
-   "propostas_em_elaboracao": 38,
-   "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Aprovados": 140,
-    "Proposta/Plano de Trabalho Cadastrados": 38,
-    "Proposta/Plano de Trabalho Enviado para Análise": 133,
-    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 27
+    "Proposta/Plano de Trabalho Cadastrados": 38
    }
   },
   {
@@ -4034,10 +3978,66 @@
    "propostas_enviadas": 300,
    "propostas_em_elaboracao": 38,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Aprovados": 140,
-    "Proposta/Plano de Trabalho Cadastrados": 38,
+    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 27,
     "Proposta/Plano de Trabalho Enviado para Análise": 133,
-    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 27
+    "Proposta/Plano de Trabalho Aprovados": 140,
+    "Proposta/Plano de Trabalho Cadastrados": 38
+   }
+  },
+  {
+   "id": "37d43e0e4aa6",
+   "programa": "Programa SIMEC/PAR",
+   "orgao": "MINISTERIO DA EDUCACAO",
+   "natureza": "Administração Pública Estadual ou do Distrito Federal",
+   "canal": "proposta",
+   "modalidade": "TERMO DE COMPROMISSO",
+   "situacao": "CADASTRADO",
+   "abre": "2026-01-02",
+   "fecha": "2026-12-31",
+   "dias_restantes": 112,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2629820260001"
+   ],
+   "propostas_recebidas": 338,
+   "propostas_enviadas": 300,
+   "propostas_em_elaboracao": 38,
+   "propostas_por_situacao": {
+    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 27,
+    "Proposta/Plano de Trabalho Enviado para Análise": 133,
+    "Proposta/Plano de Trabalho Aprovados": 140,
+    "Proposta/Plano de Trabalho Cadastrados": 38
+   }
+  },
+  {
+   "id": "e620a6161c78",
+   "programa": "Programa SIMEC/PAR",
+   "orgao": "MINISTERIO DA EDUCACAO",
+   "natureza": "Administração Pública Municipal",
+   "canal": "proposta",
+   "modalidade": "TERMO DE COMPROMISSO",
+   "situacao": "CADASTRADO",
+   "abre": "2026-01-02",
+   "fecha": "2026-12-31",
+   "dias_restantes": 112,
+   "urgente": false,
+   "nova": false,
+   "aderente": false,
+   "temas": [],
+   "codigos": [
+    "2629820260001"
+   ],
+   "propostas_recebidas": 338,
+   "propostas_enviadas": 300,
+   "propostas_em_elaboracao": 38,
+   "propostas_por_situacao": {
+    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 27,
+    "Proposta/Plano de Trabalho Enviado para Análise": 133,
+    "Proposta/Plano de Trabalho Aprovados": 140,
+    "Proposta/Plano de Trabalho Cadastrados": 38
    }
   },
   {
@@ -4062,12 +4062,12 @@
    "propostas_enviadas": 86,
    "propostas_em_elaboracao": 0,
    "propostas_por_situacao": {
-    "Proposta/Plano de Trabalho Aprovados": 67,
+    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 1,
     "Proposta/Plano de Trabalho em Complementação": 10,
+    "Proposta/Plano de Trabalho Aprovados": 67,
+    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 2,
     "Proposta/Plano de Trabalho em Análise": 3,
     "Proposta/Plano de Trabalho Complementado Enviado para Análise": 2,
-    "Proposta/Plano de Trabalho Rejeitados por Impedimento técnico": 2,
-    "Proposta Aprovada e Plano de Trabalho Complementado Enviado para Análise": 1,
     "Proposta/Plano de Trabalho Complementado em Análise": 1
    }
   },
@@ -4094,8 +4094,8 @@
    "propostas_em_elaboracao": 0,
    "propostas_por_situacao": {
     "Proposta/Plano de Trabalho em Complementação": 5,
-    "Proposta/Plano de Trabalho Aprovados": 1,
     "Proposta Aprovada e Plano de Trabalho em Complementação": 1,
+    "Proposta/Plano de Trabalho Aprovados": 1,
     "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 1
    }
   },
@@ -4122,8 +4122,8 @@
    "propostas_em_elaboracao": 0,
    "propostas_por_situacao": {
     "Proposta/Plano de Trabalho em Complementação": 5,
-    "Proposta/Plano de Trabalho Aprovados": 1,
     "Proposta Aprovada e Plano de Trabalho em Complementação": 1,
+    "Proposta/Plano de Trabalho Aprovados": 1,
     "Proposta Aprovada e Plano de Trabalho Complementado em Análise": 1
    }
   },
@@ -4178,10 +4178,10 @@
    }
   },
   {
-   "id": "c3e682d2ccd1",
+   "id": "418334b8e98f",
    "programa": "SNDUM - MCidades 00SY - Apoio a Projetos e Obras de Reabilitação, de Acessibilidade e Modernização Tecnológica em Áreas Urbanas - RP7",
    "orgao": "MINISTERIO DAS CIDADES",
-   "natureza": "Consórcio Público",
+   "natureza": "Empresa pública/Sociedade de economia mista",
    "canal": "emenda",
    "modalidade": "CONTRATO DE REPASSE",
    "situacao": "DISPONIBILIZADO",
@@ -4203,10 +4203,10 @@
    }
   },
   {
-   "id": "418334b8e98f",
+   "id": "c3e682d2ccd1",
    "programa": "SNDUM - MCidades 00SY - Apoio a Projetos e Obras de Reabilitação, de Acessibilidade e Modernização Tecnológica em Áreas Urbanas - RP7",
    "orgao": "MINISTERIO DAS CIDADES",
-   "natureza": "Empresa pública/Sociedade de economia mista",
+   "natureza": "Consórcio Público",
    "canal": "emenda",
    "modalidade": "CONTRATO DE REPASSE",
    "situacao": "DISPONIBILIZADO",
@@ -4253,1821 +4253,6 @@
    }
   }
  ],
- "propostas_recentes": [
-  {
-   "data": "2026-09-09",
-   "programa": "Fomento ao Setor Agropecuário - Proposta Voluntária -  Obras de Fomento",
-   "proponente": "MUNICIPIO DE ALVORADA DO GURGUEIA",
-   "municipio": "ALVORADA DO GURGUEIA",
-   "uf": "PI",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Enviado para Análise",
-   "valor_global": 2000000.0,
-   "objeto": "Pavimentação de Estradas Vicinais no município de Alvorada do Gurgueia-PI",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Fomento ao Setor Agropecuário - Proposta Voluntária -  Obras de Fomento",
-   "proponente": "MUNICIPIO DE ALTOS",
-   "municipio": "ALTOS",
-   "uf": "PI",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Enviado para Análise",
-   "valor_global": 2000000.0,
-   "objeto": "Pavimentação de Estradas Vicinais no município de Altos-PI",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Fomento ao Setor Agropecuário - Proposta Voluntária -  Obras de Fomento",
-   "proponente": "MUNICIPIO DE ALTOS",
-   "municipio": "ALTOS",
-   "uf": "PI",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Enviado para Análise",
-   "valor_global": 2000000.0,
-   "objeto": "Pavimentação de Estradas Vicinais no município de Altos-PI",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Fomento ao Setor Agropecuário - Proposta Voluntária -  Obras de Fomento",
-   "proponente": "MUNICIPIO DE ALTOS",
-   "municipio": "ALTOS",
-   "uf": "PI",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Enviado para Análise",
-   "valor_global": 2000000.0,
-   "objeto": "Execução de Obras e Serviços de Engenharia em Estradas Vicinais no município de Altos-PI",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Fomento ao Setor Agropecuário - Proposta Voluntária -  Obras de Fomento",
-   "proponente": "MUNICIPIO DE ALTOS",
-   "municipio": "ALTOS",
-   "uf": "PI",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Enviado para Análise",
-   "valor_global": 2000000.0,
-   "objeto": "Execução de Obras e Serviços de Engenharia em Estradas Vicinais no município de Altos-PI",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Fomento ao Setor Agropecuário - Proposta Voluntária -  Obras de Fomento",
-   "proponente": "MUNICIPIO DE ALTOS",
-   "municipio": "ALTOS",
-   "uf": "PI",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Enviado para Análise",
-   "valor_global": 2000000.0,
-   "objeto": "Execução de Obras e Serviços de Engenharia em Estradas Vicinais no município de Altos-PI",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Fomento ao Setor Agropecuário - Proposta Voluntária -  Obras de Fomento",
-   "proponente": "MUNICIPIO DE ALTOS",
-   "municipio": "ALTOS",
-   "uf": "PI",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Enviado para Análise",
-   "valor_global": 2000000.0,
-   "objeto": "Execução de Obras e Serviços de Engenharia em Estradas Vicinais no município de Altos-PI",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Fomento ao Setor Agropecuário - Proposta Voluntária -  Obras de Fomento",
-   "proponente": "MUNICIPIO DE ALVORADA DO GURGUEIA",
-   "municipio": "ALVORADA DO GURGUEIA",
-   "uf": "PI",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Enviado para Análise",
-   "valor_global": 2000000.0,
-   "objeto": "Pavimentação de Estradas Vicinais no município de Alvorada do Gurgueia-PI",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Fomento ao Setor Agropecuário - Proposta Voluntária -  Obras de Fomento",
-   "proponente": "MUNICIPIO DE ALTOS",
-   "municipio": "ALTOS",
-   "uf": "PI",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Enviado para Análise",
-   "valor_global": 2000000.0,
-   "objeto": "Pavimentação de Estradas Vicinais no município de Altos-PI",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Fomento ao Setor Agropecuário - Proposta Voluntária -  Obras de Fomento",
-   "proponente": "MUNICIPIO DE ALVORADA DO GURGUEIA",
-   "municipio": "ALVORADA DO GURGUEIA",
-   "uf": "PI",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Enviado para Análise",
-   "valor_global": 2000000.0,
-   "objeto": "Execução de Obras e Serviços de Engenharia em Estradas Vicinais no município de Alvorada do Gurgueia-PI",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Fomento ao Setor Agropecuário - Proposta Voluntária -  Obras de Fomento",
-   "proponente": "MUNICIPIO DE ALVORADA DO GURGUEIA",
-   "municipio": "ALVORADA DO GURGUEIA",
-   "uf": "PI",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Enviado para Análise",
-   "valor_global": 2000000.0,
-   "objeto": "Pavimentação de Estradas Vicinais no município de Alvorada do Gurgueia-PI",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Fomento ao Setor Agropecuário - Proposta Voluntária -  Obras de Fomento",
-   "proponente": "MUNICIPIO DE ALVORADA DO GURGUEIA",
-   "municipio": "ALVORADA DO GURGUEIA",
-   "uf": "PI",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Enviado para Análise",
-   "valor_global": 2000000.0,
-   "objeto": "Execução de Obras e Serviços de Engenharia em Estradas Vicinais no município de Alvorada do Gurgueia-PI",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Fomento ao Setor Agropecuário - Proposta Voluntária -  Obras de Fomento",
-   "proponente": "MUNICIPIO DE ALVORADA DO GURGUEIA",
-   "municipio": "ALVORADA DO GURGUEIA",
-   "uf": "PI",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Enviado para Análise",
-   "valor_global": 2000000.0,
-   "objeto": "Pavimentação de Estradas Vicinais no município de Alvorada do Gurgueia-PI",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Fomento ao Setor Agropecuário - Proposta Voluntária -  Obras de Fomento",
-   "proponente": "MUNICIPIO DE ALVORADA DO GURGUEIA",
-   "municipio": "ALVORADA DO GURGUEIA",
-   "uf": "PI",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Enviado para Análise",
-   "valor_global": 2000000.0,
-   "objeto": "Execução de Obras e Serviços de Engenharia em Estradas Vicinais no município de Alvorada do Gurgueia-PI",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Fomento ao Setor Agropecuário - Proposta Voluntária -  Obras de Fomento",
-   "proponente": "MUNICIPIO DE ALVORADA DO GURGUEIA",
-   "municipio": "ALVORADA DO GURGUEIA",
-   "uf": "PI",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Enviado para Análise",
-   "valor_global": 2000000.0,
-   "objeto": "Execução de Obras e Serviços de Engenharia em Estradas Vicinais no município de Alvorada do Gurgueia-PI",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Fomento ao Setor Agropecuário - Proposta Voluntária -  Obras de Fomento",
-   "proponente": "MUNICIPIO DE ALTOS",
-   "municipio": "ALTOS",
-   "uf": "PI",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Enviado para Análise",
-   "valor_global": 2000000.0,
-   "objeto": "Pavimentação de Estradas Vicinais no município de Altos-PI",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Fomento ao Setor Agropecuário - Proposta Voluntária -  Obras de Fomento",
-   "proponente": "MUNICIPIO DE ANAJATUBA",
-   "municipio": "ANAJATUBA",
-   "uf": "MA",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1545000.0,
-   "objeto": "Construção do Abatedouro Municipal de Anajatuba - MA.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Fomento ao Setor Agropecuário - Proposta Voluntária -  Obras de Fomento",
-   "proponente": "MUNICIPIO DE ANAJATUBA",
-   "municipio": "ANAJATUBA",
-   "uf": "MA",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1545000.0,
-   "objeto": "Construção do Abatedouro Municipal de Anajatuba - MA.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Fomento ao Setor Agropecuário - Proposta Voluntária -  Obras de Fomento",
-   "proponente": "MUNICIPIO DE ANAJATUBA",
-   "municipio": "ANAJATUBA",
-   "uf": "MA",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1545000.0,
-   "objeto": "Construção do Abatedouro Municipal de Anajatuba - MA.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Fomento ao Setor Agropecuário - Proposta Voluntária -  Obras de Fomento",
-   "proponente": "MUNICIPIO DE ANAJATUBA",
-   "municipio": "ANAJATUBA",
-   "uf": "MA",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1545000.0,
-   "objeto": "Construção do Abatedouro Municipal de Anajatuba - MA.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE SAO MIGUEL DO ANTA",
-   "municipio": "SÃO MIGUEL DO ANTA",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Pavimentação de Estradas Vicinais",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE ORATORIOS",
-   "municipio": "ORATÓRIOS",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Pavimentação de estradas vicinais.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE PAULA CANDIDO",
-   "municipio": "PAULA CÂNDIDO",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Pavimentação de Estradas Vicinais",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE OURO BRANCO",
-   "municipio": "OURO BRANCO",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Pavimentação de estradas vicinais.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE PAULA CANDIDO",
-   "municipio": "PAULA CÂNDIDO",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Aquisição de Máquinas e Equipamentos.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE SENHORA DE OLIVEIRA",
-   "municipio": "SENHORA DE OLIVEIRA",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Pavimentação de estradas vicinais.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE SAO MIGUEL DO ANTA",
-   "municipio": "SÃO MIGUEL DO ANTA",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Pavimentação de Estradas Vicinais",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE SOBRALIA",
-   "municipio": "SOBRÁLIA",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Pavimentação de Estradas Vicinais",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE SILVEIRANIA",
-   "municipio": "SILVEIRÂNIA",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Pavimentação de Estradas Vicinais",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE SAO MIGUEL DO ANTA",
-   "municipio": "SÃO MIGUEL DO ANTA",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Pavimentação de Estradas Vicinais",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE PAULA CANDIDO",
-   "municipio": "PAULA CÂNDIDO",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Aquisição de Máquinas e Equipamentos.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE PAULA CANDIDO",
-   "municipio": "PAULA CÂNDIDO",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Pavimentação de Estradas Vicinais",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE OURO BRANCO",
-   "municipio": "OURO BRANCO",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Pavimentação de estradas vicinais.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE PAULA CANDIDO",
-   "municipio": "PAULA CÂNDIDO",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Pavimentação de Estradas Vicinais",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE SILVEIRANIA",
-   "municipio": "SILVEIRÂNIA",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Pavimentação de Estradas Vicinais",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE SILVEIRANIA",
-   "municipio": "SILVEIRÂNIA",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Pavimentação de Estradas Vicinais",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE PAULA CANDIDO",
-   "municipio": "PAULA CÂNDIDO",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Pavimentação de Estradas Vicinais",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE SENHORA DE OLIVEIRA",
-   "municipio": "SENHORA DE OLIVEIRA",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Pavimentação de estradas vicinais.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE SILVEIRANIA",
-   "municipio": "SILVEIRÂNIA",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Pavimentação de Estradas Vicinais",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE SILVEIRANIA",
-   "municipio": "SILVEIRÂNIA",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Aquisição de Máquinas e Equipamentos.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE PATROCINIO DO MURIAE",
-   "municipio": "PATROCÍNIO DO MURIAÉ",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Pavimentação de estradas vicinais.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE OURO BRANCO",
-   "municipio": "OURO BRANCO",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Pavimentação de estradas vicinais.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE SILVEIRANIA",
-   "municipio": "SILVEIRÂNIA",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Aquisição de Máquinas e Equipamentos.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE SILVEIRANIA",
-   "municipio": "SILVEIRÂNIA",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Aquisição de Máquinas e Equipamentos.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE SOBRALIA",
-   "municipio": "SOBRÁLIA",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Pavimentação de Estradas Vicinais",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE PATROCINIO DO MURIAE",
-   "municipio": "PATROCÍNIO DO MURIAÉ",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Aquisição de Máquinas e Equipamentos.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE SAO MIGUEL DO ANTA",
-   "municipio": "SÃO MIGUEL DO ANTA",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Aquisição de Máquinas e Equipamentos.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE SENHORA DE OLIVEIRA",
-   "municipio": "SENHORA DE OLIVEIRA",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Aquisição de Máquinas e Equipamentos.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE PATROCINIO DO MURIAE",
-   "municipio": "PATROCÍNIO DO MURIAÉ",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Aquisição de Máquinas e Equipamentos.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE SOBRALIA",
-   "municipio": "SOBRÁLIA",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Aquisição de Máquinas e Equipamentos.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE ORATORIOS",
-   "municipio": "ORATÓRIOS",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Aquisição de máquinas e equipamentos.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE SOBRALIA",
-   "municipio": "SOBRÁLIA",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Aquisição de Máquinas e Equipamentos.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE OURO BRANCO",
-   "municipio": "OURO BRANCO",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Aquisição de Máquinas e Equipamentos.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE ORATORIOS",
-   "municipio": "ORATÓRIOS",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Pavimentação de estradas vicinais.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE SOBRALIA",
-   "municipio": "SOBRÁLIA",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Aquisição de Máquinas e Equipamentos.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE SAO MIGUEL DO ANTA",
-   "municipio": "SÃO MIGUEL DO ANTA",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Aquisição de Máquinas e Equipamentos.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE ORATORIOS",
-   "municipio": "ORATÓRIOS",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Aquisição de máquinas e equipamentos.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE SENHORA DE OLIVEIRA",
-   "municipio": "SENHORA DE OLIVEIRA",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Aquisição de Máquinas e Equipamentos.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE PATROCINIO DO MURIAE",
-   "municipio": "PATROCÍNIO DO MURIAÉ",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Pavimentação de estradas vicinais.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE OURO BRANCO",
-   "municipio": "OURO BRANCO",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Aquisição de Máquinas e Equipamentos.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE PAULA CANDIDO",
-   "municipio": "PAULA CÂNDIDO",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Pavimentação de Estradas Vicinais",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE SENHORA DE OLIVEIRA",
-   "municipio": "SENHORA DE OLIVEIRA",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Pavimentação de estradas vicinais.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE SOBRALIA",
-   "municipio": "SOBRÁLIA",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Pavimentação de Estradas Vicinais",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE SILVEIRANIA",
-   "municipio": "SILVEIRÂNIA",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Pavimentação de Estradas Vicinais",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE SOBRALIA",
-   "municipio": "SOBRÁLIA",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Pavimentação de Estradas Vicinais",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE OURO BRANCO",
-   "municipio": "OURO BRANCO",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Pavimentação de estradas vicinais.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE SENHORA DE OLIVEIRA",
-   "municipio": "SENHORA DE OLIVEIRA",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Pavimentação de estradas vicinais.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE PAULA CANDIDO",
-   "municipio": "PAULA CÂNDIDO",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Aquisição de Máquinas e Equipamentos.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE PAULA CANDIDO",
-   "municipio": "PAULA CÂNDIDO",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Aquisição de Máquinas e Equipamentos.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE SENHORA DE OLIVEIRA",
-   "municipio": "SENHORA DE OLIVEIRA",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Pavimentação de estradas vicinais.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE SOBRALIA",
-   "municipio": "SOBRÁLIA",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Pavimentação de Estradas Vicinais",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE SILVEIRANIA",
-   "municipio": "SILVEIRÂNIA",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Aquisição de Máquinas e Equipamentos.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE SAO MIGUEL DO ANTA",
-   "municipio": "SÃO MIGUEL DO ANTA",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Pavimentação de Estradas Vicinais",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE SENHORA DE OLIVEIRA",
-   "municipio": "SENHORA DE OLIVEIRA",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Aquisição de Máquinas e Equipamentos.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE PATROCINIO DO MURIAE",
-   "municipio": "PATROCÍNIO DO MURIAÉ",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Aquisição de Máquinas e Equipamentos.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE SAO MIGUEL DO ANTA",
-   "municipio": "SÃO MIGUEL DO ANTA",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Aquisição de Máquinas e Equipamentos.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE OURO BRANCO",
-   "municipio": "OURO BRANCO",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Aquisição de Máquinas e Equipamentos.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE SAO MIGUEL DO ANTA",
-   "municipio": "SÃO MIGUEL DO ANTA",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Aquisição de Máquinas e Equipamentos.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE PATROCINIO DO MURIAE",
-   "municipio": "PATROCÍNIO DO MURIAÉ",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Aquisição de Máquinas e Equipamentos.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE OURO BRANCO",
-   "municipio": "OURO BRANCO",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Pavimentação de estradas vicinais.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE PAULA CANDIDO",
-   "municipio": "PAULA CÂNDIDO",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Aquisição de Máquinas e Equipamentos.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE SAO MIGUEL DO ANTA",
-   "municipio": "SÃO MIGUEL DO ANTA",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Pavimentação de Estradas Vicinais",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE SENHORA DE OLIVEIRA",
-   "municipio": "SENHORA DE OLIVEIRA",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Aquisição de Máquinas e Equipamentos.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE ORATORIOS",
-   "municipio": "ORATÓRIOS",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Aquisição de máquinas e equipamentos.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE SILVEIRANIA",
-   "municipio": "SILVEIRÂNIA",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Aquisição de Máquinas e Equipamentos.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE ORATORIOS",
-   "municipio": "ORATÓRIOS",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Pavimentação de estradas vicinais.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE PATROCINIO DO MURIAE",
-   "municipio": "PATROCÍNIO DO MURIAÉ",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Pavimentação de estradas vicinais.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE ORATORIOS",
-   "municipio": "ORATÓRIOS",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Pavimentação de estradas vicinais.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE SAO MIGUEL DO ANTA",
-   "municipio": "SÃO MIGUEL DO ANTA",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Aquisição de Máquinas e Equipamentos.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE ORATORIOS",
-   "municipio": "ORATÓRIOS",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Aquisição de máquinas e equipamentos.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE ORATORIOS",
-   "municipio": "ORATÓRIOS",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Aquisição de máquinas e equipamentos.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE ORATORIOS",
-   "municipio": "ORATÓRIOS",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Pavimentação de estradas vicinais.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE SOBRALIA",
-   "municipio": "SOBRÁLIA",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Aquisição de Máquinas e Equipamentos.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE SOBRALIA",
-   "municipio": "SOBRÁLIA",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Aquisição de Máquinas e Equipamentos.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE PATROCINIO DO MURIAE",
-   "municipio": "PATROCÍNIO DO MURIAÉ",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Aquisição de Máquinas e Equipamentos.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE SENHORA DE OLIVEIRA",
-   "municipio": "SENHORA DE OLIVEIRA",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Aquisição de Máquinas e Equipamentos.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE OURO BRANCO",
-   "municipio": "OURO BRANCO",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Aquisição de Máquinas e Equipamentos.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE OURO BRANCO",
-   "municipio": "OURO BRANCO",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Aquisição de Máquinas e Equipamentos.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE PATROCINIO DO MURIAE",
-   "municipio": "PATROCÍNIO DO MURIAÉ",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Pavimentação de estradas vicinais.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Ação 00SX - Apoio a Projetos de Desenvolvimento Sustentável Local Integrado - RP2",
-   "proponente": "MUNICIPIO DE PATROCINIO DO MURIAE",
-   "municipio": "PATROCÍNIO DO MURIAÉ",
-   "uf": "MG",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1502000.0,
-   "objeto": "Pavimentação de estradas vicinais.",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Programa Nacional de Estradas Rurais - PRONER",
-   "proponente": "MUNICIPIO DE CURRALINHOS",
-   "municipio": "CURRALINHOS",
-   "uf": "PI",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1496289.36,
-   "objeto": "Execução de Obras e Serviços de Engenharia em Estradas Vicinais no município de Curralinhos - Pi",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Programa Nacional de Estradas Rurais - PRONER",
-   "proponente": "MUNICIPIO DE CURRALINHOS",
-   "municipio": "CURRALINHOS",
-   "uf": "PI",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1496289.36,
-   "objeto": "Execução de Obras e Serviços de Engenharia em Estradas Vicinais no município de Curralinhos - Pi",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Programa Nacional de Estradas Rurais - PRONER",
-   "proponente": "MUNICIPIO DE CURRALINHOS",
-   "municipio": "CURRALINHOS",
-   "uf": "PI",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1496289.36,
-   "objeto": "Execução de Obras e Serviços de Engenharia em Estradas Vicinais no município de Curralinhos - Pi",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Programa Nacional de Estradas Rurais - PRONER",
-   "proponente": "MUNICIPIO DE CURRALINHOS",
-   "municipio": "CURRALINHOS",
-   "uf": "PI",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1496289.36,
-   "objeto": "Execução de Obras e Serviços de Engenharia em Estradas Vicinais no município de Curralinhos - Pi",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Programa Nacional de Estradas Rurais - PRONER",
-   "proponente": "MUNICIPIO DE PASSAGEM FRANCA",
-   "municipio": "PASSAGEM FRANCA",
-   "uf": "MA",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Enviado para Análise",
-   "valor_global": 1495000.0,
-   "objeto": "Recuperação de Estradas Vicinais no Município de Passagem Franca/MA",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Programa Nacional de Estradas Rurais - PRONER",
-   "proponente": "MUNICIPIO DE PASSAGEM FRANCA",
-   "municipio": "PASSAGEM FRANCA",
-   "uf": "MA",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Enviado para Análise",
-   "valor_global": 1495000.0,
-   "objeto": "Recuperação de Estradas Vicinais no Município de Passagem Franca/MA",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Programa Nacional de Estradas Rurais - PRONER",
-   "proponente": "MUNICIPIO DE PASSAGEM FRANCA",
-   "municipio": "PASSAGEM FRANCA",
-   "uf": "MA",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Enviado para Análise",
-   "valor_global": 1495000.0,
-   "objeto": "Recuperação de Estradas Vicinais no Município de Passagem Franca/MA",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Programa Nacional de Estradas Rurais - PRONER",
-   "proponente": "MUNICIPIO DE PASSAGEM FRANCA",
-   "municipio": "PASSAGEM FRANCA",
-   "uf": "MA",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Enviado para Análise",
-   "valor_global": 1495000.0,
-   "objeto": "Recuperação de Estradas Vicinais no Município de Passagem Franca/MA",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Programa Nacional de Estradas Rurais - PRONER",
-   "proponente": "MUNICIPIO DE QUEIMADA NOVA",
-   "municipio": "QUEIMADA NOVA",
-   "uf": "PI",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1438944.76,
-   "objeto": "Execução de Obras e Serviços de Engenharia em Estradas Vicinais no município de Queimada Nova - Pi",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Programa Nacional de Estradas Rurais - PRONER",
-   "proponente": "MUNICIPIO DE QUEIMADA NOVA",
-   "municipio": "QUEIMADA NOVA",
-   "uf": "PI",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1438944.76,
-   "objeto": "Execução de Obras e Serviços de Engenharia em Estradas Vicinais no município de Queimada Nova - Pi",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Programa Nacional de Estradas Rurais - PRONER",
-   "proponente": "MUNICIPIO DE QUEIMADA NOVA",
-   "municipio": "QUEIMADA NOVA",
-   "uf": "PI",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1438944.76,
-   "objeto": "Execução de Obras e Serviços de Engenharia em Estradas Vicinais no município de Queimada Nova - Pi",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Programa Nacional de Estradas Rurais - PRONER",
-   "proponente": "MUNICIPIO DE QUEIMADA NOVA",
-   "municipio": "QUEIMADA NOVA",
-   "uf": "PI",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1438944.76,
-   "objeto": "Execução de Obras e Serviços de Engenharia em Estradas Vicinais no município de Queimada Nova - Pi",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Programa Nacional de Estradas Rurais - PRONER",
-   "proponente": "MUNICIPIO DE MORRO DO CHAPEU DO PIAUI",
-   "municipio": "MORRO DO CHAPÉU DO PIAUÍ",
-   "uf": "PI",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1414188.47,
-   "objeto": "Execução de Obras e Serviços de Engenharia em Estradas Vicinais no município de Morro do Chapéu do Piauí - Pi",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Programa Nacional de Estradas Rurais - PRONER",
-   "proponente": "MUNICIPIO DE MORRO DO CHAPEU DO PIAUI",
-   "municipio": "MORRO DO CHAPÉU DO PIAUÍ",
-   "uf": "PI",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1414188.47,
-   "objeto": "Execução de Obras e Serviços de Engenharia em Estradas Vicinais no município de Morro do Chapéu do Piauí - Pi",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Programa Nacional de Estradas Rurais - PRONER",
-   "proponente": "MUNICIPIO DE MORRO DO CHAPEU DO PIAUI",
-   "municipio": "MORRO DO CHAPÉU DO PIAUÍ",
-   "uf": "PI",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1414188.47,
-   "objeto": "Execução de Obras e Serviços de Engenharia em Estradas Vicinais no município de Morro do Chapéu do Piauí - Pi",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Programa Nacional de Estradas Rurais - PRONER",
-   "proponente": "MUNICIPIO DE MORRO DO CHAPEU DO PIAUI",
-   "municipio": "MORRO DO CHAPÉU DO PIAUÍ",
-   "uf": "PI",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 1414188.47,
-   "objeto": "Execução de Obras e Serviços de Engenharia em Estradas Vicinais no município de Morro do Chapéu do Piauí - Pi",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Programa Nacional de Estradas Rurais - PRONER",
-   "proponente": "MUNICIPIO DE MULUNGU",
-   "municipio": "MULUNGU",
-   "uf": "CE",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Enviado para Análise",
-   "valor_global": 913025.0,
-   "objeto": "Execução de obras e serviços de engenharia em estradas vicinais",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Programa Nacional de Estradas Rurais - PRONER",
-   "proponente": "MUNICIPIO DE MULUNGU",
-   "municipio": "MULUNGU",
-   "uf": "CE",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Enviado para Análise",
-   "valor_global": 913025.0,
-   "objeto": "Execução de obras e serviços de engenharia em estradas vicinais",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Programa Nacional de Estradas Rurais - PRONER",
-   "proponente": "MUNICIPIO DE MULUNGU",
-   "municipio": "MULUNGU",
-   "uf": "CE",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Enviado para Análise",
-   "valor_global": 913025.0,
-   "objeto": "Execução de obras e serviços de engenharia em estradas vicinais",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Programa Nacional de Estradas Rurais - PRONER",
-   "proponente": "MUNICIPIO DE MULUNGU",
-   "municipio": "MULUNGU",
-   "uf": "CE",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Enviado para Análise",
-   "valor_global": 913025.0,
-   "objeto": "Execução de obras e serviços de engenharia em estradas vicinais",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Programa Alimento no Prato – Fomento a Iniciativas Coletivas de Agricultura Urbana e Periurbana",
-   "proponente": "ASSOCIACAO DA COMUNIDADE LAGOA DO MUQUEM DO MUNICIPIO DE PAES LANDIM-PI",
-   "municipio": "PAES LANDIM",
-   "uf": "PI",
-   "natureza": "Organização da Sociedade Civil",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 800000.0,
-   "objeto": "associaçao",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Programa Alimento no Prato – Fomento a Iniciativas Coletivas de Agricultura Urbana e Periurbana",
-   "proponente": "ASSOCIACAO DE APOIO A AGRICULTURA FAMILIAR DE VAZANTE",
-   "municipio": "VAZANTE",
-   "uf": "MG",
-   "natureza": "Organização da Sociedade Civil",
-   "situacao": "Enviada para Análise Preliminar",
-   "valor_global": 800000.0,
-   "objeto": "Implementação do Projeto “Transformando Quintais Urbanos – Gerando Alimentos Saudáveis, Renda e Sustentabilidade com Agr",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Programa Alimento no Prato – Fomento a Iniciativas Coletivas de Agricultura Urbana e Periurbana",
-   "proponente": "ASSOCIACAO DE DESENVOLVIMENTO COMUNITARIO DE JANDUIS/RN",
-   "municipio": "JANDUÍS",
-   "uf": "RN",
-   "natureza": "Organização da Sociedade Civil",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 800000.0,
-   "objeto": "O presente Termo de Fomento tem por objeto executar o projeto “Sabores que Transformam”, em Janduís/RN, durante 24 meses",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Programa Alimento no Prato – Fomento a Iniciativas Coletivas de Agricultura Urbana e Periurbana",
-   "proponente": "COOPERATIVA DE TRABALHO E SERVICOS -MUIRAQUITA COOP",
-   "municipio": "SANTARÉM",
-   "uf": "PA",
-   "natureza": "Organização da Sociedade Civil",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 800000.0,
-   "objeto": "xxxx",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Programa Alimento no Prato – Fomento a Iniciativas Coletivas de Agricultura Urbana e Periurbana",
-   "proponente": "ASSOCIACAO DE TRABALHADORES NA AGRICULTURA FAMILIAR DO ASSENTAMENTO JERUSALEM",
-   "municipio": "CENTRO NOVO DO MARANHÃO",
-   "uf": "MA",
-   "natureza": "Organização da Sociedade Civil",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 800000.0,
-   "objeto": "A",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Programa Alimento no Prato – Fomento a Iniciativas Coletivas de Agricultura Urbana e Periurbana",
-   "proponente": "ASSOCIACAO DA COMUNIDADE LAGOA DO MUQUEM DO MUNICIPIO DE PAES LANDIM-PI",
-   "municipio": "PAES LANDIM",
-   "uf": "PI",
-   "natureza": "Organização da Sociedade Civil",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 800000.0,
-   "objeto": "associaçao",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Programa Alimento no Prato – Fomento a Iniciativas Coletivas de Agricultura Urbana e Periurbana",
-   "proponente": "REDE CULTURAL BEIJA-FLOR",
-   "municipio": "DIADEMA",
-   "uf": "SP",
-   "natureza": "Organização da Sociedade Civil",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 800000.0,
-   "objeto": "Fortalecer e ampliar iniciativas coletivas de agricultura urbana e periurbana em Diadema/SP, com núcleo territorial no B",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "PROMOCAO E PROTECAO INTEGRAL DOS DIREITOS HUMANOS DE CRIANCA",
-   "proponente": "INSTITUTO 20 MIL AMIGOS",
-   "municipio": "CAMPINAS",
-   "uf": "SP",
-   "natureza": "Organização da Sociedade Civil",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 600000.0,
-   "objeto": "a incluir",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Programa Alimento no Prato – Fomento a Iniciativas Coletivas de Agricultura Urbana e Periurbana",
-   "proponente": "FUNDACAO DE APOIO E DESENVOLVIMENTO DA UNIVERSIDADE FEDERAL DE MATO GROSSO",
-   "municipio": "CUIABÁ",
-   "uf": "MT",
-   "natureza": "Organização da Sociedade Civil",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 538810.0,
-   "objeto": "O uso de tecnologias sociais visando Contribuir para a promoção da segurança alimentar e nutricional e da soberania alim",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Fomento a Eventos Turísticos - Emendas Parlamentares de Comissão",
-   "proponente": "MUNICIPIO DE RIACHO DOS CAVALOS",
-   "municipio": "RIACHO DOS CAVALOS",
-   "uf": "PB",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 500000.0,
-   "objeto": "Festa de 65 anos de Emancipação Política do Município de Riacho dos Cavalos/PB.",
-   "mesma_uf": true
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Fomento a Eventos Turísticos - Emendas Parlamentares de Comissão",
-   "proponente": "MUNICIPIO DE RIACHO DOS CAVALOS",
-   "municipio": "RIACHO DOS CAVALOS",
-   "uf": "PB",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 500000.0,
-   "objeto": "Festa de 65 anos de Emancipação Política do Município de Riacho dos Cavalos/PB.",
-   "mesma_uf": true
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Fomento a Eventos Turísticos - Emendas Parlamentares de Comissão",
-   "proponente": "MUNICIPIO DE RIACHO DOS CAVALOS",
-   "municipio": "RIACHO DOS CAVALOS",
-   "uf": "PB",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 500000.0,
-   "objeto": "Festa de 65 anos de Emancipação Política do Município de Riacho dos Cavalos/PB.",
-   "mesma_uf": true
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Fomento a Eventos Turísticos - Emendas Parlamentares de Comissão",
-   "proponente": "MUNICIPIO DE RIACHO DOS CAVALOS",
-   "municipio": "RIACHO DOS CAVALOS",
-   "uf": "PB",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 500000.0,
-   "objeto": "Festa de 65 anos de Emancipação Política do Município de Riacho dos Cavalos/PB.",
-   "mesma_uf": true
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Fomento ao Setor Agropecuário - Propostas Voluntárias",
-   "proponente": "MUNICIPIO DE SAO FELIX DO TOCANTINS",
-   "municipio": "SÃO FÉLIX DO TOCANTINS",
-   "uf": "TO",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 430000.0,
-   "objeto": "xxx",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Fomento ao Setor Agropecuário - Propostas Voluntárias",
-   "proponente": "MUNICIPIO DE SAO FELIX DO TOCANTINS",
-   "municipio": "SÃO FÉLIX DO TOCANTINS",
-   "uf": "TO",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 430000.0,
-   "objeto": "xxx",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Fomento ao Setor Agropecuário - Propostas Voluntárias",
-   "proponente": "MUNICIPIO DE SAO FELIX DO TOCANTINS",
-   "municipio": "SÃO FÉLIX DO TOCANTINS",
-   "uf": "TO",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 430000.0,
-   "objeto": "xxx",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Fomento ao Setor Agropecuário - Propostas Voluntárias",
-   "proponente": "MUNICIPIO DE SAO FELIX DO TOCANTINS",
-   "municipio": "SÃO FÉLIX DO TOCANTINS",
-   "uf": "TO",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 430000.0,
-   "objeto": "xxx",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Fomento ao Setor Agropecuário - Propostas Voluntárias",
-   "proponente": "MUNICIPIO DE SAO FELIX DO TOCANTINS",
-   "municipio": "SÃO FÉLIX DO TOCANTINS",
-   "uf": "TO",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 430000.0,
-   "objeto": "xxx",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Fomento ao Setor Agropecuário - Propostas Voluntárias",
-   "proponente": "MUNICIPIO DE SAO FELIX DO TOCANTINS",
-   "municipio": "SÃO FÉLIX DO TOCANTINS",
-   "uf": "TO",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 430000.0,
-   "objeto": "xxx",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Fomento ao Setor Agropecuário - Propostas Voluntárias",
-   "proponente": "MUNICIPIO DE SAO FELIX DO TOCANTINS",
-   "municipio": "SÃO FÉLIX DO TOCANTINS",
-   "uf": "TO",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 430000.0,
-   "objeto": "xxx",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Fomento ao Setor Agropecuário - Propostas Voluntárias",
-   "proponente": "MUNICIPIO DE SAO FELIX DO TOCANTINS",
-   "municipio": "SÃO FÉLIX DO TOCANTINS",
-   "uf": "TO",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 430000.0,
-   "objeto": "xxx",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Fomento ao Setor Agropecuário - Propostas Voluntárias",
-   "proponente": "MUNICIPIO DE SAO FELIX DO TOCANTINS",
-   "municipio": "SÃO FÉLIX DO TOCANTINS",
-   "uf": "TO",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 430000.0,
-   "objeto": "xxx",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Fomento ao Setor Agropecuário - Propostas Voluntárias",
-   "proponente": "MUNICIPIO DE SAO FELIX DO TOCANTINS",
-   "municipio": "SÃO FÉLIX DO TOCANTINS",
-   "uf": "TO",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 430000.0,
-   "objeto": "xxx",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Fomento ao Setor Agropecuário - Propostas Voluntárias",
-   "proponente": "MUNICIPIO DE SAO FELIX DO TOCANTINS",
-   "municipio": "SÃO FÉLIX DO TOCANTINS",
-   "uf": "TO",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 430000.0,
-   "objeto": "xxx",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Fomento ao Setor Agropecuário - Propostas Voluntárias",
-   "proponente": "MUNICIPIO DE SAO FELIX DO TOCANTINS",
-   "municipio": "SÃO FÉLIX DO TOCANTINS",
-   "uf": "TO",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 430000.0,
-   "objeto": "xxx",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Programa 2319 - Acao 00T1 - Apoio a Politica Nacional de Desenvolvimento Urbano Voltado a Implantacao e Qualificacao Viaria – RP8",
-   "proponente": "MUNICIPIO DE ITAPIUNA",
-   "municipio": "ITAPIÚNA",
-   "uf": "CE",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 390263.0,
-   "objeto": "XX",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Programa 2319 - Acao 00T1 - Apoio a Politica Nacional de Desenvolvimento Urbano Voltado a Implantacao e Qualificacao Viaria – RP8",
-   "proponente": "MUNICIPIO DE ITAPIUNA",
-   "municipio": "ITAPIÚNA",
-   "uf": "CE",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 390263.0,
-   "objeto": "XX",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Programa 2319 - Acao 00T1 - Apoio a Politica Nacional de Desenvolvimento Urbano Voltado a Implantacao e Qualificacao Viaria – RP8",
-   "proponente": "MUNICIPIO DE ITAPIUNA",
-   "municipio": "ITAPIÚNA",
-   "uf": "CE",
-   "natureza": "Administração Pública Municipal",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 390263.0,
-   "objeto": "XX",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Programa Alimento no Prato – Fomento a Iniciativas Coletivas de Agricultura Urbana e Periurbana",
-   "proponente": "ASSOCIACAO COMUNITARIA RURAL MALHADA DO MEIO",
-   "municipio": "CAPITÃO ENÉAS",
-   "uf": "MG",
-   "natureza": "Organização da Sociedade Civil",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 350000.0,
-   "objeto": "Fortalecimento e ampliação de iniciativa coletiva de Agricultura Urbana e Periurbana desenvolvida pela Associação Comuni",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Programa Alimento no Prato – Fomento a Iniciativas Coletivas de Agricultura Urbana e Periurbana",
-   "proponente": "CENTRO DE TECNOLOGIAS ALTERNATIVAS POPULARES",
-   "municipio": "PASSO FUNDO",
-   "uf": "RS",
-   "natureza": "Organização da Sociedade Civil",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 300000.0,
-   "objeto": "xxxx",
-   "mesma_uf": false
-  },
-  {
-   "data": "2026-09-09",
-   "programa": "Programa Alimento no Prato – Fomento a Iniciativas Coletivas de Agricultura Urbana e Periurbana",
-   "proponente": "INSTITUTO AMAZONICO DE PROJETOS, INOVACAO E CIDADANIA - INAPAC",
-   "municipio": "PORTO VELHO",
-   "uf": "RO",
-   "natureza": "Organização da Sociedade Civil",
-   "situacao": "Proposta/Plano de Trabalho Cadastrados",
-   "valor_global": 300000.0,
-   "objeto": "Implantação e fortalecimento de iniciativas coletivas de agricultura urbana e periurbana em Guajará-Mirim/RO, com estrut",
-   "mesma_uf": false
-  }
- ],
- "encerradas": [
-  "8100020260005"
- ]
+ "propostas_recentes": [],
+ "encerradas": []
 }
