@@ -1,10 +1,12 @@
 {
- "executado_em": "2026-09-11T00:04:39.588598",
+ "executado_em": "2026-09-11T16:38:15.998811",
  "uf": "PB",
  "programas_abertos": [
   "2040820260001",
   "2040820260005",
   "2040820260007",
+  "2200020260002",
+  "2200020260003",
   "2200020260004",
   "2200020260005",
   "2200020260006",
@@ -71,8 +73,8 @@
   "8400020260003"
  ],
  "origem_last_modified": {
-  "siconv_programa": "Thu, 10 Sep 2026 11:11:18 GMT",
-  "siconv_programa_proposta": "Thu, 10 Sep 2026 11:11:24 GMT",
-  "siconv_proposta": "Thu, 10 Sep 2026 11:11:15 GMT"
+  "siconv_programa": "Fri, 11 Sep 2026 11:13:13 GMT",
+  "siconv_programa_proposta": "Fri, 11 Sep 2026 11:13:11 GMT",
+  "siconv_proposta": "Fri, 11 Sep 2026 11:13:05 GMT"
  }
 }
