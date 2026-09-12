@@ -109,6 +109,38 @@ def detect_changes(
     return changed
 
 
+def _identity_reset_sources(
+    items: list[dict[str, Any]], previous_ops: dict[str, dict[str, Any]], healthy_sources: dict[str, Any],
+) -> set[str]:
+    """Fontes cuja identidade de oportunidade foi trocada entre execuções.
+
+    Critério: numa fonte saudável, NENHUM id aberto da execução anterior
+    sobrevive na atual, e as duas têm itens. Conjuntos totalmente disjuntos não
+    são 160 janelas encerrando e 160 abrindo no mesmo dia — são o mesmo
+    catálogo com outra chave.
+
+    Existe por causa da correção de 12/09/2026 no adaptador do TransfereGov,
+    que tirou o prazo de dentro do id. Sem isto, a primeira execução depois da
+    correção reinseriria os ids antigos como `closed` e marcaria os novos como
+    `new`: um catálogo com o dobro de entradas e 160 janelas fantasmas
+    encerradas. A mesma proteção vale para qualquer troca futura de identidade.
+
+    É critério exato, não limiar: queda de volume sozinha não aciona. Uma fonte
+    que perde 15 de 150 janelas num dia continua incremental e publica as 15
+    como encerradas.
+    """
+    resets: set[str] = set()
+    for source_id in healthy_sources:
+        before = {
+            item_id for item_id, item in previous_ops.items()
+            if item["source"]["id"] == source_id and item["status"] != "closed"
+        }
+        after = {item["id"] for item in items if item["source"]["id"] == source_id}
+        if before and after and before.isdisjoint(after):
+            resets.add(source_id)
+    return resets
+
+
 def aggregate(
     snapshots: list[dict[str, Any]], previous: dict[str, Any] | None,
     portfolios: list[dict[str, Any]], generated_at: str | None = None,
@@ -170,12 +202,16 @@ def aggregate(
         snapshot["source"]["id"]: snapshot
         for snapshot in snapshots if snapshot.get("status") == "healthy"
     }
+    identity_resets = (
+        _identity_reset_sources(items, previous_ops, healthy_sources) if change_mode == "incremental" else set()
+    )
     if change_mode == "incremental":
         for previous_item in previous_ops.values():
             source_id = previous_item["source"]["id"]
             if (
                 previous_item["id"] in current_ids
                 or source_id not in healthy_sources
+                or source_id in identity_resets
                 or previous_item["status"] == "closed"
             ):
                 continue
@@ -188,7 +224,7 @@ def aggregate(
     for item in items:
         previous_item = previous_ops.get(item["id"])
         changed = detect_changes(item, previous_item, generated_at)
-        if change_mode == "baseline":
+        if change_mode == "baseline" or item["source"]["id"] in identity_resets:
             item["change_status"] = "baseline"
         elif previous_item is None:
             item["change_status"] = "new"
