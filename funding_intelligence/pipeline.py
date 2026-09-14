@@ -250,7 +250,7 @@ def aggregate(
             urgent += 1
 
     return {
-        "version": "2.0",
+        "version": "2.1",
         "change_mode": change_mode,
         "generated_at": generated_at,
         "sources": sorted(source_health, key=lambda source: source["id"]),

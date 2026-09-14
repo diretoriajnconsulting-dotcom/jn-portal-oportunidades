@@ -19,7 +19,7 @@ from datetime import datetime, timezone
 # 1.1 acrescenta propostas_enviadas, propostas_em_elaboracao e
 # propostas_por_situacao em cada oportunidade. Minor: campos novos não quebram
 # consumidores antigos, que simplesmente os ignoram.
-VERSAO = "1.1"
+VERSAO = "1.2"
 URGENTE_DIAS = 15
 
 

@@ -55,7 +55,7 @@ class IdentityResetTests(unittest.TestCase):
         self.assertEqual(0, atual["summary"]["closed"], "nada de encerradas fantasmas")
         self.assertEqual(3, atual["summary"]["monitored"])
         # O catálogo continua válido contra o schema oficial.
-        validate_catalog(atual, str(ROOT / "schema/funding-opportunity-2.0.schema.json"))
+        validate_catalog(atual, str(ROOT / "schema/funding-opportunity-2.1.schema.json"))
 
     def test_encerramento_real_continua_sendo_publicado(self):
         # O controle: a regra é disjunção TOTAL, não queda de volume. Uma janela

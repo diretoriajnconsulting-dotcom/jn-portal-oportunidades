@@ -29,6 +29,16 @@ def identidade_janela(item: dict[str, Any]) -> str:
     return hashlib.sha1(base.encode("utf-8")).hexdigest()[:12]
 
 
+# Canal do contrato v1 → canal do v2. `proposta` é o nome histórico da janela
+# RECEB_PROP, que no SICONV é a proposta voluntária; ficou `proposta` no v1 porque
+# o valor entra na identidade da janela e renomear trocaria 41 ids de uma vez.
+CANAL_V2 = {
+    "proposta": "voluntaria",
+    "emenda": "emenda_parlamentar",
+    "beneficiario_especifico": "beneficiario_especifico",
+}
+
+
 class TransferegovAdapter(BaseAdapter):
     id = "transferegov"
     name = "TransfereGov"
@@ -76,6 +86,10 @@ class TransferegovAdapter(BaseAdapter):
                 status="open", published=item.get("abre"), deadline=item.get("fecha"),
                 organization_types=org_types or ["outros"], geography=[payload.get("uf") or "BR"],
                 themes=item.get("temas") or [], instrument_type="convenio", repayable=False,
+                # Canal desconhecido derruba a coleta (o `opportunity` recusa): um
+                # canal novo no v1 sem mapeamento aqui publicaria janela com o
+                # canal errado, e isso é pior do que não publicar.
+                channel=CANAL_V2.get(item.get("canal"), item.get("canal") or ""),
             )
             normalized["source"]["stale"] = self.upstream_stale
             found.append(normalized)

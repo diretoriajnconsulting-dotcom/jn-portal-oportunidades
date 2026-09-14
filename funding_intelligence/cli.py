@@ -90,7 +90,7 @@ def parser() -> argparse.ArgumentParser:
     aggregate_parser.add_argument("--previous")
     aggregate_parser.add_argument("--portfolios", default="config/portfolios.json")
     aggregate_parser.add_argument("--sources", default="config/sources.json")
-    aggregate_parser.add_argument("--schema", default="schema/funding-opportunity-2.0.schema.json")
+    aggregate_parser.add_argument("--schema", default="schema/funding-opportunity-2.1.schema.json")
     aggregate_parser.add_argument("--output", required=True)
     aggregate_parser.add_argument("--generated-at")
     aggregate_parser.set_defaults(handler=aggregate_command)

@@ -115,5 +115,33 @@ class ComportamentoPreservadoTests(unittest.TestCase):
         self.assertEqual(["PB"], item["eligibility"]["geography"])
 
 
+
+class CanalTests(unittest.TestCase):
+    def test_cada_canal_do_v1_vira_o_canal_do_v2(self):
+        pares = {
+            "proposta": "voluntaria",
+            "emenda": "emenda_parlamentar",
+            "beneficiario_especifico": "beneficiario_especifico",
+        }
+        for v1, v2 in pares.items():
+            item = coletar(janela(canal=v1))[0]
+            self.assertEqual(v2, item["channel"], v1)
+
+    def test_o_canal_continua_no_sufixo_do_id(self):
+        # Em forma de slug: `stable_id` troca o sublinhado por hífen. O site lê
+        # este sufixo só para arquivos 2.0, que ainda não trazem `channel`.
+        item = coletar(janela(canal="beneficiario_especifico"))[0]
+        self.assertTrue(item["id"].endswith("-beneficiario-especifico"), item["id"])
+
+    def test_canal_desconhecido_derruba_a_coleta(self):
+        # Publicar janela com canal errado é pior do que não publicar.
+        with self.assertRaises(ValueError):
+            coletar(janela(canal="canal_inventado"))
+
+    def test_mesmo_programa_em_dois_canais_sao_duas_janelas(self):
+        itens = coletar(janela(canal="emenda"), janela(canal="beneficiario_especifico"))
+        self.assertEqual(2, len({i["id"] for i in itens}))
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -152,7 +152,7 @@ jobs:
             --inputs "build/sources/*.json" \
             --previous public/data/funding-opportunities-v2.json \
             --portfolios config/portfolios.json \
-            --schema schema/funding-opportunity-2.0.schema.json \
+            --schema schema/funding-opportunity-2.1.schema.json \
             --output public/data/funding-opportunities-v2.json
 
       - name: Resumo operacional

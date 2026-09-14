@@ -17,7 +17,7 @@ territorial nunca compensa um proponente incompatível.
 
 - `public/data/oportunidades.json`: contrato TransfereGov `1.0`, sem quebra de compatibilidade.
 - `public/data/funding-opportunities-v2.json`: catálogo multifuente `2.0`.
-- `schema/funding-opportunity-2.0.schema.json`: contrato canônico e versionado.
+- `schema/funding-opportunity-2.1.schema.json`: contrato canônico e versionado.
 
 O catálogo declara `change_mode=baseline` na primeira geração, sem comunicar
 o inventário inicial como novidade. Em execuções incrementais, cada registro
