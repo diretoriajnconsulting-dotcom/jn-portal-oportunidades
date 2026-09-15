@@ -106,7 +106,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        source: [finep, cnpq, fapesq]
+        source: [finep, cnpq, fapesq, transferegov-especiais, transferegov-fundoafundo, transferegov-parcerias]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5

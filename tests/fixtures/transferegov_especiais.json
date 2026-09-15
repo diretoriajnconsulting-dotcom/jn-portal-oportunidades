@@ -1,0 +1,10 @@
+[
+  {"id_programa": 24, "ano_programa": 2025, "codigo_programa": "09032025-2", "nome_orgao_superior_programa": "Ministério da Gestão e da Inovação em Serviços Públicos",
+   "data_inicio_ciencia_programa": "2025-10-30", "data_fim_ciencia_programa": "2025-11-07", "valor_necessidade_financeira_programa": 1500000000.5},
+  {"id_programa": 25, "ano_programa": 2026, "codigo_programa": "9032026", "nome_orgao_superior_programa": "Ministério da Gestão e da Inovação em Serviços Públicos",
+   "data_inicio_ciencia_programa": "2026-03-30", "data_fim_ciencia_programa": "2026-05-15", "valor_necessidade_financeira_programa": 6779708728.64},
+  {"id_programa": 26, "ano_programa": 2026, "codigo_programa": "09032026-2", "nome_orgao_superior_programa": "Ministério da Gestão e da Inovação em Serviços Públicos",
+   "data_inicio_ciencia_programa": "2026-05-20", "data_fim_ciencia_programa": "2026-06-10", "valor_necessidade_financeira_programa": null},
+  {"id_programa": 7, "ano_programa": 2022, "codigo_programa": "9032022", "nome_orgao_superior_programa": "Ministério da Economia",
+   "data_inicio_ciencia_programa": null, "data_fim_ciencia_programa": null, "valor_necessidade_financeira_programa": 10.0}
+]

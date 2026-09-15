@@ -13,6 +13,19 @@ territorial nunca compensa um proponente incompatível.
 - CNPq
 - FAPESQ-PB
 
+## Fontes P1 — APIs novas do TransfereGov
+
+Programas com janela de recebimento aberta ou agendada, uma oportunidade por janela
+(`funding_intelligence/adapters/transferegov_apis.py`):
+
+- Transferências especiais: a janela de ciência e plano de ação;
+- Fundo a fundo: janelas de voluntários, emendas e beneficiários específicos;
+- Parcerias: janelas de espontâneo, emenda e específico (inclui o fundo a fundo do SUAS).
+
+Só entram programas disponibilizados, do ano atual ou do anterior: no fundo a fundo,
+programas de 2020 a 2022 mantêm janela aberta até 31/12/2026 só para quem já aderiu.
+TED fica de fora, porque só órgão federal recebe.
+
 ## Artefatos públicos
 
 - `public/data/oportunidades.json`: contrato TransfereGov `1.0`, sem quebra de compatibilidade.

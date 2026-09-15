@@ -36,6 +36,33 @@
       "frequency": "daily",
       "url": "https://fapesq.rpp.br/editais/2026/editais-2026",
       "priority": "P0"
+    },
+    {
+      "id": "transferegov-especiais",
+      "name": "TransfereGov · Transferências especiais",
+      "type": "plataforma_federal",
+      "adapter": "transferegov-especiais",
+      "frequency": "daily",
+      "url": "https://especiais.transferegov.sistema.gov.br/",
+      "priority": "P1"
+    },
+    {
+      "id": "transferegov-fundoafundo",
+      "name": "TransfereGov · Fundo a fundo",
+      "type": "plataforma_federal",
+      "adapter": "transferegov-fundoafundo",
+      "frequency": "daily",
+      "url": "https://fundos.transferegov.sistema.gov.br/",
+      "priority": "P1"
+    },
+    {
+      "id": "transferegov-parcerias",
+      "name": "TransfereGov · Parcerias",
+      "type": "plataforma_federal",
+      "adapter": "transferegov-parcerias",
+      "frequency": "daily",
+      "url": "https://parcerias.transferegov.sistema.gov.br/",
+      "priority": "P1"
     }
   ]
 }
