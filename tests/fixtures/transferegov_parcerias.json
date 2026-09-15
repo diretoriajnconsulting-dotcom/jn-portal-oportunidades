@@ -1,0 +1,224 @@
+[
+  {
+    "id_programa": 111,
+    "ano_programa": 2026,
+    "tp_instrumento": "Transferências Fundo a Fundo",
+    "situacao_programa": "Disponibilizado",
+    "nm_programa": "ESTRUTURAÇÃO DA REDE DE SERVIÇOS DO SUAS - EMENDAS INDIVIDUAIS",
+    "nm_ente_superior": "Ministério do Desenvolvimento e Assistência Social, Família e Combate à Fome",
+    "ds_objetivo": "Fortalecer a rede socioassistencial.",
+    "nr_vlr_global": null,
+    "programa_atende_a": [],
+    "ufs_habilitadas": [],
+    "dt_inicio_beneficiario_emenda": "2016-02-06",
+    "dt_fim_beneficiario_emenda": "2026-12-31"
+  },
+  {
+    "id_programa": 150,
+    "ano_programa": 2026,
+    "tp_instrumento": "Lei de incentivo à Saúde do Ministério da Saúde (PRONON e PRONAS)",
+    "situacao_programa": "Disponibilizado",
+    "nm_programa": "PRONON 2026",
+    "nm_ente_superior": "Ministério da Saúde",
+    "ds_objetivo": "Projetos oncológicos.",
+    "nr_vlr_global": 900000,
+    "programa_atende_a": [],
+    "ufs_habilitadas": [
+      {
+        "nm_uf": "AC",
+        "sg_uf": "AC",
+        "cd_ibge": 0
+      },
+      {
+        "nm_uf": "AL",
+        "sg_uf": "AL",
+        "cd_ibge": 0
+      },
+      {
+        "nm_uf": "AM",
+        "sg_uf": "AM",
+        "cd_ibge": 0
+      },
+      {
+        "nm_uf": "AP",
+        "sg_uf": "AP",
+        "cd_ibge": 0
+      },
+      {
+        "nm_uf": "BA",
+        "sg_uf": "BA",
+        "cd_ibge": 0
+      },
+      {
+        "nm_uf": "CE",
+        "sg_uf": "CE",
+        "cd_ibge": 0
+      },
+      {
+        "nm_uf": "DF",
+        "sg_uf": "DF",
+        "cd_ibge": 0
+      },
+      {
+        "nm_uf": "ES",
+        "sg_uf": "ES",
+        "cd_ibge": 0
+      },
+      {
+        "nm_uf": "GO",
+        "sg_uf": "GO",
+        "cd_ibge": 0
+      },
+      {
+        "nm_uf": "MA",
+        "sg_uf": "MA",
+        "cd_ibge": 0
+      },
+      {
+        "nm_uf": "MG",
+        "sg_uf": "MG",
+        "cd_ibge": 0
+      },
+      {
+        "nm_uf": "MS",
+        "sg_uf": "MS",
+        "cd_ibge": 0
+      },
+      {
+        "nm_uf": "MT",
+        "sg_uf": "MT",
+        "cd_ibge": 0
+      },
+      {
+        "nm_uf": "PA",
+        "sg_uf": "PA",
+        "cd_ibge": 0
+      },
+      {
+        "nm_uf": "PB",
+        "sg_uf": "PB",
+        "cd_ibge": 0
+      },
+      {
+        "nm_uf": "PE",
+        "sg_uf": "PE",
+        "cd_ibge": 0
+      },
+      {
+        "nm_uf": "PI",
+        "sg_uf": "PI",
+        "cd_ibge": 0
+      },
+      {
+        "nm_uf": "PR",
+        "sg_uf": "PR",
+        "cd_ibge": 0
+      },
+      {
+        "nm_uf": "RJ",
+        "sg_uf": "RJ",
+        "cd_ibge": 0
+      },
+      {
+        "nm_uf": "RN",
+        "sg_uf": "RN",
+        "cd_ibge": 0
+      },
+      {
+        "nm_uf": "RO",
+        "sg_uf": "RO",
+        "cd_ibge": 0
+      },
+      {
+        "nm_uf": "RR",
+        "sg_uf": "RR",
+        "cd_ibge": 0
+      },
+      {
+        "nm_uf": "RS",
+        "sg_uf": "RS",
+        "cd_ibge": 0
+      },
+      {
+        "nm_uf": "SC",
+        "sg_uf": "SC",
+        "cd_ibge": 0
+      },
+      {
+        "nm_uf": "SE",
+        "sg_uf": "SE",
+        "cd_ibge": 0
+      },
+      {
+        "nm_uf": "SP",
+        "sg_uf": "SP",
+        "cd_ibge": 0
+      },
+      {
+        "nm_uf": "TO",
+        "sg_uf": "TO",
+        "cd_ibge": 0
+      },
+      {
+        "nm_uf": "Exterior",
+        "sg_uf": "EX",
+        "cd_ibge": 1
+      }
+    ],
+    "dt_inicio_beneficiario_espontaneo": "2026-08-01",
+    "dt_fim_beneficiario_espontaneo": "2026-10-31",
+    "dt_inicio_beneficiario_especifico": "2026-08-01",
+    "dt_fim_beneficiario_especifico": "2026-10-31"
+  },
+  {
+    "id_programa": 151,
+    "ano_programa": 2025,
+    "tp_instrumento": "Contrato de Gestão",
+    "situacao_programa": "Disponibilizado",
+    "nm_programa": "Consórcios de Saneamento",
+    "nm_ente_superior": "Ministério das Cidades",
+    "ds_objetivo": null,
+    "nr_vlr_global": 10,
+    "programa_atende_a": [
+      {
+        "tp_atende_a": "Consórcio Público"
+      },
+      {
+        "tp_atende_a": "Administração Pública Municipal"
+      }
+    ],
+    "ufs_habilitadas": [
+      {
+        "nm_uf": "PARAÍBA",
+        "sg_uf": "PB",
+        "cd_ibge": 25
+      }
+    ],
+    "dt_inicio_beneficiario_espontaneo": "2026-10-01",
+    "dt_fim_beneficiario_espontaneo": "2026-12-31"
+  },
+  {
+    "id_programa": 174,
+    "ano_programa": 2026,
+    "tp_instrumento": "Lei de Incentivo à Reciclagem - Declaração de Responsabilidade",
+    "situacao_programa": "Em Elaboração",
+    "nm_programa": "LIR - COPA FEMININA 2027",
+    "nm_ente_superior": "Ministério do Meio Ambiente",
+    "programa_atende_a": [],
+    "ufs_habilitadas": [],
+    "dt_inicio_beneficiario_espontaneo": "2026-06-01",
+    "dt_fim_beneficiario_espontaneo": "2026-12-31"
+  },
+  {
+    "id_programa": 90,
+    "ano_programa": 2024,
+    "tp_instrumento": "Transferências Fundo a Fundo",
+    "situacao_programa": "Disponibilizado",
+    "nm_programa": "Programa antigo",
+    "nm_ente_superior": "Ministério do Desenvolvimento e Assistência Social, Família e Combate à Fome",
+    "programa_atende_a": [],
+    "ufs_habilitadas": [],
+    "dt_inicio_beneficiario_emenda": "2024-01-01",
+    "dt_fim_beneficiario_emenda": "2026-12-31"
+  }
+]

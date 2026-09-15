@@ -1,0 +1,18 @@
+[
+  {"id_programa": 126, "ano_programa": 2026, "situacao_programa": "DISPONIBILIZADO", "nome_programa": "Enfrentamento da Violência Contra a Mulher - 2026",
+   "nome_orgao_superior_programa": "Ministério da Justiça e Segurança Pública", "nome_fundo_programa": "Fundo Nacional de Segurança Pública",
+   "objetivo_programa": "Apoiar ações de enfrentamento.", "valor_global_programa": 25000000,
+   "data_inicio_recebimento_planos_acao_beneficiarios_especificos": "2026-01-05", "data_fim_recebimento_planos_acao_beneficiarios_especificos": "2028-12-31",
+   "data_inicio_recebimento_planos_acao_beneficiarios_emendas": "2026-01-05", "data_fim_recebimento_planos_acao_beneficiarios_emendas": "2026-03-31",
+   "data_inicio_recebimento_planos_acao_beneficiarios_voluntarios": null, "data_fim_recebimento_planos_acao_beneficiarios_voluntarios": null},
+  {"id_programa": 130, "ano_programa": 2026, "situacao_programa": "DISPONIBILIZADO", "nome_programa": "Cultura Viva e Saneamento",
+   "nome_orgao_superior_programa": "Ministério da Cultura", "nome_fundo_programa": "Fundo Nacional de Cultura", "objetivo_programa": null, "valor_global_programa": "1200.50",
+   "data_inicio_recebimento_planos_acao_beneficiarios_voluntarios": "2026-09-01", "data_fim_recebimento_planos_acao_beneficiarios_voluntarios": "2026-09-15",
+   "data_inicio_recebimento_planos_acao_beneficiarios_emendas": "2026-10-01", "data_fim_recebimento_planos_acao_beneficiarios_emendas": "2026-11-30"},
+  {"id_programa": 35, "ano_programa": 2022, "situacao_programa": "DISPONIBILIZADO", "nome_programa": "DEPEN - FUNDO A FUNDO 2022",
+   "nome_orgao_superior_programa": "Ministério da Justiça e Segurança Pública",
+   "data_inicio_recebimento_planos_acao_beneficiarios_voluntarios": "2022-09-01", "data_fim_recebimento_planos_acao_beneficiarios_voluntarios": "2026-12-31"},
+  {"id_programa": 131, "ano_programa": 2026, "situacao_programa": "NAO_DISPONIBILIZADO", "nome_programa": "Programa em cadastro",
+   "nome_orgao_superior_programa": "Ministério da Cultura",
+   "data_inicio_recebimento_planos_acao_beneficiarios_voluntarios": "2026-01-01", "data_fim_recebimento_planos_acao_beneficiarios_voluntarios": "2026-12-31"}
+]
