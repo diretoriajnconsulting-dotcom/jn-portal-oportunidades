@@ -177,6 +177,7 @@ def coletar(uf, cache):
         TRIM(UF_PROGRAMA) AS UF,
         {D.format('DT_PROG_INI_RECEB_PROP')}, {D.format('DT_PROG_FIM_RECEB_PROP')},
         {D.format('DT_PROG_INI_EMENDA_PAR')}, {D.format('DT_PROG_FIM_EMENDA_PAR')},
+        {D.format('DT_PROG_INI_BENEF_ESP')}, {D.format('DT_PROG_FIM_BENEF_ESP')},
         {D.format('DATA_DISPONIBILIZACAO')}
     """, f"WHERE UPPER(TRIM(UF_PROGRAMA)) = '{uf.upper()}'")
 
@@ -204,6 +205,14 @@ def coletar(uf, cache):
 # Um mesmo programa aparece com vários COD_PROGRAMA — o SICONV emite um código
 # por ação orçamentária. Agrupar por nome+órgão+canal+prazo é o que torna o
 # painel legível; os códigos ficam agregados na coluna `codigos`.
+#
+# O SICONV tem TRÊS janelas de datas por programa, e cada uma é um canal:
+#   RECEB_PROP → `proposta`                 proposta voluntária
+#   EMENDA_PAR → `emenda`                   só com emenda parlamentar
+#   BENEF_ESP  → `beneficiario_especifico`  só proponente indicado pelo concedente
+# Até o contrato 1.1 a terceira ficava de fora: em 13/09/2026 eram 113 janelas
+# abertas na Paraíba — 53 programas abertos só por ela, entre eles o Novo PAC —
+# que nenhuma tela mostrava. Entrou no contrato 1.2.
 SQL_ABERTOS = """
 WITH j AS (
   SELECT COD_PROGRAMA, NOME_PROGRAMA, ORGAO, MODALIDADE, NATUREZA,
@@ -219,6 +228,13 @@ WITH j AS (
   FROM programa
   WHERE SIT_PROGRAMA IN ('DISPONIBILIZADO','CADASTRADO')
     AND DT_PROG_FIM_EMENDA_PAR >= current_date
+  UNION ALL
+  SELECT COD_PROGRAMA, NOME_PROGRAMA, ORGAO, MODALIDADE, NATUREZA,
+         SIT_PROGRAMA, 'beneficiario_especifico',
+         DT_PROG_INI_BENEF_ESP, DT_PROG_FIM_BENEF_ESP
+  FROM programa
+  WHERE SIT_PROGRAMA IN ('DISPONIBILIZADO','CADASTRADO')
+    AND DT_PROG_FIM_BENEF_ESP >= current_date
 )
 SELECT NOME_PROGRAMA, ORGAO, NATUREZA, canal, fecha,
        CAST(fecha - current_date AS INTEGER) AS dias,
@@ -484,8 +500,8 @@ def montar_painel(a, lms, gerado_em):
 <p class="sup">Transferegov · Transferências Discricionárias · {e(a['uf'])} ·
 {gerado_em:%d/%m/%Y às %H:%M}</p>
 <h1>{len(a['abertos'])} janelas abertas, {len(a['urgentes'])} fechando em duas semanas.</h1>
-<p class="sub">Programas que ainda aceitam entrada, por canal de proposta e de
-emenda parlamentar. Use os filtros para ver só o que cabe no seu tipo de proponente.</p>
+<p class="sub">Programas que ainda aceitam entrada, por canal: proposta voluntária,
+emenda parlamentar e beneficiário específico. Use os filtros para ver só o que cabe no seu tipo de proponente.</p>
 <div class="kpis">
 <div class="kpi"><div class="n">{len(a['abertos'])}</div><div class="l">janelas abertas</div></div>
 <div class="kpi {'alerta' if a['urgentes'] else ''}"><div class="n">{len(a['urgentes'])}</div><div class="l">fecham em 15 dias</div></div>

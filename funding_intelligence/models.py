@@ -8,6 +8,11 @@ from typing import Any
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
 
+# Por onde a proposta entra. Os três primeiros são as três janelas de datas do
+# SICONV (RECEB_PROP, EMENDA_PAR, BENEF_ESP); `chamada_publica` é o edital aberto
+# que as demais fontes publicam. Contrato 2.1.
+CHANNELS = {"voluntaria", "emenda_parlamentar", "beneficiario_especifico", "chamada_publica"}
+
 ORGANIZATION_TYPES = {
     "empresa", "startup", "osc", "ict", "universidade", "municipio",
     "estado", "consorcio_publico", "cooperativa", "pesquisador",
@@ -115,7 +120,10 @@ def opportunity(
     instrument_type: str = "outros", repayable: bool | None = None,
     program_budget: float | None = None, documents: list[dict[str, Any]] | None = None,
     description: str | None = None,
+    channel: str = "chamada_publica",
 ) -> dict[str, Any]:
+    if channel not in CHANNELS:
+        raise ValueError(f"canal desconhecido: {channel!r}")
     title = clean_text(title)
     org_types = [x for x in dict.fromkeys(organization_types or ["outros"])
                  if x in ORGANIZATION_TYPES]
@@ -134,6 +142,7 @@ def opportunity(
         "description": clean_text(description) or None,
         "funder": clean_text(funder),
         "instrument": {"type": instrument_type, "repayable": repayable},
+        "channel": channel,
         "status": status,
         "dates": {"published": published, "deadline": deadline},
         "eligibility": {

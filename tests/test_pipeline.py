@@ -39,7 +39,10 @@ class PipelineTests(unittest.TestCase):
         self.assertEqual("baseline", catalog["change_mode"])
         self.assertEqual(0, catalog["summary"]["new"])
         self.assertGreaterEqual(catalog["opportunities"][0]["matching"]["ponte_score"], 80)
-        validate_catalog(catalog, str(ROOT / "schema/funding-opportunity-2.0.schema.json"))
+        self.assertEqual("2.1", catalog["version"])
+        # Fonte que não é o TransfereGov publica edital aberto.
+        self.assertEqual("chamada_publica", catalog["opportunities"][0]["channel"])
+        validate_catalog(catalog, str(ROOT / "schema/funding-opportunity-2.1.schema.json"))
 
     def test_deadline_change_is_audited(self):
         previous = aggregate([snapshot([sample("2026-08-31")])], None, self.portfolios, generated_at="2026-08-18T12:00:00+00:00")
