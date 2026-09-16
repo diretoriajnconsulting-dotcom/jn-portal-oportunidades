@@ -16,6 +16,7 @@ on:
       - "config/**"
       - "funding_intelligence/**"
       - "schema/**"
+      - "scripts/**"
       - "tests/**"
       - "requirements.txt"
 
