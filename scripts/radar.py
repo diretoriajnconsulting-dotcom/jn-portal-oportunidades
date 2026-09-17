@@ -32,6 +32,10 @@ from datetime import date, datetime, timezone
 
 import duckdb
 
+# Rodado como script solto (`python scripts/radar.py`), o pacote da raiz não está no path.
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from funding_intelligence.acentos import reparos_de  # noqa: E402
+
 # FONTE ATUAL. O Comunicado Transferegov nº 23/2026 (17/07/2026) anunciou a
 # migração do repositório de dados abertos. O endereço antigo continua
 # respondendo, mas congelado em 17/07/2026 06:30 — serve exatamente um dado
@@ -181,6 +185,13 @@ def coletar(uf, cache):
         {D.format('DATA_DISPONIBILIZACAO')}
     """, f"WHERE UPPER(TRIM(UF_PROGRAMA)) = '{uf.upper()}'")
 
+    # Vocabulário do conserto de acentos: os nomes do arquivo INTEIRO, não só os
+    # da UF, e lidos do mesmo jeito que acima para casar com `programa`.
+    log("  carregando nomes de programa (nacional, para consertar acentos)")
+    carregar(con, "nome_programa", caminhos["siconv_programa"],
+             "TRIM(NOME_PROGRAMA) AS nome, count(*) AS n",
+             "WHERE NULLIF(TRIM(NOME_PROGRAMA), '') IS NOT NULL GROUP BY 1")
+
     log("  carregando programa_proposta")
     carregar(con, "prog_prop", caminhos["siconv_programa_proposta"],
              f"{I.format('ID_PROGRAMA')}, {I.format('ID_PROPOSTA')}")
@@ -253,6 +264,10 @@ def analisar(con, uf, temas, estado_ant):
     cols = [d[0] for d in cur.description]
     abertos = [dict(zip(cols, r)) for r in cur.fetchall()]
 
+    # O SICONV entrega parte dos nomes com "?" no lugar da letra acentuada
+    # ("Autonomia Econ?mica das Mulheres"). Ver funding_intelligence/acentos.py.
+    reparos = reparos_de(con.execute("SELECT nome, n FROM nome_programa").fetchall())
+
     # concorrência: quantas propostas já entraram em cada código de programa
     conc = dict(con.execute("""
         SELECT p.COD_PROGRAMA, count(DISTINCT pp.ID_PROPOSTA)
@@ -275,6 +290,12 @@ def analisar(con, uf, temas, estado_ant):
 
     codigos_abertos = set()
     for a in abertos:
+        # O conserto troca só o texto que se lê e que casa com os temas. O
+        # agrupamento do SQL_ABERTOS e o id do v1 (`ident` em publicar.py) ficam
+        # com o nome como o SICONV entregou: consertar acento não junta janelas
+        # nem troca id.
+        a["NOME_PROGRAMA_SICONV"] = a["NOME_PROGRAMA"]
+        a["NOME_PROGRAMA"] = reparos.get(a["NOME_PROGRAMA"], a["NOME_PROGRAMA"])
         a["codigos"] = list(a["codigos"])
         codigos_abertos.update(a["codigos"])
         a["propostas_no_programa"] = sum(conc.get(c, 0) for c in a["codigos"])
@@ -330,6 +351,7 @@ def analisar(con, uf, temas, estado_ant):
             d = dict(zip(cols, r))
             d["DIA_PROPOSTA"] = (d["DIA_PROPOSTA"].isoformat()
                                  if isinstance(d["DIA_PROPOSTA"], date) else None)
+            d["NOME_PROGRAMA"] = reparos.get(d["NOME_PROGRAMA"], d["NOME_PROGRAMA"])
             d["da_uf"] = (d["UF"] or "").upper() == uf.upper()
             novas_propostas.append(d)
 
