@@ -25,8 +25,14 @@ URGENTE_DIAS = 15
 
 def ident(o):
     """ID estável entre execuções: permite ao front animar entrada/saída de
-    linhas e montar link direto para uma oportunidade."""
-    base = "|".join([o.get("NOME_PROGRAMA") or "", o.get("ORGAO") or "",
+    linhas e montar link direto para uma oportunidade.
+
+    Usa o nome como o SICONV entregou, não o de acentos consertados que vai em
+    `programa`: o conserto depende do vocabulário do arquivo do dia e não pode
+    trocar o id. `achados.json` antigo não tem o campo e cai no nome exibido,
+    que ali é o mesmo."""
+    programa = o.get("NOME_PROGRAMA_SICONV", o.get("NOME_PROGRAMA"))
+    base = "|".join([programa or "", o.get("ORGAO") or "",
                      o.get("NATUREZA") or "", o.get("canal") or "",
                      o.get("fecha") or ""])
     return hashlib.sha1(base.encode("utf-8")).hexdigest()[:12]
