@@ -16,7 +16,18 @@ lugar de cada caractere quebrado) e só é trocada quando um candidato predomina
 
 O "?" sozinho entre palavras é crase em "Apoio ? Implantação", mas travessão em "SENASP ?
 AÇÃO 20ID". Por isso a palavra feita só de letra quebrada é decidida junto com a palavra
-anterior: vira "à" só se o arquivo escreve "apoio à" íntegro em outros nomes.
+anterior: vira "à" só se o arquivo escreve "apoio à" íntegro em outros nomes. Quando o
+vocabulário não decide a crase, o "?" entre espaços vira travessão ("–") se um vizinho é código
+ou sigla: tem dígito ("210V", "20ID") ou, num nome que não está todo em caixa alta, é todo em
+maiúsculas ("CV", "SNELIS"). Crase vem antes de palavra comum ("à Política", "à Pessoa"), nunca
+de código. No arquivo de 14/09/2026, "Emendas Parlamentares ? 210V ? CV ? Estrutura��o…" vira
+"Emendas Parlamentares – 210V – CV – Estruturação…"; "Rurais ? Apoio" fica como veio.
+
+Alguns nomes chegam cortados no meio da última palavra, e o corte cai sobre a letra acentuada:
+"Comunica??o para Inclus?o e Transforma??", "Emendas Parlamentares de Comiss?". A última palavra
+terminada em caractere quebrado é completada pelo vocabulário — o candidato íntegro que começa
+pela mesma forma, com a mesma folga de sempre. Se a palavra sem o "?" final já existe íntegra
+("E você?"), o "?" é pontuação e fica.
 
 O nome consertado é só texto de exibição e busca. Nenhuma identidade de janela depende
 dele: ver `identidade_janela` em `adapters/transferegov.py` e `ident` em
@@ -37,6 +48,8 @@ CAIXA_ALTA = 0.8
 
 _PALAVRA = re.compile(r"(?:[^\W_]|[?�])+")
 _SEGUE_PALAVRA = re.compile(r"\s*[^\W\d_]")
+_PROXIMA = re.compile(r"\s*((?:[^\W_]|[?�])+)")
+TRAVESSAO = "–"
 
 Indice = dict[str, Counter[str]]
 
@@ -101,6 +114,43 @@ def _na_caixa(original: str, escolhida: str, *, caixa_alta: bool, depois_de_maiu
     return "".join(saida)
 
 
+def _completa_cortada(palavra: str, indice: Indice) -> str | None:
+    """A palavra íntegra que a última palavra cortada começava, se o vocabulário decide.
+
+    Só vale para palavra terminada em caractere quebrado e com ao menos duas letras antes. Se a
+    parte antes do "?" já é palavra íntegra conhecida, o "?" é pontuação, não corte.
+    """
+    sem = palavra.rstrip(QUEBRADOS)
+    if sem == palavra or sum(c.isalpha() for c in sem) < 2:
+        return None
+    if sem.lower() in indice.get(_forma(sem), ()):
+        return None
+    forma = _forma(palavra)
+    candidatos: Counter[str] = Counter()
+    for chave, contagem in indice.items():
+        if " " not in chave and len(chave) > len(forma) and chave.startswith(forma):
+            candidatos.update(contagem)
+    return _escolha(candidatos)
+
+
+def _codigo(palavra: str | None, caixa_alta: bool) -> bool:
+    """Código ou sigla: tem dígito, ou é todo em maiúsculas num nome que não está em caixa alta."""
+    if not palavra or _quebrada(palavra):
+        return False
+    if any(c.isdigit() for c in palavra):
+        return True
+    letras = [c for c in palavra if c.isalpha()]
+    return not caixa_alta and len(letras) >= 2 and all(c.isupper() for c in letras)
+
+
+def _travessao(texto: str, m: re.Match[str], anterior: str | None, caixa_alta: bool) -> bool:
+    """O caractere quebrado sozinho, entre espaços, ao lado de código ou sigla, é travessão."""
+    if len(m.group()) != 1 or texto[m.start() - 1:m.start()] != " " or texto[m.end():m.end() + 1] != " ":
+        return False
+    seguinte = _PROXIMA.match(texto, m.end())
+    return _codigo(anterior, caixa_alta) or _codigo(seguinte.group(1) if seguinte else None, caixa_alta)
+
+
 def reparar(texto: str | None, indice: Indice) -> str | None:
     """O texto com as palavras quebradas trocadas pela forma íntegra, quando o vocabulário decide."""
     if not texto or not _quebrada(texto):
@@ -117,11 +167,22 @@ def reparar(texto: str | None, indice: Indice) -> str | None:
         solto = all(c in QUEBRADOS for c in palavra) and not _SEGUE_PALAVRA.match(texto, m.end())
         chave = _chave(palavra, anterior) if _quebrada(palavra) and not solto else None
         escolhida = _escolha(indice.get(chave)) if chave else None
-        if escolhida is None:
-            partes.append(palavra)
-        else:
-            depois_de_maiuscula = anterior is None or anterior[0].isupper()
+        depois_de_maiuscula = anterior is None or anterior[0].isupper()
+        if escolhida is not None:
             partes.append(_na_caixa(palavra, escolhida, caixa_alta=caixa_alta, depois_de_maiuscula=depois_de_maiuscula))
+        elif all(c in QUEBRADOS for c in palavra) and _travessao(texto, m, anterior, caixa_alta):
+            # A crase não se decidiu (ou nem cabia: "? 210V" começa com dígito), e o vizinho é
+            # código ou sigla: é travessão.
+            partes.append(TRAVESSAO)
+        elif chave and not texto[m.end():].strip() and (inteira := _completa_cortada(palavra, indice)):
+            # Última palavra cortada na letra acentuada: recupera o começo e completa o resto.
+            inicio = _na_caixa(palavra, inteira[: len(palavra)], caixa_alta=caixa_alta, depois_de_maiuscula=depois_de_maiuscula)
+            letras = [c for c in palavra if c.isalpha()]
+            alta = all(c.isupper() for c in letras) if len(letras) > 1 else caixa_alta
+            resto = inteira[len(palavra):]
+            partes.append(inicio + (resto.upper() if alta else resto))
+        else:
+            partes.append(palavra)
         anterior = palavra
     partes.append(texto[fim:])
     return "".join(partes)

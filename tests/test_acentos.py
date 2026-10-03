@@ -75,6 +75,39 @@ class ReparoTests(unittest.TestCase):
         self.assertEqual("Apoio ? (RP6)", reparar("Apoio ? (RP6)", VOCABULARIO))  # antes de parêntese não é crase
         self.assertEqual("Cuidados ?", reparar("Cuidados ?", VOCABULARIO))  # no fim é pergunta
 
+    def test_interrogacao_ao_lado_de_codigo_ou_sigla_e_travessao(self):
+        vocab = indice_de([("Estruturação Produtiva", 20), ("Apoio à Política Nacional", 4)])
+        # Os três "?" do nome real do arquivo de 14/09/2026: dígito, dígito, sigla.
+        self.assertEqual(
+            "Emendas Parlamentares – 210V – CV – Estruturação Produtiva",
+            reparar("Emendas Parlamentares ? 210V ? CV ? Estrutura��o Produtiva", vocab),
+        )
+        self.assertEqual("Social – SNELIS", reparar("Social ? SNELIS", vocab))
+        # Crase decidida pelo vocabulário vem antes da regra do travessão.
+        self.assertEqual("Apoio à Política", reparar("Apoio ? Política", vocab))
+        # Sem código nem sigla ao lado, não há como decidir: fica como veio.
+        self.assertEqual("Rurais ? Apoio", reparar("Rurais ? Apoio", vocab))
+        # Em caixa alta toda palavra parece sigla: só o dígito decide.
+        self.assertEqual("SAÚDE ? AÇÃO", reparar("SAÚDE ? AÇÃO", vocab))
+        self.assertEqual("SAÚDE – 20ID", reparar("SAÚDE ? 20ID", vocab))
+        # Colado em palavra não é o caractere sozinho.
+        self.assertEqual("CV?Produtiva", reparar("CV?Produtiva", vocab))
+
+    def test_ultima_palavra_cortada_na_letra_acentuada_e_completada(self):
+        vocab = indice_de([("Comunicação para Transformação Social", 12), ("Emendas de Comissão", 30), ("E você?", 3)])
+        self.assertEqual(
+            "Comunicação para Inclus?o e Transformação",
+            reparar("Comunica??o para Inclus?o e Transforma??", vocab),
+        )
+        self.assertEqual("EMENDAS DE COMISSÃO", reparar("EMENDAS DE COMISS?", vocab))
+        # O "?" final de palavra que já existe íntegra é pontuação.
+        self.assertEqual("E você?", reparar("E você?", vocab))
+        # Só a última palavra: no meio do nome, o corte não existe.
+        self.assertEqual("Transforma?? Social", reparar("Transforma?? Social", vocab))
+        # Com dois candidatos sem folga, fica como veio.
+        empate = indice_de([("Comissão", 5), ("Comissária", 5)])
+        self.assertEqual("Comiss?", reparar("Comiss?", empate))
+
     def test_nome_integro_e_vazio_passam_intactos(self):
         self.assertEqual("Programa Cidadania", reparar("Programa Cidadania", VOCABULARIO))
         self.assertIsNone(reparar(None, VOCABULARIO))
