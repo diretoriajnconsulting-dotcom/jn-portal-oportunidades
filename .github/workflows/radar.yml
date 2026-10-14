@@ -9,7 +9,12 @@ name: PONTE Funding Intelligence — Radar Multifuente
 on:
   schedule:
     - cron: "30 12 * * *" # 12:30 UTC = 09:30 João Pessoa
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      carga_historica:
+        description: "Ler uma vez os últimos 24 meses de encerradas em cada fonte (contrato 2.2)"
+        type: boolean
+        default: false
   pull_request:
     paths:
       - ".github/workflows/radar.yml"
@@ -107,7 +112,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        source: [finep, cnpq, fapesq, transferegov-especiais, transferegov-fundoafundo, transferegov-parcerias]
+        source: [finep, cnpq, fapesq, ppsus, bndes, embrapii, pdil, transferegov-especiais, transferegov-fundoafundo, transferegov-parcerias]
     steps:
       - uses: actions/checkout@v7
       - uses: actions/setup-python@v7
@@ -115,6 +120,9 @@ jobs:
           python-version: "3.12"
       - run: pip install -r requirements.txt
       - name: Coletar ${{ matrix.source }}
+        env:
+          # Só no disparo manual com a caixa marcada; a rodada agendada lê a vitrine do dia.
+          RADAR_CARGA_HISTORICA: ${{ github.event_name == 'workflow_dispatch' && inputs.carga_historica && '1' || '0' }}
         run: |
           python -m funding_intelligence.cli collect \
             --source "${{ matrix.source }}" \
@@ -153,7 +161,7 @@ jobs:
             --inputs "build/sources/*.json" \
             --previous public/data/funding-opportunities-v2.json \
             --portfolios config/portfolios.json \
-            --schema schema/funding-opportunity-2.1.schema.json \
+            --schema schema/funding-opportunity-2.2.schema.json \
             --output public/data/funding-opportunities-v2.json
 
       - name: Resumo operacional

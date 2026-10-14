@@ -11,12 +11,17 @@ from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 # Por onde a proposta entra. Os três primeiros são as três janelas de datas do
 # SICONV (RECEB_PROP, EMENDA_PAR, BENEF_ESP); `chamada_publica` é o edital aberto
 # que as demais fontes publicam. Contrato 2.1.
-CHANNELS = {"voluntaria", "emenda_parlamentar", "beneficiario_especifico", "chamada_publica"}
+# `fluxo_continuo` (contrato 2.2) é a porta sem edital nem prazo: um produto de
+# crédito, o modelo EMBRAPII de projeto com uma Unidade. Vai com `status: "open"`
+# e prazo nulo, e o site mostra num bloco próprio, fora da contagem de janelas.
+CHANNELS = {"voluntaria", "emenda_parlamentar", "beneficiario_especifico", "chamada_publica", "fluxo_continuo"}
 
+# Contrato 2.2: `hospital`, `fundacao_apoio` e `ict_privada` (sem fins lucrativos,
+# Lei 10.973/2004, art. 2º, V). Desde então `ict` quer dizer ICT pública.
 ORGANIZATION_TYPES = {
-    "empresa", "startup", "osc", "ict", "universidade", "municipio",
-    "estado", "consorcio_publico", "cooperativa", "pesquisador",
-    "pessoa_fisica", "outros",
+    "empresa", "startup", "osc", "ict", "ict_privada", "universidade", "hospital",
+    "fundacao_apoio", "municipio", "estado", "consorcio_publico", "cooperativa",
+    "pesquisador", "pessoa_fisica", "outros",
 }
 
 
@@ -91,6 +96,8 @@ THEME_ALIASES = (
     (r"agritech", "agritech"),
     (r"agro|foodtech", "agroindustria"),
     (r"saude|farmaco", "saude"),
+    (r"terapias? avancadas?|terapia celular|celulas[ -]tronco|terapia genica|medicina regenerativa", "terapias_avancadas"),
+    (r"ensaios? clinicos?|pesquisa clinica", "pesquisa_clinica"),
     (r"empreendedor", "empreendedorismo"),
     (r"cultura|audiovisual", "cultura"),
     (r"educacao|escola", "educacao"),
@@ -121,13 +128,26 @@ def opportunity(
     program_budget: float | None = None, documents: list[dict[str, Any]] | None = None,
     description: str | None = None,
     channel: str = "chamada_publica",
+    partner_types: list[str] | None = None,
+    partners: list[str] | None = None,
+    closed: str | None = None,
 ) -> dict[str, Any]:
+    """Uma oportunidade no contrato v2.
+
+    Contrato 2.2 (campos opcionais, só aparecem quando há valor):
+    - `partner_types`: quem entra só como parceira, sem propor nem receber. É o
+      caso da empresa no PPSUS, no PDIL de 2024 e na Chamada CNPq 30/2025;
+    - `partners`: os parceiros do edital (Decit/MS, CNPq, SES, Sebrae);
+    - `closed`: a data em que encerrou, para guardar a encerrada por 24 meses.
+    """
     if channel not in CHANNELS:
         raise ValueError(f"canal desconhecido: {channel!r}")
     title = clean_text(title)
     org_types = [x for x in dict.fromkeys(organization_types or ["outros"])
                  if x in ORGANIZATION_TYPES]
-    return {
+    partner_org_types = [x for x in dict.fromkeys(partner_types or [])
+                         if x in ORGANIZATION_TYPES and x not in org_types]
+    item = {
         "id": stable_id(source_id, external_id, title, source_url),
         "source": {
             "id": source_id,
@@ -156,3 +176,11 @@ def opportunity(
         "change_status": "baseline",
         "matching": {"eligible": False, "ponte_score": 0, "portfolio_tags": [], "matches": []},
     }
+    if partner_org_types:
+        item["eligibility"]["partner_types"] = partner_org_types
+    partner_names = [clean_text(x) for x in dict.fromkeys(partners or []) if clean_text(x)]
+    if partner_names:
+        item["partners"] = partner_names
+    if closed:
+        item["dates"]["closed"] = closed
+    return item

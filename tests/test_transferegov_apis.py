@@ -147,7 +147,7 @@ class ContratoTests(unittest.TestCase):
             snapshots.append(adapter(fixture=str(FIXTURES / fixture), today=hoje).snapshot())
         portfolios = json.loads((RAIZ / "config" / "portfolios.json").read_text(encoding="utf-8"))["portfolios"]
         catalog = aggregate(snapshots, None, portfolios, generated_at="2026-09-15T12:00:00+00:00")
-        validate_catalog(catalog, str(RAIZ / "schema" / "funding-opportunity-2.1.schema.json"))
+        validate_catalog(catalog, str(RAIZ / "schema" / "funding-opportunity-2.2.schema.json"))
         ids = [item["id"] for item in catalog["opportunities"]]
         self.assertEqual(9, len(ids))
         self.assertEqual(len(ids), len(set(ids)))

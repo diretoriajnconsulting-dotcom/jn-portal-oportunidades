@@ -34,7 +34,7 @@
       "type": "fundacao_estadual",
       "adapter": "fapesq",
       "frequency": "daily",
-      "url": "https://fapesq.rpp.br/editais/2026/editais-2026",
+      "url": "https://fapesq.rpp.br/",
       "priority": "P0"
     },
     {
@@ -62,6 +62,42 @@
       "adapter": "transferegov-parcerias",
       "frequency": "daily",
       "url": "https://parcerias.transferegov.sistema.gov.br/",
+      "priority": "P1"
+    },
+    {
+      "id": "bndes",
+      "name": "BNDES",
+      "type": "banco_desenvolvimento",
+      "adapter": "bndes",
+      "frequency": "daily",
+      "url": "https://www.bndes.gov.br/wps/portal/site/home/financiamento",
+      "priority": "P1"
+    },
+    {
+      "id": "embrapii",
+      "name": "EMBRAPII",
+      "type": "organizacao_social",
+      "adapter": "embrapii",
+      "frequency": "daily",
+      "url": "https://embrapii.org.br/chamadas-publicas/",
+      "priority": "P1"
+    },
+    {
+      "id": "pdil",
+      "name": "PDIL — Ministério da Saúde",
+      "type": "ministerio_federal",
+      "adapter": "pdil",
+      "frequency": "daily",
+      "url": "https://www.gov.br/saude/pt-br/composicao/sectics/pdil",
+      "priority": "P1"
+    },
+    {
+      "id": "ppsus",
+      "name": "PPSUS (Decit/MS + FAPs)",
+      "type": "fundacao_estadual",
+      "adapter": "ppsus",
+      "frequency": "daily",
+      "url": "https://sisct.saude.gov.br/sisct/",
       "priority": "P1"
     }
   ]

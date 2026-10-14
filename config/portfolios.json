@@ -20,9 +20,9 @@
     {
       "id": "ponte-bioeconomia",
       "name": "PONTE — Bioeconomia, Agro e Saúde",
-      "organization_types": ["empresa", "startup", "cooperativa", "ict", "universidade", "pesquisador"],
+      "organization_types": ["empresa", "startup", "cooperativa", "osc", "ict", "ict_privada", "universidade", "hospital", "fundacao_apoio", "pesquisador"],
       "geography": ["BR", "PB", "NE"],
-      "themes": ["bioeconomia", "biotecnologia", "agritech", "agroindustria", "saude", "foodtech"],
+      "themes": ["bioeconomia", "biotecnologia", "agritech", "agroindustria", "saude", "terapias_avancadas", "pesquisa_clinica", "foodtech"],
       "tags": ["bioeconomia", "agtech", "saude", "pdi"]
     },
     {

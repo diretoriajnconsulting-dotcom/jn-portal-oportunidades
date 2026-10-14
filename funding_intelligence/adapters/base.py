@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import io
 import json
+import os
 import urllib.request
 from abc import ABC, abstractmethod
 from datetime import date
@@ -27,6 +28,10 @@ class BaseAdapter(ABC):
         self.fixture = fixture
         self.today = today or date.today()
         self.checked_at = utc_now()
+        # Carga histórica (disparo manual com `carga_historica`): a fonte lê os
+        # últimos 24 meses de encerradas uma vez. No dia a dia, lê só o que está
+        # na vitrine, e o pipeline guarda o que encerra.
+        self.historical = os.environ.get("RADAR_CARGA_HISTORICA") == "1"
 
     def request_bytes(
         self, url: str, *, method: str = "GET", headers: dict[str, str] | None = None,

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:syn="http://purl.org/rss/1.0/modules/syndication/" xmlns="http://purl.org/rss/1.0/">
+<channel rdf:about="https://www.gov.br/saude/pt-br/search_rss">
+  <title>Português (Brasil)</title>
+  <link>https://www.gov.br/saude</link>
+  <image rdf:resource="https://www.gov.br/saude/logo.png" />
+  <items>
+    <rdf:Seq>
+        <rdf:li rdf:resource="https://www.gov.br/saude/pt-br/assuntos/noticias-ms/2026/outubro/brasil-avanca-no-desenvolvimento-da-primeira-vacina-do-mundo-contra-malaria-vivax" />
+        <rdf:li rdf:resource="https://www.gov.br/saude/pt-br/acesso-a-informacao/licitacoes-e-contratos/pregoes/2026/pregao-eletronico-no-90106-2026-dlog/edital-pe-n-90106-2026.pdf/view" />
+        <rdf:li rdf:resource="https://www.gov.br/saude/pt-br/assuntos/noticias-ms/2026/setembro/primeiro-centro-de-competencia-em-terapias-e-vacinas-com-rna-e-implementado-no-brasil-com-o-apoio-do-ministerio-da-saude" />
+        <rdf:li rdf:resource="https://www.gov.br/saude/pt-br/composicao/sectics/publicacoes-1/informe-no-07-2025-sectics-ms" />
+        <rdf:li rdf:resource="https://www.gov.br/saude/pt-br/composicao/sectics/legislacao/portaria-gm-ms-no-4-473-de-20-de-junho-de-2024" />
+      </rdf:Seq>
+  </items>
+</channel>
+  <item rdf:about="https://www.gov.br/saude/pt-br/assuntos/noticias-ms/2026/outubro/brasil-avanca-no-desenvolvimento-da-primeira-vacina-do-mundo-contra-malaria-vivax">
+    <title>Brasil avança no desenvolvimento da primeira vacina do mundo contra malária vivax</title>
+    <link>https://www.gov.br/saude/pt-br/assuntos/noticias-ms/2026/outubro/brasil-avanca-no-desenvolvimento-da-primeira-vacina-do-mundo-contra-malaria-vivax</link>
+    <description>Vacina 100% nacional contra a malária por Plasmodium vivax, desenvolvida no CTVacinas (MG) com incentivo federal, recebeu aprovação da Anvisa para testes em humanos</description>
+    <dc:date>2026/10/10 14:48:52 GMT-3</dc:date>
+    <dc:type>Notícia</dc:type>
+  </item>
+  <item rdf:about="https://www.gov.br/saude/pt-br/acesso-a-informacao/licitacoes-e-contratos/pregoes/2026/pregao-eletronico-no-90106-2026-dlog/edital-pe-n-90106-2026.pdf/view">
+    <title>Edital PE nº 90106/2026</title>
+    <link>https://www.gov.br/saude/pt-br/acesso-a-informacao/licitacoes-e-contratos/pregoes/2026/pregao-eletronico-no-90106-2026-dlog/edital-pe-n-90106-2026.pdf/view</link>
+    <description></description>
+    <dc:date>2026/09/15 15:42:05 GMT-3</dc:date>
+    <dc:type>Arquivo</dc:type>
+  </item>
+  <item rdf:about="https://www.gov.br/saude/pt-br/assuntos/noticias-ms/2026/setembro/primeiro-centro-de-competencia-em-terapias-e-vacinas-com-rna-e-implementado-no-brasil-com-o-apoio-do-ministerio-da-saude">
+    <title>Primeiro Centro de Competência em Terapias e Vacinas com RNA é implementado no Brasil com o apoio do Ministério da Saúde</title>
+    <link>https://www.gov.br/saude/pt-br/assuntos/noticias-ms/2026/setembro/primeiro-centro-de-competencia-em-terapias-e-vacinas-com-rna-e-implementado-no-brasil-com-o-apoio-do-ministerio-da-saude</link>
+    <description>Iniciativa é estratégica para assegurar soberania nacional na produção de biotecnologias avançadas e aproximar pesquisa, indústria e SUS para que as tecnologias produzidas em laboratórios cheguem à população</description>
+    <dc:date>2026/09/02 14:14:00 GMT-3</dc:date>
+    <dc:type>Notícia</dc:type>
+  </item>
+  <item rdf:about="https://www.gov.br/saude/pt-br/composicao/sectics/publicacoes-1/informe-no-07-2025-sectics-ms">
+    <title>Informe nº 07/2025 - SECTICS/MS</title>
+    <link>https://www.gov.br/saude/pt-br/composicao/sectics/publicacoes-1/informe-no-07-2025-sectics-ms</link>
+    <description>Divulgação dos resultados preliminares da avaliação de propostas de projeto relacionadas a "doenças crônicas não-transmissíveis e associadas ao envelhecimento da população, vulnerabilidade tecnológica e econômica para acesso em saúde, alternativas tecnológicas para desenvolvimento sustentável e química verde e modernização das tecnologias produtivas de soros e imunoprotetores" submetidas ao Programa de Inovação e Desenvolvimento Local - PDIL.</description>
+    <dc:date></dc:date>
+    <dc:type>Link</dc:type>
+  </item>
+  <item rdf:about="https://www.gov.br/saude/pt-br/composicao/sectics/legislacao/portaria-gm-ms-no-4-473-de-20-de-junho-de-2024">
+    <title>Portaria GM/MS nº 4.473, de 20 de junho de 2024</title>
+    <link>https://www.gov.br/saude/pt-br/composicao/sectics/legislacao/portaria-gm-ms-no-4-473-de-20-de-junho-de-2024</link>
+    <description>Altera a Portaria de Consolidação MS nº 5, de 28 de setembro de 2017, e institui o Programa de Desenvolvimento e Inovação Local - PDIL | DECIS.</description>
+    <dc:date></dc:date>
+    <dc:type>Link</dc:type>
+  </item>
+</rdf:RDF>

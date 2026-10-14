@@ -4,7 +4,7 @@ import copy
 import hashlib
 import json
 import re
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 from pathlib import Path
 from typing import Any
 
@@ -15,6 +15,24 @@ from funding_intelligence.models import ascii_fold, utc_now
 
 
 TRACKED_FIELDS = ("title", "status", "dates.deadline", "funding.program_budget")
+
+# Decisão do titular (14/10/2026): a encerrada fica no catálogo por 24 meses, para
+# responder "o que já houve" (as chamadas que voltam todo ano ou a cada ciclo).
+# Antes ela aparecia uma rodada como `closed` e sumia na seguinte.
+RETENCAO_ENCERRADAS_DIAS = 730
+
+CONTRACT_VERSION = "2.2"
+
+
+def _closed_reference(item: dict[str, Any], fallback: str) -> str:
+    """A data que conta para os 24 meses: quando encerrou; sem ela, o prazo; depois a publicação; sem
+    nenhuma das três, a rodada (a encerrada sem data nenhuma é rara e fica até a fonte dar uma)."""
+    dates = item["dates"]
+    return dates.get("closed") or dates.get("deadline") or dates.get("published") or fallback
+
+
+def _is_continuous(item: dict[str, Any]) -> bool:
+    return item.get("channel") == "fluxo_continuo"
 
 
 def _get(item: dict[str, Any], field: str) -> Any:
@@ -159,6 +177,23 @@ def aggregate(
         prior_health = previous_sources.get(source_id, {})
         current_items = copy.deepcopy(snapshot.get("opportunities", []))
         error = snapshot.get("error")
+        # Falha parcial (contrato das coletas, 14/10/2026): uma fonte que lê
+        # várias casas (o PPSUS lê 27 FAPs) avisa em `failed_scopes` as UFs que
+        # não respondeu. Os itens anteriores dessas UFs seguem como estavam,
+        # marcados como defasados, em vez de virarem "encerrados" por engano.
+        failed_scopes = set(snapshot.get("failed_scopes") or [])
+        if failed_scopes and snapshot.get("status") in {"healthy", "stale"}:
+            present = {item["id"] for item in current_items}
+            for previous_item in previous_ops.values():
+                if (
+                    previous_item["source"]["id"] == source_id
+                    and previous_item["id"] not in present
+                    and failed_scopes & set(previous_item["eligibility"].get("geography", []))
+                ):
+                    carried = copy.deepcopy(previous_item)
+                    if carried["status"] != "closed":
+                        carried["source"]["stale"] = True
+                    current_items.append(carried)
         if snapshot.get("status") in {"healthy", "stale"}:
             last_success = snapshot["checked_at"]
             consecutive_errors = 0
@@ -193,7 +228,11 @@ def aggregate(
             "last_change_at": last_change,
             "opportunity_count": len(current_items),
             "consecutive_errors": consecutive_errors,
-            "error": str(error)[:500] if error else None,
+            "error": (
+                str(error)[:500] if error
+                else f"sem resposta de: {', '.join(sorted(failed_scopes))}" if failed_scopes
+                else None
+            ),
         })
 
     items = deduplicate(all_items)
@@ -205,6 +244,7 @@ def aggregate(
     identity_resets = (
         _identity_reset_sources(items, previous_ops, healthy_sources) if change_mode == "incremental" else set()
     )
+    run_date = datetime.fromisoformat(generated_at.replace("Z", "+00:00")).date()
     if change_mode == "incremental":
         for previous_item in previous_ops.values():
             source_id = previous_item["source"]["id"]
@@ -212,14 +252,39 @@ def aggregate(
                 previous_item["id"] in current_ids
                 or source_id not in healthy_sources
                 or source_id in identity_resets
-                or previous_item["status"] == "closed"
             ):
+                continue
+            if previous_item["status"] == "closed":
+                # Já encerrada antes: segue no catálogo como estava, até os 24 meses
+                # (o corte vem logo abaixo, igual para todas).
+                items.append(copy.deepcopy(previous_item))
                 continue
             closed_item = copy.deepcopy(previous_item)
             closed_item["status"] = "closed"
+            closed_item["dates"]["closed"] = run_date.isoformat()
             closed_item["source"]["checked_at"] = healthy_sources[source_id]["checked_at"]
             closed_item["source"]["stale"] = False
             items.append(closed_item)
+
+    # Toda encerrada leva a data de encerramento, e sai depois de 24 meses. Vale
+    # também para a que a própria fonte publica como encerrada (resultados do
+    # CNPq, edições antigas do PPSUS): sem `dates.closed`, conta o prazo.
+    retention_floor = (run_date - timedelta(days=RETENCAO_ENCERRADAS_DIAS)).isoformat()
+    kept = []
+    for item in items:
+        if item["status"] == "closed":
+            # `dates.closed` só com data conhecida: o prazo, ou o dia em que o item sumiu da fonte (posto
+            # acima). A encerrada que a fonte publica sem prazo (muitas na página de resultados do CNPq)
+            # fica sem a data, e a tela diz "não informada" em vez de afirmar a data da rodada.
+            if not item["dates"].get("closed") and item["dates"].get("deadline"):
+                item["dates"]["closed"] = item["dates"]["deadline"]
+            reference = _closed_reference(item, run_date.isoformat())
+            if reference < retention_floor:
+                continue
+        else:
+            item["dates"].pop("closed", None)
+        kept.append(item)
+    items = kept
 
     for item in items:
         previous_item = previous_ops.get(item["id"])
@@ -250,20 +315,23 @@ def aggregate(
             urgent += 1
 
     return {
-        "version": "2.1",
+        "version": CONTRACT_VERSION,
         "change_mode": change_mode,
         "generated_at": generated_at,
         "sources": sorted(source_health, key=lambda source: source["id"]),
         "summary": {
             "monitored": len(items),
-            "open": sum(item["status"] == "open" for item in items),
+            # Janela aberta com prazo ou edital. A porta permanente conta à parte.
+            "open": sum(item["status"] == "open" and not _is_continuous(item) for item in items),
+            "continuous": sum(item["status"] == "open" and _is_continuous(item) for item in items),
             "urgent": urgent,
             "new": sum(item["change_status"] == "new" for item in items),
             "changed": sum(item["change_status"] == "changed" for item in items),
             "closed": sum(item["change_status"] == "closed" for item in items),
             "unchanged": sum(item["change_status"] == "unchanged" for item in items),
             "priority_a": sum(
-                item["status"] == "open" and item["matching"]["ponte_score"] >= 80
+                item["status"] == "open" and not _is_continuous(item)
+                and item["matching"]["ponte_score"] >= 80
                 for item in items
             ),
             "stale_sources": sum(source["status"] != "healthy" for source in source_health),

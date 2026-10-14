@@ -1,0 +1,666 @@
+[
+ {
+  "nome": "bndes-funtec",
+  "titulo": "BNDES Funtec - Fundo de desenvolvimento técnico-científico - BNDES Apoio à Inovação",
+  "infoBasicas": "Apoio financeiro não reembolsável a projetos de pesquisa aplicada, desenvolvimento tecnológico e inovação executados por Instituições Tecnológicas, selecionados de acordo com os focos de atuação definidos pelo BNDES",
+  "setores": [
+   "Indústria, comércio e serviços"
+  ],
+  "finalidades": [
+   "Inovação"
+  ],
+  "qualificadores": [
+   "Indústria, comércio e serviços",
+   "Inovação"
+  ],
+  "boost": [
+   "Inovação"
+  ],
+  "solucoesInternet": [],
+  "mpme": true,
+  "aviso": "",
+  "url": "/wps/portal/site/home/financiamento/produto/bndes-funtec",
+  "prioridade": "000",
+  "intersectionSize": 0,
+  "integracaoSimulador": "",
+  "ehSimulavel": false,
+  "expirado": false
+ },
+ {
+  "nome": "programa-bndes-mais-inovacao-investimento",
+  "titulo": "BNDES Mais Inovação - Investimento em inovação",
+  "infoBasicas": "Apoio a planos de investimento voltados para inovação e/ou digitalização. Financiamento direto com o BNDES, a partir de R$ 10 milhões, nas regiões Norte e Nordeste e a partir de R$ 20 milhões para demais regiões do país. No financiamento indireto não automático, o valor mínimo é de R$ 20 milhões.",
+  "setores": [],
+  "finalidades": [
+   "Meio ambiente",
+   "Infraestrutura social",
+   "Máquinas, equipamentos e veículos",
+   "Empreendimentos, reforma e ampliação"
+  ],
+  "qualificadores": [
+   "Empreendimentos, reforma e ampliação",
+   "Infraestrutura social",
+   "Máquinas, equipamentos e veículos",
+   "Meio ambiente"
+  ],
+  "boost": [
+   "Meio ambiente"
+  ],
+  "solucoesInternet": [],
+  "mpme": true,
+  "aviso": "",
+  "url": "/wps/portal/site/home/financiamento/produto/programa-bndes-mais-inovacao-investimento",
+  "prioridade": "000",
+  "intersectionSize": 0,
+  "integracaoSimulador": "",
+  "ehSimulavel": false,
+  "expirado": false
+ },
+ {
+  "nome": "programa-bndes-mais-inovacao-centros-pdi",
+  "titulo": "BNDES Mais Inovação - Apoio a Centros de PD&I",
+  "infoBasicas": "Financiamento para apoio à implantação, ampliação ou modernização de Centros de PD&I que: (i) estejam relacionados a pelo menos uma das missões abarcadas pela Resolução CNDI/MDIC nº 1/2023, do Conselho Nacional de Desenvolvimento Industrial (CNDI); ou (ii)\tsejam referentes a empresas instaladas em parques tecnológicos listados na plataforma Inovadata-BR, ou outra que venha a substituí-la.",
+  "setores": [],
+  "finalidades": [
+   "Meio ambiente",
+   "Infraestrutura social",
+   "Máquinas, equipamentos e veículos",
+   "Empreendimentos, reforma e ampliação"
+  ],
+  "qualificadores": [
+   "Empreendimentos, reforma e ampliação",
+   "Infraestrutura social",
+   "Máquinas, equipamentos e veículos",
+   "Meio ambiente"
+  ],
+  "boost": [
+   "Inovação",
+   "Indústria, comércio e serviços"
+  ],
+  "solucoesInternet": [],
+  "mpme": true,
+  "aviso": "",
+  "url": "/wps/portal/site/home/financiamento/produto/programa-bndes-mais-inovacao-centros-pdi",
+  "prioridade": "000",
+  "intersectionSize": 0,
+  "integracaoSimulador": "",
+  "ehSimulavel": false,
+  "expirado": false
+ },
+ {
+  "nome": "bndes-inovacao",
+  "titulo": "BNDES Finem - Crédito Inovação Direto",
+  "infoBasicas": "Financiamento para investimentos em inovação.",
+  "setores": [
+   "Saúde",
+   "Agropecuária",
+   "Indústria, comércio e serviços",
+   "Infraestrutura",
+   "Cultura e economia criativa",
+   "Administração pública"
+  ],
+  "finalidades": [
+   "Inovação",
+   "Empreendimentos, reforma e ampliação"
+  ],
+  "qualificadores": [
+   "Administração pública",
+   "Agropecuária",
+   "Cultura e economia criativa",
+   "Empreendimentos, reforma e ampliação",
+   "Indústria, comércio e serviços",
+   "Infraestrutura",
+   "Inovação",
+   "Saúde"
+  ],
+  "boost": [
+   "Inovação"
+  ],
+  "solucoesInternet": [],
+  "mpme": false,
+  "aviso": "",
+  "url": "/wps/portal/site/home/financiamento/produto/bndes-inovacao",
+  "prioridade": "000",
+  "intersectionSize": 0,
+  "integracaoSimulador": "",
+  "ehSimulavel": false,
+  "expirado": false
+ },
+ {
+  "nome": "bndes-producao-farmacos",
+  "titulo": "BNDES Finem - Produção de fármacos e medicamentos",
+  "infoBasicas": "Financiamento para desenvolvimento, modernização e ampliação de capacidade produtiva de fármacos, medicamentos, equipamentos e materiais médicos. (Antigo BNDES Profarma - Produção)",
+  "setores": [
+   "Saúde",
+   "Indústria, comércio e serviços"
+  ],
+  "finalidades": [
+   "Empreendimentos, reforma e ampliação"
+  ],
+  "qualificadores": [
+   "BNDES Finem – Crédito Projetos Direto para Indústria, Comércio e Serviços",
+   "BNDES Finem – Crédito Projetos Direto para União, Estados e Municípios",
+   "BNDES Limite de Crédito para Indústria, Comércio e Serviços",
+   "Empreendimentos, reforma e ampliação",
+   "Indústria, comércio e serviços",
+   "Saúde"
+  ],
+  "boost": [
+   "Empreendimentos, reforma e ampliação",
+   "Indústria, comércio e serviços"
+  ],
+  "solucoesInternet": [
+   "BNDES Finem – Crédito Projetos Direto para Indústria, Comércio e Serviços",
+   "BNDES Finem – Crédito Projetos Direto para União, Estados e Municípios",
+   "BNDES Limite de Crédito para Indústria, Comércio e Serviços"
+  ],
+  "mpme": false,
+  "aviso": "",
+  "url": "/wps/portal/site/home/financiamento/produto/bndes-producao-farmacos",
+  "prioridade": "000",
+  "intersectionSize": 0,
+  "integracaoSimulador": "",
+  "ehSimulavel": false,
+  "expirado": false
+ },
+ {
+  "nome": "bndes-finem-educacao-saude",
+  "titulo": "BNDES Finem - Educação, Saúde e Assistência Social",
+  "infoBasicas": "Financiamento para melhoria e expansão de serviços de educação, saúde e assistência social.",
+  "setores": [
+   "Saúde",
+   "Indústria, comércio e serviços",
+   "Administração pública",
+   "Comércio e serviços"
+  ],
+  "finalidades": [
+   "Infraestrutura social",
+   "Empreendimentos, reforma e ampliação",
+   "Educação, saúde e investimentos sociais"
+  ],
+  "qualificadores": [
+   "Administração pública",
+   "Comércio e serviços",
+   "Educação, saúde e investimentos sociais",
+   "Empreendimentos, reforma e ampliação",
+   "Indústria, comércio e serviços",
+   "Infraestrutura social",
+   "Saúde"
+  ],
+  "boost": [
+   "Saúde"
+  ],
+  "solucoesInternet": [],
+  "mpme": false,
+  "aviso": "",
+  "url": "/wps/portal/site/home/financiamento/produto/bndes-finem-educacao-saude",
+  "prioridade": "000",
+  "intersectionSize": 0,
+  "integracaoSimulador": "",
+  "ehSimulavel": false,
+  "expirado": false
+ },
+ {
+  "nome": "bndes-fornecedores-sus",
+  "titulo": "BNDES Fornecedores SUS ",
+  "infoBasicas": "Crédito associado ao fornecimento, ao Sistema Único de Saúde (SUS), de dispositivos para saúde produzidos no Brasil.",
+  "setores": [],
+  "finalidades": [],
+  "qualificadores": [],
+  "boost": [],
+  "solucoesInternet": [],
+  "mpme": false,
+  "aviso": "",
+  "url": "/wps/portal/site/home/financiamento/produto/bndes-fornecedores-sus",
+  "prioridade": "000",
+  "intersectionSize": 0,
+  "integracaoSimulador": "",
+  "ehSimulavel": false,
+  "expirado": false
+ },
+ {
+  "nome": "cartao-bndes",
+  "titulo": "Cartão BNDES",
+  "infoBasicas": "Crédito pré-aprovado para aquisição de bens e serviços credenciados no Portal de Operações do Cartão BNDES.",
+  "setores": [
+   "Saúde",
+   "Agropecuária",
+   "Indústria, comércio e serviços",
+   "Infraestrutura",
+   "Cultura e economia criativa",
+   "Cidades"
+  ],
+  "finalidades": [
+   "Soluções de IoT",
+   "Inovação",
+   "Software",
+   "Máquinas, equipamentos e veículos",
+   "Empreendimentos, reforma e ampliação",
+   "Educação, saúde e investimentos sociais"
+  ],
+  "qualificadores": [
+   "Agropecuária",
+   "Cidades",
+   "Cultura e economia criativa",
+   "Educação, saúde e investimentos sociais",
+   "Empreendimentos, reforma e ampliação",
+   "Indústria, comércio e serviços",
+   "Infraestrutura",
+   "Inovação",
+   "Máquinas, equipamentos e veículos",
+   "Saúde",
+   "Software",
+   "Soluções de IoT"
+  ],
+  "boost": [
+   "Máquinas, equipamentos e veículos",
+   "Software"
+  ],
+  "solucoesInternet": [],
+  "mpme": true,
+  "aviso": "",
+  "url": "/wps/portal/site/home/financiamento/produto/cartao-bndes",
+  "prioridade": "029",
+  "intersectionSize": 0,
+  "integracaoSimulador": "",
+  "ehSimulavel": false,
+  "expirado": false
+ },
+ {
+  "nome": "bndes-credito-pequenas-e-medias-empresas",
+  "titulo": "BNDES Crédito Pequenas e Médias Empresas",
+  "infoBasicas": "Empréstimo para micro, pequenas e médias empresas e para empresários individuais.",
+  "setores": [
+   "Indústria, comércio e serviços",
+   "Comércio e serviços"
+  ],
+  "finalidades": [
+   "Microcrédito",
+   "Inovação",
+   "Software",
+   "Capital de giro",
+   "Veículos",
+   "Máquinas, equipamentos e veículos",
+   "Empreendimentos, reforma e ampliação"
+  ],
+  "qualificadores": [
+   "Capital de giro",
+   "Comércio e serviços",
+   "Empreendimentos, reforma e ampliação",
+   "Indústria, comércio e serviços",
+   "Inovação",
+   "Máquinas, equipamentos e veículos",
+   "Microcrédito",
+   "Software",
+   "Veículos"
+  ],
+  "boost": [
+   "Capital de giro"
+  ],
+  "solucoesInternet": [],
+  "mpme": true,
+  "aviso": "",
+  "url": "/wps/portal/site/home/financiamento/produto/bndes-credito-pequenas-e-medias-empresas",
+  "prioridade": "030",
+  "intersectionSize": 0,
+  "integracaoSimulador": "",
+  "ehSimulavel": false,
+  "expirado": false
+ },
+ {
+  "nome": "bndes-subscricao-de-valores-mobiliarios",
+  "titulo": "BNDES Subscrição de Valores Mobiliários - Participação",
+  "infoBasicas": "Apoio da BNDESPAR por meio da subscrição de ações ou outros valores mobiliários conversíveis ou lastreados em ações.",
+  "setores": [],
+  "finalidades": [],
+  "qualificadores": [],
+  "boost": [],
+  "solucoesInternet": [],
+  "mpme": true,
+  "aviso": "",
+  "url": "/wps/portal/site/home/financiamento/produto/bndes-subscricao-de-valores-mobiliarios",
+  "prioridade": "000",
+  "intersectionSize": 0,
+  "integracaoSimulador": "",
+  "ehSimulavel": false,
+  "expirado": false
+ },
+ {
+  "nome": "fundos-ativos-investimento",
+  "titulo": "Fundos de investimento",
+  "infoBasicas": "Carteira de fundos da BNDESPAR, em período de investimento.",
+  "setores": [],
+  "finalidades": [],
+  "qualificadores": [],
+  "boost": [],
+  "solucoesInternet": [],
+  "mpme": true,
+  "aviso": "",
+  "url": "/wps/portal/site/home/financiamento/produto/fundos-ativos-investimento",
+  "prioridade": "000",
+  "intersectionSize": 0,
+  "integracaoSimulador": "",
+  "ehSimulavel": false,
+  "expirado": false
+ },
+ {
+  "nome": "bndes-fundo-socioambiental",
+  "titulo": "BNDES Fundo Socioambiental",
+  "infoBasicas": "O Fundo Socioambiental tem por objetivo apoiar investimentos de caráter social, nas áreas de geração de emprego e renda, saúde, educação, meio ambiente e/ou vinculadas ao desenvolvimento regional e social.\r\n\r\nOs recursos do BNDES Fundo Socioambiental serão aplicados com foco na inclusão social, priorizando projetos que objetivem proporcionar significativos benefícios sobre as condições de vida das populações de baixa renda.",
+  "setores": [
+   "Agropecuária",
+   "Indústria, comércio e serviços",
+   "Administração pública"
+  ],
+  "finalidades": [
+   "Meio ambiente",
+   "Educação, saúde e investimentos sociais"
+  ],
+  "qualificadores": [
+   "Administração pública",
+   "Agropecuária",
+   "Educação, saúde e investimentos sociais",
+   "Indústria, comércio e serviços",
+   "Meio ambiente"
+  ],
+  "boost": [
+   "Educação, saúde e investimentos sociais"
+  ],
+  "solucoesInternet": [],
+  "mpme": true,
+  "aviso": "",
+  "url": "/wps/portal/site/home/financiamento/produto/bndes-fundo-socioambiental",
+  "prioridade": "000",
+  "intersectionSize": 0,
+  "integracaoSimulador": "",
+  "ehSimulavel": false,
+  "expirado": false
+ },
+ {
+  "nome": "programa-bndes-mais-inovacao",
+  "titulo": "BNDES Mais Inovação",
+  "infoBasicas": "Apoio à implantação de investimentos e projetos voltados para inovação e digitalização, mediante utilização de recursos do Fundo de Amparo ao Trabalhador – FAT remunerados pela Taxa Referencial (TR), conforme aprovado pela lei nº 14.592, de 30 de maio de 2023.",
+  "setores": [],
+  "finalidades": [
+   "Meio ambiente",
+   "Infraestrutura social",
+   "Máquinas, equipamentos e veículos",
+   "Empreendimentos, reforma e ampliação"
+  ],
+  "qualificadores": [
+   "Empreendimentos, reforma e ampliação",
+   "Infraestrutura social",
+   "Máquinas, equipamentos e veículos",
+   "Meio ambiente"
+  ],
+  "boost": [
+   "Meio ambiente"
+  ],
+  "solucoesInternet": [],
+  "mpme": true,
+  "aviso": "",
+  "url": "/wps/portal/site/home/financiamento/produto/programa-bndes-mais-inovacao",
+  "prioridade": "000",
+  "intersectionSize": 0,
+  "integracaoSimulador": "",
+  "ehSimulavel": false,
+  "expirado": false
+ },
+ {
+  "nome": "fust-bndes",
+  "titulo": "FUST BNDES – Fundo de Universalização dos Serviços de Telecomunicação – Projetos Padronizados",
+  "infoBasicas": "Financiamento a partir de R$ 10 milhões para investimentos voltados expansão e/ou melhoria da qualidade das redes e dos serviços de telecomunicações, com condições diferenciadas para escolas públicas, unidades de saúde, favelas e áreas rurais selecionadas.",
+  "setores": [
+   "Saúde",
+   "Agropecuária",
+   "Indústria, comércio e serviços",
+   "Infraestrutura",
+   "Cultura e economia criativa",
+   "Administração pública"
+  ],
+  "finalidades": [
+   "Inovação",
+   "Empreendimentos, reforma e ampliação"
+  ],
+  "qualificadores": [
+   "Administração pública",
+   "Agropecuária",
+   "Cultura e economia criativa",
+   "Empreendimentos, reforma e ampliação",
+   "Indústria, comércio e serviços",
+   "Infraestrutura",
+   "Inovação",
+   "Saúde"
+  ],
+  "boost": [],
+  "solucoesInternet": [],
+  "mpme": true,
+  "aviso": "",
+  "url": "/wps/portal/site/home/financiamento/produto/fust-bndes",
+  "prioridade": "000",
+  "intersectionSize": 0,
+  "integracaoSimulador": "",
+  "ehSimulavel": false,
+  "expirado": false
+ },
+ {
+  "nome": "fiis-apoio-saude",
+  "titulo": "FIIS - Apoio a investimentos em Saúde",
+  "infoBasicas": "Apoiar projetos de investimento e aquisição de máquinas e equipamentos voltados à assistência pública e gratuita, no âmbito do Sistema Único de Saúde (SUS), focadas em atenção primária e/ou especializada.",
+  "setores": [
+   "Infraestrutura"
+  ],
+  "finalidades": [
+   "Empreendimentos, reforma e ampliação"
+  ],
+  "qualificadores": [
+   "BNDES Finem – Crédito Projetos Direto para Infraestrutura",
+   "BNDES Finem – Crédito Projetos Direto para União, Estados e Municípios",
+   "BNDES Limite de Crédito para Infraestrutura",
+   "Empreendimentos, reforma e ampliação",
+   "Infraestrutura"
+  ],
+  "boost": [
+   "Empreendimentos, reforma e ampliação",
+   "Infraestrutura"
+  ],
+  "solucoesInternet": [
+   "BNDES Finem – Crédito Projetos Direto para União, Estados e Municípios",
+   "BNDES Finem – Crédito Projetos Direto para Infraestrutura",
+   "BNDES Limite de Crédito para Infraestrutura"
+  ],
+  "mpme": false,
+  "aviso": "",
+  "url": "/wps/portal/site/home/financiamento/produto/fiis-apoio-saude",
+  "prioridade": "000",
+  "intersectionSize": 0,
+  "integracaoSimulador": "",
+  "ehSimulavel": false,
+  "expirado": false
+ },
+ {
+  "nome": "bndes-finame-todos",
+  "titulo": "BNDES Finame - financiamento de máquinas e equipamentos",
+  "infoBasicas": "Financiamento, por intermédio de instituições financeiras credenciadas, para produção e aquisição de máquinas, equipamentos e bens de informática e automação, e bens industrializados a serem empregados no exercício da atividade econômica do cliente. Os bens devem ser novos, de fabricação nacional e credenciados pelo BNDES.",
+  "setores": [
+   "Saúde",
+   "Indústria, comércio e serviços",
+   "Cultura e economia criativa",
+   "Administração pública"
+  ],
+  "finalidades": [
+   "Meio ambiente",
+   "Inovação",
+   "Infraestrutura social",
+   "Capital de giro",
+   "Importação",
+   "Empreendimentos, reforma e ampliação",
+   "Internacionalização"
+  ],
+  "qualificadores": [
+   "Administração pública",
+   "BNDES Finem – Crédito Projetos Direto para Agropecuária",
+   "BNDES Finem – Crédito Projetos Direto para Indústria, Comércio e Serviços",
+   "BNDES Finem – Crédito Projetos Direto para Infraestrutura",
+   "BNDES Limite de Crédito para Infraestrutura",
+   "Capital de giro",
+   "Cultura e economia criativa",
+   "Empreendimentos, reforma e ampliação",
+   "Importação",
+   "Indústria, comércio e serviços",
+   "Infraestrutura social",
+   "Inovação",
+   "Internacionalização",
+   "Meio ambiente",
+   "Saúde"
+  ],
+  "boost": [
+   "Indústria, comércio e serviços",
+   "Empreendimentos, reforma e ampliação"
+  ],
+  "solucoesInternet": [
+   "BNDES Finem – Crédito Projetos Direto para Indústria, Comércio e Serviços",
+   "BNDES Finem – Crédito Projetos Direto para Infraestrutura",
+   "BNDES Finem – Crédito Projetos Direto para Agropecuária",
+   "BNDES Limite de Crédito para Infraestrutura"
+  ],
+  "mpme": false,
+  "aviso": "",
+  "url": "/wps/portal/site/home/financiamento/produto/bndes-finame-todos",
+  "prioridade": "026",
+  "intersectionSize": 0,
+  "integracaoSimulador": "",
+  "ehSimulavel": false,
+  "expirado": false
+ },
+ {
+  "nome": "bndes-thai",
+  "titulo": "BNDES Thai  - Debêntures Participativas para Inovação",
+  "infoBasicas": "Apoio por meio da subscrição de debêntures participativas subordinadas, voltado para projetos de inovação com risco tecnológico e de mercado, como o desenvolvimento de novos produtos e o escalonamento de novos processos.",
+  "setores": [
+   "Agropecuária",
+   "Indústria, comércio e serviços"
+  ],
+  "finalidades": [
+   "Inovação"
+  ],
+  "qualificadores": [
+   "Agropecuária",
+   "Indústria, comércio e serviços",
+   "Inovação"
+  ],
+  "boost": [],
+  "solucoesInternet": [],
+  "mpme": false,
+  "aviso": "<p dir=\"ltr\"><strong>Atenção</strong>: este programa não está mais recebendo pedidos, pois seu prazo de vigência está expirado.</p>\n",
+  "url": "/wps/portal/site/home/financiamento/produto/bndes-thai",
+  "prioridade": "000",
+  "intersectionSize": 0,
+  "integracaoSimulador": "",
+  "ehSimulavel": false,
+  "expirado": true
+ },
+ {
+  "nome": "bndes-saude-investimentos",
+  "titulo": "BNDES Saúde - Investimentos",
+  "infoBasicas": "Financiamento para a expansão e/ou modernização da estrutura física das instituições filantrópicas de saúde sem fins lucrativos que participem de forma complementar do SUS, visando o aumento da capacidade de atendimento e/ou a melhoria da qualidade da prestação de serviços de saúde.",
+  "setores": [],
+  "finalidades": [
+   "Empreendimentos, reforma e ampliação",
+   "Educação, saúde e investimentos sociais"
+  ],
+  "qualificadores": [
+   "BNDES Limite de Crédito para Indústria, Comércio e Serviços",
+   "Educação, saúde e investimentos sociais",
+   "Empreendimentos, reforma e ampliação"
+  ],
+  "boost": [
+   "Educação, saúde e investimentos sociais"
+  ],
+  "solucoesInternet": [
+   "BNDES Limite de Crédito para Indústria, Comércio e Serviços"
+  ],
+  "mpme": true,
+  "aviso": "<p dir=\"ltr\">Este programa não está mais recebendo pedidos, pois seu prazo de vigência está expirado.</p>\n",
+  "url": "/wps/portal/site/home/financiamento/produto/bndes-saude-investimentos",
+  "prioridade": "000",
+  "intersectionSize": 0,
+  "integracaoSimulador": "",
+  "ehSimulavel": false,
+  "expirado": true
+ },
+ {
+  "nome": "bndes-finem-engenharia",
+  "titulo": "BNDES Finem - Apoio à engenharia nacional",
+  "infoBasicas": "Financiamento para projetos e serviços de engenharia em setores estratégicos, visando estimular o aprimoramento das competências e do conhecimento técnico no País. (Antigo BNDES Proengenharia)",
+  "setores": [
+   "Indústria, comércio e serviços"
+  ],
+  "finalidades": [
+   "Inovação",
+   "Empreendimentos, reforma e ampliação"
+  ],
+  "qualificadores": [
+   "BNDES Finem – Crédito Projetos Direto para Indústria, Comércio e Serviços",
+   "BNDES Finem – Crédito Projetos Direto para Infraestrutura",
+   "BNDES Finem – Crédito Projetos Direto para União, Estados e Municípios",
+   "BNDES Limite de Crédito para Infraestrutura",
+   "Empreendimentos, reforma e ampliação",
+   "Indústria, comércio e serviços",
+   "Inovação"
+  ],
+  "boost": [],
+  "solucoesInternet": [
+   "BNDES Finem – Crédito Projetos Direto para Indústria, Comércio e Serviços",
+   "BNDES Finem – Crédito Projetos Direto para União, Estados e Municípios",
+   "BNDES Finem – Crédito Projetos Direto para Infraestrutura",
+   "BNDES Limite de Crédito para Infraestrutura"
+  ],
+  "mpme": false,
+  "aviso": "<p dir=\"ltr\"><strong>Atenção</strong>: Este programa não está mais recebendo pedidos, pois seu prazo de vigência está expirado.&nbsp;</p>\n",
+  "url": "/wps/portal/site/home/financiamento/produto/bndes-finem-engenharia",
+  "prioridade": "000",
+  "intersectionSize": 0,
+  "integracaoSimulador": "",
+  "ehSimulavel": false,
+  "expirado": false
+ },
+ {
+  "nome": "pca",
+  "titulo": "PCA - Programa para Construção e Ampliação de Armazéns",
+  "infoBasicas": "Financiamento a produtores e cooperativas rurais para ampliação, modernização, reforma e construção de armazéns e de câmaras frias.",
+  "setores": [
+   "Agropecuária"
+  ],
+  "finalidades": [
+   "Máquinas, equipamentos e veículos",
+   "Empreendimentos, reforma e ampliação",
+   "Crédito rural"
+  ],
+  "qualificadores": [
+   "Agropecuária",
+   "BNDES Finame - Crédito Máquinas via parceiros (agro)",
+   "BNDES Finem – Crédito Projetos Direto para Agropecuária",
+   "Crédito projetos via parceiros (agro)",
+   "Crédito rural",
+   "Empreendimentos, reforma e ampliação",
+   "Máquinas, equipamentos e veículos"
+  ],
+  "boost": [
+   "Agropecuária"
+  ],
+  "solucoesInternet": [
+   "Crédito projetos via parceiros (agro)",
+   "BNDES Finame - Crédito Máquinas via parceiros (agro)",
+   "BNDES Finem – Crédito Projetos Direto para Agropecuária"
+  ],
+  "mpme": true,
+  "aviso": "<p dir=\"ltr\">A data de abertura dos pedidos de financiamento será comunicada oportunamente às instituições financeiras por meio de Aviso.</p>\n",
+  "url": "/wps/portal/site/home/financiamento/produto/pca",
+  "prioridade": "016",
+  "intersectionSize": 0,
+  "integracaoSimulador": "",
+  "ehSimulavel": false,
+  "expirado": false
+ }
+]

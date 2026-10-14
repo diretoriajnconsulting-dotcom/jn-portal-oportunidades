@@ -1,0 +1,9 @@
+{
+  "https://fapesq.rpp.br/": "home.html",
+  "https://fapesq.rpp.br/noticias/editais-com-prazo-de-submissao-de-propostas-aberto": "abertos.html",
+  "https://fapesq.rpp.br/editais/2026/editais-2026": "capa_2026.html",
+  "https://fapesq.rpp.br/@@search?SearchableText=ppsus&sort_on=Date&sort_order=reverse": "busca_ppsus.html",
+  "https://fapesq.rpp.br/editais/editais-2025/08-07-25-edital-n0-02_2025-chamada-ppsus-programa-pesquisa-para-o-sus_-gestao-compartilhada-em-saude-retificado-em-10-06-2025-item-4-docx-2.pdf": "ppsus_02_2025.txt",
+  "https://fapesq.rpp.br/editais/2026/edital-no-70-2026-2013-processo-seletivo-do-projeto-estrategias-de-gestao-documental-para-o-aperfeicoamento-da-administracao-na-companhia-de-processamento-de-dados-da-paraiba-codata-vagas-remanescentes": "edital_70_2026.html",
+  "https://fapesq.rpp.br/editais/editais-2026/13_10_26-edital-70-2026-codata-fapesq-pb-processo-seletivo-codata-vagas-remanescentes-retificado-em-13-10-26.pdf": "edital_70_2026_retificado.txt"
+}
