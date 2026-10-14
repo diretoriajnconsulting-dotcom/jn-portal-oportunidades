@@ -307,6 +307,19 @@ class AbertoNoSisct(unittest.TestCase):
         self.assertEqual("https://sisct.saude.gov.br/sisct/", to["source"]["url"])
         self.assertTrue(all("linkEdital" not in d["url"] for d in to["documents"]))
 
+    def test_prazo_esgotado_ainda_usa_o_pdf_ja_lido_do_sisct(self):
+        # Rodada de 14/10/2026: o prazo diário acabou antes do TO, último da fila. O PDF do SISC&T já
+        # tinha sido lido no início, e o caminho por ele não faz pedido: o edital aberto não se perde.
+        link_to = PpsusAdapter.editais_sisct(texto("sisct_2025_07_09.html"), "https://sisct.saude.gov.br/sisct/")["TO"][0][1]
+        a = adaptador("cenario_sisct_2025.json", hoje=date(2025, 7, 10), ufs=["TO"], extra={
+            link_to: {"texto": texto("to_01_2025.txt")},
+        })
+        a._relogio = lambda: 0.0 if a._uf_atual in ("SISCT", "BR") else 10_000.0
+        a._inicio = 0.0
+        snap = a.snapshot()
+        self.assertEqual(["TO"], snap["failed_scopes"])
+        self.assertIn("ppsus-to-2025-1", por_id(snap["opportunities"]))
+
     def test_ap_aponta_o_sisct_e_nao_o_link_efemero(self):
         ap = self.itens["ppsus-ap-2025-4"]
         self.assertEqual("https://sisct.saude.gov.br/sisct/", ap["source"]["url"])

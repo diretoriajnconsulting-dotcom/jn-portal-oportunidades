@@ -650,7 +650,7 @@ class _SessaoSisct:
 # Histórico fixo das UFs que recusam o GitHub (opção 3 do titular, 14/10/2026). Ver `_sobre` no arquivo.
 HISTORICO_FIXO = Path(__file__).with_name("ppsus_historico_fixo.json")
 
-PRAZO_DIA_S = 300
+PRAZO_DIA_S = 420
 PRAZO_HISTORICO_S = 720
 ESPERA_PEDIDO_S = 20
 
@@ -1566,7 +1566,9 @@ class PpsusAdapter(BaseAdapter):
             # A FAP não respondeu. Se o SISC&T lista um PPSUS aberto da UF, o edital sai do PDF que
             # está no próprio SISC&T, como no AP (opção 1 do titular, 14/10/2026). A UF continua em
             # `failed_scopes`: o histórico dela, que só a FAP mostra, fica como estava.
-            if cfg.leitor != "sisct" and self.sisct_ufs.get(cfg.uf) and not isinstance(erro, OrcamentoEsgotado):
+            # Vale também com o prazo ou o orçamento esgotados: o PDF do SISC&T já foi lido no início
+            # da coleta, e este caminho não faz pedido nenhum. (O TO, último da fila, ficava sem ele.)
+            if cfg.leitor != "sisct" and self.sisct_ufs.get(cfg.uf):
                 try:
                     candidatos += self._ler_sisct_uf(cfg)
                 except FalhaUF as erro_sisct:
