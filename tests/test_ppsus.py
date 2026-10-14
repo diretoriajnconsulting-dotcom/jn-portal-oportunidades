@@ -317,6 +317,18 @@ class FalhasIsoladas(unittest.TestCase):
         self.assertTrue(snap["failed_scopes"])
         self.assertLessEqual(snap["requests"], 6)
 
+    def test_prazo_da_coleta_esgotado_publica_o_lido_e_marca_o_resto(self):
+        # 1ª carga histórica no GitHub (14/10/2026): o job estourou os 15 min sem terminar. Com o
+        # prazo, a coleta para no meio, o que já foi lido sai, e as UFs que faltam ficam como falha.
+        a = adaptador("cenario_historico.json", historico=True, ufs=["MA", "RR", "CE"])
+        relogio = iter([0.0] * 6)  # a coleta lê o relógio ~14 vezes: o prazo estoura no meio
+        a._relogio = lambda: next(relogio, 10_000.0)
+        a._inicio = 0.0
+        snap = a.snapshot()
+        self.assertTrue(snap["opportunities"], "o que foi lido antes do prazo é publicado")
+        self.assertTrue(snap["failed_scopes"], "as UFs que faltaram ficam como falha parcial")
+        self.assertTrue(any("prazo de" in aviso for aviso in snap["warnings"]))
+
     def test_retificacao_ilegivel_nao_promove_a_aberta(self):
         # PDF-imagem (a 1ª alteração da FAPESPA veio assim): com prazo futuro, fica "unknown".
         # Em 01/06/2025, com RR no SISC&T, o dia lê o edital e as duas retificações mais novas.
