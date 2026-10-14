@@ -288,6 +288,25 @@ class AbertoNoSisct(unittest.TestCase):
                          {i: item["dates"]["deadline"] for i, item in self.itens.items()})
         self.assertTrue(all(item["status"] == "open" for item in self.itens.values()))
 
+    def test_fap_fora_do_ar_e_o_edital_sai_do_pdf_do_sisct(self):
+        # 14/10/2026: AM, DF, MT, RS e SE recusam conexão vinda do GitHub. Com a FAPT fora do ar, o
+        # edital que o SISC&T lista sai do PDF dele, e a UF segue em `failed_scopes` (o histórico fica).
+        link_to = PpsusAdapter.editais_sisct(texto("sisct_2025_07_09.html"), "https://sisct.saude.gov.br/sisct/")["TO"][0][1]
+        a = adaptador("cenario_sisct_2025.json", hoje=date(2025, 7, 10), ufs=["TO"], extra={
+            "https://www.to.gov.br/robots.txt": {"status": 503},
+            link_to: {"texto": texto("to_01_2025.txt")},
+        })
+        snap = a.snapshot()
+        self.assertEqual(["TO"], snap["failed_scopes"])
+        itens = por_id(snap["opportunities"])
+        self.assertEqual(["ppsus-to-2025-1"], list(itens))
+        to = itens["ppsus-to-2025-1"]
+        # O prazo é o do edital ORIGINAL (08/08): a prorrogação para 22/08 só a FAP publica, nas
+        # retificações. É o limite do caminho pelo SISC&T, dito no PR.
+        self.assertEqual(("open", "2025-08-08"), (to["status"], to["dates"]["deadline"]))
+        self.assertEqual("https://sisct.saude.gov.br/sisct/", to["source"]["url"])
+        self.assertTrue(all("linkEdital" not in d["url"] for d in to["documents"]))
+
     def test_ap_aponta_o_sisct_e_nao_o_link_efemero(self):
         ap = self.itens["ppsus-ap-2025-4"]
         self.assertEqual("https://sisct.saude.gov.br/sisct/", ap["source"]["url"])
@@ -371,6 +390,42 @@ class ParaibaFica(unittest.TestCase):
         self.assertFalse(any("PB" in i["eligibility"]["geography"] for i in itens))
         self.assertNotIn("PB", a.sisct_ufs.keys() & set(a.ufs))
         self.assertNotIn("PB", a.pedidos_por_uf)  # a FAPESQ não é lida
+
+
+class HistoricoFixo(unittest.TestCase):
+    """Opção 3 do titular (14/10/2026): o histórico das UFs que recusam o GitHub, lido uma vez daqui."""
+
+    FIXO = ROOT / "funding_intelligence/adapters/ppsus_historico_fixo.json"
+
+    def test_uf_com_a_fap_fora_recebe_o_encerrado_do_arquivo(self):
+        a = PpsusAdapter(fixture=str(FIXTURES / "cenario_historico.json"), today=HOJE, historical=True,
+                         ufs=["RS"], historico_fixo=True)
+        a.mapa.update({"https://fapergs.rs.gov.br/robots.txt": {"status": 503}})
+        snap = a.snapshot()
+        self.assertEqual(["RS"], snap["failed_scopes"])
+        rs = por_id(snap["opportunities"])["ppsus-rs-2025-1"]
+        self.assertEqual(("closed", "2025-05-19"), (rs["status"], rs["dates"]["deadline"]))
+        self.assertEqual(["empresa"], rs["eligibility"]["partner_types"])
+
+    def test_o_item_ao_vivo_prevalece_e_nao_duplica(self):
+        a = PpsusAdapter(fixture=str(FIXTURES / "cenario_historico.json"), today=HOJE, historical=True,
+                         ufs=["RS"], historico_fixo=True)
+        ids = [i["id"] for i in a.collect()]
+        self.assertEqual(1, ids.count("ppsus-rs-2025-1"))
+
+    def test_sai_pelos_24_meses(self):
+        a = PpsusAdapter(fixture=str(FIXTURES / "cenario_historico.json"), today=date(2027, 6, 1),
+                         ufs=["RS", "TO"], historico_fixo=True)
+        ids = {i["id"] for i in a._do_historico_fixo(set())}
+        self.assertNotIn("ppsus-rs-2025-1", ids)  # prazo 19/05/2025, antes do piso de 01/06/2025
+        self.assertIn("ppsus-to-2025-1", ids)     # prazo 22/08/2025
+
+    def test_arquivo_so_tem_fatos_do_edital(self):
+        bruto = self.FIXO.read_text(encoding="utf-8")
+        dados = json.loads(bruto)
+        self.assertEqual({"AM", "DF", "MT", "RS", "SE", "TO"}, {r["uf"] for r in dados["itens"]})
+        self.assertEqual(len(dados["itens"]), len({r["external_id"] for r in dados["itens"]}))
+        self.assertIsNone(re.search(r"\d{3}\.\d{3}\.\d{3}-\d{2}|[\w.+-]+@[\w-]+\.[\w.]+", bruto))
 
 
 class Fixtures(unittest.TestCase):
