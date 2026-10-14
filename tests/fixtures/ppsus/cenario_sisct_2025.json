@@ -1,0 +1,36 @@
+{
+ "https://sisct.saude.gov.br/sisct/": {
+  "arquivo": "sisct_2025_07_09.html"
+ },
+ "https://www.faperj.br/?id=28.5.7": {
+  "arquivo": "rj_lista.html"
+ },
+ "https://www.to.gov.br/fapt/01-editais-abertos/5sy36y0lf49g": {
+  "arquivo": "to_abertos.html"
+ },
+ "https://www.to.gov.br/fapt/02-editais-em-andamento/jsiwbfyh088": {
+  "arquivo": "to_andamento.html"
+ },
+ "https://www.to.gov.br/fapt/03-editais-finalizados/5iv88yy5aru4": {
+  "arquivo": "to_finalizados.html"
+ },
+ "http://www.to.gov.br/fapt/programa-pesquisa-para-o-sus-ppsus/zg3py9g9wov": {
+  "arquivo": "to_pasta_2025.html"
+ },
+ "http://www.to.gov.br/fapt/editais-ppsus/379ddm5teclw": {
+  "texto": "<div id=\"content\"><h1>Editais PPSUS</h1><ul><li><a href=\"https://central.to.gov.br/download/244115\">file_open Resultado_final_ppsus. - 29.7.2019</a></li><li><a href=\"https://central.to.gov.br/download/244117\">file_open Edital para Processo Seletivo Simplificado de Bolsista.pdf</a></li><li><a href=\"https://central.to.gov.br/download/244113\">file_open Edital de Retificação PPSUS - 21.5.19.pdf</a></li><li><a href=\"https://central.to.gov.br/download/244112\">file_open Chamada - Programa Pesquisa PPSUS - N° 01-2018.pdf</a></li></ul></div>"
+ },
+ "https://central.to.gov.br/download/427261": {
+  "arquivo": "to_01_2025.txt"
+ },
+ "https://central.to.gov.br/download/446606": {
+  "arquivo": "to_ret002.txt"
+ },
+ "https://central.to.gov.br/download/438139": {
+  "arquivo": "to_ret001.txt"
+ },
+ "https://sisct.saude.gov.br/sisct/login.html?0-IResourceListener-formulario-areaPublicaLoginPanel-containerEditaisSisct-programas-0-programa-listaEditais-2-linkEdital": {
+  "nota": "Texto SINTÉTICO de teste: o PDF da FAPEAP não pôde ser lido (403 no robots da FAPEAP).",
+  "texto": "CHAMADA PÚBLICA Nº 004/2025 – FAPEAP/DECIT/SECTICS/MS/SESA-AP/CNPq – PROGRAMA PESQUISA PARA O SUS: GESTÃO COMPARTILHADA EM SAÚDE – PPSUS 8ª EDIÇÃO. (texto sintético de teste) 2.2.3. Em havendo participação de empresa, esta deverá apresentar termo de compromisso, no qual manifestará o interesse pelo projeto e o detalhamento da contrapartida oferecida. O valor global de R$ 1.000.000,00 para esta Chamada. 4. CRONOGRAMA Atividades Data Lançamento da Chamada 30/05/2025 Prazo para submissão das propostas no SISC&T Até 25/07/2025 Divulgação do resultado preliminar A partir de 29/08/2025"
+ }
+}

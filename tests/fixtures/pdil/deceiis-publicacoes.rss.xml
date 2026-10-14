@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:syn="http://purl.org/rss/1.0/modules/syndication/" xmlns="http://purl.org/rss/1.0/">
+<channel rdf:about="https://www.gov.br/saude/pt-br/composicao/sectics/deceiis/publicacoes/RSS">
+  <title>Publicações</title>
+  <link>https://www.gov.br/saude/pt-br/composicao/sectics/deceiis/publicacoes</link>
+  <description>Acesse as Publicações do Complexo Econômico-Industrial da Saúde e de Inovação para o SUS.</description>
+  <image rdf:resource="https://www.gov.br/saude/logo.png" />
+  <items>
+    <rdf:Seq>
+        <rdf:li rdf:resource="https://www.gov.br/saude/pt-br/composicao/sectics/deceiis/publicacoes/acordo-de-cooperacao-tecnica-ministerio-da-saude-no-15-2026" />
+        <rdf:li rdf:resource="https://www.gov.br/saude/pt-br/composicao/sectics/deceiis/publicacoes/informe-no-2-2026-sctie-ms" />
+        <rdf:li rdf:resource="https://www.gov.br/saude/pt-br/composicao/sectics/deceiis/publicacoes/informe-no-08-2025-sectics-ms" />
+        <rdf:li rdf:resource="https://www.gov.br/saude/pt-br/composicao/sectics/deceiis/publicacoes/informe-no-07-2025-sectics-ms" />
+        <rdf:li rdf:resource="https://www.gov.br/saude/pt-br/composicao/sectics/deceiis/publicacoes/propostas-de-projeto-submetidas-em-2024-pdil" />
+      </rdf:Seq>
+  </items>
+</channel>
+  <item rdf:about="https://www.gov.br/saude/pt-br/composicao/sectics/deceiis/publicacoes/acordo-de-cooperacao-tecnica-ministerio-da-saude-no-15-2026">
+    <title>Acordo de Cooperação Técnica - Ministério da Saúde nº 15/2026</title>
+    <link>https://www.gov.br/saude/pt-br/composicao/sectics/deceiis/publicacoes/acordo-de-cooperacao-tecnica-ministerio-da-saude-no-15-2026</link>
+    <description>Extrato de Acordo de Cooperação Técnica que entre si celebram a União, por intermédio do Ministério da Saúde e Agência Brasileira de Desenvolvimento Industrial (ABDI), para os fins que especifica.</description>
+    <dc:date>2026-05-18T20:16:09Z</dc:date>
+    <dc:type>Link</dc:type>
+  </item>
+  <item rdf:about="https://www.gov.br/saude/pt-br/composicao/sectics/deceiis/publicacoes/informe-no-2-2026-sctie-ms">
+    <title>Informe nº 2/2026 - SCTIE/MS</title>
+    <link>https://www.gov.br/saude/pt-br/composicao/sectics/deceiis/publicacoes/informe-no-2-2026-sctie-ms</link>
+    <description>Divulgação dos locais onde serão realizadas as etapas Regionais do “Desafio Tecnológico para o Sistema Único de Saúde — Hackathon SUS”.</description>
+    <dc:date>2026-07-10T13:02:48Z</dc:date>
+    <dc:type>Link</dc:type>
+  </item>
+  <item rdf:about="https://www.gov.br/saude/pt-br/composicao/sectics/deceiis/publicacoes/informe-no-08-2025-sectics-ms">
+    <title>Informe nº 08/2025 - SECTICS/MS</title>
+    <link>https://www.gov.br/saude/pt-br/composicao/sectics/deceiis/publicacoes/informe-no-08-2025-sectics-ms</link>
+    <description>Divulgação dos resultados preliminares da avaliação de propostas de projeto relacionadas a "doenças crônicas não-transmissíveis e associadas ao envelhecimento da população e vulnerabilidade tecnológica e econômica para acesso em saúde" submetidas ao Programa de Parcerias para o Desenvolvimento Produtivo - PDP.</description>
+    <dc:date>2025-09-10T19:08:13Z</dc:date>
+    <dc:type>Link</dc:type>
+  </item>
+  <item rdf:about="https://www.gov.br/saude/pt-br/composicao/sectics/deceiis/publicacoes/informe-no-07-2025-sectics-ms">
+    <title>Informe nº 07/2025 - SECTICS/MS</title>
+    <link>https://www.gov.br/saude/pt-br/composicao/sectics/deceiis/publicacoes/informe-no-07-2025-sectics-ms</link>
+    <description>Divulgação dos resultados preliminares da avaliação de propostas de projeto relacionadas a "doenças crônicas não-transmissíveis e associadas ao envelhecimento da população, vulnerabilidade tecnológica e econômica para acesso em saúde, alternativas tecnológicas para desenvolvimento sustentável e química verde e modernização das tecnologias produtivas de soros e imunoprotetores" submetidas ao Programa de Inovação e Desenvolvimento Local - PDIL.</description>
+    <dc:date>2025-09-10T19:07:48Z</dc:date>
+    <dc:type>Link</dc:type>
+  </item>
+  <item rdf:about="https://www.gov.br/saude/pt-br/composicao/sectics/deceiis/publicacoes/propostas-de-projeto-submetidas-em-2024-pdil">
+    <title>Propostas de projeto submetidas em 2024 - PDIL</title>
+    <link>https://www.gov.br/saude/pt-br/composicao/sectics/deceiis/publicacoes/propostas-de-projeto-submetidas-em-2024-pdil</link>
+    <description>Relação das propostas de projetos submetidas em 2024 ao Programa de Desenvolvimento e Inovação Local (PDIL) - atualizada em 26/01/2026</description>
+    <dc:date>2025-09-29T21:05:00Z</dc:date>
+    <dc:type>Link</dc:type>
+  </item>
+</rdf:RDF>

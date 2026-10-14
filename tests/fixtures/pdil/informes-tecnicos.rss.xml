@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:syn="http://purl.org/rss/1.0/modules/syndication/" xmlns="http://purl.org/rss/1.0/">
+<channel rdf:about="https://www.gov.br/saude/pt-br/composicao/sectics/pdil/informes-tecnicos/RSS">
+  <title>Informes Técnicos</title>
+  <link>https://www.gov.br/saude/pt-br/composicao/sectics/pdil/informes-tecnicos</link>
+  <description>Acesse os Informes Técnicos do Programa de Desenvolvimento e Inovação Local da Ciência e Tecnologia em Saúde</description>
+  <image rdf:resource="https://www.gov.br/saude/logo.png" />
+  <items>
+    <rdf:Seq>
+        <rdf:li rdf:resource="https://www.gov.br/saude/pt-br/composicao/sectics/pdil/informes-tecnicos/informes-tecnicos" />
+        <rdf:li rdf:resource="https://www.gov.br/saude/pt-br/composicao/sectics/pdil/informes-tecnicos/informe-no-01-2025-sectics-ms/view" />
+        <rdf:li rdf:resource="https://www.gov.br/saude/pt-br/composicao/sectics/pdil/informes-tecnicos/informe-no-03-2025-sectics-ms/view" />
+        <rdf:li rdf:resource="https://www.gov.br/saude/pt-br/composicao/sectics/pdil/informes-tecnicos/informe-no-02-2024-sectics-ms/view" />
+        <rdf:li rdf:resource="https://www.gov.br/saude/pt-br/composicao/sectics/pdil/informes-tecnicos/informe-no-05-2025-sectics-ms/view" />
+        <rdf:li rdf:resource="https://www.gov.br/saude/pt-br/composicao/sectics/pdil/informes-tecnicos/informe-no-07-2025-sectics-ms/view" />
+      </rdf:Seq>
+  </items>
+</channel>
+  <item rdf:about="https://www.gov.br/saude/pt-br/composicao/sectics/pdil/informes-tecnicos/informes-tecnicos">
+    <title>Informes Técnicos</title>
+    <link>https://www.gov.br/saude/pt-br/composicao/sectics/pdil/informes-tecnicos/informes-tecnicos</link>
+    <description>Acesse os Informes Técnicos do Programa de Desenvolvimento e Inovação Local da Ciência e Tecnologia em Saúde.</description>
+    <dc:date>2025-08-25T17:43:26Z</dc:date>
+    <dc:type>Collection</dc:type>
+  </item>
+  <item rdf:about="https://www.gov.br/saude/pt-br/composicao/sectics/pdil/informes-tecnicos/informe-no-01-2025-sectics-ms/view">
+    <title>Informe nº 01/2025 - SECTICS/MS</title>
+    <link>https://www.gov.br/saude/pt-br/composicao/sectics/pdil/informes-tecnicos/informe-no-01-2025-sectics-ms/view</link>
+    <description>Resultado preliminar da avaliação de propostas de projetos submetidas no âmbito do Programa de Desenvolvimento e Inovação Local – PDIL. Ciclo 1.</description>
+    <dc:date>2025-02-25T11:20:42Z</dc:date>
+    <dc:type>File</dc:type>
+  </item>
+  <item rdf:about="https://www.gov.br/saude/pt-br/composicao/sectics/pdil/informes-tecnicos/informe-no-03-2025-sectics-ms/view">
+    <title>Informe nº 03/2025 - SECTICS/MS</title>
+    <link>https://www.gov.br/saude/pt-br/composicao/sectics/pdil/informes-tecnicos/informe-no-03-2025-sectics-ms/view</link>
+    <description>Divulgação dos resultados preliminares da avaliação de propostas de projeto relacionadas a "doenças e populações negligenciadas" submetidas ao Programa de Inovação e Desenvolvimento Local - PDIL.</description>
+    <dc:date>2025-08-25T17:41:53Z</dc:date>
+    <dc:type>File</dc:type>
+  </item>
+  <item rdf:about="https://www.gov.br/saude/pt-br/composicao/sectics/pdil/informes-tecnicos/informe-no-02-2024-sectics-ms/view">
+    <title>Informe nº 02/2024 - SECTICS/MS</title>
+    <link>https://www.gov.br/saude/pt-br/composicao/sectics/pdil/informes-tecnicos/informe-no-02-2024-sectics-ms/view</link>
+    <description>Submissão de Propostas de Projeto referentes ao Programa de Desenvolvimento e Inovação Local - PDIL</description>
+    <dc:date>2025-08-25T17:58:54Z</dc:date>
+    <dc:type>File</dc:type>
+  </item>
+  <item rdf:about="https://www.gov.br/saude/pt-br/composicao/sectics/pdil/informes-tecnicos/informe-no-05-2025-sectics-ms/view">
+    <title>Informe nº 05/2025 - SECTICS/MS</title>
+    <link>https://www.gov.br/saude/pt-br/composicao/sectics/pdil/informes-tecnicos/informe-no-05-2025-sectics-ms/view</link>
+    <description>Divulgação dos resultados preliminares da avaliação de propostas de projeto relacionadas a "cânceres de maior incidência e cânceres pediátricos” e a “preparação para resposta a emergências em saúde e proteção para doenças imunopreveníveis", submetidas ao PDIL.</description>
+    <dc:date>2025-09-05T18:14:53Z</dc:date>
+    <dc:type>File</dc:type>
+  </item>
+  <item rdf:about="https://www.gov.br/saude/pt-br/composicao/sectics/pdil/informes-tecnicos/informe-no-07-2025-sectics-ms/view">
+    <title>Informe nº 07/2025 - SECTICS/MS</title>
+    <link>https://www.gov.br/saude/pt-br/composicao/sectics/pdil/informes-tecnicos/informe-no-07-2025-sectics-ms/view</link>
+    <description>Divulgação dos resultados preliminares da avaliação de propostas de projeto relacionadas a "doenças crônicas não-transmissíveis e associadas ao envelhecimento da população, vulnerabilidade tecnológica e econômica para acesso em saúde, alternativas tecnológicas para desenvolvimento sustentável e química verde e modernização das tecnologias produtivas de soros e imunoprotetores" submetidas ao Programa de Inovação e Desenvolvimento Local - PDIL.</description>
+    <dc:date>2025-09-10T19:02:07Z</dc:date>
+    <dc:type>File</dc:type>
+  </item>
+</rdf:RDF>

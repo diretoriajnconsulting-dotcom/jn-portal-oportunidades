@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:syn="http://purl.org/rss/1.0/modules/syndication/" xmlns="http://purl.org/rss/1.0/">
+<channel rdf:about="https://www.gov.br/saude/pt-br/composicao/sectics/pdil/notas-tecnicas-e-informativas/RSS">
+  <title>Notas Técnicas e Informativas</title>
+  <link>https://www.gov.br/saude/pt-br/composicao/sectics/pdil/notas-tecnicas-e-informativas</link>
+  <description>Acesse as Notas Técnicas e Informativas do Programa de Desenvolvimento e Inovação Local do Ministério da Saúde.</description>
+  <image rdf:resource="https://www.gov.br/saude/logo.png" />
+  <items>
+    <rdf:Seq>
+        <rdf:li rdf:resource="https://www.gov.br/saude/pt-br/composicao/sectics/pdil/notas-tecnicas-e-informativas/notas-tecnicas-e-informativas" />
+        <rdf:li rdf:resource="https://www.gov.br/saude/pt-br/composicao/sectics/pdil/notas-tecnicas-e-informativas/nota-informativa-no-5-2026-decis-sctie-ms" />
+      </rdf:Seq>
+  </items>
+</channel>
+  <item rdf:about="https://www.gov.br/saude/pt-br/composicao/sectics/pdil/notas-tecnicas-e-informativas/notas-tecnicas-e-informativas">
+    <title>Notas Técnicas e Informativas</title>
+    <link>https://www.gov.br/saude/pt-br/composicao/sectics/pdil/notas-tecnicas-e-informativas/notas-tecnicas-e-informativas</link>
+    <description>Acesse as Notas Técnicas e Informativas do Programa de Desenvolvimento e Inovação Local do Ministério da Saúde.</description>
+    <dc:date>2026-01-16T20:12:02Z</dc:date>
+    <dc:type>Collection</dc:type>
+  </item>
+  <item rdf:about="https://www.gov.br/saude/pt-br/composicao/sectics/pdil/notas-tecnicas-e-informativas/nota-informativa-no-5-2026-decis-sctie-ms">
+    <title>Nota Informativa nº 5/2026-DECIS/SCTIE/MS</title>
+    <link>https://www.gov.br/saude/pt-br/composicao/sectics/pdil/notas-tecnicas-e-informativas/nota-informativa-no-5-2026-decis-sctie-ms</link>
+    <description>Ranqueamento de projetos aprovados no âmbito do Programa de Desenvolvimento e Inovação Local (PDIL).</description>
+    <dc:date>2026-01-16T20:11:01Z</dc:date>
+    <dc:type>Link</dc:type>
+  </item>
+</rdf:RDF>

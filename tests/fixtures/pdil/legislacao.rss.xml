@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:syn="http://purl.org/rss/1.0/modules/syndication/" xmlns="http://purl.org/rss/1.0/">
+<channel rdf:about="https://www.gov.br/saude/pt-br/composicao/sectics/pdil/legislacao/RSS">
+  <title>Legislação</title>
+  <link>https://www.gov.br/saude/pt-br/composicao/sectics/pdil/legislacao</link>
+  <description>Acesse a legislação do Programa de Desenvolvimento e Inovação do Ministério da Saúde</description>
+  <image rdf:resource="https://www.gov.br/saude/logo.png" />
+  <items>
+    <rdf:Seq>
+        <rdf:li rdf:resource="https://www.gov.br/saude/pt-br/composicao/sectics/pdil/legislacao/decreto-no-11-715-de-26-de-setembro-de-2023" />
+        <rdf:li rdf:resource="https://www.gov.br/saude/pt-br/composicao/sectics/pdil/legislacao/portaria-gm-ms-no-2-261-de-8-de-dezembro-de-2023" />
+        <rdf:li rdf:resource="https://www.gov.br/saude/pt-br/composicao/sectics/pdil/legislacao/portaria-gm-ms-no-6-097-de-16-de-dezembro-de-2024" />
+        <rdf:li rdf:resource="https://www.gov.br/saude/pt-br/composicao/sectics/pdil/legislacao/portaria-gm-ms-no-4-473-de-20-de-junho-de-2024" />
+        <rdf:li rdf:resource="https://www.gov.br/saude/pt-br/composicao/sectics/pdil/legislacao/portaria-gm-ms-no-8-475-de-20-de-outubro-de-2025" />
+        <rdf:li rdf:resource="https://www.gov.br/saude/pt-br/composicao/sectics/pdil/legislacao/portaria-gm-ms-no-10-154-de-14-de-janeiro-de-2026" />
+      </rdf:Seq>
+  </items>
+</channel>
+  <item rdf:about="https://www.gov.br/saude/pt-br/composicao/sectics/pdil/legislacao/decreto-no-11-715-de-26-de-setembro-de-2023">
+    <title>Decreto nº 11.715, de 26 de setembro de 2023</title>
+    <link>https://www.gov.br/saude/pt-br/composicao/sectics/pdil/legislacao/decreto-no-11-715-de-26-de-setembro-de-2023</link>
+    <description>Institui a Estratégia Nacional para o Desenvolvimento do Complexo Econômico-Industrial da Saúde.</description>
+    <dc:date>2024-11-21T18:33:25Z</dc:date>
+    <dc:type>Link</dc:type>
+  </item>
+  <item rdf:about="https://www.gov.br/saude/pt-br/composicao/sectics/pdil/legislacao/portaria-gm-ms-no-2-261-de-8-de-dezembro-de-2023">
+    <title>Portaria GM/MS nº 2.261, de 8 de dezembro de 2023</title>
+    <link>https://www.gov.br/saude/pt-br/composicao/sectics/pdil/legislacao/portaria-gm-ms-no-2-261-de-8-de-dezembro-de-2023</link>
+    <description>Estabelece a Matriz de Desafios Produtivos e Tecnológicos em Saúde.</description>
+    <dc:date>2024-11-21T18:33:23Z</dc:date>
+    <dc:type>Link</dc:type>
+  </item>
+  <item rdf:about="https://www.gov.br/saude/pt-br/composicao/sectics/pdil/legislacao/portaria-gm-ms-no-6-097-de-16-de-dezembro-de-2024">
+    <title>Portaria GM/MS nº 6.097, de 16 de dezembro de 2024</title>
+    <link>https://www.gov.br/saude/pt-br/composicao/sectics/pdil/legislacao/portaria-gm-ms-no-6-097-de-16-de-dezembro-de-2024</link>
+    <description>Aprova o Regimento Interno e estabelece o funcionamento do Comitê Deliberativo - CD, no âmbito do Complexo Econômico-Industrial da Saúde e define, em caráter complementar, critérios de análise e competências para o processo de avaliação e deliberação das propostas de projeto de Parceria para o Desenvolvimento Produtivo - PDP e Programa de Desenvolvimento e Inovação Local - PDIL.</description>
+    <dc:date>2025-01-06T15:29:23Z</dc:date>
+    <dc:type>Link</dc:type>
+  </item>
+  <item rdf:about="https://www.gov.br/saude/pt-br/composicao/sectics/pdil/legislacao/portaria-gm-ms-no-4-473-de-20-de-junho-de-2024">
+    <title>Portaria GM/MS nº 4.473, de 20 de junho de 2024</title>
+    <link>https://www.gov.br/saude/pt-br/composicao/sectics/pdil/legislacao/portaria-gm-ms-no-4-473-de-20-de-junho-de-2024</link>
+    <description>Altera a Portaria de Consolidação MS nº 5, de 28 de setembro de 2017, e institui o Programa de Desenvolvimento e Inovação Local - PDIL.</description>
+    <dc:date>2025-01-09T17:43:58Z</dc:date>
+    <dc:type>Link</dc:type>
+  </item>
+  <item rdf:about="https://www.gov.br/saude/pt-br/composicao/sectics/pdil/legislacao/portaria-gm-ms-no-8-475-de-20-de-outubro-de-2025">
+    <title>Portaria GM/MS nº 8.475, de 20 de outubro de 2025</title>
+    <link>https://www.gov.br/saude/pt-br/composicao/sectics/pdil/legislacao/portaria-gm-ms-no-8-475-de-20-de-outubro-de-2025</link>
+    <description>Divulga os resultados finais da avaliação de propostas de projeto submetidas ao Programa de Desenvolvimento e Inovação Local - PDIL.</description>
+    <dc:date>2025-10-22T18:20:04Z</dc:date>
+    <dc:type>Link</dc:type>
+  </item>
+  <item rdf:about="https://www.gov.br/saude/pt-br/composicao/sectics/pdil/legislacao/portaria-gm-ms-no-10-154-de-14-de-janeiro-de-2026">
+    <title>Portaria GM/MS nº 10.154, de 14 de janeiro de 2026</title>
+    <link>https://www.gov.br/saude/pt-br/composicao/sectics/pdil/legislacao/portaria-gm-ms-no-10-154-de-14-de-janeiro-de-2026</link>
+    <description>Divulga os resultados finais da avaliação das propostas de projetos submetidos ao Programa de Desenvolvimento e Inovação Local - PDIL.</description>
+    <dc:date>2026-01-26T15:07:58Z</dc:date>
+    <dc:type>Link</dc:type>
+  </item>
+</rdf:RDF>

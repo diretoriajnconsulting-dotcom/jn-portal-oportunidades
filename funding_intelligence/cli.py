@@ -40,6 +40,12 @@ def collect(args: argparse.Namespace) -> int:
             write_json(args.output, snapshot)
             return 1
     write_json(args.output, snapshot)
+    # Avisos que não derrubam a coleta (contrato das coletas, 14/10/2026): a porta da EMBRAPII cuja
+    # frase-âncora sumiu, o produto novo do BNDES para alguém classificar, a UF do PPSUS sem resposta.
+    for aviso in [*snapshot.get("warnings", []), *snapshot.get("avisos", [])]:
+        print(f"::warning::{adapter.name}: {aviso}", file=sys.stderr)
+    if snapshot.get("failed_scopes"):
+        print(f"::warning::{adapter.name}: sem resposta de {', '.join(snapshot['failed_scopes'])}", file=sys.stderr)
     print(f"{adapter.id}: {len(snapshot['opportunities'])} opportunities; status={snapshot['status']}")
     return 0
 
@@ -90,7 +96,7 @@ def parser() -> argparse.ArgumentParser:
     aggregate_parser.add_argument("--previous")
     aggregate_parser.add_argument("--portfolios", default="config/portfolios.json")
     aggregate_parser.add_argument("--sources", default="config/sources.json")
-    aggregate_parser.add_argument("--schema", default="schema/funding-opportunity-2.1.schema.json")
+    aggregate_parser.add_argument("--schema", default="schema/funding-opportunity-2.2.schema.json")
     aggregate_parser.add_argument("--output", required=True)
     aggregate_parser.add_argument("--generated-at")
     aggregate_parser.set_defaults(handler=aggregate_command)

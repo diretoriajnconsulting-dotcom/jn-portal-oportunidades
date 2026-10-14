@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:syn="http://purl.org/rss/1.0/modules/syndication/" xmlns="http://purl.org/rss/1.0/">
+<channel rdf:about="https://www.gov.br/saude/pt-br/search_rss">
+  <title>Português (Brasil)</title>
+  <link>https://www.gov.br/saude</link>
+  <image rdf:resource="https://www.gov.br/saude/logo.png" />
+  <items>
+    <rdf:Seq>
+        <rdf:li rdf:resource="https://www.gov.br/saude/pt-br/acesso-a-informacao/licitacoes-e-contratos/pregoes/2026/pregao-eletronico-no-90106-2026-dlog/edital-pe-n-90106-2026.pdf/view" />
+        <rdf:li rdf:resource="https://www.gov.br/saude/pt-br/acesso-a-informacao/auditorias/2024/relatorio-de-gestao-integrado/view" />
+        <rdf:li rdf:resource="https://www.gov.br/saude/pt-br/composicao/sectics/deceiis/publicacoes/nota-informativa-no-5-2024-deceiis-sectics-ms" />
+        <rdf:li rdf:resource="https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/estudos-e-notas-informativas/2024/nota-informativa-no-5-2024-deceiis-sectics-ms.pdf/view" />
+      </rdf:Seq>
+  </items>
+</channel>
+  <item rdf:about="https://www.gov.br/saude/pt-br/acesso-a-informacao/licitacoes-e-contratos/pregoes/2026/pregao-eletronico-no-90106-2026-dlog/edital-pe-n-90106-2026.pdf/view">
+    <title>Edital PE nº 90106/2026</title>
+    <link>https://www.gov.br/saude/pt-br/acesso-a-informacao/licitacoes-e-contratos/pregoes/2026/pregao-eletronico-no-90106-2026-dlog/edital-pe-n-90106-2026.pdf/view</link>
+    <description></description>
+    <dc:date>2026/09/15 15:42:05 GMT-3</dc:date>
+    <dc:type>Arquivo</dc:type>
+  </item>
+  <item rdf:about="https://www.gov.br/saude/pt-br/acesso-a-informacao/auditorias/2024/relatorio-de-gestao-integrado/view">
+    <title>Relatório de Gestão Integrado</title>
+    <link>https://www.gov.br/saude/pt-br/acesso-a-informacao/auditorias/2024/relatorio-de-gestao-integrado/view</link>
+    <description>Relatório de Gestão Integrado do ano de 2024 do Ministério da Saúde</description>
+    <dc:date></dc:date>
+    <dc:type>Arquivo</dc:type>
+  </item>
+  <item rdf:about="https://www.gov.br/saude/pt-br/composicao/sectics/deceiis/publicacoes/nota-informativa-no-5-2024-deceiis-sectics-ms">
+    <title>Nota Informativa nº 5/2024-DECEIIS/SECTICS/MS</title>
+    <link>https://www.gov.br/saude/pt-br/composicao/sectics/deceiis/publicacoes/nota-informativa-no-5-2024-deceiis-sectics-ms</link>
+    <description>Prorrogação de prazo para submissão de proposta de projetos no âmbito do PDIL e PDP</description>
+    <dc:date></dc:date>
+    <dc:type>Link</dc:type>
+  </item>
+  <item rdf:about="https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/estudos-e-notas-informativas/2024/nota-informativa-no-5-2024-deceiis-sectics-ms.pdf/view">
+    <title>Nota Informativa nº 5/2024-DECEIIS/SECTICS/MS</title>
+    <link>https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/estudos-e-notas-informativas/2024/nota-informativa-no-5-2024-deceiis-sectics-ms.pdf/view</link>
+    <description>Prorrogação de prazo para submissão de proposta de projetos no âmbito do PDIL e PDP</description>
+    <dc:date></dc:date>
+    <dc:type>Arquivo</dc:type>
+  </item>
+</rdf:RDF>

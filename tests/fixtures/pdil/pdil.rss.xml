@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:syn="http://purl.org/rss/1.0/modules/syndication/" xmlns="http://purl.org/rss/1.0/">
+<channel rdf:about="https://www.gov.br/saude/pt-br/composicao/sectics/pdil/RSS">
+  <title>Programa de Desenvolvimento e Inovação Local</title>
+  <link>https://www.gov.br/saude/pt-br/composicao/sectics/pdil</link>
+  <description></description>
+  <image rdf:resource="https://www.gov.br/saude/logo.png" />
+  <items>
+    <rdf:Seq>
+        <rdf:li rdf:resource="https://www.gov.br/saude/pt-br/composicao/sectics/pdil/ciclo-do-pdil" />
+        <rdf:li rdf:resource="https://www.gov.br/saude/pt-br/composicao/sectics/pdil/legislacao" />
+        <rdf:li rdf:resource="https://www.gov.br/saude/pt-br/composicao/sectics/pdil/publicacoes" />
+        <rdf:li rdf:resource="https://www.gov.br/saude/pt-br/composicao/sectics/pdil/informes-tecnicos" />
+        <rdf:li rdf:resource="https://www.gov.br/saude/pt-br/composicao/sectics/pdil/notas-tecnicas-e-informativas" />
+        <rdf:li rdf:resource="https://www.gov.br/saude/pt-br/composicao/sectics/pdil/faq" />
+        <rdf:li rdf:resource="https://www.gov.br/saude/pt-br/composicao/sectics/pdil/programa-de-desenvolvimento-e-inovacao-local" />
+      </rdf:Seq>
+  </items>
+</channel>
+  <item rdf:about="https://www.gov.br/saude/pt-br/composicao/sectics/pdil/ciclo-do-pdil">
+    <title>Ciclo do PDIL</title>
+    <link>https://www.gov.br/saude/pt-br/composicao/sectics/pdil/ciclo-do-pdil</link>
+    <description></description>
+    <dc:date>2024-11-05T17:54:29Z</dc:date>
+    <dc:type>Folder</dc:type>
+  </item>
+  <item rdf:about="https://www.gov.br/saude/pt-br/composicao/sectics/pdil/legislacao">
+    <title>Legislação</title>
+    <link>https://www.gov.br/saude/pt-br/composicao/sectics/pdil/legislacao</link>
+    <description>Acesse a legislação do Programa de Desenvolvimento e Inovação do Ministério da Saúde</description>
+    <dc:date>2024-10-08T15:01:58Z</dc:date>
+    <dc:type>Folder</dc:type>
+  </item>
+  <item rdf:about="https://www.gov.br/saude/pt-br/composicao/sectics/pdil/publicacoes">
+    <title>Publicações</title>
+    <link>https://www.gov.br/saude/pt-br/composicao/sectics/pdil/publicacoes</link>
+    <description>Acesse as publicações do Programa de Desenvolvimento e Inovação Local do Ministério da Saúde</description>
+    <dc:date>2024-10-08T15:10:15Z</dc:date>
+    <dc:type>Folder</dc:type>
+  </item>
+  <item rdf:about="https://www.gov.br/saude/pt-br/composicao/sectics/pdil/informes-tecnicos">
+    <title>Informes Técnicos</title>
+    <link>https://www.gov.br/saude/pt-br/composicao/sectics/pdil/informes-tecnicos</link>
+    <description>Acesse os Informes Técnicos do Programa de Desenvolvimento e Inovação Local da Ciência e Tecnologia em Saúde</description>
+    <dc:date>2025-08-25T17:43:48Z</dc:date>
+    <dc:type>Folder</dc:type>
+  </item>
+  <item rdf:about="https://www.gov.br/saude/pt-br/composicao/sectics/pdil/notas-tecnicas-e-informativas">
+    <title>Notas Técnicas e Informativas</title>
+    <link>https://www.gov.br/saude/pt-br/composicao/sectics/pdil/notas-tecnicas-e-informativas</link>
+    <description>Acesse as Notas Técnicas e Informativas do Programa de Desenvolvimento e Inovação Local do Ministério da Saúde.</description>
+    <dc:date>2026-01-16T20:12:16Z</dc:date>
+    <dc:type>Folder</dc:type>
+  </item>
+  <item rdf:about="https://www.gov.br/saude/pt-br/composicao/sectics/pdil/faq">
+    <title>Perguntas Frequentes (FAQ)</title>
+    <link>https://www.gov.br/saude/pt-br/composicao/sectics/pdil/faq</link>
+    <description></description>
+    <dc:date>2024-10-08T15:11:28Z</dc:date>
+    <dc:type>Link</dc:type>
+  </item>
+  <item rdf:about="https://www.gov.br/saude/pt-br/composicao/sectics/pdil/programa-de-desenvolvimento-e-inovacao-local">
+    <title>Programa de Desenvolvimento e Inovação Local</title>
+    <link>https://www.gov.br/saude/pt-br/composicao/sectics/pdil/programa-de-desenvolvimento-e-inovacao-local</link>
+    <description></description>
+    <dc:date>2024-11-21T17:55:55Z</dc:date>
+    <dc:type>collective.cover.content</dc:type>
+  </item>
+</rdf:RDF>

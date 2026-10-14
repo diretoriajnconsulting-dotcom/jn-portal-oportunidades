@@ -1,0 +1,80 @@
+{
+ "https://sisct.saude.gov.br/sisct/": {
+  "arquivo": "sisct_vazio.html"
+ },
+ "https://fapac.ac.gov.br/wp-json/wp/v2/media?search=ppsus&per_page=20&_fields=id,date,title,source_url,mime_type": {
+  "json": []
+ },
+ "https://www.fapespa.pa.gov.br/wp-json/wp/v2/media?search=ppsus&per_page=20&_fields=id,date,title,source_url,mime_type": {
+  "json": []
+ },
+ "https://rondonia.ro.gov.br/wp-json/wp/v2/media?search=ppsus&per_page=20&_fields=id,date,title,source_url,mime_type": {
+  "arquivo": "ro_media.json"
+ },
+ "https://faperr.rr.gov.br/wp-json/wp/v2/media?search=ppsus&per_page=20&_fields=id,date,title,source_url,mime_type": {
+  "arquivo": "rr_media.json"
+ },
+ "https://www.fapeal.br/wp-json/wp/v2/media?search=ppsus&per_page=20&_fields=id,date,title,source_url,mime_type": {
+  "json": []
+ },
+ "https://www.fapesb.ba.gov.br/wp-json/wp/v2/media?search=ppsus&per_page=20&_fields=id,date,title,source_url,mime_type": {
+  "arquivo": "ba_media.json"
+ },
+ "https://www.fapema.br/wp-json/wp/v2/media?search=ppsus&per_page=20&_fields=id,date,title,source_url,mime_type": {
+  "arquivo": "ma_media.json"
+ },
+ "https://www.fapepi.pi.gov.br/wp-json/wp/v2/media?search=ppsus&per_page=20&_fields=id,date,title,source_url,mime_type": {
+  "json": []
+ },
+ "https://goias.gov.br/fapeg/wp-json/wp/v2/media?search=ppsus&per_page=20&_fields=id,date,title,source_url,mime_type": {
+  "json": []
+ },
+ "https://www.fundect.ms.gov.br/wp-json/wp/v2/media?search=ppsus&per_page=20&_fields=id,date,title,source_url,mime_type": {
+  "json": []
+ },
+ "https://fapesc.sc.gov.br/wp-json/wp/v2/media?search=ppsus&per_page=20&_fields=id,date,title,source_url,mime_type": {
+  "json": []
+ },
+ "https://www.fapeam.am.gov.br/editais/feed/": {
+  "arquivo": "am_feed_p1.xml"
+ },
+ "https://www.to.gov.br/fapt/01-editais-abertos/5sy36y0lf49g": {
+  "arquivo": "to_abertos.html"
+ },
+ "https://montenegro.funcap.ce.gov.br/sugba/editais/": {
+  "arquivo": "ce_montenegro.html"
+ },
+ "https://www.facepe.br/?s=ppsus": {
+  "arquivo": "pe_busca_p1.html"
+ },
+ "https://fapern.rn.gov.br/": {
+  "status": 503
+ },
+ "https://fapitec.se.gov.br/?s=ppsus": {
+  "arquivo": "se_busca.html"
+ },
+ "https://www.fap.df.gov.br/edital-ppsus": {
+  "arquivo": "df_pagina.html"
+ },
+ "https://fapes.es.gov.br/editais-abertos-pesquisa-4": {
+  "arquivo": "es_abertos.html"
+ },
+ "https://fapemig.br/__sitemap__/calls.xml": {
+  "arquivo": "mg_sitemap.xml"
+ },
+ "https://www.faperj.br/?id=28.5.7": {
+  "arquivo": "rj_lista.html"
+ },
+ "https://fapesp.br/ppsus": {
+  "arquivo": "sp_ppsus.html"
+ },
+ "https://www.fappr.pr.gov.br/Pagina/Programas-2026": {
+  "arquivo": "pr_2026.html"
+ },
+ "https://fapergs.rs.gov.br/2026": {
+  "arquivo": "rs_2026.html"
+ },
+ "https://fapergs.rs.gov.br/_service/conteudo/pagedlistfilho?id=3037&templatename=pagina.listapagina.padrao&currentPage=1&pageSize=300": {
+  "arquivo": "rs_lista_2026.json"
+ }
+}

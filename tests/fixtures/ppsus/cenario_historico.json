@@ -1,0 +1,227 @@
+{
+ "https://sisct.saude.gov.br/sisct/": {
+  "arquivo": "sisct_vazio.html"
+ },
+ "https://fapac.ac.gov.br/wp-json/wp/v2/media?search=ppsus&per_page=100&_fields=id,date,title,source_url,mime_type&after=2024-04-17T00:00:00": {
+  "json": []
+ },
+ "https://www.fapespa.pa.gov.br/wp-json/wp/v2/media?search=ppsus&per_page=100&_fields=id,date,title,source_url,mime_type&after=2024-04-17T00:00:00": {
+  "json": []
+ },
+ "https://rondonia.ro.gov.br/wp-json/wp/v2/media?search=ppsus&per_page=100&_fields=id,date,title,source_url,mime_type&after=2024-04-17T00:00:00": {
+  "arquivo": "ro_media.json"
+ },
+ "https://faperr.rr.gov.br/wp-json/wp/v2/media?search=ppsus&per_page=100&_fields=id,date,title,source_url,mime_type&after=2024-04-17T00:00:00": {
+  "arquivo": "rr_media.json"
+ },
+ "https://www.fapeal.br/wp-json/wp/v2/media?search=ppsus&per_page=100&_fields=id,date,title,source_url,mime_type&after=2024-04-17T00:00:00": {
+  "json": []
+ },
+ "https://www.fapesb.ba.gov.br/wp-json/wp/v2/media?search=ppsus&per_page=100&_fields=id,date,title,source_url,mime_type&after=2024-04-17T00:00:00": {
+  "arquivo": "ba_media.json"
+ },
+ "https://www.fapema.br/wp-json/wp/v2/media?search=ppsus&per_page=100&_fields=id,date,title,source_url,mime_type&after=2024-04-17T00:00:00": {
+  "arquivo": "ma_media.json"
+ },
+ "https://www.fapepi.pi.gov.br/wp-json/wp/v2/media?search=ppsus&per_page=100&_fields=id,date,title,source_url,mime_type&after=2024-04-17T00:00:00": {
+  "json": []
+ },
+ "https://goias.gov.br/fapeg/wp-json/wp/v2/media?search=ppsus&per_page=100&_fields=id,date,title,source_url,mime_type&after=2024-04-17T00:00:00": {
+  "json": []
+ },
+ "https://www.fundect.ms.gov.br/wp-json/wp/v2/media?search=ppsus&per_page=100&_fields=id,date,title,source_url,mime_type&after=2024-04-17T00:00:00": {
+  "json": []
+ },
+ "https://fapesc.sc.gov.br/wp-json/wp/v2/media?search=ppsus&per_page=100&_fields=id,date,title,source_url,mime_type&after=2024-04-17T00:00:00": {
+  "json": []
+ },
+ "https://www.fapeam.am.gov.br/editais/feed/": {
+  "arquivo": "am_feed_p1.xml"
+ },
+ "https://www.to.gov.br/fapt/01-editais-abertos/5sy36y0lf49g": {
+  "arquivo": "to_abertos.html"
+ },
+ "https://montenegro.funcap.ce.gov.br/sugba/editais/": {
+  "arquivo": "ce_montenegro.html"
+ },
+ "https://www.facepe.br/?s=ppsus": {
+  "arquivo": "pe_busca_p1.html"
+ },
+ "https://fapern.rn.gov.br/": {
+  "status": 503
+ },
+ "https://fapitec.se.gov.br/?s=ppsus": {
+  "arquivo": "se_busca.html"
+ },
+ "https://www.fap.df.gov.br/edital-ppsus": {
+  "arquivo": "df_pagina.html"
+ },
+ "https://fapes.es.gov.br/editais-abertos-pesquisa-4": {
+  "arquivo": "es_abertos.html"
+ },
+ "https://fapemig.br/__sitemap__/calls.xml": {
+  "arquivo": "mg_sitemap.xml"
+ },
+ "https://www.faperj.br/?id=28.5.7": {
+  "arquivo": "rj_lista.html"
+ },
+ "https://fapesp.br/ppsus": {
+  "arquivo": "sp_ppsus.html"
+ },
+ "https://www.fappr.pr.gov.br/Pagina/Programas-2026": {
+  "arquivo": "pr_2026.html"
+ },
+ "https://fapergs.rs.gov.br/2026": {
+  "arquivo": "rs_2026.html"
+ },
+ "https://fapergs.rs.gov.br/_service/conteudo/pagedlistfilho?id=3037&templatename=pagina.listapagina.padrao&currentPage=1&pageSize=300": {
+  "arquivo": "rs_lista_2026.json"
+ },
+ "https://www.fapema.br/wp-content/uploads/2025/02/CHAMADA-PUBLICA-FAPEMA-CNPq-Decit-SECTICS-MS-SESMA-no-02-2025-–PPSUS.pdf": {
+  "arquivo": "ma_02_2025.txt"
+ },
+ "https://www.fapema.br/wp-content/uploads/2025/09/3°-RETIFICACAO-DE-CRONOGRAMA-CHAMADA-PUBLICA-FAPEMA-PPSUS-N°02-2025.pdf": {
+  "arquivo": "ma_ret3.txt"
+ },
+ "https://www.fapema.br/wp-content/uploads/2026/08/119268.pdf-Chamada-PPSUS.pdf": {
+  "arquivo": "ma_excedentes.txt"
+ },
+ "https://faperr.rr.gov.br/wp-content/uploads/2025/04/Edital_004_-_Chamada_Publica_PPSUS_8_Edicao_assinado.pdf": {
+  "arquivo": "rr_004_2025.txt"
+ },
+ "https://faperr.rr.gov.br/wp-content/uploads/2025/09/2a-Retificacao-Edital-PPSUS-Cronograma.pdf": {
+  "arquivo": "rr_ret2.txt"
+ },
+ "https://faperr.rr.gov.br/wp-content/uploads/2025/06/1RetificacaoEditalPPSUS_Novo_assinado.pdf": {
+  "arquivo": "rr_ret1.txt"
+ },
+ "https://rondonia.ro.gov.br/wp-content/uploads/2025/04/SEI_0059209113_Edital_1-12.pdf": {
+  "arquivo": "ro_1_2025.txt"
+ },
+ "https://www.fapesb.ba.gov.br/wp-content/uploads/2019/08/CHAMADA_FAPESB_03_2025_PPSUS-1.pdf": {
+  "arquivo": "ba_03_2025.txt"
+ },
+ "https://www.fapesb.ba.gov.br/wp-content/uploads/2019/08/ERRATA-1-CHAMADA-FAPESB-03-25-PORTAL.pdf": {
+  "arquivo": "ba_errata1.txt"
+ },
+ "https://www.fapeam.am.gov.br/editais/feed/?paged=2": {
+  "arquivo": "am_feed_p6.xml"
+ },
+ "https://www.fapeam.am.gov.br/editais/feed/?paged=3": {
+  "texto": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\"><channel><item><title>EDITAL N.º 001/2024 – PROGRAMA DE TESTE (item antigo, só para encerrar a paginação)</title><link>https://www.fapeam.am.gov.br/editais/teste/</link><pubDate>Wed, 10 Jan 2024 12:00:00 +0000</pubDate></item></channel></rss>"
+ },
+ "https://www.to.gov.br/fapt/02-editais-em-andamento/jsiwbfyh088": {
+  "arquivo": "to_andamento.html"
+ },
+ "https://www.to.gov.br/fapt/03-editais-finalizados/5iv88yy5aru4": {
+  "arquivo": "to_finalizados.html"
+ },
+ "http://www.to.gov.br/fapt/programa-pesquisa-para-o-sus-ppsus/zg3py9g9wov": {
+  "arquivo": "to_pasta_2025.html"
+ },
+ "http://www.to.gov.br/fapt/editais-ppsus/379ddm5teclw": {
+  "texto": "<div id=\"content\"><h1>Editais PPSUS</h1><ul><li><a href=\"https://central.to.gov.br/download/244115\">file_open Resultado_final_ppsus. - 29.7.2019</a></li><li><a href=\"https://central.to.gov.br/download/244117\">file_open Edital para Processo Seletivo Simplificado de Bolsista.pdf</a></li><li><a href=\"https://central.to.gov.br/download/244113\">file_open Edital de Retificação PPSUS - 21.5.19.pdf</a></li><li><a href=\"https://central.to.gov.br/download/244112\">file_open Chamada - Programa Pesquisa PPSUS - N° 01-2018.pdf</a></li></ul></div>"
+ },
+ "https://central.to.gov.br/download/427261": {
+  "arquivo": "to_01_2025.txt"
+ },
+ "https://central.to.gov.br/download/446606": {
+  "arquivo": "to_ret002.txt"
+ },
+ "https://central.to.gov.br/download/438139": {
+  "arquivo": "to_ret001.txt"
+ },
+ "https://montenegro.funcap.ce.gov.br/sugba/edital/696.pdf": {
+  "arquivo": "ce_696.txt"
+ },
+ "https://montenegro.funcap.ce.gov.br/sugba/edital/759.pdf": {
+  "arquivo": "ce_759.txt"
+ },
+ "https://www.facepe.br/page/2/?s=ppsus": {
+  "arquivo": "pe_busca_p2.html"
+ },
+ "https://www.facepe.br/page/3/?s=ppsus": {
+  "texto": "<!doctype html><html><body><main></main></body></html>"
+ },
+ "https://www.facepe.br/wp-content/uploads/2025/03/Edital-FACEPE-07-2025-ERRATA-SUBMISSÃO.pdf": {
+  "arquivo": "pe_errata.txt"
+ },
+ "https://www.facepe.br/wp-content/uploads/2025/02/Edital-FACEPE_atualizado_03-02-2025-PPSUS-PE.pdf": {
+  "arquivo": "pe_07_2025.txt"
+ },
+ "https://fapitec.se.gov.br/editais-em-andamento/chamada-ppsus-programa-pesquisa-para-o-sus-gestao-compartilhada-em-saude-fapitec-se-no-01-2025/": {
+  "arquivo": "se_pagina.html"
+ },
+ "https://fapitec.se.gov.br/wp-content/uploads/2025/05/Retificado-Ed.-01-2025-PPSUS-SE-ATUAL.pdf": {
+  "arquivo": "se_01_2025.txt"
+ },
+ "https://fapitec.se.gov.br/wp-content/uploads/2025/05/1o-T.A.-ao-Edital-PPSUS-Ed.-01.2025.pdf": {
+  "arquivo": "se_aditivo1.txt"
+ },
+ "https://www.fap.df.gov.br/documents/d/fap/sei-00193-00000009_2024-40-chamada-publica-n-04-2025-2-retificacao-pdf": {
+  "arquivo": "df_ret2.txt"
+ },
+ "https://www.fap.df.gov.br/documents/d/fap/extrato-da-2-retificacao-da-chamada-04-2025-edital-ppsus-pdf": {
+  "arquivo": "df_ret2.txt"
+ },
+ "https://www.fap.df.gov.br/documents/10489263/38976890/SEI_GDF-168587511-Chamada-Publica-Retificacao-do-edital-da-Chamada-FAPDF-do-Edital-PPSUS-16.04.2025.pdf": {
+  "arquivo": "df_ret1.txt"
+ },
+ "https://www.fap.df.gov.br/documents/10489263/38976890/SEI_GDF-165812192-Chamada-Publica-PPSUS.pdf": {
+  "arquivo": "df_edital.txt"
+ },
+ "https://fapes.es.gov.br/Editais/Encerrados": {
+  "arquivo": "es_encerrados.html"
+ },
+ "https://fapes.es.gov.br/media/Editais/EDITAL_FAPES_CNPq_Decit_SECTICS_MS_SESA_17_2024_PPSUS-2.pdf": {
+  "arquivo": "es_17_2024.txt"
+ },
+ "https://fapes.es.gov.br/media/Editais/EDITAL_FAPES_CNPq_-_Decit-SECTICS-MS_SESA_17_2024_-_PPSUS_retificado-2.pdf": {
+  "arquivo": "es_17_2024_alterado.txt"
+ },
+ "https://fapemig.br/oportunidades/chamadas-e-editais/chamada-fapemig-06-2025-ppsus-2025-programa-pesquisa-para-o-sus-gestao-compartilhada-em-saude-2470": {
+  "arquivo": "mg_2470.html"
+ },
+ "https://fapesp.br/17496": {
+  "arquivo": "sp_17496.html"
+ },
+ "https://fapesp.br/17496/chamada-ppsus-programa-pesquisa-para-o-sus-gestao-compartilhada-em-saudefapesp-no-0238692024": {
+  "arquivo": "sp_17496_pagina.html"
+ },
+ "https://www.fappr.pr.gov.br/Pagina/Programas-2024": {
+  "status": 404
+ },
+ "https://www.fappr.pr.gov.br/Pagina/Programas-2025": {
+  "arquivo": "pr_2025.html"
+ },
+ "https://www.fappr.pr.gov.br/sites/fundacao-araucaria/arquivos_restritos/files/documento/2025-09/cp_08-2025_ppsus_1.pdf": {
+  "arquivo": "pr_cp08.txt"
+ },
+ "https://www.fappr.pr.gov.br/sites/fundacao-araucaria/arquivos_restritos/files/documento/2025-09/atodefa1152025alteracaodecronogramachamadapublicappsus.pdf_-_atodefa1152025alteracaodecronogramachamadapublicappsus.pdf": {
+  "arquivo": "pr_ato115.txt"
+ },
+ "https://fapergs.rs.gov.br/2024": {
+  "status": 404
+ },
+ "https://fapergs.rs.gov.br/2025": {
+  "arquivo": "rs_2025.html"
+ },
+ "https://fapergs.rs.gov.br/_service/conteudo/pagedlistfilho?id=2906&templatename=pagina.listapagina.padrao&currentPage=1&pageSize=300": {
+  "arquivo": "rs_lista_2025.json"
+ },
+ "https://fapergs.rs.gov.br/chamada-ppsus-programa-pesquisa-para-o-sus-gestao-compartilhada-em-saude-fapergs-n-01-2025": {
+  "arquivo": "rs_pagina.html"
+ },
+ "https://fapergs.rs.gov.br/upload/arquivos/202503/25095227-chamada-8-edicao-ppsus-rs.pdf": {
+  "arquivo": "rs_01_2025.txt"
+ },
+ "https://fapergs.rs.gov.br/upload/arquivos/202507/08144004-primeiro-aditivo-chamada-8-ed-ppsus-rs.pdf": {
+  "arquivo": "rs_aditivo1.txt"
+ },
+ "https://www.saude.mt.gov.br/storage/files/E1McYXAMYDS5PP0CqrckEecDlj73C1PwWPmMfBGs.pdf": {
+  "arquivo": "mt_004_2025.txt"
+ },
+ "https://funpec.br/wp-content/uploads/2025/12/FAPERN-%E2%80%94-25-2025.pdf": {
+  "arquivo": "rn_25_2025.txt"
+ }
+}

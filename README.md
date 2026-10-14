@@ -29,12 +29,32 @@ TED fica de fora, porque só órgão federal recebe.
 ## Artefatos públicos
 
 - `public/data/oportunidades.json`: contrato TransfereGov `1.0`, sem quebra de compatibilidade.
-- `public/data/funding-opportunities-v2.json`: catálogo multifuente `2.0`.
-- `schema/funding-opportunity-2.1.schema.json`: contrato canônico e versionado.
+- `public/data/funding-opportunities-v2.json`: catálogo multifuente `2.2`.
+- `schema/funding-opportunity-2.2.schema.json`: contrato canônico e versionado.
 
 O catálogo declara `change_mode=baseline` na primeira geração, sem comunicar
 o inventário inicial como novidade. Em execuções incrementais, cada registro
 recebe `change_status` igual a `new`, `changed`, `closed` ou `unchanged`.
+
+O contrato 2.2 (14/10/2026) só acrescenta; um arquivo 2.1 continua válido nele:
+
+- **Encerradas por 24 meses.** A oportunidade que encerra fica no catálogo, com
+  `dates.closed`, por 730 dias. Antes aparecia uma rodada como `closed` e sumia.
+- **Fluxo contínuo.** `channel: "fluxo_continuo"` é a porta sem edital nem prazo
+  (o modelo EMBRAPII, uma linha do BNDES): `status: "open"` e prazo nulo. Conta
+  em `summary.continuous`, não em `summary.open`.
+- **Parceiras.** `eligibility.partner_types` diz quem entra só como parceira, sem
+  propor nem receber (a empresa no PPSUS, por exemplo). `partners` traz os
+  parceiros do edital (Decit/MS, CNPq, a FAP).
+- **Tipos novos:** `ict_privada`, `hospital` e `fundacao_apoio`. Desde então,
+  `ict` quer dizer ICT pública.
+- **Falha parcial.** A coleta que lê várias casas avisa em `failed_scopes` as
+  UFs que não responderam; os itens anteriores delas seguem como defasados, sem
+  virar encerrados.
+- **Carga histórica.** O disparo manual com `carga_historica` faz cada fonte ler
+  uma vez os últimos 24 meses de encerradas (`RADAR_CARGA_HISTORICA=1`).
+
+Ordem de publicação de contrato novo: o site aceita primeiro, o radar depois.
 
 ## Execução local
 

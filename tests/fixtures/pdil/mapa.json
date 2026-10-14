@@ -1,0 +1,48 @@
+{
+  "https://www.gov.br/saude/pt-br/composicao/sectics/pdil/RSS": {
+    "arquivo": "pdil.rss.xml",
+    "tipo": "application/atom+xml; charset=utf-8"
+  },
+  "https://www.gov.br/saude/pt-br/composicao/sectics/pdil/informes-tecnicos/RSS": {
+    "arquivo": "informes-tecnicos.rss.xml",
+    "tipo": "application/atom+xml; charset=utf-8"
+  },
+  "https://www.gov.br/saude/pt-br/composicao/sectics/pdil/notas-tecnicas-e-informativas/RSS": {
+    "arquivo": "notas-tecnicas-e-informativas.rss.xml",
+    "tipo": "application/atom+xml; charset=utf-8"
+  },
+  "https://www.gov.br/saude/pt-br/composicao/sectics/pdil/legislacao/RSS": {
+    "arquivo": "legislacao.rss.xml",
+    "tipo": "application/atom+xml; charset=utf-8"
+  },
+  "https://www.gov.br/saude/pt-br/composicao/sectics/deceiis/publicacoes/RSS": {
+    "arquivo": "deceiis-publicacoes.rss.xml",
+    "tipo": "application/atom+xml; charset=utf-8"
+  },
+  "https://www.gov.br/saude/pt-br/search_rss?SearchableText=PDIL&sort_on=Date&sort_order=reverse": {
+    "arquivo": "busca-pdil.rss.xml",
+    "tipo": "application/atom+xml; charset=utf-8"
+  },
+  "https://www.gov.br/saude/pt-br/search_rss?SearchableText=PDIL%20prorroga%C3%A7%C3%A3o&sort_on=Date&sort_order=reverse": {
+    "arquivo": "busca-pdil-prorrogacao.rss.xml",
+    "tipo": "application/atom+xml; charset=utf-8"
+  },
+  "https://www.gov.br/saude/pt-br/composicao/sectics/pdil/informes-tecnicos/informe-no-02-2024-sectics-ms": {
+    "arquivo": "informe-02-2024-sectics-ms.txt",
+    "tipo": "text/plain; charset=utf-8"
+  },
+  "https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/estudos-e-notas-informativas/2024/nota-informativa-no-5-2024-deceiis-sectics-ms.pdf": {
+    "arquivo": "nota-informativa-5-2024-deceiis-sectics-ms.txt",
+    "tipo": "text/plain; charset=utf-8"
+  },
+  "https://www.gov.br/saude/pt-br/composicao/sectics/deceiis/publicacoes/nota-informativa-no-5-2024-deceiis-sectics-ms": {
+    "status": 302,
+    "local": "https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/estudos-e-notas-informativas/2024/nota-informativa-no-5-2024-deceiis-sectics-ms.pdf",
+    "tipo": "text/plain; charset=utf-8"
+  },
+  "https://www.gov.br/saude/pt-br/composicao/sectics/pdil/legislacao/portaria-gm-ms-no-10-154-de-14-de-janeiro-de-2026": {
+    "status": 302,
+    "local": "https://www.in.gov.br/en/web/dou/-/portaria-gm/ms-n-10.154-de-14-de-janeiro-de-2026-681161819",
+    "tipo": "text/plain; charset=utf-8"
+  }
+}
