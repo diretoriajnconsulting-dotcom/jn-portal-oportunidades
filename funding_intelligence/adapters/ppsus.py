@@ -42,6 +42,7 @@ import http.cookiejar
 import io
 import json
 import re
+import sys
 import time
 import urllib.error
 import urllib.request
@@ -629,7 +630,7 @@ class _SessaoSisct:
         adaptador._conta(url)
         adaptador._pausa(self.host)
         try:
-            with self.opener.open(adaptador._ascii(url), timeout=45) as resposta:
+            with self.opener.open(adaptador._ascii(url), timeout=ESPERA_PEDIDO_S) as resposta:
                 return resposta.read(), resposta.geturl()
         except urllib.error.HTTPError as erro:
             if erro.code in (403, 429):
@@ -640,6 +641,15 @@ class _SessaoSisct:
             raise FalhaUF(f"SISC&T: {type(erro).__name__}: {erro}") from erro
         finally:
             adaptador._marca(self.host)
+
+
+# Prazo total da coleta e espera máxima por pedido (14/10/2026). Na 1ª carga histórica no GitHub, o
+# job estourou os 15 min sem terminar: hosts que respondem devagar vistos de fora do país, com duas
+# tentativas de 45 s cada. Esgotado o prazo, as UFs que faltam vão para `failed_scopes` (os itens
+# anteriores delas ficam) e o que foi lido é publicado.
+PRAZO_DIA_S = 300
+PRAZO_HISTORICO_S = 600
+ESPERA_PEDIDO_S = 20
 
 
 class PpsusAdapter(BaseAdapter):
@@ -655,6 +665,9 @@ class PpsusAdapter(BaseAdapter):
         self.ufs = [uf for uf in (ufs or list(UFS)) if uf in UFS]
         self.pedidos = 0
         self.limite = LIMITE_PEDIDOS_HISTORICO if self.historical else LIMITE_PEDIDOS_DIA
+        self.prazo_s = PRAZO_HISTORICO_S if self.historical else PRAZO_DIA_S
+        self._relogio = time.monotonic
+        self._inicio = self._relogio()
         self.failed_scopes: set[str] = set()
         self.avisos: list[str] = []
         self.pedidos_por_uf: dict[str, int] = {}
@@ -683,6 +696,8 @@ class PpsusAdapter(BaseAdapter):
     def _conta(self, url: str) -> None:
         if self.pedidos >= self.limite:
             raise OrcamentoEsgotado(f"orçamento de {self.limite} pedidos esgotado antes de {url}")
+        if self._relogio() - self._inicio > self.prazo_s:
+            raise OrcamentoEsgotado(f"prazo de {self.prazo_s} s da coleta esgotado antes de {url}")
         self.pedidos += 1
         self.pedidos_por_uf[self._uf_atual] = self.pedidos_por_uf.get(self._uf_atual, 0) + 1
 
@@ -695,6 +710,15 @@ class PpsusAdapter(BaseAdapter):
 
     def _marca(self, host: str) -> None:
         self._ultimo_host[host] = time.monotonic()
+
+    def request_bytes(self, url: str, *, method: str = "GET", headers: dict[str, str] | None = None,
+                      data: bytes | None = None) -> bytes:
+        """O GET da base, com a espera máxima do PPSUS no lugar dos 45 s."""
+        request = urllib.request.Request(
+            url, headers={"User-Agent": USER_AGENT, **(headers or {})}, data=data, method=method,
+        )
+        with urllib.request.urlopen(request, timeout=ESPERA_PEDIDO_S) as response:
+            return response.read()
 
     @staticmethod
     def _ascii(url: str) -> str:
@@ -1575,11 +1599,19 @@ class PpsusAdapter(BaseAdapter):
         ordem = sorted(self.ufs, key=lambda uf: (uf not in self.sisct_ufs, uf))
         for uf in ordem:
             cfg = UFS[uf]
+            antes_pedidos, antes_tempo = self.pedidos, self._relogio()
+            novos: list[dict[str, Any]] = []
             try:
-                itens += self._coletar_uf(cfg)
+                novos = self._coletar_uf(cfg)
             except OrcamentoEsgotado as erro:
                 self.failed_scopes.add(uf)
                 self.avisos.append(f"{uf}: {erro}")
+            itens += novos
+            if not self.fixture:
+                # Uma linha por UF no log da Action: é o que mostra qual FAP demora ou falha.
+                situacao = " · sem resposta" if uf in self.failed_scopes else ""
+                print(f"ppsus {uf}: {len(novos)} itens, {self.pedidos - antes_pedidos} pedidos, "
+                      f"{self._relogio() - antes_tempo:.0f} s{situacao}", file=sys.stderr, flush=True)
         if self.ufs and self.failed_scopes >= set(self.ufs):
             raise FalhaUF("nenhuma UF respondeu: " + "; ".join(self.avisos[-5:]))
         return itens
