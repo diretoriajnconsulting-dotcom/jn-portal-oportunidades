@@ -647,8 +647,11 @@ class _SessaoSisct:
 # job estourou os 15 min sem terminar: hosts que respondem devagar vistos de fora do país, com duas
 # tentativas de 45 s cada. Esgotado o prazo, as UFs que faltam vão para `failed_scopes` (os itens
 # anteriores delas ficam) e o que foi lido é publicado.
+# Histórico fixo das UFs que recusam o GitHub (opção 3 do titular, 14/10/2026). Ver `_sobre` no arquivo.
+HISTORICO_FIXO = Path(__file__).with_name("ppsus_historico_fixo.json")
+
 PRAZO_DIA_S = 300
-PRAZO_HISTORICO_S = 600
+PRAZO_HISTORICO_S = 720
 ESPERA_PEDIDO_S = 20
 
 
@@ -658,8 +661,11 @@ class PpsusAdapter(BaseAdapter):
     url = SISCT_URL
 
     def __init__(self, *, fixture: str | None = None, today: date | None = None,
-                 ufs: list[str] | None = None, historical: bool | None = None):
+                 ufs: list[str] | None = None, historical: bool | None = None,
+                 historico_fixo: bool | None = None):
         super().__init__(fixture=fixture, today=today)
+        # Fora dos testes, o histórico fixo entra sempre; nos testes, só quando o teste pede.
+        self.historico_fixo = (not fixture) if historico_fixo is None else historico_fixo
         if historical is not None:
             self.historical = historical
         self.ufs = [uf for uf in (ufs or list(UFS)) if uf in UFS]
@@ -830,12 +836,17 @@ class PpsusAdapter(BaseAdapter):
     # --------------------------------------------------------------- SISC&T
 
     def _ler_sisct(self) -> None:
-        """Lista o que está aberto no SISC&T e guarda o texto dos PDFs de AP e MT.
+        """Lista o que está aberto no SISC&T e guarda o texto do PDF de cada edital listado.
 
         A página pública é Wicket: sem cookie de sessão, 302 em laço. A sessão é um
         `CookieJar` comum (HTTP simples, verificação de TLS ligada); o link do PDF
         (`login.html?0-IResourceListener-…-linkEdital`) só vale nessa sessão, então o
-        PDF de AP e MT é baixado logo em seguida, na mesma sessão.
+        PDF é baixado logo em seguida, na mesma sessão.
+
+        Desde 14/10/2026 o PDF de TODA UF listada é guardado, e não só o de AP e MT: AM,
+        DF, MT, RS e SE recusam conexão vinda do GitHub, e o edital aberto delas sai
+        deste PDF quando a FAP não responde (ver `_coletar_uf`). Fora de ciclo o SISC&T
+        não lista nada; em ciclo, é um pedido por edital aberto.
         """
         self._uf_atual = "SISCT"
         try:
@@ -844,7 +855,7 @@ class PpsusAdapter(BaseAdapter):
             self.sisct_ufs = self.editais_sisct(pagina.decode("utf-8", errors="replace"), final)
             self.sisct_ok = True
             for uf, editais in self.sisct_ufs.items():
-                if uf not in self.ufs or UFS[uf].leitor != "sisct":
+                if uf not in self.ufs:
                     continue
                 for _titulo, link in editais:
                     try:
@@ -1552,6 +1563,14 @@ class PpsusAdapter(BaseAdapter):
             candidatos += self._leitores()[cfg.leitor](cfg)
         except FalhaUF as erro:
             falhou = erro
+            # A FAP não respondeu. Se o SISC&T lista um PPSUS aberto da UF, o edital sai do PDF que
+            # está no próprio SISC&T, como no AP (opção 1 do titular, 14/10/2026). A UF continua em
+            # `failed_scopes`: o histórico dela, que só a FAP mostra, fica como estava.
+            if cfg.leitor != "sisct" and self.sisct_ufs.get(cfg.uf) and not isinstance(erro, OrcamentoEsgotado):
+                try:
+                    candidatos += self._ler_sisct_uf(cfg)
+                except FalhaUF as erro_sisct:
+                    self.avisos.append(f"{cfg.uf}: nem a FAP nem o SISC&T ({erro_sisct})")
         leituras: dict[tuple[int, int], Leitura] = {}
         for candidato in candidatos:
             if not self._deve_inspecionar(cfg, candidato):
@@ -1612,8 +1631,39 @@ class PpsusAdapter(BaseAdapter):
                 situacao = " · sem resposta" if uf in self.failed_scopes else ""
                 print(f"ppsus {uf}: {len(novos)} itens, {self.pedidos - antes_pedidos} pedidos, "
                       f"{self._relogio() - antes_tempo:.0f} s{situacao}", file=sys.stderr, flush=True)
-        if self.ufs and self.failed_scopes >= set(self.ufs):
+        itens += self._do_historico_fixo({item["id"] for item in itens})
+        # Erro da fonte inteira só quando nada saiu: o edital que veio do SISC&T, com a FAP fora, conta.
+        if self.ufs and self.failed_scopes >= set(self.ufs) and not itens:
             raise FalhaUF("nenhuma UF respondeu: " + "; ".join(self.avisos[-5:]))
+        return itens
+
+    def _do_historico_fixo(self, presentes: set[str]) -> list[dict[str, Any]]:
+        """Os editais encerrados que só a carga local de 14/10/2026 alcançou (ver `HISTORICO_FIXO`).
+
+        Entram só as UFs pedidas nesta coleta, dentro dos 24 meses, e nunca por cima de um item
+        lido ao vivo com o mesmo id (se um dia a FAP responder ao GitHub, vale a leitura nova).
+        """
+        if not self.historico_fixo or not HISTORICO_FIXO.exists():
+            return []
+        itens = []
+        for r in json.loads(HISTORICO_FIXO.read_text(encoding="utf-8"))["itens"]:
+            if r["uf"] not in self.ufs:
+                continue
+            referencia = r.get("closed") or r.get("deadline") or r.get("published")
+            if referencia and referencia < self.piso.isoformat():
+                continue
+            item = opportunity(
+                source_id=self.id, source_name=self.name, source_url=r["source_url"],
+                checked_at=self.checked_at, external_id=r["external_id"], title=r["title"],
+                funder=r["funder"], status=r["status"], published=r["published"], deadline=r["deadline"],
+                organization_types=r["organization_types"], geography=r["geography"], themes=r["themes"],
+                instrument_type=r["instrument_type"], repayable=r["repayable"],
+                program_budget=r["program_budget"], documents=r["documents"], description=r["description"],
+                channel=r["channel"], partner_types=r["partner_types"], partners=r["partners"],
+                closed=r.get("closed"),
+            )
+            if item["id"] not in presentes:
+                itens.append(item)
         return itens
 
     def snapshot(self) -> dict[str, Any]:

@@ -1,0 +1,424 @@
+{
+  "_sobre": "Histórico do PPSUS (8ª edição) das UFs cujas FAPs recusam conexão vinda do GitHub (AM, DF, MT, RS, SE) e do TO. Lido uma vez, em 14/10/2026, da máquina do titular, com o adaptador `ppsus` (páginas públicas, em memória, User-Agent da PONTE, 1 pedido/s por host; 46 pedidos), por decisão do titular (opção 3). Só fatos do edital e links públicos; nenhum dado pessoal. O item lido ao vivo com o mesmo id prevalece. Sai do catálogo sozinho pelos 24 meses do pipeline.",
+  "lido_em": "2026-10-14",
+  "itens": [
+    {
+      "uf": "AM",
+      "external_id": "am-2025-2",
+      "title": "Chamada PPSUS FAPEAM nº 002/2025 (AM) – Programa Pesquisa para o SUS: gestão compartilhada em saúde, 8ª edição",
+      "description": "Auxílio à pesquisa do PPSUS na UF AM, com recursos do Decit/MS (repassados pelo CNPq) e da FAPEAM, em linhas definidas com a SES-AM. Propõe o pesquisador com vínculo numa executora sediada na UF: IES, ICT pública ou privada sem fins lucrativos, centro de P&D sem fins lucrativos ou empresa pública. A empresa privada entra só como parceira, com termo de compromisso e contrapartida.",
+      "funder": "Decit/MS e FAPEAM",
+      "source_url": "https://www.fapeam.am.gov.br/editais/chamada-publica-n-o-0022025-fapeamcnpqdecit-sectics-msses-am-programa-pesquisa-para-o-sus-gestao-compartilhada-em-saude-ppsus/",
+      "status": "closed",
+      "published": "2025-03-28",
+      "deadline": "2025-05-12",
+      "closed": "2025-05-12",
+      "organization_types": [
+        "pesquisador",
+        "ict",
+        "ict_privada",
+        "universidade"
+      ],
+      "partner_types": [
+        "empresa"
+      ],
+      "partners": [
+        "Decit/MS",
+        "CNPq",
+        "FAPEAM",
+        "SES-AM"
+      ],
+      "geography": [
+        "AM"
+      ],
+      "themes": [
+        "saude",
+        "pesquisa_sus"
+      ],
+      "instrument_type": "auxilio_pesquisa",
+      "repayable": false,
+      "program_budget": 5796000.0,
+      "channel": "chamada_publica",
+      "documents": [
+        {
+          "title": "CHAMADA PÚBLICA N.º 002/2025 – FAPEAM/CNPQ/DECIT-SECTICS-MS/SES-AM PROGRAMA PESQUISA PARA O SUS: GESTÃO COMPARTILHADA EM SAÚDE – PPSUS",
+          "url": "https://www.fapeam.am.gov.br/editais/chamada-publica-n-o-0022025-fapeamcnpqdecit-sectics-msses-am-programa-pesquisa-para-o-sus-gestao-compartilhada-em-saude-ppsus/",
+          "published": "2025-03-28"
+        },
+        {
+          "title": "Decisão CD 511 2025 Proc. 4596.2024-36 Alteração de Cronograma de Chamada – PPSUS",
+          "url": "https://www.fapeam.am.gov.br/wp-content/uploads/2025/03/Decisao-CD-511-2025-Proc.-4596.2024-36-Alteracao-de-Cronograma-de-Chamada-PPSUS.pdf",
+          "published": "2025-03-28"
+        },
+        {
+          "title": "Decisão CD 729 2025 Proc. 4596.2024-36 Alteração de Cronograma de Chamada – PPSUS",
+          "url": "https://www.fapeam.am.gov.br/wp-content/uploads/2025/03/Decisao-CD-729-2025-Proc.-4596.2024-36-Alteracao-de-Cronograma-de-Chamada-PPSUS.pdf",
+          "published": "2025-03-28"
+        }
+      ]
+    },
+    {
+      "uf": "DF",
+      "external_id": "df-2025-4",
+      "title": "Chamada PPSUS FAPDF nº 4/2025 (DF) – Programa Pesquisa para o SUS: gestão compartilhada em saúde",
+      "description": "Auxílio à pesquisa do PPSUS na UF DF, com recursos do Decit/MS (repassados pelo CNPq) e da FAPDF, em linhas definidas com a SES-DF. Propõe o pesquisador com vínculo numa executora sediada na UF: IES, ICT pública ou privada sem fins lucrativos, centro de P&D sem fins lucrativos ou empresa pública. A empresa privada entra só como parceira, com termo de compromisso e contrapartida.",
+      "funder": "Decit/MS e FAPDF",
+      "source_url": "https://www.fap.df.gov.br/documents/10489263/38976890/SEI_GDF-165812192-Chamada-Publica-PPSUS.pdf",
+      "status": "closed",
+      "published": null,
+      "deadline": "2025-05-09",
+      "closed": "2025-05-09",
+      "organization_types": [
+        "pesquisador",
+        "ict",
+        "ict_privada",
+        "universidade"
+      ],
+      "partner_types": [
+        "empresa"
+      ],
+      "partners": [
+        "Decit/MS",
+        "CNPq",
+        "FAPDF",
+        "SES-DF"
+      ],
+      "geography": [
+        "DF"
+      ],
+      "themes": [
+        "saude",
+        "pesquisa_sus"
+      ],
+      "instrument_type": "auxilio_pesquisa",
+      "repayable": false,
+      "program_budget": 7500000.0,
+      "channel": "chamada_publica",
+      "documents": [
+        {
+          "title": "Resultado Preliminar - Etapas I, II E III.pdf",
+          "url": "https://www.fap.df.gov.br/documents/d/fap/resultado-preliminar-etapas-i-ii-e-iii-pdf",
+          "published": null
+        },
+        {
+          "title": "Extrato do Resultado Preliminar",
+          "url": "https://www.fap.df.gov.br/documents/d/fap/resultado-preliminar-edital-ppsus-chamada-publica-n-04-2025-pdf",
+          "published": null
+        },
+        {
+          "title": "Extrato do Resultado Final",
+          "url": "https://www.fap.df.gov.br/documents/d/fap/resultado-final-edital-ppsus-etapas-i-ii-ii-pdf",
+          "published": null
+        },
+        {
+          "title": "Extrato do Resultado Preliminar - Etapas IV e V",
+          "url": "https://www.fap.df.gov.br/documents/d/fap/resultado-preliminar-das-etapas-iv-e-v-ppsus-pdf",
+          "published": null
+        },
+        {
+          "title": "Resultado Final das Etapas IV E V - Chamadas Públicas",
+          "url": "https://www.fap.df.gov.br/documents/d/fap/resultado_final_das_etapas_iv_e_v_chamada_publica-pdf",
+          "published": null
+        },
+        {
+          "title": "Extrato de Chamada Nº 04/2025 PPSUS-DF ( DODF, nº 52, p.94 de 18/03/2025 )",
+          "url": "https://www.fap.df.gov.br/documents/10489263/38976890/EXTRATO-DODF-PPSUS.pdf",
+          "published": null
+        },
+        {
+          "title": "Chamada Pública nº 04/2025 para Seleção de Projetos de Pesquisa Científica, Tecnológica e de Inovação que promovam a melhoria da qualidade da atenção à saúde no Distrito Federal .",
+          "url": "https://www.fap.df.gov.br/documents/10489263/38976890/SEI_GDF-165812192-Chamada-Publica-PPSUS.pdf",
+          "published": null
+        },
+        {
+          "title": "Extrato Retificado de Chamada Nº 04/2025 PPSUS-DF ( DODF, nº 73, p.68 de 16/04/2025 )",
+          "url": "https://www.fap.df.gov.br/documents/10489263/38976890/EXTRATO-DA-1a-RETIFICACAO-DA-CHAMADA-FAPDF-DO-EDITAL-PPSUS-16.04.2025.pdf",
+          "published": null
+        },
+        {
+          "title": "Chamada Pública nº 04/2025 para Seleção de Projetos de Pesquisa Científica, Tecnológica e de Inovação que promovam a melhoria da qualidade da atenção à saúde no Distrito Federal . (1ª Retificação)",
+          "url": "https://www.fap.df.gov.br/documents/10489263/38976890/SEI_GDF-168587511-Chamada-Publica-Retificacao-do-edital-da-Chamada-FAPDF-do-Edital-PPSUS-16.04.2025.pdf",
+          "published": null
+        },
+        {
+          "title": "Extrato 2ª Retificação de Chamada Nº 04/2025 PPSUS-DF ( DODF, nº 141 , p.75 de 30/07/2025 )",
+          "url": "https://www.fap.df.gov.br/documents/d/fap/extrato-da-2-retificacao-da-chamada-04-2025-edital-ppsus-pdf",
+          "published": null
+        },
+        {
+          "title": "Chamada Pública nº 04/2025 para Seleção de Projetos de Pesquisa Científica, Tecnológica e de Inovação que promovam a melhoria da qualidade da atenção à saúde no Distrito Federal . (2ª Retificação)",
+          "url": "https://www.fap.df.gov.br/documents/d/fap/sei-00193-00000009_2024-40-chamada-publica-n-04-2025-2-retificacao-pdf",
+          "published": null
+        }
+      ]
+    },
+    {
+      "uf": "MT",
+      "external_id": "mt-2025-4",
+      "title": "Chamada PPSUS FAPEMAT nº 004/2025 (MT) – Programa Pesquisa para o SUS: gestão compartilhada em saúde, 8ª edição",
+      "description": "Auxílio à pesquisa do PPSUS na UF MT, com recursos do Decit/MS (repassados pelo CNPq) e da FAPEMAT, em linhas definidas com a SES-MT. Propõe o pesquisador com vínculo numa executora sediada na UF: IES, ICT pública ou privada sem fins lucrativos, centro de P&D sem fins lucrativos ou empresa pública. A empresa privada entra só como parceira, com termo de compromisso e contrapartida.",
+      "funder": "Decit/MS e FAPEMAT",
+      "source_url": "https://www.saude.mt.gov.br/storage/files/E1McYXAMYDS5PP0CqrckEecDlj73C1PwWPmMfBGs.pdf",
+      "status": "closed",
+      "published": "2025-02-24",
+      "deadline": "2025-03-28",
+      "closed": "2025-03-28",
+      "organization_types": [
+        "pesquisador",
+        "ict",
+        "ict_privada",
+        "universidade"
+      ],
+      "partner_types": [
+        "empresa"
+      ],
+      "partners": [
+        "Decit/MS",
+        "CNPq",
+        "FAPEMAT",
+        "SES-MT"
+      ],
+      "geography": [
+        "MT"
+      ],
+      "themes": [
+        "saude",
+        "pesquisa_sus"
+      ],
+      "instrument_type": "auxilio_pesquisa",
+      "repayable": false,
+      "program_budget": 4000000.0,
+      "channel": "chamada_publica",
+      "documents": [
+        {
+          "title": "Edital FAPEMAT 004/2025 – PPSUS (publicado pela SES-MT)",
+          "url": "https://www.saude.mt.gov.br/storage/files/E1McYXAMYDS5PP0CqrckEecDlj73C1PwWPmMfBGs.pdf",
+          "published": null
+        }
+      ]
+    },
+    {
+      "uf": "RS",
+      "external_id": "rs-2025-1",
+      "title": "Chamada PPSUS FAPERGS nº 01/2025 (RS) – Programa Pesquisa para o SUS: gestão compartilhada em saúde",
+      "description": "Auxílio à pesquisa do PPSUS na UF RS, com recursos do Decit/MS (repassados pelo CNPq) e da FAPERGS, em linhas definidas com a SES-RS. Propõe o pesquisador com vínculo numa executora sediada na UF: IES, ICT pública ou privada sem fins lucrativos, centro de P&D sem fins lucrativos ou empresa pública. A empresa privada entra só como parceira, com termo de compromisso e contrapartida.",
+      "funder": "Decit/MS e FAPERGS",
+      "source_url": "https://fapergs.rs.gov.br/upload/arquivos/202503/25095227-chamada-8-edicao-ppsus-rs.pdf",
+      "status": "closed",
+      "published": "2025-03-25",
+      "deadline": "2025-05-19",
+      "closed": "2025-05-19",
+      "organization_types": [
+        "pesquisador",
+        "ict",
+        "ict_privada",
+        "universidade"
+      ],
+      "partner_types": [
+        "empresa"
+      ],
+      "partners": [
+        "Decit/MS",
+        "CNPq",
+        "FAPERGS",
+        "SES-RS"
+      ],
+      "geography": [
+        "RS"
+      ],
+      "themes": [
+        "saude",
+        "pesquisa_sus"
+      ],
+      "instrument_type": "auxilio_pesquisa",
+      "repayable": false,
+      "program_budget": 12000000.0,
+      "channel": "chamada_publica",
+      "documents": [
+        {
+          "title": "Chamada 8ª Edição PPSUS - RS (.pdf 900,20 KBytes)",
+          "url": "https://fapergs.rs.gov.br/upload/arquivos/202503/25095227-chamada-8-edicao-ppsus-rs.pdf",
+          "published": null
+        },
+        {
+          "title": "Primeiro Aditivo Chamada 8 - Edital PPSUS RS (.pdf 314,71 KBytes)",
+          "url": "https://fapergs.rs.gov.br/upload/arquivos/202507/08144004-primeiro-aditivo-chamada-8-ed-ppsus-rs.pdf",
+          "published": null
+        },
+        {
+          "title": "Divulgação resultado preliminar propostas aprovadas PPSUS 2025 (.pdf 479,67 KBytes)",
+          "url": "https://fapergs.rs.gov.br/upload/arquivos/202509/09092319-divulgacao-resultado-preliminar-propostas-aprovadas-ppsus-2025.pdf",
+          "published": null
+        },
+        {
+          "title": "Divulgação resultado final propostas aprovadas PPSUS 2025 (.pdf 484,99 KBytes)",
+          "url": "https://fapergs.rs.gov.br/upload/arquivos/202509/18105245-divulgacao-resultado-final-propostas-aprovadas-ppsus-2025.pdf",
+          "published": null
+        }
+      ]
+    },
+    {
+      "uf": "SE",
+      "external_id": "se-2025-1",
+      "title": "Chamada PPSUS FAPITEC nº 01/2025 (SE) – Programa Pesquisa para o SUS: gestão compartilhada em saúde",
+      "description": "Auxílio à pesquisa do PPSUS na UF SE, com recursos do Decit/MS (repassados pelo CNPq) e da FAPITEC, em linhas definidas com a SES-SE. Propõe o pesquisador com vínculo numa executora sediada na UF: IES, ICT pública ou privada sem fins lucrativos, centro de P&D sem fins lucrativos ou empresa pública. A empresa privada entra só como parceira, com termo de compromisso e contrapartida.",
+      "funder": "Decit/MS e FAPITEC",
+      "source_url": "https://fapitec.se.gov.br/wp-content/uploads/2025/05/Retificado-Ed.-01-2025-PPSUS-SE-ATUAL.pdf",
+      "status": "closed",
+      "published": "2025-01-23",
+      "deadline": "2025-03-10",
+      "closed": "2025-03-10",
+      "organization_types": [
+        "pesquisador",
+        "ict",
+        "ict_privada",
+        "universidade"
+      ],
+      "partner_types": [
+        "empresa"
+      ],
+      "partners": [
+        "Decit/MS",
+        "CNPq",
+        "FAPITEC",
+        "SES-SE"
+      ],
+      "geography": [
+        "SE"
+      ],
+      "themes": [
+        "saude",
+        "pesquisa_sus"
+      ],
+      "instrument_type": "auxilio_pesquisa",
+      "repayable": false,
+      "program_budget": 2400000.0,
+      "channel": "chamada_publica",
+      "documents": [
+        {
+          "title": "EDITAL",
+          "url": "https://fapitec.se.gov.br/wp-content/uploads/2025/05/Retificado-Ed.-01-2025-PPSUS-SE-ATUAL.pdf",
+          "published": null
+        },
+        {
+          "title": "1° ADITIVO",
+          "url": "https://fapitec.se.gov.br/wp-content/uploads/2025/05/1o-T.A.-ao-Edital-PPSUS-Ed.-01.2025.pdf",
+          "published": null
+        },
+        {
+          "title": "RESULTADO DE HABILITAÇÃO ( PRELIMINAR)",
+          "url": "https://fapitec.se.gov.br/wp-content/uploads/2025/03/Resultado-de-habilitacao-PPSUS-8a-Edicao-Sergipe.pdf",
+          "published": null
+        },
+        {
+          "title": "RESULTADO DE HABILITAÇÃO ( PÓS-RECURSOS)",
+          "url": "https://fapitec.se.gov.br/wp-content/uploads/2025/03/Resultado-de-habilitacao-pos-recursos.pdf",
+          "published": null
+        },
+        {
+          "title": "RESULTADO PRELIMINAR",
+          "url": "https://fapitec.se.gov.br/wp-content/uploads/2025/07/RESULTADO-PRELIMINAR-PPSUS-8a-Edicao-Sergipe.pdf",
+          "published": null
+        },
+        {
+          "title": "RESULTADO DOS PROJETOS PRÉ-SELECIONADOS CAP",
+          "url": "https://fapitec.se.gov.br/wp-content/uploads/2025/08/RESULTADO-FINAL-PPSUS-8a-Edicao-Sergipe.pdf",
+          "published": null
+        },
+        {
+          "title": "RESULTADO PRELIMINAR – PÓS COMITÊ GESTOR",
+          "url": "https://fapitec.se.gov.br/wp-content/uploads/2025/09/RESULTADO-POS-COMITE-GESTOR-PPSUS-8a-Edicao-Sergipe-1.pdf",
+          "published": null
+        },
+        {
+          "title": "RESULTADO FINAL",
+          "url": "https://fapitec.se.gov.br/wp-content/uploads/2025/09/RESULTADO-FINAL-SETEMBRO-PPSUS-8a-Edicao-Sergipe.pdf",
+          "published": null
+        }
+      ]
+    },
+    {
+      "uf": "TO",
+      "external_id": "to-2025-1",
+      "title": "Chamada PPSUS FAPT nº 01/2025 (TO) – Programa Pesquisa para o SUS: gestão compartilhada em saúde, 8ª edição",
+      "description": "Auxílio à pesquisa do PPSUS na UF TO, com recursos do Decit/MS (repassados pelo CNPq) e da FAPT, em linhas definidas com a SES-TO. Propõe o pesquisador com vínculo numa executora sediada na UF: IES, ICT pública ou privada sem fins lucrativos, centro de P&D sem fins lucrativos ou empresa pública.",
+      "funder": "Decit/MS e FAPT",
+      "source_url": "https://central.to.gov.br/download/427261",
+      "status": "closed",
+      "published": "2025-05-30",
+      "deadline": "2025-08-22",
+      "closed": "2025-08-22",
+      "organization_types": [
+        "pesquisador",
+        "ict",
+        "ict_privada",
+        "universidade"
+      ],
+      "partner_types": [],
+      "partners": [
+        "Decit/MS",
+        "CNPq",
+        "FAPT",
+        "SES-TO"
+      ],
+      "geography": [
+        "TO"
+      ],
+      "themes": [
+        "saude",
+        "pesquisa_sus"
+      ],
+      "instrument_type": "auxilio_pesquisa",
+      "repayable": false,
+      "program_budget": 1250000.0,
+      "channel": "chamada_publica",
+      "documents": [
+        {
+          "title": "Resultado final do PPSUS.pdf",
+          "url": "https://central.to.gov.br/download/454852",
+          "published": null
+        },
+        {
+          "title": "Resultado preliminar do PPSUS .pdf",
+          "url": "https://central.to.gov.br/download/453573",
+          "published": null
+        },
+        {
+          "title": "Retificação 002.pdf",
+          "url": "https://central.to.gov.br/download/446606",
+          "published": null
+        },
+        {
+          "title": "Resultado Final da Etapa I-propostas não enquadradas.pdf",
+          "url": "https://central.to.gov.br/download/442424",
+          "published": null
+        },
+        {
+          "title": "Resultado Final da Etapa I-propostas enquadradas.pdf",
+          "url": "https://central.to.gov.br/download/442423",
+          "published": null
+        },
+        {
+          "title": "Resultado da Etapa I-propostas não enquadradas.pdf",
+          "url": "https://central.to.gov.br/download/441306",
+          "published": null
+        },
+        {
+          "title": "Resultado da Etapa I-propostas enquadradas.pdf",
+          "url": "https://central.to.gov.br/download/441305",
+          "published": null
+        },
+        {
+          "title": "Retificação 001.pdf",
+          "url": "https://central.to.gov.br/download/438139",
+          "published": null
+        },
+        {
+          "title": "Edital PPSUS/FAPT 01/25",
+          "url": "https://central.to.gov.br/download/427261",
+          "published": null
+        }
+      ]
+    }
+  ]
+}
