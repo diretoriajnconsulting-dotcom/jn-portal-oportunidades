@@ -252,8 +252,8 @@ SELECT NOME_PROGRAMA, ORGAO, NATUREZA, canal, fecha,
        min(abre) AS abre,
        count(DISTINCT COD_PROGRAMA) AS n_codigos,
        list_sort(array_agg(DISTINCT COD_PROGRAMA)) AS codigos,
-       string_agg(DISTINCT MODALIDADE, ' / ') AS MODALIDADE,
-       string_agg(DISTINCT SIT_PROGRAMA, ' / ') AS SIT_PROGRAMA
+       string_agg(DISTINCT MODALIDADE, ' / ' ORDER BY MODALIDADE) AS MODALIDADE,
+       string_agg(DISTINCT SIT_PROGRAMA, ' / ' ORDER BY SIT_PROGRAMA) AS SIT_PROGRAMA
 FROM j GROUP BY NOME_PROGRAMA, ORGAO, NATUREZA, canal, fecha
 ORDER BY dias, NOME_PROGRAMA
 """
