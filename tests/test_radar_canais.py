@@ -79,3 +79,20 @@ class CanaisTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+class SituacaoOrdenadaTests(unittest.TestCase):
+    """A situação e a modalidade juntam os códigos em ordem alfabética (29/10/2026).
+
+    Sem ordem, o programa 5120 alternou "CADASTRADO / DISPONIBILIZADO" e
+    "DISPONIBILIZADO / CADASTRADO" entre 23 e 27/10, e o site avisou quatro
+    vezes que a situação tinha mudado sem ela mudar.
+    """
+
+    def test_situacao_em_ordem_qualquer_que_seja_a_entrada(self):
+        for ordem in (["DISPONIBILIZADO", "CADASTRADO"], ["CADASTRADO", "DISPONIBILIZADO"]):
+            con = duckdb.connect(":memory:")
+            r = programa(con, [
+                {"cod": str(i), "nome": "5120", "sit": sit, "fim_prop": FUTURO}
+                for i, sit in enumerate(ordem * 20)
+            ])
+            self.assertEqual(["CADASTRADO / DISPONIBILIZADO"], [x["SIT_PROGRAMA"] for x in r])
